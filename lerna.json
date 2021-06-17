@@ -5,20 +5,12 @@
     "./examples/*"
   ],
   "command": {
-    "publish": {
-      "ignore": [
-        "docs",
-        "./examples/*",
-        "components"
-      ]
-    },
     "version": {
       "allowBranch": "master",
       "conventionalCommits": true,
       "ignore": [
         "docs",
-        "./examples/*",
-        "components"
+        "./examples/*"
       ],
       "message": "build: publish"
     }
