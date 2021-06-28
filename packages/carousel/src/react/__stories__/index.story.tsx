@@ -369,3 +369,23 @@ export const CardsInPortalsPerf: Story = () => {
   }
   return <PerfPortalStory />
 }
+
+export const ClassNameCarousel: Story = () => (
+  <Carousel className="compose-class-name">
+    <Carousel.Item>
+      <div />
+    </Carousel.Item>
+  </Carousel>
+)
+
+export const ClassNameCarouselControl: Story = () => (
+  <Carousel.Control
+    direction="next"
+    className="compose-class-name"
+  ></Carousel.Control>
+)
+export const ClassNameCarouselItem: Story = () => (
+  <Carousel.Item className="compose-class-name">
+    <div />
+  </Carousel.Item>
+)

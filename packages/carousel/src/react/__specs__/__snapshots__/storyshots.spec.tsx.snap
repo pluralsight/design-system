@@ -11,10 +11,10 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
   }
 >
   <div
-    data-css-13azwyo=""
+    className="psds-carousel"
   >
     <div
-      data-css-v9qvho=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--prev"
       hidden={true}
     >
       <div
@@ -22,7 +22,7 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
       >
         <button
           aria-label="Previous items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
           tabIndex={-1}
         >
@@ -44,14 +44,14 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
       </div>
     </div>
     <div
-      data-css-7uapup=""
+      className="psds-carousel__stage"
     >
       <ul
-        data-css-gi8slw=""
+        className="psds-carousel__track"
         onKeyDown={[Function]}
       >
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -63,7 +63,7 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -74,11 +74,11 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="asdf"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="asdf"
                 >
@@ -106,16 +106,16 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <span
-                data-css-18hqvbo=""
+                data-css-17d44ge=""
               >
                 <a
                   href="#"
                 >
                   <div
-                    data-css-fvvao4=""
+                    data-css-1heae4h=""
                   >
                     <div
                       className=""
@@ -211,13 +211,13 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
               </span>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
@@ -230,7 +230,7 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -261,7 +261,7 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -292,7 +292,7 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -325,14 +325,14 @@ exports[`Storyshots Components/Carousel Action Menu In Portal 1`] = `
       </ul>
     </div>
     <div
-      data-css-1n8kzqg=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--next"
     >
       <div
         data-css-a3m9si=""
       >
         <button
           aria-label="Next items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
         >
           <div
@@ -365,10 +365,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
   }
 >
   <div
-    data-css-13azwyo=""
+    className="psds-carousel"
   >
     <div
-      data-css-v9qvho=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--prev"
       hidden={true}
     >
       <div
@@ -376,7 +376,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
       >
         <button
           aria-label="Previous items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
           tabIndex={-1}
         >
@@ -398,14 +398,14 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
       </div>
     </div>
     <div
-      data-css-7uapup=""
+      className="psds-carousel__stage"
     >
       <ul
-        data-css-gi8slw=""
+        className="psds-carousel__track"
         onKeyDown={[Function]}
       >
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -417,7 +417,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -428,11 +428,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -460,10 +460,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -557,7 +557,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -566,7 +566,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -579,7 +579,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -591,7 +591,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -602,11 +602,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -634,10 +634,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -731,7 +731,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -740,7 +740,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -753,7 +753,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -765,7 +765,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -776,11 +776,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -808,10 +808,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -905,7 +905,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -914,7 +914,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -927,7 +927,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -939,7 +939,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -950,11 +950,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -982,10 +982,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -1079,7 +1079,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -1088,7 +1088,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -1101,7 +1101,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -1113,7 +1113,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -1124,11 +1124,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -1156,10 +1156,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -1253,7 +1253,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -1262,7 +1262,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -1275,7 +1275,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -1287,7 +1287,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -1298,11 +1298,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -1330,10 +1330,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -1427,7 +1427,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -1436,7 +1436,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -1449,7 +1449,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -1461,7 +1461,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -1472,11 +1472,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -1504,10 +1504,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -1601,7 +1601,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -1610,7 +1610,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -1623,7 +1623,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -1635,7 +1635,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -1646,11 +1646,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -1678,10 +1678,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -1775,7 +1775,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -1784,7 +1784,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -1797,7 +1797,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -1809,7 +1809,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -1820,11 +1820,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -1852,10 +1852,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -1949,7 +1949,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -1958,7 +1958,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -1971,7 +1971,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -1983,7 +1983,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -1994,11 +1994,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -2026,10 +2026,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -2123,7 +2123,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -2132,7 +2132,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -2145,7 +2145,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -2157,7 +2157,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -2168,11 +2168,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -2200,10 +2200,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -2297,7 +2297,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -2306,7 +2306,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -2319,7 +2319,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -2331,7 +2331,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -2342,11 +2342,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -2374,10 +2374,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -2471,7 +2471,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -2480,7 +2480,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -2493,7 +2493,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -2505,7 +2505,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -2516,11 +2516,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -2548,10 +2548,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -2645,7 +2645,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -2654,7 +2654,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -2667,7 +2667,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -2679,7 +2679,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -2690,11 +2690,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -2722,10 +2722,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -2819,7 +2819,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -2828,7 +2828,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -2841,7 +2841,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -2853,7 +2853,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -2864,11 +2864,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -2896,10 +2896,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -2993,7 +2993,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -3002,7 +3002,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -3015,7 +3015,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -3027,7 +3027,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -3038,11 +3038,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -3070,10 +3070,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -3167,7 +3167,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -3176,7 +3176,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -3189,7 +3189,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -3201,7 +3201,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -3212,11 +3212,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -3244,10 +3244,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -3341,7 +3341,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -3350,7 +3350,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -3363,7 +3363,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -3375,7 +3375,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -3386,11 +3386,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -3418,10 +3418,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -3515,7 +3515,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -3524,7 +3524,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -3537,7 +3537,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -3549,7 +3549,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -3560,11 +3560,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -3592,10 +3592,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -3689,7 +3689,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -3698,7 +3698,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -3711,7 +3711,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -3723,7 +3723,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -3734,11 +3734,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -3766,10 +3766,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -3863,7 +3863,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -3872,7 +3872,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -3885,7 +3885,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -3897,7 +3897,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -3908,11 +3908,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -3940,10 +3940,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -4037,7 +4037,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -4046,7 +4046,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -4059,7 +4059,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -4071,7 +4071,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -4082,11 +4082,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -4114,10 +4114,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -4211,7 +4211,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -4220,7 +4220,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -4233,7 +4233,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -4245,7 +4245,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -4256,11 +4256,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -4288,10 +4288,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -4385,7 +4385,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -4394,7 +4394,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -4407,7 +4407,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -4419,7 +4419,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -4430,11 +4430,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -4462,10 +4462,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -4559,7 +4559,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -4568,7 +4568,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -4581,7 +4581,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -4593,7 +4593,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -4604,11 +4604,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -4636,10 +4636,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -4733,7 +4733,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -4742,7 +4742,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -4755,7 +4755,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -4767,7 +4767,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -4778,11 +4778,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -4810,10 +4810,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -4907,7 +4907,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -4916,7 +4916,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -4929,7 +4929,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -4941,7 +4941,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -4952,11 +4952,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -4984,10 +4984,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -5081,7 +5081,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -5090,7 +5090,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -5103,7 +5103,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -5115,7 +5115,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -5126,11 +5126,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -5158,10 +5158,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -5255,7 +5255,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -5264,7 +5264,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -5277,7 +5277,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -5289,7 +5289,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -5300,11 +5300,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -5332,10 +5332,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -5429,7 +5429,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -5438,7 +5438,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -5451,7 +5451,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -5463,7 +5463,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -5474,11 +5474,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -5506,10 +5506,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -5603,7 +5603,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -5612,7 +5612,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -5625,7 +5625,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -5637,7 +5637,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -5648,11 +5648,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -5680,10 +5680,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -5777,7 +5777,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -5786,7 +5786,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -5799,7 +5799,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -5811,7 +5811,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -5822,11 +5822,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -5854,10 +5854,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -5951,7 +5951,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -5960,7 +5960,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -5973,7 +5973,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -5985,7 +5985,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -5996,11 +5996,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -6028,10 +6028,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -6125,7 +6125,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -6134,7 +6134,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -6147,7 +6147,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -6159,7 +6159,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -6170,11 +6170,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -6202,10 +6202,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -6299,7 +6299,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -6308,7 +6308,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -6321,7 +6321,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -6333,7 +6333,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -6344,11 +6344,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -6376,10 +6376,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -6473,7 +6473,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -6482,7 +6482,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -6495,7 +6495,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -6507,7 +6507,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -6518,11 +6518,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -6550,10 +6550,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -6647,7 +6647,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -6656,7 +6656,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -6669,7 +6669,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -6681,7 +6681,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -6692,11 +6692,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -6724,10 +6724,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -6821,7 +6821,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -6830,7 +6830,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -6843,7 +6843,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -6855,7 +6855,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -6866,11 +6866,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -6898,10 +6898,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -6995,7 +6995,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -7004,7 +7004,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -7017,7 +7017,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7029,7 +7029,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -7040,11 +7040,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -7072,10 +7072,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -7169,7 +7169,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -7178,7 +7178,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -7191,7 +7191,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7203,7 +7203,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
             data-css-1ybvkp1=""
           >
             <div
-              data-css-1pdjifv=""
+              data-css-1t79s76=""
             >
               <div
                 data-css-i7gti2=""
@@ -7214,11 +7214,11 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
                 }
               />
               <div
-                data-css-1kb1o0e=""
+                data-css-1960j7m=""
               >
                 <button
                   aria-label="See more"
-                  data-css-45oxhg=""
+                  data-css-1977xcr=""
                   onClick={[Function]}
                   title="See more"
                 >
@@ -7246,10 +7246,10 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-piydn8=""
+              data-css-azhpwf=""
             >
               <div
-                data-css-fvvao4=""
+                data-css-1heae4h=""
               >
                 <div
                   className=""
@@ -7343,7 +7343,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </div>
             </div>
             <div
-              data-css-9h0kuv=""
+              data-css-4c7e4i=""
             >
               <span
                 data-css-1tz10dh=""
@@ -7352,7 +7352,7 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                data-css-dp27da=""
               >
                 ·
               </span>
@@ -7367,14 +7367,14 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
       </ul>
     </div>
     <div
-      data-css-1n8kzqg=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--next"
     >
       <div
         data-css-a3m9si=""
       >
         <button
           aria-label="Next items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
         >
           <div
@@ -7398,6 +7398,138 @@ exports[`Storyshots Components/Carousel Cards In Portals Perf 1`] = `
 </div>
 `;
 
+exports[`Storyshots Components/Carousel Class Name Carousel 1`] = `
+<div
+  className="psds-carousel compose-class-name"
+>
+  <div
+    className="psds-carousel__controls__control psds-carousel__controls__control--prev"
+    hidden={true}
+  >
+    <div
+      data-css-a3m9si=""
+    >
+      <button
+        aria-label="Previous items"
+        className="psds-carousel__controls__control__button psds-theme--dark"
+        onClick={[Function]}
+        tabIndex={-1}
+      >
+        <div
+          aria-hidden={true}
+          data-css-7dab2f=""
+        >
+          <svg
+            aria-label="caret left icon"
+            role="img"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M8 12l5-5 1.41 1.41L10.83 12l3.58 3.59L13 17"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+  <div
+    className="psds-carousel__stage"
+  >
+    <ul
+      className="psds-carousel__track"
+      onKeyDown={[Function]}
+    >
+      <li
+        className="psds-carousel__item"
+        onFocus={[Function]}
+        style={
+          Object {
+            "flexBasis": "0px",
+          }
+        }
+      >
+        <div />
+      </li>
+    </ul>
+  </div>
+  <div
+    className="psds-carousel__controls__control psds-carousel__controls__control--next"
+    hidden={true}
+  >
+    <div
+      data-css-a3m9si=""
+    >
+      <button
+        aria-label="Next items"
+        className="psds-carousel__controls__control__button psds-theme--dark"
+        onClick={[Function]}
+        tabIndex={-1}
+      >
+        <div
+          aria-hidden={true}
+          data-css-7dab2f=""
+        >
+          <svg
+            aria-label="caret right icon"
+            role="img"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16 12l-5-5-1.41 1.41L13.17 12l-3.58 3.59L11 17"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Carousel Class Name Carousel Control 1`] = `
+<div
+  className="psds-carousel__controls__control psds-carousel__controls__control--next compose-class-name"
+>
+  <div
+    data-css-a3m9si=""
+  >
+    <button
+      aria-label="Next items"
+      className="psds-carousel__controls__control__button psds-theme--dark"
+      onClick={[Function]}
+    >
+      <div
+        aria-hidden={true}
+        data-css-7dab2f=""
+      >
+        <svg
+          aria-label="caret right icon"
+          role="img"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M16 12l-5-5-1.41 1.41L13.17 12l-3.58 3.59L11 17"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Carousel Class Name Carousel Item 1`] = `
+<li
+  className="psds-carousel__item compose-class-name"
+  onFocus={[Function]}
+  style={
+    Object {
+      "flexBasis": "0px",
+    }
+  }
+>
+  <div />
+</li>
+`;
+
 exports[`Storyshots Components/Carousel Controls Override 1`] = `
 <div
   style={
@@ -7407,10 +7539,10 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
   }
 >
   <div
-    data-css-13azwyo=""
+    className="psds-carousel"
   >
     <div
-      data-css-v9qvho=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--prev"
       hidden={true}
     >
       <div
@@ -7418,7 +7550,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
       >
         <button
           aria-label="Previous items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
           style={
             Object {
@@ -7446,14 +7578,14 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
       </div>
     </div>
     <div
-      data-css-7uapup=""
+      className="psds-carousel__stage"
     >
       <ul
-        data-css-gi8slw=""
+        className="psds-carousel__track"
         onKeyDown={[Function]}
       >
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7486,7 +7618,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7519,7 +7651,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7552,7 +7684,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7585,7 +7717,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7618,7 +7750,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7651,7 +7783,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7684,7 +7816,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7717,7 +7849,7 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7752,14 +7884,14 @@ exports[`Storyshots Components/Carousel Controls Override 1`] = `
       </ul>
     </div>
     <div
-      data-css-1n8kzqg=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--next"
     >
       <div
         data-css-a3m9si=""
       >
         <button
           aria-label="Next items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
           style={
             Object {
@@ -7798,10 +7930,10 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
   }
 >
   <div
-    data-css-13azwyo=""
+    className="psds-carousel"
   >
     <div
-      data-css-v9qvho=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--prev"
       hidden={true}
     >
       <div
@@ -7809,7 +7941,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
       >
         <button
           aria-label="Previous items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
           tabIndex={-1}
         >
@@ -7831,14 +7963,14 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
       </div>
     </div>
     <div
-      data-css-7uapup=""
+      className="psds-carousel__stage"
     >
       <ul
-        data-css-gi8slw=""
+        className="psds-carousel__track"
         onKeyDown={[Function]}
       >
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7873,7 +8005,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7908,7 +8040,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7943,7 +8075,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -7978,7 +8110,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -8013,7 +8145,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -8048,7 +8180,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -8083,7 +8215,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -8118,7 +8250,7 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -8155,14 +8287,14 @@ exports[`Storyshots Components/Carousel Item Style Override 1`] = `
       </ul>
     </div>
     <div
-      data-css-1n8kzqg=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--next"
     >
       <div
         data-css-a3m9si=""
       >
         <button
           aria-label="Next items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
         >
           <div
@@ -8205,10 +8337,10 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
       Single
     </h2>
     <div
-      data-css-13azwyo=""
+      className="psds-carousel"
     >
       <div
-        data-css-v9qvho=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--prev"
         hidden={true}
       >
         <div
@@ -8216,7 +8348,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         >
           <button
             aria-label="Previous items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -8238,14 +8370,14 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         </div>
       </div>
       <div
-        data-css-7uapup=""
+        className="psds-carousel__stage"
       >
         <ul
-          data-css-gi8slw=""
+          className="psds-carousel__track"
           onKeyDown={[Function]}
         >
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8279,7 +8411,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         </ul>
       </div>
       <div
-        data-css-1n8kzqg=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--next"
         hidden={true}
       >
         <div
@@ -8287,7 +8419,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         >
           <button
             aria-label="Next items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -8321,10 +8453,10 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
       Multiple
     </h2>
     <div
-      data-css-13azwyo=""
+      className="psds-carousel"
     >
       <div
-        data-css-v9qvho=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--prev"
         hidden={true}
       >
         <div
@@ -8332,7 +8464,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         >
           <button
             aria-label="Previous items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -8354,14 +8486,14 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         </div>
       </div>
       <div
-        data-css-7uapup=""
+        className="psds-carousel__stage"
       >
         <ul
-          data-css-gi8slw=""
+          className="psds-carousel__track"
           onKeyDown={[Function]}
         >
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8393,7 +8525,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8427,14 +8559,14 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         </ul>
       </div>
       <div
-        data-css-1n8kzqg=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--next"
       >
         <div
           data-css-a3m9si=""
         >
           <button
             aria-label="Next items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
           >
             <div
@@ -8467,10 +8599,10 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
       Many
     </h2>
     <div
-      data-css-13azwyo=""
+      className="psds-carousel"
     >
       <div
-        data-css-v9qvho=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--prev"
         hidden={true}
       >
         <div
@@ -8478,7 +8610,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         >
           <button
             aria-label="Previous items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -8500,14 +8632,14 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         </div>
       </div>
       <div
-        data-css-7uapup=""
+        className="psds-carousel__stage"
       >
         <ul
-          data-css-gi8slw=""
+          className="psds-carousel__track"
           onKeyDown={[Function]}
         >
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8538,7 +8670,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8569,7 +8701,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8600,7 +8732,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8631,7 +8763,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8662,7 +8794,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8693,7 +8825,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8724,7 +8856,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8755,7 +8887,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8786,7 +8918,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8817,7 +8949,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8848,7 +8980,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8879,7 +9011,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8910,7 +9042,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8941,7 +9073,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -8972,7 +9104,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9003,7 +9135,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9034,7 +9166,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9065,7 +9197,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9096,7 +9228,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9127,7 +9259,7 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9160,14 +9292,14 @@ exports[`Storyshots Components/Carousel Items Count 1`] = `
         </ul>
       </div>
       <div
-        data-css-1n8kzqg=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--next"
       >
         <div
           data-css-a3m9si=""
         >
           <button
             aria-label="Next items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
           >
             <div
@@ -9201,10 +9333,10 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
   }
 >
   <div
-    data-css-13azwyo=""
+    className="psds-carousel"
   >
     <div
-      data-css-v9qvho=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--prev"
       hidden={true}
     >
       <div
@@ -9212,7 +9344,7 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
       >
         <button
           aria-label="Previous items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
           tabIndex={-1}
         >
@@ -9234,14 +9366,14 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
       </div>
     </div>
     <div
-      data-css-7uapup=""
+      className="psds-carousel__stage"
     >
       <ul
-        data-css-gi8slw=""
+        className="psds-carousel__track"
         onKeyDown={[Function]}
       >
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -9274,7 +9406,7 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -9307,7 +9439,7 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -9340,7 +9472,7 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
           </div>
         </li>
         <li
-          data-css-1wcfo81=""
+          className="psds-carousel__item"
           onFocus={[Function]}
           style={
             Object {
@@ -9375,14 +9507,14 @@ exports[`Storyshots Components/Carousel Items Dynamic 1`] = `
       </ul>
     </div>
     <div
-      data-css-1n8kzqg=""
+      className="psds-carousel__controls__control psds-carousel__controls__control--next"
     >
       <div
         data-css-a3m9si=""
       >
         <button
           aria-label="Next items"
-          data-css-170yy8n=""
+          className="psds-carousel__controls__control__button psds-theme--dark"
           onClick={[Function]}
         >
           <div
@@ -9440,10 +9572,10 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
       small
     </h2>
     <div
-      data-css-13azwyo=""
+      className="psds-carousel"
     >
       <div
-        data-css-v9qvho=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--prev"
         hidden={true}
       >
         <div
@@ -9451,7 +9583,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         >
           <button
             aria-label="Previous items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -9473,14 +9605,14 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         </div>
       </div>
       <div
-        data-css-7uapup=""
+        className="psds-carousel__stage"
       >
         <ul
-          data-css-gi8slw=""
+          className="psds-carousel__track"
           onKeyDown={[Function]}
         >
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9492,7 +9624,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -9503,11 +9635,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -9527,16 +9659,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -9632,13 +9764,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -9651,7 +9783,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9663,7 +9795,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -9674,11 +9806,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -9698,16 +9830,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -9803,13 +9935,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -9822,7 +9954,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -9834,7 +9966,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -9845,11 +9977,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -9869,16 +10001,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -9974,13 +10106,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -9993,7 +10125,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -10005,7 +10137,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -10016,11 +10148,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -10040,16 +10172,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -10145,13 +10277,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -10164,7 +10296,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -10176,7 +10308,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -10187,11 +10319,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -10211,16 +10343,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -10316,13 +10448,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -10335,7 +10467,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -10347,7 +10479,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -10358,11 +10490,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -10382,16 +10514,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -10487,13 +10619,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -10506,7 +10638,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -10518,7 +10650,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -10529,11 +10661,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -10553,16 +10685,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -10658,13 +10790,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -10677,7 +10809,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -10689,7 +10821,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -10700,11 +10832,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -10724,16 +10856,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -10829,13 +10961,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -10848,7 +10980,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -10860,7 +10992,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -10871,11 +11003,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -10895,16 +11027,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -11000,13 +11132,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -11021,14 +11153,14 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         </ul>
       </div>
       <div
-        data-css-1n8kzqg=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--next"
       >
         <div
           data-css-a3m9si=""
         >
           <button
             aria-label="Next items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
           >
             <div
@@ -11067,10 +11199,10 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
       medium
     </h2>
     <div
-      data-css-13azwyo=""
+      className="psds-carousel"
     >
       <div
-        data-css-v9qvho=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--prev"
         hidden={true}
       >
         <div
@@ -11078,7 +11210,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         >
           <button
             aria-label="Previous items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -11100,14 +11232,14 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         </div>
       </div>
       <div
-        data-css-7uapup=""
+        className="psds-carousel__stage"
       >
         <ul
-          data-css-gi8slw=""
+          className="psds-carousel__track"
           onKeyDown={[Function]}
         >
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -11119,7 +11251,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -11130,11 +11262,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -11154,16 +11286,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -11259,13 +11391,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -11278,7 +11410,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -11290,7 +11422,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -11301,11 +11433,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -11325,16 +11457,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -11430,13 +11562,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -11449,7 +11581,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -11461,7 +11593,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -11472,11 +11604,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -11496,16 +11628,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -11601,13 +11733,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -11620,7 +11752,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -11632,7 +11764,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -11643,11 +11775,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -11667,16 +11799,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -11772,13 +11904,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -11791,7 +11923,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -11803,7 +11935,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -11814,11 +11946,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -11838,16 +11970,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -11943,13 +12075,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -11962,7 +12094,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -11974,7 +12106,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -11985,11 +12117,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -12009,16 +12141,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -12114,13 +12246,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -12133,7 +12265,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -12145,7 +12277,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -12156,11 +12288,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -12180,16 +12312,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -12285,13 +12417,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -12304,7 +12436,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -12316,7 +12448,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -12327,11 +12459,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -12351,16 +12483,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -12456,13 +12588,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -12475,7 +12607,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -12487,7 +12619,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -12498,11 +12630,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -12522,16 +12654,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -12627,13 +12759,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -12648,14 +12780,14 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         </ul>
       </div>
       <div
-        data-css-1n8kzqg=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--next"
       >
         <div
           data-css-a3m9si=""
         >
           <button
             aria-label="Next items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
           >
             <div
@@ -12694,10 +12826,10 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
       large
     </h2>
     <div
-      data-css-13azwyo=""
+      className="psds-carousel"
     >
       <div
-        data-css-v9qvho=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--prev"
         hidden={true}
       >
         <div
@@ -12705,7 +12837,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         >
           <button
             aria-label="Previous items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
             tabIndex={-1}
           >
@@ -12727,14 +12859,14 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         </div>
       </div>
       <div
-        data-css-7uapup=""
+        className="psds-carousel__stage"
       >
         <ul
-          data-css-gi8slw=""
+          className="psds-carousel__track"
           onKeyDown={[Function]}
         >
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -12746,7 +12878,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -12757,11 +12889,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -12781,16 +12913,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -12886,13 +13018,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -12905,7 +13037,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -12917,7 +13049,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -12928,11 +13060,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -12952,16 +13084,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -13057,13 +13189,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -13076,7 +13208,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -13088,7 +13220,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -13099,11 +13231,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -13123,16 +13255,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -13228,13 +13360,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -13247,7 +13379,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -13259,7 +13391,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -13270,11 +13402,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -13294,16 +13426,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -13399,13 +13531,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -13418,7 +13550,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -13430,7 +13562,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -13441,11 +13573,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -13465,16 +13597,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -13570,13 +13702,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -13589,7 +13721,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -13601,7 +13733,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -13612,11 +13744,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -13636,16 +13768,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -13741,13 +13873,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -13760,7 +13892,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -13772,7 +13904,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -13783,11 +13915,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -13807,16 +13939,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -13912,13 +14044,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -13931,7 +14063,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -13943,7 +14075,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -13954,11 +14086,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -13978,16 +14110,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -14083,13 +14215,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -14102,7 +14234,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
             </div>
           </li>
           <li
-            data-css-1wcfo81=""
+            className="psds-carousel__item"
             onFocus={[Function]}
             style={
               Object {
@@ -14114,7 +14246,7 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
               data-css-1ybvkp1=""
             >
               <div
-                data-css-1pdjifv=""
+                data-css-1t79s76=""
               >
                 <div
                   data-css-i7gti2=""
@@ -14125,11 +14257,11 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                   }
                 />
                 <div
-                  data-css-4ed7vx=""
+                  data-css-ma1t91=""
                 >
                   <button
                     aria-label="Bookmark"
-                    data-css-45oxhg=""
+                    data-css-1977xcr=""
                     title="Bookmark"
                   >
                     <div
@@ -14149,16 +14281,16 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </div>
               </div>
               <div
-                data-css-piydn8=""
+                data-css-azhpwf=""
               >
                 <span
-                  data-css-18hqvbo=""
+                  data-css-17d44ge=""
                 >
                   <a
                     href="#"
                   >
                     <div
-                      data-css-fvvao4=""
+                      data-css-1heae4h=""
                     >
                       <div
                         className=""
@@ -14254,13 +14386,13 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
                 </span>
               </div>
               <div
-                data-css-9h0kuv=""
+                data-css-4c7e4i=""
               >
                 <span
                   data-css-1tz10dh=""
                 >
                   <span
-                    data-css-18hqvbo=""
+                    data-css-17d44ge=""
                   >
                     <a
                       href="#"
@@ -14275,14 +14407,14 @@ exports[`Storyshots Components/Carousel Sizes 1`] = `
         </ul>
       </div>
       <div
-        data-css-1n8kzqg=""
+        className="psds-carousel__controls__control psds-carousel__controls__control--next"
       >
         <div
           data-css-a3m9si=""
         >
           <button
             aria-label="Next items"
-            data-css-170yy8n=""
+            className="psds-carousel__controls__control__button psds-theme--dark"
             onClick={[Function]}
           >
             <div

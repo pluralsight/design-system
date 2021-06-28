@@ -1,0 +1,115 @@
+.psds-carousel {
+  position: relative;
+}
+.psds-carousel__controls__control {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transition: transform var(--psMotionSpeedFast) ease-in-out;
+}
+.psds-carousel__controls__control--prev {
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+.psds-carousel__controls__control--prev[hidden] {
+  transform: translate(-50%, -50%) scale(0);
+}
+.psds-carousel__controls__control--next {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.psds-carousel__controls__control--next[hidden] {
+  transform: translate(50%, -50%) scale(0);
+}
+.psds-carousel__controls__control__button {
+  background: 0 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: 36px;
+  align-items: center;
+  border-radius: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  height: 36px;
+  justify-content: center;
+}
+.psds-carousel__controls__control__button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.psds-carousel__controls__control__button:focus {
+  outline: 0;
+}
+.psds-carousel__controls__control__button:hover {
+  cursor: pointer;
+}
+.psds-carousel__controls__control__button.psds-theme--dark {
+  color: var(--psColorsTextIconHighOnLight);
+  background: rgba(255, 255, 255, 0.6);
+}
+.psds-carousel__controls__control__button.psds-theme--dark:active,
+.psds-carousel__controls__control__button.psds-theme--dark:focus,
+.psds-carousel__controls__control__button.psds-theme--dark:hover {
+  background: #fff;
+}
+.psds-carousel__controls__control__button.psds-theme--light {
+  color: var(--psColorsTextIconHighOnDark);
+  background: rgba(0, 0, 0, 0.6);
+}
+.psds-carousel__controls__control__button.psds-theme--light:active,
+.psds-carousel__controls__control__button.psds-theme--light:focus,
+.psds-carousel__controls__control__button.psds-theme--light:hover {
+  background: #000;
+}
+.psds-carousel__stage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  overscroll-behavior-x: contain;
+  scroll-padding: 0;
+  scrollbar-width: none;
+  -ms-scroll-snap-type: x mandatory;
+}
+.psds-carousel__stage::-webkit-scrollbar {
+  display: none;
+}
+.psds-carousel__stage--ready > ul > li {
+  visibility: visible;
+  scroll-snap-align: start;
+}
+.psds-carousel__track:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5);
+}
+.psds-carousel__track {
+  line-height: initial;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  transition: left 0.4s;
+  -moz-transition: left 0.4s;
+}
+.psds-carousel__item {
+  margin: 0 8px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  visibility: hidden;
+}
+.psds-carousel__item:first-child {
+  margin-left: 0;
+}
+.psds-carousel__item:last-child {
+  margin-right: 0;
+}

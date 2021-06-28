@@ -2,14 +2,14 @@
 import {
   combineFns,
   ValueOf,
+  classNames,
   useResizeObserver
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
+import '../css/index.css'
 import CarouselContext from './context'
 import { Control } from './control'
-import stylesheet from '../css/index'
 import {
   calcItemWidth,
   calcItemsPerPage,
@@ -22,19 +22,6 @@ import {
 } from '../js'
 import useSwipe, { UseSwipeOpts } from './use-swipe'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  carousel: () => glamor.css(stylesheet['.psds-carousel']),
-  track: () => glamor.css(stylesheet['.psds-carousel__track']),
-  stage: (ready: boolean) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-carousel__stage']),
-      ready && glamor.css(stylesheet['.psds-carousel__stage--ready'])
-    ),
-  item: () => glamor.css(stylesheet['.psds-carousel__item'])
-}
 
 interface CarouselProps extends React.HTMLAttributes<HTMLDivElement> {
   children: React.ReactNode
@@ -52,6 +39,7 @@ interface CarouselStatics {
 type CarouselComponent = React.FC<CarouselProps> & CarouselStatics
 
 const Carousel: CarouselComponent = ({
+  className,
   children,
   controlPrev,
   controlNext,
@@ -129,9 +117,19 @@ const Carousel: CarouselComponent = ({
   }
   return (
     <CarouselContext.Provider value={context}>
-      <div {...styles.carousel()} {...rest} ref={ref}>
+      <div
+        {...rest}
+        className={classNames('psds-carousel', className)}
+        ref={ref}
+      >
         {controlPrev}
-        <div {...styles.stage(ready)} ref={stageRef}>
+        <div
+          className={classNames(
+            'psds-carousel__stage',
+            ready && 'psds-carousel__stage--ready'
+          )}
+          ref={stageRef}
+        >
           <Track
             onKeyDown={handleTrackKeyDown}
             onSwipeLeft={next}
@@ -161,14 +159,14 @@ interface ItemProps extends React.HTMLAttributes<HTMLLIElement> {
 }
 
 export const Item: React.FC<ItemProps> = props => {
-  const { _onFocus, onFocus, style, ...rest } = props
+  const { _onFocus, className, onFocus, style, ...rest } = props
   const context = React.useContext(CarouselContext)
   const widthStyle = { ...style, flexBasis: context.itemWidth + 'px' }
   const handleFocus = combineFns(onFocus, _onFocus)
   return (
     <li
-      {...styles.item()}
       {...rest}
+      className={classNames('psds-carousel__item', className)}
       onFocus={handleFocus}
       style={widthStyle}
     ></li>
@@ -189,6 +187,6 @@ const Track: React.FC<TrackProps> = props => {
     onSwipeRight: onSwipeRight
   })
 
-  return <ul {...rest} ref={ref} {...styles.track()} />
+  return <ul {...rest} ref={ref} className="psds-carousel__track" />
 }
 Track.displayName = 'Carousel.Track'
