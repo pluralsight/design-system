@@ -9,14 +9,14 @@ exports[`Storyshots Components/Card Action Bar 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -24,11 +24,11 @@ exports[`Storyshots Components/Card Action Bar 1`] = `
         }
       />
       <div
-        data-css-4ed7vx=""
+        className="psds-card__action-bar psds-card__action-bar--no-actionBarVisible"
       >
         <button
           aria-label="Bookmark"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Bookmark"
         >
           <div
@@ -48,10 +48,10 @@ exports[`Storyshots Components/Card Action Bar 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -157,14 +157,14 @@ exports[`Storyshots Components/Card Action Bar Locked Visible 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -172,11 +172,11 @@ exports[`Storyshots Components/Card Action Bar Locked Visible 1`] = `
         }
       />
       <div
-        data-css-1kb1o0e=""
+        className="psds-card__action-bar psds-card__action-bar--actionBarVisible"
       >
         <button
           aria-label="Bookmark"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Bookmark"
         >
           <div
@@ -196,10 +196,10 @@ exports[`Storyshots Components/Card Action Bar Locked Visible 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -305,14 +305,14 @@ exports[`Storyshots Components/Card Action Bar Multiple 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -320,11 +320,11 @@ exports[`Storyshots Components/Card Action Bar Multiple 1`] = `
         }
       />
       <div
-        data-css-4ed7vx=""
+        className="psds-card__action-bar psds-card__action-bar--no-actionBarVisible"
       >
         <button
           aria-label="Bookmark"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Bookmark"
         >
           <div
@@ -343,7 +343,7 @@ exports[`Storyshots Components/Card Action Bar Multiple 1`] = `
         </button>
         <button
           aria-label="More"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="More"
         >
           <div
@@ -363,10 +363,10 @@ exports[`Storyshots Components/Card Action Bar Multiple 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -472,14 +472,14 @@ exports[`Storyshots Components/Card Bonus Bar Element 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -487,7 +487,7 @@ exports[`Storyshots Components/Card Bonus Bar Element 1`] = `
         }
       />
       <div
-        data-css-68klfw=""
+        className="psds-card__bonus-bar"
       >
         <div
           data-css-1vvr7he=""
@@ -507,10 +507,10 @@ exports[`Storyshots Components/Card Bonus Bar Element 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -616,14 +616,14 @@ exports[`Storyshots Components/Card Bonus Bar Text 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -631,16 +631,16 @@ exports[`Storyshots Components/Card Bonus Bar Text 1`] = `
         }
       />
       <div
-        data-css-68klfw=""
+        className="psds-card__bonus-bar"
       >
         Wow, I'm bonus.
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -746,20 +746,20 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <span
-        data-css-15yq56v=""
+        className="psds-card__image-link"
       >
         <a
           href="http://duckduckgo.com?q=image"
         >
           <div
             aria-label="image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -769,10 +769,10 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
         </a>
       </span>
       <div
-        data-css-14m9qky=""
+        className="psds-card__full-overlay"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           <a
             href="http://duckduckgo.com?q=overlay"
@@ -801,11 +801,11 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
         </span>
       </div>
       <div
-        data-css-ldsotz=""
+        className="psds-card__action-bar psds-card__action-bar--fullOverlay psds-card__action-bar--no-actionBarVisible"
       >
         <button
           aria-label="Bookmark"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Bookmark"
         >
           <div
@@ -824,7 +824,7 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
         </button>
         <button
           aria-label="Settings"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Settings"
         >
           <div
@@ -845,7 +845,7 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
         </button>
         <button
           aria-label="More"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="More"
         >
           <div
@@ -864,10 +864,10 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
         </button>
       </div>
       <div
-        data-css-15d7zqj=""
+        className="psds-card__tag"
       >
         <div
-          data-css-1pif58i=""
+          className="psds-card__tag__icon"
         >
           <div
             data-css-k31qw2=""
@@ -886,23 +886,23 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
           </div>
         </div>
         <span
-          data-css-tz46pd=""
+          className="psds-card__tag__text"
         >
           Path
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <span
-        data-css-18hqvbo=""
+        className="psds-card__text-link psds-card__text-link--theme-dark"
       >
         <a
           href="http://duckduckgo.com?q=title"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -998,13 +998,13 @@ exports[`Storyshots Components/Card Everything Focusable 1`] = `
       </span>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com/?q=jaketrent"
@@ -1027,20 +1027,20 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <span
-        data-css-15yq56v=""
+        className="psds-card__image-link"
       >
         <a
           href="http://duckduckgo.com?q=image"
         >
           <div
             aria-label="image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -1050,10 +1050,10 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
         </a>
       </span>
       <div
-        data-css-5tk5g6=""
+        className="psds-card__full-overlay psds-card__full-overlay--fullOverlayVisible"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           <a
             href="http://duckduckgo.com?q=overlay"
@@ -1084,11 +1084,11 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
         </span>
       </div>
       <div
-        data-css-1kb1o0e=""
+        className="psds-card__action-bar psds-card__action-bar--fullOverlay psds-card__action-bar--actionBarVisible"
       >
         <button
           aria-label="Bookmark"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Bookmark"
         >
           <div
@@ -1107,7 +1107,7 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
         </button>
         <button
           aria-label="Settings"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="Settings"
         >
           <div
@@ -1128,7 +1128,7 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
         </button>
         <button
           aria-label="More"
-          data-css-45oxhg=""
+          className="psds-card__action-bar__button"
           title="More"
         >
           <div
@@ -1147,10 +1147,10 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
         </button>
       </div>
       <div
-        data-css-15d7zqj=""
+        className="psds-card__tag"
       >
         <div
-          data-css-1pif58i=""
+          className="psds-card__tag__icon"
         >
           <div
             data-css-k31qw2=""
@@ -1169,23 +1169,23 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
           </div>
         </div>
         <span
-          data-css-tz46pd=""
+          className="psds-card__tag__text"
         >
           Path
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <span
-        data-css-18hqvbo=""
+        className="psds-card__text-link psds-card__text-link--theme-dark"
       >
         <a
           href="http://duckduckgo.com?q=title"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -1281,13 +1281,13 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
       </span>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com/?q=jaketrent"
@@ -1298,15 +1298,15 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-card__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com/?q=jaketrent"
@@ -1317,15 +1317,15 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-card__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com/?q=jaketrent"
@@ -1336,10 +1336,10 @@ exports[`Storyshots Components/Card Everything Locked 1`] = `
       </span>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         Goodness me!
       </span>
@@ -1357,14 +1357,14 @@ exports[`Storyshots Components/Card Full Overlay 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -1372,20 +1372,20 @@ exports[`Storyshots Components/Card Full Overlay 1`] = `
         }
       />
       <div
-        data-css-14m9qky=""
+        className="psds-card__full-overlay"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           Element
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -1491,14 +1491,14 @@ exports[`Storyshots Components/Card Full Overlay Link 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -1506,10 +1506,10 @@ exports[`Storyshots Components/Card Full Overlay Link 1`] = `
         }
       />
       <div
-        data-css-14m9qky=""
+        className="psds-card__full-overlay"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           <a
             href="http://duckduckgo.com?q=overlay"
@@ -1520,10 +1520,10 @@ exports[`Storyshots Components/Card Full Overlay Link 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -1629,14 +1629,14 @@ exports[`Storyshots Components/Card Full Overlay Link Icon 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -1644,10 +1644,10 @@ exports[`Storyshots Components/Card Full Overlay Link Icon 1`] = `
         }
       />
       <div
-        data-css-14m9qky=""
+        className="psds-card__full-overlay"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           <a
             href="http://duckduckgo.com?q=overlay"
@@ -1677,10 +1677,10 @@ exports[`Storyshots Components/Card Full Overlay Link Icon 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -1786,20 +1786,20 @@ exports[`Storyshots Components/Card Full Overlay Link Icon Link 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <span
-        data-css-15yq56v=""
+        className="psds-card__image-link"
       >
         <a
           href="http://duckduckgo.com?q=image"
         >
           <div
             aria-label="image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -1809,10 +1809,10 @@ exports[`Storyshots Components/Card Full Overlay Link Icon Link 1`] = `
         </a>
       </span>
       <div
-        data-css-14m9qky=""
+        className="psds-card__full-overlay"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           <a
             href="http://duckduckgo.com?q=overlay"
@@ -1842,10 +1842,10 @@ exports[`Storyshots Components/Card Full Overlay Link Icon Link 1`] = `
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -1951,14 +1951,14 @@ exports[`Storyshots Components/Card Full Overlay Locked Visible 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -1966,20 +1966,20 @@ exports[`Storyshots Components/Card Full Overlay Locked Visible 1`] = `
         }
       />
       <div
-        data-css-5tk5g6=""
+        className="psds-card__full-overlay psds-card__full-overlay--fullOverlayVisible"
       >
         <span
-          data-css-11lki9j=""
+          className="psds-card__full-overlay-link"
         >
           Element
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2085,14 +2085,14 @@ exports[`Storyshots Components/Card Image 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/400/200?image=42&gravity=north)",
@@ -2101,10 +2101,10 @@ exports[`Storyshots Components/Card Image 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2210,20 +2210,20 @@ exports[`Storyshots Components/Card Image Link 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <span
-        data-css-15yq56v=""
+        className="psds-card__image-link"
       >
         <a
           href="http://duckduckgo.com"
         >
           <div
             aria-label="image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/400/200?image=42&gravity=north)",
@@ -2234,10 +2234,10 @@ exports[`Storyshots Components/Card Image Link 1`] = `
       </span>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2343,15 +2343,15 @@ exports[`Storyshots Components/Card Image With Alt 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         alt="image"
         aria-label="image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/400/200?image=42&gravity=north)",
@@ -2360,10 +2360,10 @@ exports[`Storyshots Components/Card Image With Alt 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2469,14 +2469,14 @@ exports[`Storyshots Components/Card Metadata Multiple 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -2485,10 +2485,10 @@ exports[`Storyshots Components/Card Metadata Multiple 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2582,21 +2582,21 @@ exports[`Storyshots Components/Card Metadata Multiple 1`] = `
       </div>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         Jim Cooper
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-card__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         Of the Far North
       </span>
@@ -2614,14 +2614,14 @@ exports[`Storyshots Components/Card Metadata Single 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -2630,10 +2630,10 @@ exports[`Storyshots Components/Card Metadata Single 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2727,10 +2727,10 @@ exports[`Storyshots Components/Card Metadata Single 1`] = `
       </div>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         Jim Cooper
       </span>
@@ -2748,14 +2748,14 @@ exports[`Storyshots Components/Card Metadata Text Link 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -2764,10 +2764,10 @@ exports[`Storyshots Components/Card Metadata Text Link 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -2861,13 +2861,13 @@ exports[`Storyshots Components/Card Metadata Text Link 1`] = `
       </div>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com?q=jim%20cooper"
@@ -2890,14 +2890,14 @@ exports[`Storyshots Components/Card Metadata Text Wrapper 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -2906,10 +2906,10 @@ exports[`Storyshots Components/Card Metadata Text Wrapper 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -3003,10 +3003,10 @@ exports[`Storyshots Components/Card Metadata Text Wrapper 1`] = `
       </div>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span>
           Jim Cooper
@@ -3026,14 +3026,14 @@ exports[`Storyshots Components/Card Metadata Two Lines 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3042,10 +3042,10 @@ exports[`Storyshots Components/Card Metadata Two Lines 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -3139,13 +3139,13 @@ exports[`Storyshots Components/Card Metadata Two Lines 1`] = `
       </div>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com?q=jim%20cooper"
@@ -3156,13 +3156,13 @@ exports[`Storyshots Components/Card Metadata Two Lines 1`] = `
       </span>
     </div>
     <div
-      data-css-9h0kuv=""
+      className="psds-card__metadata psds-card__metadata--size-medium psds-card__metadata--theme-dark"
     >
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span
-          data-css-18hqvbo=""
+          className="psds-card__text-link psds-card__text-link--theme-dark"
         >
           <a
             href="http://duckduckgo.com?q=react"
@@ -3173,23 +3173,23 @@ exports[`Storyshots Components/Card Metadata Two Lines 1`] = `
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-card__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         Intermediate
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-card__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1tz10dh=""
+        className="psds-card__metadata__datum"
       >
         <span>
           90 mins
@@ -3210,14 +3210,14 @@ exports[`Storyshots Components/Card Progress 1`] = `
 >
   <div>
     <div
-      data-css-1ybvkp1=""
+      className="psds-card"
     >
       <div
-        data-css-1pdjifv=""
+        className="psds-card__overlays psds-card__overlays--size-medium"
       >
         <div
           aria-label="default image"
-          data-css-i7gti2=""
+          className="psds-card__image"
           style={
             Object {
               "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3226,10 +3226,10 @@ exports[`Storyshots Components/Card Progress 1`] = `
         />
       </div>
       <div
-        data-css-piydn8=""
+        className="psds-card__title-container psds-card__title-container--size-medium"
       >
         <div
-          data-css-fvvao4=""
+          className="psds-card__title psds-card__title--theme-dark"
         >
           <div
             className=""
@@ -3324,14 +3324,14 @@ exports[`Storyshots Components/Card Progress 1`] = `
       </div>
     </div>
     <div
-      data-css-1ybvkp1=""
+      className="psds-card"
     >
       <div
-        data-css-1pdjifv=""
+        className="psds-card__overlays psds-card__overlays--size-medium"
       >
         <div
           aria-label="default image"
-          data-css-i7gti2=""
+          className="psds-card__image"
           style={
             Object {
               "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3339,19 +3339,24 @@ exports[`Storyshots Components/Card Progress 1`] = `
           }
         />
         <div
-          data-css-ujbsh5=""
+          className="psds-card__progress"
         >
           <div
             aria-label="34% complete"
-            data-css-59crt4=""
+            className="psds-card__progress__bar"
+            style={
+              Object {
+                "width": "34%",
+              }
+            }
           />
         </div>
       </div>
       <div
-        data-css-piydn8=""
+        className="psds-card__title-container psds-card__title-container--size-medium"
       >
         <div
-          data-css-fvvao4=""
+          className="psds-card__title psds-card__title--theme-dark"
         >
           <div
             className=""
@@ -3446,14 +3451,14 @@ exports[`Storyshots Components/Card Progress 1`] = `
       </div>
     </div>
     <div
-      data-css-1ybvkp1=""
+      className="psds-card"
     >
       <div
-        data-css-1pdjifv=""
+        className="psds-card__overlays psds-card__overlays--size-medium"
       >
         <div
           aria-label="default image"
-          data-css-i7gti2=""
+          className="psds-card__image"
           style={
             Object {
               "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3461,19 +3466,24 @@ exports[`Storyshots Components/Card Progress 1`] = `
           }
         />
         <div
-          data-css-ujbsh5=""
+          className="psds-card__progress"
         >
           <div
             aria-label="100% complete"
-            data-css-1gebpgk=""
+            className="psds-card__progress__bar psds-card__progress__bar--complete"
+            style={
+              Object {
+                "width": "100%",
+              }
+            }
           />
         </div>
       </div>
       <div
-        data-css-piydn8=""
+        className="psds-card__title-container psds-card__title-container--size-medium"
       >
         <div
-          data-css-fvvao4=""
+          className="psds-card__title psds-card__title--theme-dark"
         >
           <div
             className=""
@@ -3588,14 +3598,14 @@ exports[`Storyshots Components/Card Sizes 1`] = `
       }
     >
       <div
-        data-css-1ybvkp1=""
+        className="psds-card"
       >
         <div
-          data-css-wj7e8j=""
+          className="psds-card__overlays psds-card__overlays--size-small"
         >
           <div
             aria-label="default image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3604,10 +3614,10 @@ exports[`Storyshots Components/Card Sizes 1`] = `
           />
         </div>
         <div
-          data-css-pzomq8=""
+          className="psds-card__title-container psds-card__title-container--size-small"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -3710,14 +3720,14 @@ exports[`Storyshots Components/Card Sizes 1`] = `
       }
     >
       <div
-        data-css-1ybvkp1=""
+        className="psds-card"
       >
         <div
-          data-css-1pdjifv=""
+          className="psds-card__overlays psds-card__overlays--size-medium"
         >
           <div
             aria-label="default image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3726,10 +3736,10 @@ exports[`Storyshots Components/Card Sizes 1`] = `
           />
         </div>
         <div
-          data-css-piydn8=""
+          className="psds-card__title-container psds-card__title-container--size-medium"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -3832,14 +3842,14 @@ exports[`Storyshots Components/Card Sizes 1`] = `
       }
     >
       <div
-        data-css-1ybvkp1=""
+        className="psds-card"
       >
         <div
-          data-css-1s0i6cc=""
+          className="psds-card__overlays psds-card__overlays--size-large"
         >
           <div
             aria-label="default image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3848,10 +3858,10 @@ exports[`Storyshots Components/Card Sizes 1`] = `
           />
         </div>
         <div
-          data-css-fvo1sh=""
+          className="psds-card__title-container psds-card__title-container--size-large"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -3959,14 +3969,14 @@ exports[`Storyshots Components/Card Tag Icon 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -3974,10 +3984,10 @@ exports[`Storyshots Components/Card Tag Icon 1`] = `
         }
       />
       <div
-        data-css-15d7zqj=""
+        className="psds-card__tag"
       >
         <div
-          data-css-1pif58i=""
+          className="psds-card__tag__icon"
         >
           <div
             data-css-k31qw2=""
@@ -3996,17 +4006,17 @@ exports[`Storyshots Components/Card Tag Icon 1`] = `
           </div>
         </div>
         <span
-          data-css-tz46pd=""
+          className="psds-card__tag__text"
         >
           Channel
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -4112,14 +4122,14 @@ exports[`Storyshots Components/Card Tag Long Multi Word 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -4127,10 +4137,10 @@ exports[`Storyshots Components/Card Tag Long Multi Word 1`] = `
         }
       />
       <div
-        data-css-15d7zqj=""
+        className="psds-card__tag"
       >
         <div
-          data-css-1pif58i=""
+          className="psds-card__tag__icon"
         >
           <div
             data-css-k31qw2=""
@@ -4149,17 +4159,17 @@ exports[`Storyshots Components/Card Tag Long Multi Word 1`] = `
           </div>
         </div>
         <span
-          data-css-tz46pd=""
+          className="psds-card__tag__text"
         >
           Channel Channel Channel Channel Channel Channel Channel Channel Channel
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -4265,14 +4275,14 @@ exports[`Storyshots Components/Card Tag Long Single Word 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -4280,10 +4290,10 @@ exports[`Storyshots Components/Card Tag Long Single Word 1`] = `
         }
       />
       <div
-        data-css-15d7zqj=""
+        className="psds-card__tag"
       >
         <div
-          data-css-1pif58i=""
+          className="psds-card__tag__icon"
         >
           <div
             data-css-k31qw2=""
@@ -4302,17 +4312,17 @@ exports[`Storyshots Components/Card Tag Long Single Word 1`] = `
           </div>
         </div>
         <span
-          data-css-tz46pd=""
+          className="psds-card__tag__text"
         >
           ChannelChannelChannelChannelChannelChannelChannelChannelChannelChannelChannel
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -4426,14 +4436,14 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
       }
     >
       <div
-        data-css-1ybvkp1=""
+        className="psds-card"
       >
         <div
-          data-css-wj7e8j=""
+          className="psds-card__overlays psds-card__overlays--size-small"
         >
           <div
             aria-label="default image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -4441,10 +4451,10 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
             }
           />
           <div
-            data-css-15d7zqj=""
+            className="psds-card__tag"
           >
             <div
-              data-css-1pif58i=""
+              className="psds-card__tag__icon"
             >
               <div
                 data-css-k31qw2=""
@@ -4463,17 +4473,17 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
               </div>
             </div>
             <span
-              data-css-tz46pd=""
+              className="psds-card__tag__text"
             >
               Channel
             </span>
           </div>
         </div>
         <div
-          data-css-pzomq8=""
+          className="psds-card__title-container psds-card__title-container--size-small"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -4576,14 +4586,14 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
       }
     >
       <div
-        data-css-1ybvkp1=""
+        className="psds-card"
       >
         <div
-          data-css-1pdjifv=""
+          className="psds-card__overlays psds-card__overlays--size-medium"
         >
           <div
             aria-label="default image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -4591,10 +4601,10 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
             }
           />
           <div
-            data-css-15d7zqj=""
+            className="psds-card__tag"
           >
             <div
-              data-css-1pif58i=""
+              className="psds-card__tag__icon"
             >
               <div
                 data-css-k31qw2=""
@@ -4613,17 +4623,17 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
               </div>
             </div>
             <span
-              data-css-tz46pd=""
+              className="psds-card__tag__text"
             >
               Channel
             </span>
           </div>
         </div>
         <div
-          data-css-piydn8=""
+          className="psds-card__title-container psds-card__title-container--size-medium"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -4726,14 +4736,14 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
       }
     >
       <div
-        data-css-1ybvkp1=""
+        className="psds-card"
       >
         <div
-          data-css-1s0i6cc=""
+          className="psds-card__overlays psds-card__overlays--size-large"
         >
           <div
             aria-label="default image"
-            data-css-i7gti2=""
+            className="psds-card__image"
             style={
               Object {
                 "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -4741,10 +4751,10 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
             }
           />
           <div
-            data-css-15d7zqj=""
+            className="psds-card__tag"
           >
             <div
-              data-css-1pif58i=""
+              className="psds-card__tag__icon"
             >
               <div
                 data-css-k31qw2=""
@@ -4763,17 +4773,17 @@ exports[`Storyshots Components/Card Tag Sizes 1`] = `
               </div>
             </div>
             <span
-              data-css-tz46pd=""
+              className="psds-card__tag__text"
             >
               Channel
             </span>
           </div>
         </div>
         <div
-          data-css-fvo1sh=""
+          className="psds-card__title-container psds-card__title-container--size-large"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -4881,14 +4891,14 @@ exports[`Storyshots Components/Card Tag Text 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -4896,20 +4906,20 @@ exports[`Storyshots Components/Card Tag Text 1`] = `
         }
       />
       <div
-        data-css-15d7zqj=""
+        className="psds-card__tag"
       >
         <span
-          data-css-tz46pd=""
+          className="psds-card__tag__text"
         >
           Channel
         </span>
       </div>
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -5015,14 +5025,14 @@ exports[`Storyshots Components/Card Title Link 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -5031,16 +5041,16 @@ exports[`Storyshots Components/Card Title Link 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <span
-        data-css-18hqvbo=""
+        className="psds-card__text-link psds-card__text-link--theme-dark"
       >
         <a
           href="http://duckduckgo.com?q=text"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -5148,14 +5158,14 @@ exports[`Storyshots Components/Card Title Long 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -5164,10 +5174,10 @@ exports[`Storyshots Components/Card Title Long 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""
@@ -5273,14 +5283,14 @@ exports[`Storyshots Components/Card Title Long Link 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -5289,16 +5299,16 @@ exports[`Storyshots Components/Card Title Long Link 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <span
-        data-css-18hqvbo=""
+        className="psds-card__text-link psds-card__text-link--theme-dark"
       >
         <a
           href="http://duckduckgo.com?q=text"
         >
           <div
-            data-css-fvvao4=""
+            className="psds-card__title psds-card__title--theme-dark"
           >
             <div
               className=""
@@ -5406,14 +5416,14 @@ exports[`Storyshots Components/Card Title Text 1`] = `
   }
 >
   <div
-    data-css-1ybvkp1=""
+    className="psds-card"
   >
     <div
-      data-css-1pdjifv=""
+      className="psds-card__overlays psds-card__overlays--size-medium"
     >
       <div
         aria-label="default image"
-        data-css-i7gti2=""
+        className="psds-card__image"
         style={
           Object {
             "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
@@ -5422,10 +5432,10 @@ exports[`Storyshots Components/Card Title Text 1`] = `
       />
     </div>
     <div
-      data-css-piydn8=""
+      className="psds-card__title-container psds-card__title-container--size-medium"
     >
       <div
-        data-css-fvvao4=""
+        className="psds-card__title psds-card__title--theme-dark"
       >
         <div
           className=""

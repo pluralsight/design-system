@@ -1,3 +1,4 @@
+// TODO: remove when IE desupported
 import polyfillFocusWithin from 'focus-within'
 
 import Icon, { sizes as iconSizes } from '@pluralsight/ps-design-system-icon'
@@ -8,17 +9,15 @@ import {
 import {
   RefForwardingComponent,
   ValueOf,
-  canUseDOM
+  canUseDOM,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 import Shiitake from 'shiitake'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { toPercentageString } from '../js/index'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 if (canUseDOM()) polyfillFocusWithin(document)
 
@@ -30,111 +29,86 @@ const styles = {
     actionBarVisible?: boolean
     fullOverlay?: boolean
   }) => {
-    const label = 'psds-card__action-bar'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      fullOverlay &&
-        !actionBarVisible &&
-        glamor.css(
-          stylesheet[`.${label}--fullOverlay.${label}--no-actionBarVisible`]
-        ),
-      actionBarVisible && glamor.css(stylesheet[`.${label}--actionBarVisible`])
+    return classNames(
+      'psds-card__action-bar',
+      fullOverlay && 'psds-card__action-bar--fullOverlay',
+      actionBarVisible
+        ? 'psds-card__action-bar--actionBarVisible'
+        : 'psds-card__action-bar--no-actionBarVisible'
     )
   },
   actionButton: (disabled?: boolean) => {
-    const label = 'psds-card__action-bar__button'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      disabled && glamor.css(stylesheet[`.${label}--disabled`])
+    return classNames(
+      'psds-card__action-bar__button',
+      disabled && 'psds-card__action-bar__button--disabled'
     )
   },
 
-  bonusBar: () => glamor.css(stylesheet['.psds-card__bonus-bar']),
+  bonusBar: () => 'psds-card__bonus-bar',
 
-  card: () => glamor.css(stylesheet['.psds-card']),
+  card: () => 'psds-card',
 
   fullOverlay: (fullOverlayVisible?: boolean) => {
-    const label = 'psds-card__full-overlay'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      fullOverlayVisible &&
-        glamor.css(stylesheet[`.${label}--fullOverlayVisible`])
+    return classNames(
+      'psds-card__full-overlay',
+      fullOverlayVisible && 'psds-card__full-overlay--fullOverlayVisible'
     )
   },
-  fullOverlayLink: () =>
-    glamor.css(stylesheet['.psds-card__full-overlay-link']),
+  fullOverlayLink: () => 'psds-card__full-overlay-link',
 
-  image: () => glamor.css(stylesheet['.psds-card__image']),
-  imageLink: () => glamor.css(stylesheet['.psds-card__image-link']),
+  image: () => 'psds-card__image',
+  imageLink: () => 'psds-card__image-link',
 
   metadata: (
     size: ValueOf<typeof vars.sizes>,
     themeName: ValueOf<typeof themeNames>
   ) => {
-    const label = 'psds-card__metadata'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`]),
-      glamor.css(stylesheet[`.${label}--theme-${themeName}`])
+    return classNames(
+      'psds-card__metadata',
+      `psds-card__metadata--size-${size}`,
+      `psds-card__metadata--theme-${themeName}`
     )
   },
-  metadataDatum: () => glamor.css(stylesheet['.psds-card__metadata__datum']),
-  metadataDot: () => glamor.css(stylesheet['.psds-card__metadata__dot']),
+  metadataDatum: () => 'psds-card__metadata__datum',
+  metadataDot: () => 'psds-card__metadata__dot',
 
   overlays: (size: ValueOf<typeof vars.sizes>) => {
-    const label = 'psds-card__overlays'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`])
+    return classNames(
+      'psds-card__overlays',
+      `psds-card__overlays--size-${size}`
     )
   },
 
-  progress: () => glamor.css(stylesheet['.psds-card__progress']),
+  progress: () => 'psds-card__progress',
   progressBar: (progress: number) => {
-    const label = 'psds-card__progress__bar'
-    const percent = toPercentageString(progress || 0)
-    const isCompleted = percent === '100%'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      isCompleted && glamor.css(stylesheet[`.${label}--complete`]),
-      glamor.css({ width: percent })
+    return classNames(
+      'psds-card__progress__bar',
+      progress === 100 && 'psds-card__progress__bar--complete'
     )
   },
 
-  tag: () => glamor.css(stylesheet['.psds-card__tag']),
-  tagIcon: () => glamor.css(stylesheet['.psds-card__tag__icon']),
-  tagText: () => glamor.css(stylesheet['.psds-card__tag__text']),
+  tag: () => 'psds-card__tag',
+  tagIcon: () => 'psds-card__tag__icon',
+  tagText: () => 'psds-card__tag__text',
 
   textLink: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'psds-card__text-link'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--theme-${themeName}`])
+    return classNames(
+      'psds-card__text-link',
+      `psds-card__text-link--theme-${themeName}`
     )
   },
 
   title: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'psds-card__title'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--theme-${themeName}`])
+    return classNames(
+      'psds-card__title',
+      `psds-card__title--theme-${themeName}`
     )
   },
 
   titleContainer: (size: ValueOf<typeof vars.sizes>) => {
-    const label = 'psds-card__title-container'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`])
+    return classNames(
+      'psds-card__title-container',
+      `psds-card__title-container--size-${size}`
     )
   }
 }
@@ -151,14 +125,15 @@ interface ActionBarActionComponent
     HTMLButtonElement,
     ActionBarActionStatics
   > {}
+// TODO: come back and do className override tests for all sub-components
 const ActionBarAction = React.forwardRef((props, ref) => {
   const { title, icon, ...rest } = props
   const ariaLabel = props['aria-label'] || title
   return (
     <button
-      {...styles.actionButton(props.disabled)}
       {...rest}
       aria-label={ariaLabel}
+      className={styles.actionButton(props.disabled)}
       ref={ref}
       title={title}
     >
@@ -170,7 +145,7 @@ ActionBarAction.displayName = 'Card.Action'
 
 const FullOverlayLink: React.FC<
   React.HTMLAttributes<HTMLSpanElement>
-> = props => <span {...styles.fullOverlayLink()} {...props} />
+> = props => <span className={styles.fullOverlayLink()} {...props} />
 
 FullOverlayLink.displayName = 'Card.FullOverlayLink'
 
@@ -182,8 +157,8 @@ const Image: React.FC<ImageProps> = props => {
   const { src, ...rest } = props
   return (
     <div
-      {...styles.image()}
       {...rest}
+      className={styles.image()}
       aria-label={rest['aria-label'] || rest.alt}
       style={{ backgroundImage: `url(${src})` }}
     />
@@ -192,7 +167,7 @@ const Image: React.FC<ImageProps> = props => {
 Image.displayName = 'Card.Image'
 
 const ImageLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => (
-  <span {...styles.imageLink()} {...props} />
+  <span className={styles.imageLink()} {...props} />
 )
 ImageLink.displayName = 'Card.ImageLink'
 
@@ -200,9 +175,9 @@ interface TagProps extends React.HTMLAttributes<HTMLDivElement> {
   icon?: React.ReactElement<typeof Icon>
 }
 const Tag: React.FC<TagProps> = ({ children, icon, ...rest }) => (
-  <div {...styles.tag()} {...rest}>
+  <div {...rest} className={styles.tag()}>
     {icon && (
-      <div {...styles.tagIcon()}>
+      <div className={styles.tagIcon()}>
         {
           /* eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion */
           React.cloneElement(icon as React.ReactElement<any>, {
@@ -212,7 +187,7 @@ const Tag: React.FC<TagProps> = ({ children, icon, ...rest }) => (
       </div>
     )}
 
-    <span {...styles.tagText()}>{children}</span>
+    <span className={styles.tagText()}>{children}</span>
   </div>
 )
 
@@ -225,7 +200,7 @@ Text.displayName = 'Card.Text'
 
 const TextLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => {
   const themeName = useTheme()
-  return <span {...styles.textLink(themeName)} {...props} />
+  return <span className={styles.textLink(themeName)} {...props} />
 }
 TextLink.displayName = 'Card.TextLink'
 
@@ -234,7 +209,7 @@ const Title: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
   const { children, ...rest } = props
 
   return (
-    <div {...styles.title(themeName)} {...rest}>
+    <div {...rest} className={styles.title(themeName)}>
       <Shiitake lines={2}>{children}</Shiitake>
     </div>
   )
@@ -249,13 +224,13 @@ const MetaData: React.FC<MetaDataProps> = props => {
   const { metadata, size, ...rest } = props
   const themeName = useTheme()
   return (
-    <div {...styles.metadata(size, themeName)} {...rest}>
+    <div {...rest} className={styles.metadata(size, themeName)}>
       {metadata.map((m, i) => [
-        <span key={`datum${i}`} {...styles.metadataDatum()}>
+        <span key={`datum${i}`} className={styles.metadataDatum()}>
           {m}
         </span>,
         i < metadata.length - 1 && (
-          <span aria-hidden key={`dot${i}`} {...styles.metadataDot()}>
+          <span aria-hidden key={`dot${i}`} className={styles.metadataDot()}>
             ·
           </span>
         )
@@ -308,17 +283,19 @@ const Card: React.FC<CardProps> & CardStatics = props => {
     ...rest
   } = props
   return (
-    <div {...styles.card()} {...rest}>
-      <div {...styles.overlays(size)}>
+    <div {...rest} className={styles.card()}>
+      <div className={styles.overlays(size)}>
         {image || null}
 
         {fullOverlay ? (
-          <div {...styles.fullOverlay(fullOverlayVisible)}>{fullOverlay}</div>
+          <div className={styles.fullOverlay(fullOverlayVisible)}>
+            {fullOverlay}
+          </div>
         ) : null}
 
         {Array.isArray(actionBar) && actionBar.length > 0 ? (
           <div
-            {...styles.actionBar({
+            className={styles.actionBar({
               actionBarVisible,
               fullOverlay: Boolean(fullOverlay)
             })}
@@ -327,21 +304,22 @@ const Card: React.FC<CardProps> & CardStatics = props => {
           </div>
         ) : null}
 
-        {bonusBar ? <div {...styles.bonusBar()}>{bonusBar}</div> : null}
+        {bonusBar ? <div className={styles.bonusBar()}>{bonusBar}</div> : null}
 
         {tag}
 
         {progress ? (
-          <div {...styles.progress()}>
+          <div className={styles.progress()}>
             <div
-              {...styles.progressBar(progress)}
+              className={styles.progressBar(progress)}
+              style={{ width: toPercentageString(progress || 0) }}
               aria-label={`${toPercentageString(progress)} complete`}
             />
           </div>
         ) : null}
       </div>
 
-      <div {...styles.titleContainer(size)}>{title}</div>
+      <div className={styles.titleContainer(size)}>{title}</div>
       {metadata1 && <MetaData size={size} metadata={metadata1} />}
       {metadata2 && <MetaData size={size} metadata={metadata2} />}
     </div>

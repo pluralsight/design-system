@@ -1,0 +1,260 @@
+.psds-card {
+  width: 100%;
+  text-align: left;
+}
+.psds-card__text-link {
+  pointer-events: all;
+}
+.psds-card__text-link a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+.psds-card__text-link a:active,
+.psds-card__text-link a:hover {
+  text-decoration: underline;
+  transition: all var(--psMotionSpeedNormal);
+}
+.psds-card__text-link--theme-dark:active,
+.psds-card__text-link--theme-dark:hover {
+  color: var(--psColorsTextIconHighOnDark);
+}
+.psds-card__text-link--theme-light:active,
+.psds-card__text-link--theme-light:hover {
+  color: var(--psColorsTextIconHighOnLight);
+}
+.psds-card__overlays {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--psColorsBackgroundDark3);
+}
+.psds-card__overlays:active div,
+.psds-card__overlays:hover div {
+  opacity: 1;
+}
+.psds-card__overlays--size-small {
+  height: 96px;
+}
+.psds-card__overlays--size-medium {
+  height: 144px;
+}
+.psds-card__overlays--size-large {
+  height: 240px;
+}
+.psds-card__image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.psds-card__image-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  pointer-events: all;
+}
+.psds-card__image-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  transition: all var(--psMotionSpeedNormal);
+}
+.psds-card__full-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  transition: opacity var(--psMotionSpeedNormal);
+  pointer-events: none;
+  opacity: 0;
+}
+.psds-card__full-overlay:focus-within,
+.psds-card__full-overlay[focus-within] {
+  opacity: 1;
+}
+.psds-card__full-overlay--fullOverlayVisible {
+  opacity: 1;
+}
+.psds-card__full-overlay-link {
+  pointer-events: all;
+  color: var(--psColorsTextIconHighOnDark);
+}
+.psds-card__full-overlay-link > a {
+  display: flex;
+}
+.psds-card__action-bar {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  padding: var(--psLayoutSpacingSmall) var(--psLayoutSpacingSmall) 0
+    var(--psLayoutSpacingSmall);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), transparent);
+  transition: opacity var(--psMotionSpeedNormal);
+  pointer-events: none;
+  opacity: 0;
+  z-index: 10;
+}
+.psds-card__action-bar > * {
+  pointer-events: all;
+}
+.psds-card__action-bar:focus-within,
+.psds-card__action-bar[focus-within] {
+  opacity: 1;
+}
+.psds-card__action-bar--fullOverlay.psds-card__action-bar--no-actionBarVisible {
+  background: 0 0;
+}
+.psds-card__action-bar--actionBarVisible {
+  opacity: 1;
+}
+.psds-card__action-bar__button {
+  font-size: var(--psTypeFontSize100);
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  color: var(--psColorsTextIconHighOnDark);
+  background: 0 0;
+  transition: all var(--psMotionSpeedNormal);
+}
+.psds-card__action-bar__button:active,
+.psds-card__action-bar__button:hover {
+  color: var(--psColorsTextIconHighOnDark);
+}
+.psds-card__action-bar__button + .psds-card__action-bar__button {
+  margin-left: var(--psLayoutSpacingSmall);
+}
+.psds-card__action-bar__button--disabled {
+  opacity: 50%;
+}
+.psds-card__action-bar__button--disabled:hover {
+  opacity: 50%;
+}
+.psds-card__bonus-bar {
+  position: absolute;
+  bottom: var(--psLayoutSpacingSmall);
+  left: var(--psLayoutSpacingSmall);
+  color: var(--psColorsTextIconHighOnDark);
+}
+.psds-card__tag {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: var(--psLayoutSpacingSmall);
+  left: 0;
+  padding: var(--psLayoutSpacingXXSmall) var(--psLayoutSpacingXSmall);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 0 2px 2px 0;
+  color: var(--psColorsTextIconHighOnLight);
+  text-transform: uppercase;
+  font-size: var(--psTypeFontSize100);
+  font-weight: var(--psTypeFontWeightStrong);
+  line-height: 16px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5);
+  max-width: 75%;
+}
+.psds-card__tag__icon {
+  display: flex;
+  align-items: center;
+  margin-right: var(--psLayoutSpacingXSmall);
+}
+.psds-card__tag__text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.psds-card__progress {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  border-top: 1px solid var(--psColorsBorderLowOnLight);
+  background-color: var(--psColorsBackgroundUtility25);
+  overflow: hidden;
+}
+.psds-card__progress__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: #fff;
+}
+.psds-card__progress__bar--complete {
+  background-color: var(--psColorsGreen6);
+}
+.psds-card__title-container--size-small {
+  font-size: var(--psTypeFontSize100);
+  line-height: var(--psTypeLineHeightTight);
+}
+.psds-card__title-container--size-medium {
+  font-size: var(--psTypeFontSize200);
+  line-height: var(--psTypeLineHeightTight);
+}
+.psds-card__title-container--size-large {
+  font-size: var(--psTypeFontSize400);
+  line-height: var(--psTypeLineHeightStandard);
+}
+.psds-card__title {
+  display: block;
+  padding-top: var(--psLayoutSpacingXSmall);
+  font-weight: var(--psTypeFontWeight500);
+  overflow: hidden;
+}
+.psds-card__title--theme-dark {
+  color: var(--psColorsTextIconHighOnDark);
+}
+.psds-card__title--theme-light {
+  color: var(--psColorsTextIconHighOnLight);
+}
+.psds-card__metadata {
+  display: flex;
+  align-items: center;
+  font-weight: var(--psTypeFontWeightDefault);
+  line-height: var(--psTypeLineHeightTight);
+  max-width: 100%;
+}
+.psds-card__metadata--theme-dark {
+  color: var(--psColorsTextIconLowOnDark);
+}
+.psds-card__metadata--theme-light {
+  color: var(--psColorsTextIconLowOnLight);
+}
+.psds-card__metadata--size-small {
+  font-size: var(--psTypeFontSize100);
+}
+.psds-card__metadata--size-medium {
+  font-size: var(--psTypeFontSize100);
+}
+.psds-card__metadata--size-large {
+  font-size: var(--psTypeFontSize200);
+}
+.psds-card__metadata__datum {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-shrink: 2;
+}
+.psds-card__metadata__datum:nth-of-type(1) {
+  flex-shrink: 1;
+}
+.psds-card__metadata__dot {
+  display: inline-block;
+  margin: 0 var(--psLayoutSpacingXSmall);
+}
