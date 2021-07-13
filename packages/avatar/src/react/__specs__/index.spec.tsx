@@ -22,6 +22,12 @@ describe('Avatar', () => {
     })
   })
 
+  it('composes className', () => {
+    const { container } = render(<Avatar className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-avatar compose-classname')
+  })
+
   it('forwards className', () => {
     const { getByTestId } = render(
       <Avatar data-testid="under-test" className="testclass" />

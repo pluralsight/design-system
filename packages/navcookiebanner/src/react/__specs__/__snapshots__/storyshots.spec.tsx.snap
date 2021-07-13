@@ -23,7 +23,7 @@ exports[`Storyshots Components/NavCookieBanner Basic 1`] = `
     onClick={[Function]}
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="close icon"
@@ -56,7 +56,7 @@ exports[`Storyshots Components/NavCookieBanner Custom Message 1`] = `
     onClick={[Function]}
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="close icon"

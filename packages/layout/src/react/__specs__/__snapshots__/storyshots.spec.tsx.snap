@@ -9,10 +9,10 @@ exports[`Storyshots Components/AsideLayout Aside Style Override 1`] = `
   }
 >
   <div
-    data-css-19i7kll=""
+    className="psds-aside-layout psds-aside-layout--aside-position-first"
   >
     <div
-      data-css-34rq4a=""
+      className="psds-aside-layout__aside psds-aside-layout__aside--aside-position-first"
       style={
         Object {
           "overflow": "hidden",
@@ -32,7 +32,7 @@ exports[`Storyshots Components/AsideLayout Aside Style Override 1`] = `
       </div>
     </div>
     <div
-      data-css-63wt92=""
+      className="psds-aside-layout__main"
     >
       This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
     </div>
@@ -57,17 +57,17 @@ exports[`Storyshots Components/AsideLayout Positions 1`] = `
     }
   >
     <div
-      data-css-19i7kll=""
+      className="psds-aside-layout psds-aside-layout--aside-position-first"
     >
       <div
-        data-css-34rq4a=""
+        className="psds-aside-layout__aside psds-aside-layout__aside--aside-position-first"
       >
-        This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here.
+        This is ASIDE stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here.
       </div>
       <div
-        data-css-63wt92=""
+        className="psds-aside-layout__main"
       >
-        This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
+        This is MAIN stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
       </div>
     </div>
   </div>
@@ -79,17 +79,17 @@ exports[`Storyshots Components/AsideLayout Positions 1`] = `
     }
   >
     <div
-      data-css-t8ydvh=""
+      className="psds-aside-layout psds-aside-layout--aside-position-last"
     >
       <div
-        data-css-qxcmpd=""
+        className="psds-aside-layout__aside psds-aside-layout__aside--aside-position-last"
       >
-        This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here.
+        This is ASIDE stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here.
       </div>
       <div
-        data-css-63wt92=""
+        className="psds-aside-layout__main"
       >
-        This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
+        This is MAIN stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
       </div>
     </div>
   </div>
@@ -105,15 +105,15 @@ exports[`Storyshots Components/AsideLayout Short Aside Content 1`] = `
   }
 >
   <div
-    data-css-19i7kll=""
+    className="psds-aside-layout psds-aside-layout--aside-position-first"
   >
     <div
-      data-css-34rq4a=""
+      className="psds-aside-layout__aside psds-aside-layout__aside--aside-position-first"
     >
       Very short
     </div>
     <div
-      data-css-63wt92=""
+      className="psds-aside-layout__main"
     >
       This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
     </div>
@@ -130,15 +130,15 @@ exports[`Storyshots Components/AsideLayout Short Main Content 1`] = `
   }
 >
   <div
-    data-css-19i7kll=""
+    className="psds-aside-layout psds-aside-layout--aside-position-first"
   >
     <div
-      data-css-34rq4a=""
+      className="psds-aside-layout__aside psds-aside-layout__aside--aside-position-first"
     >
       This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here. This is aside stuff that goes here.
     </div>
     <div
-      data-css-63wt92=""
+      className="psds-aside-layout__main"
     >
       Very little
     </div>
@@ -155,10 +155,10 @@ exports[`Storyshots Components/AsideLayout Wide Fixed Aside Content 1`] = `
   }
 >
   <div
-    data-css-19i7kll=""
+    className="psds-aside-layout psds-aside-layout--aside-position-first"
   >
     <div
-      data-css-34rq4a=""
+      className="psds-aside-layout__aside psds-aside-layout__aside--aside-position-first"
     >
       <div
         style={
@@ -173,7 +173,7 @@ exports[`Storyshots Components/AsideLayout Wide Fixed Aside Content 1`] = `
       </div>
     </div>
     <div
-      data-css-63wt92=""
+      className="psds-aside-layout__main"
     >
       This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here. This is main stuff that goes here.
     </div>
@@ -198,10 +198,10 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
     }
   >
     <div
-      data-css-oo8nrq=""
+      className="psds-equal-column-layout"
     >
       <div
-        data-css-evbaaa=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-2"
         style={
           Object {
             "background": "#E7558B",
@@ -213,7 +213,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         ) First child
       </div>
       <div
-        data-css-evbaaa=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-2"
         style={
           Object {
             "background": "#E7558B",
@@ -223,7 +223,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Second child
       </div>
       <div
-        data-css-evbaaa=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-2"
         style={
           Object {
             "background": "#E7558B",
@@ -233,7 +233,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Third child
       </div>
       <div
-        data-css-evbaaa=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-2"
         style={
           Object {
             "background": "#E7558B",
@@ -243,7 +243,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fourth child
       </div>
       <div
-        data-css-evbaaa=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-2"
         style={
           Object {
             "background": "#E7558B",
@@ -253,7 +253,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fifth child
       </div>
       <div
-        data-css-evbaaa=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-2"
         style={
           Object {
             "background": "#E7558B",
@@ -272,10 +272,10 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
     }
   >
     <div
-      data-css-oo8nrq=""
+      className="psds-equal-column-layout"
     >
       <div
-        data-css-ke1y92=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-3"
         style={
           Object {
             "background": "#E7558B",
@@ -287,7 +287,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         ) First child
       </div>
       <div
-        data-css-ke1y92=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-3"
         style={
           Object {
             "background": "#E7558B",
@@ -297,7 +297,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Second child
       </div>
       <div
-        data-css-ke1y92=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-3"
         style={
           Object {
             "background": "#E7558B",
@@ -307,7 +307,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Third child
       </div>
       <div
-        data-css-ke1y92=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-3"
         style={
           Object {
             "background": "#E7558B",
@@ -317,7 +317,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fourth child
       </div>
       <div
-        data-css-ke1y92=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-3"
         style={
           Object {
             "background": "#E7558B",
@@ -327,7 +327,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fifth child
       </div>
       <div
-        data-css-ke1y92=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-3"
         style={
           Object {
             "background": "#E7558B",
@@ -346,10 +346,10 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
     }
   >
     <div
-      data-css-oo8nrq=""
+      className="psds-equal-column-layout"
     >
       <div
-        data-css-18p75qs=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
         style={
           Object {
             "background": "#E7558B",
@@ -361,7 +361,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         ) First child
       </div>
       <div
-        data-css-18p75qs=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
         style={
           Object {
             "background": "#E7558B",
@@ -371,7 +371,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Second child
       </div>
       <div
-        data-css-18p75qs=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
         style={
           Object {
             "background": "#E7558B",
@@ -381,7 +381,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Third child
       </div>
       <div
-        data-css-18p75qs=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
         style={
           Object {
             "background": "#E7558B",
@@ -391,7 +391,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fourth child
       </div>
       <div
-        data-css-18p75qs=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
         style={
           Object {
             "background": "#E7558B",
@@ -401,7 +401,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fifth child
       </div>
       <div
-        data-css-18p75qs=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
         style={
           Object {
             "background": "#E7558B",
@@ -420,10 +420,10 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
     }
   >
     <div
-      data-css-oo8nrq=""
+      className="psds-equal-column-layout"
     >
       <div
-        data-css-nvudq=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-6"
         style={
           Object {
             "background": "#E7558B",
@@ -435,7 +435,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         ) First child
       </div>
       <div
-        data-css-nvudq=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-6"
         style={
           Object {
             "background": "#E7558B",
@@ -445,7 +445,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Second child
       </div>
       <div
-        data-css-nvudq=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-6"
         style={
           Object {
             "background": "#E7558B",
@@ -455,7 +455,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Third child
       </div>
       <div
-        data-css-nvudq=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-6"
         style={
           Object {
             "background": "#E7558B",
@@ -465,7 +465,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fourth child
       </div>
       <div
-        data-css-nvudq=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-6"
         style={
           Object {
             "background": "#E7558B",
@@ -475,7 +475,7 @@ exports[`Storyshots Components/EqualColumnLayout Counts 1`] = `
         Fifth child
       </div>
       <div
-        data-css-nvudq=""
+        className="psds-equal-column-layout__column psds-equal-column-layout__column--count-6"
         style={
           Object {
             "background": "#E7558B",
@@ -498,7 +498,7 @@ exports[`Storyshots Components/EqualColumnLayout Custom Markup 1`] = `
   }
 >
   <ul
-    data-css-oo8nrq=""
+    className="psds-equal-column-layout"
     style={
       Object {
         "listStyle": "none",
@@ -506,32 +506,32 @@ exports[`Storyshots Components/EqualColumnLayout Custom Markup 1`] = `
     }
   >
     <li
-      data-css-18p75qs=""
+      className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
     >
       Renders list... First child
     </li>
     <li
-      data-css-18p75qs=""
+      className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
     >
       Second child
     </li>
     <li
-      data-css-18p75qs=""
+      className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
     >
       Third child
     </li>
     <li
-      data-css-18p75qs=""
+      className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
     >
       Fourth child
     </li>
     <li
-      data-css-18p75qs=""
+      className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
     >
       Fifth child
     </li>
     <li
-      data-css-18p75qs=""
+      className="psds-equal-column-layout__column psds-equal-column-layout__column--count-4"
     >
       Sixth child
     </li>
@@ -541,13 +541,13 @@ exports[`Storyshots Components/EqualColumnLayout Custom Markup 1`] = `
 
 exports[`Storyshots Components/PageHeadingLayout Default 1`] = `
 <div
-  data-css-f5q9fb=""
+  className="psds-page-heading-layout"
 >
   <div
-    data-css-wlfhsa=""
+    className="psds-page-heading-layout__heading"
   >
     <h2
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     >
       My Page
     </h2>
@@ -558,13 +558,13 @@ exports[`Storyshots Components/PageHeadingLayout Default 1`] = `
 
 exports[`Storyshots Components/PageHeadingLayout Long Title 1`] = `
 <div
-  data-css-f5q9fb=""
+  className="psds-page-heading-layout"
 >
   <div
-    data-css-wlfhsa=""
+    className="psds-page-heading-layout__heading"
   >
     <h2
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     >
       My page is here and it's long. My page is here and it's long. My page is here and it's long. My page is here and it's long.
     </h2>
@@ -575,32 +575,32 @@ exports[`Storyshots Components/PageHeadingLayout Long Title 1`] = `
 
 exports[`Storyshots Components/PageHeadingLayout Long Title With Actions 1`] = `
 <div
-  data-css-f5q9fb=""
+  className="psds-page-heading-layout"
 >
   <div
-    data-css-wlfhsa=""
+    className="psds-page-heading-layout__heading"
   >
     <h2
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     >
       My page is here and it's long. My page is here and it's long. My page is here and it's long. My page is here and it's long.
     </h2>
     <div
-      data-css-1cnar9w=""
+      className="psds-page-heading-layout__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
@@ -613,83 +613,83 @@ exports[`Storyshots Components/PageHeadingLayout Long Title With Actions 1`] = `
 
 exports[`Storyshots Components/PageHeadingLayout Long Title With Lots Of Actions 1`] = `
 <div
-  data-css-f5q9fb=""
+  className="psds-page-heading-layout"
 >
   <div
-    data-css-wlfhsa=""
+    className="psds-page-heading-layout__heading"
   >
     <h2
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     >
       My page is here and it's long. My page is here and it's long. My page is here and it's long. My page is here and it's long.
     </h2>
     <div
-      data-css-1cnar9w=""
+      className="psds-page-heading-layout__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
       </a>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
       </a>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
       </a>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
@@ -702,83 +702,83 @@ exports[`Storyshots Components/PageHeadingLayout Long Title With Lots Of Actions
 
 exports[`Storyshots Components/PageHeadingLayout Lots Of Actions 1`] = `
 <div
-  data-css-f5q9fb=""
+  className="psds-page-heading-layout"
 >
   <div
-    data-css-wlfhsa=""
+    className="psds-page-heading-layout__heading"
   >
     <h2
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     >
       My Page
     </h2>
     <div
-      data-css-1cnar9w=""
+      className="psds-page-heading-layout__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
       </a>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
       </a>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
       </a>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
@@ -791,32 +791,32 @@ exports[`Storyshots Components/PageHeadingLayout Lots Of Actions 1`] = `
 
 exports[`Storyshots Components/PageHeadingLayout With Actions 1`] = `
 <div
-  data-css-f5q9fb=""
+  className="psds-page-heading-layout"
 >
   <div
-    data-css-wlfhsa=""
+    className="psds-page-heading-layout__heading"
   >
     <h2
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     >
       My Page
     </h2>
     <div
-      data-css-1cnar9w=""
+      className="psds-page-heading-layout__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Wow, an action
         </span>
       </button>
       <a
-        data-css-1o01808=""
+        className="psds-link psds-link--appearance-default psds-theme--dark"
         href="https://duckduckgo.com"
       >
         A link
@@ -829,7 +829,7 @@ exports[`Storyshots Components/PageHeadingLayout With Actions 1`] = `
 
 exports[`Storyshots Components/PageWidthLayout Default 1`] = `
 <div
-  data-css-60rhmp=""
+  className="psds-page-width-layout"
   style={
     Object {
       "color": "white",
@@ -850,7 +850,7 @@ exports[`Storyshots Components/PageWidthLayout Full Bleed 1`] = `
   }
 >
   <div
-    data-css-60rhmp=""
+    className="psds-page-width-layout"
     style={
       Object {
         "color": "white",

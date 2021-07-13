@@ -2,25 +2,24 @@
 
 exports[`Storyshots Components/SearchInput Basic 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input psds-searchinput"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1kh5e1a=""
+        className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--w-after psds-text-input__field--icon-align-left"
       >
         <input
-          data-css-7mw7i0=""
-          data-css-r2g0l1=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onChange={[Function]}
@@ -30,16 +29,15 @@ exports[`Storyshots Components/SearchInput Basic 1`] = `
           value=""
         />
         <button
-          data-css-1dnyz38=""
-          data-css-ttgr6s=""
+          className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only psds-searchinput-clear"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            data-css-4ducb0=""
+            className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
           >
             <div
-              data-css-k31qw2=""
+              className="psds-icon psds-icon--size-small"
             >
               <svg
                 aria-label="close icon"
@@ -54,16 +52,16 @@ exports[`Storyshots Components/SearchInput Basic 1`] = `
           </div>
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           />
         </button>
       </div>
     </div>
     <div
-      data-css-1kca8ps=""
+      className="psds-text-input__icon psds-theme--dark psds-text-input__icon--icon-align-left psds-text-input__icon--appearance-subtle psds-text-input__icon"
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="search icon"
@@ -80,7 +78,7 @@ exports[`Storyshots Components/SearchInput Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -89,36 +87,34 @@ exports[`Storyshots Components/SearchInput Basic 1`] = `
 
 exports[`Storyshots Components/SearchInput Loading 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input psds-searchinput"
 >
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1kh5e1a=""
+        className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--w-after psds-text-input__field--icon-align-left"
       >
         <input
-          data-css-7mw7i0=""
-          data-css-r2g0l1=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
           disabled={false}
           onChange={[Function]}
           type="search"
           value=""
         />
         <button
-          data-css-1dnyz38=""
-          data-css-ttgr6s=""
+          className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only psds-searchinput-clear"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            data-css-4ducb0=""
+            className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
           >
             <div
-              data-css-k31qw2=""
+              className="psds-icon psds-icon--size-small"
             >
               <svg
                 aria-label="close icon"
@@ -133,36 +129,36 @@ exports[`Storyshots Components/SearchInput Loading 1`] = `
           </div>
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           />
         </button>
       </div>
     </div>
     <div
-      data-css-1kca8ps=""
+      className="psds-text-input__icon psds-theme--dark psds-text-input__icon--icon-align-left psds-text-input__icon--appearance-subtle psds-text-input__icon"
     >
       <div
         aria-busy="true"
         aria-label="Loading"
-        data-css-1abx40i=""
+        className="psds-circularprogress--size-small"
         role="progressbar"
       >
         <svg
-          data-css-1txt1eh=""
+          className="psds-circularprogress__svg psds-circularprogress__svg--no-value"
           version="1.1"
           viewBox="0 0 48 48"
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle
+            className="psds-circularprogress__bg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-rk8c6r=""
             r={22}
           />
           <circle
+            className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-17x5ehd=""
             r={22}
             strokeDasharray="138.23007675795088 138.23007675795088"
             strokeDashoffset={103.67255756846316}
@@ -176,20 +172,19 @@ exports[`Storyshots Components/SearchInput Loading 1`] = `
 
 exports[`Storyshots Components/SearchInput No On Clear 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input psds-searchinput"
 >
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1c5qy71=""
+        className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--icon-align-left"
       >
         <input
-          data-css-7mw7i0=""
-          data-css-r2g0l1=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
           disabled={false}
           onChange={[Function]}
           type="search"
@@ -198,10 +193,10 @@ exports[`Storyshots Components/SearchInput No On Clear 1`] = `
       </div>
     </div>
     <div
-      data-css-1kca8ps=""
+      className="psds-text-input__icon psds-theme--dark psds-text-input__icon--icon-align-left psds-text-input__icon--appearance-subtle psds-text-input__icon"
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="search icon"
@@ -222,36 +217,34 @@ exports[`Storyshots Components/SearchInput No On Clear 1`] = `
 
 exports[`Storyshots Components/SearchInput Static Value 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input psds-searchinput"
 >
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1kh5e1a=""
+        className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--w-after psds-text-input__field--icon-align-left"
       >
         <input
-          data-css-7mw7i0=""
-          data-css-r2g0l1=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
           disabled={false}
           onChange={[Function]}
           type="search"
           value="Set, not updated with state"
         />
         <button
-          data-css-15xnn26=""
-          data-css-1dnyz38=""
+          className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only psds-searchinput-clear psds-searchinput-clear--visible"
           disabled={false}
           onClick={[Function]}
         >
           <div
-            data-css-4ducb0=""
+            className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
           >
             <div
-              data-css-k31qw2=""
+              className="psds-icon psds-icon--size-small"
             >
               <svg
                 aria-label="close icon"
@@ -266,16 +259,16 @@ exports[`Storyshots Components/SearchInput Static Value 1`] = `
           </div>
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           />
         </button>
       </div>
     </div>
     <div
-      data-css-1kca8ps=""
+      className="psds-text-input__icon psds-theme--dark psds-text-input__icon--icon-align-left psds-text-input__icon--appearance-subtle psds-text-input__icon"
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="search icon"

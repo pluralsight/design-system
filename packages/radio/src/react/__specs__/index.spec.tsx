@@ -16,6 +16,16 @@ describe('Radio', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className for Radio.Group', () => {
+    const { container } = render(
+      <Radio.Group className="compose-classname" name="undertest" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-radio-group  compose-classname'
+    )
+  })
+
   describe('.Button component', () => {
     it('exists', () => expect(Radio.Button).toBeDefined())
 
@@ -23,6 +33,20 @@ describe('Radio', () => {
       const ref = React.createRef<HTMLInputElement>()
       render(<Radio.Button label="label" value="value" ref={ref} />)
       expect(ref).not.toBeNull()
+    })
+
+    it('composes className for Radio.Button', () => {
+      const { container } = render(
+        <Radio.Button
+          className="compose-classname"
+          label="label"
+          value="value"
+        />
+      )
+
+      expect(container.firstChild).toHaveClass(
+        'psds-radio-button  compose-classname'
+      )
     })
   })
 

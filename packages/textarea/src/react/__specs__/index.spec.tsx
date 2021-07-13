@@ -17,4 +17,10 @@ describe('TextArea', () => {
 
     expect(ref.current).not.toBeNull()
   })
+
+  it('composes className', () => {
+    const { container } = render(<TextArea className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-text-area compose-classname')
+  })
 })

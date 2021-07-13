@@ -1,12 +1,9 @@
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 import { useTheme, names } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 const style = ({
   themeName,
@@ -16,14 +13,15 @@ const style = ({
   themeName?: ValueOf<typeof names>
   size?: ValueOf<typeof vars.headingSizes>
   color: ValueOf<typeof vars.textColors>
-}) =>
-  glamor.compose(
-    glamor.css(stylesheet['.psds-text__heading']),
-    glamor.css(stylesheet[`.psds-text__heading--size-${size}`]),
-    glamor.css(
-      stylesheet[`.psds-text__heading--color-${color}.psds-theme--${themeName}`]
-    )
+}) => {
+  const label = 'psds-text__heading'
+  return classNames(
+    label,
+    `${label}--size-${size}`,
+    `${label}--color-${color}`,
+    `psds-theme--${themeName}`
   )
+}
 
 interface HeadingStatics {
   sizes: typeof vars.headingSizes
@@ -39,19 +37,22 @@ const Heading: React.FC<HeadingProps> & HeadingStatics = ({
   children,
   size = vars.labelSizes.large,
   color = vars.textColors.primary,
-  ...props
+  className,
+  ...rest
 }) => {
   const themeName = useTheme()
   if (!React.isValidElement(children)) return null
 
   return React.cloneElement(React.Children.only(children), {
-    ...props,
-    ...style({
-      size,
-      color,
-      themeName
-    }),
-    className: props.className
+    ...rest,
+    className: classNames(
+      className,
+      style({
+        size,
+        color,
+        themeName
+      })
+    )
   })
 }
 

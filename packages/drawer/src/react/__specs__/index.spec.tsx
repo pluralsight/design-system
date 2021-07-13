@@ -54,6 +54,26 @@ describe('Drawer', () => {
     expect(contentWrapper).toHaveAttribute('aria-hidden', 'true')
   })
 
+  it('composes className in Drawer.Summary', () => {
+    const { container } = render(
+      <Drawer.Summary className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-drawer__summary compose-classname'
+    )
+  })
+
+  it('composes className in Drawer.Details', () => {
+    const { container } = render(
+      <Drawer.Details className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-drawer__details compose-classname'
+    )
+  })
+
   const cases = convertStoriesToJestCases(stories)
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {

@@ -3,32 +3,29 @@ import {
   names as themeNames,
   useTheme
 } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  label: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['psds-dropdown__label'],
-      stylesheet[`.psds-dropdown__label.psds-theme--${themeName}`]
-    )
-}
+import '../css/index.css'
 
 interface LabelProps extends React.HTMLAttributes<HTMLLabelElement> {
   label?: React.ReactNode
 }
 
-export const Label: React.FC<LabelProps> = props => {
+export const Label: React.FC<LabelProps> = ({ className, ...rest }) => {
   const themeName = useTheme()
   return (
     <label>
-      {props.label ? (
-        <span {...styles.label(themeName)}>{props.label}</span>
+      {rest.label ? (
+        <span
+          className={classNames(
+            'psds-dropdown__label',
+            `psds-theme--${themeName}`,
+            className
+          )}
+        >
+          {rest.label}
+        </span>
       ) : (
         <ScreenReaderOnly as="span">Dropdown</ScreenReaderOnly>
       )}

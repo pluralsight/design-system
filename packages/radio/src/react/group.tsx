@@ -1,32 +1,9 @@
-import Theme, { useTheme } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
 import { RadioContext } from './context'
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  buttonContainer: () =>
-    glamor.css(stylesheet['.psds-radio-group__button-container']),
-  group: (disabled: boolean) =>
-    glamor.css(
-      stylesheet['.psds-radio-group'],
-      disabled && stylesheet['.psds-radio-group--disabled']
-    ),
-  label: (themeName: ValueOf<typeof Theme.names>) =>
-    glamor.css(
-      stylesheet['.psds-radio-group__label'],
-      stylesheet[`.psds-radio-group__label.psds-theme--${themeName}`]
-    ),
-  subLabel: (themeName: ValueOf<typeof Theme.names>) =>
-    glamor.css(
-      stylesheet['.psds-radio-group__sub-label'],
-      stylesheet[`.psds-radio-group__sub-label.psds-theme--${themeName}`]
-    )
-}
+import '../css/index.css'
 
 const useValue = ({
   value,
@@ -70,15 +47,34 @@ const Group = React.forwardRef<HTMLDivElement, RadioGroupProps>(
       onChange,
       subLabel,
       value,
+      className,
       ...rest
     },
     ref
   ) => {
     const themeName = useTheme()
     return (
-      <div {...styles.group(disabled)} {...rest} ref={ref} role="radiogroup">
-        {label && <div {...styles.label(themeName)}>{label}</div>}
-        <div {...styles.buttonContainer()}>
+      <div
+        className={classNames(
+          className,
+          'psds-radio-group',
+          disabled && 'psds-radio-group--disabled'
+        )}
+        {...rest}
+        ref={ref}
+        role="radiogroup"
+      >
+        {label && (
+          <div
+            className={classNames(
+              'psds-radio-group__label',
+              `psds-theme--${themeName}`
+            )}
+          >
+            {label}
+          </div>
+        )}
+        <div className={'psds-radio-group__button-container'}>
           <RadioContext.Provider
             value={{
               disabled,
@@ -90,7 +86,16 @@ const Group = React.forwardRef<HTMLDivElement, RadioGroupProps>(
             {children}
           </RadioContext.Provider>
         </div>
-        {subLabel && <div {...styles.subLabel(themeName)}>{subLabel}</div>}
+        {subLabel && (
+          <div
+            className={classNames(
+              'psds-radio-group__sub-label',
+              `psds-theme--${themeName}`
+            )}
+          >
+            {subLabel}
+          </div>
+        )}
       </div>
     )
   }

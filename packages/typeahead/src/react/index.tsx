@@ -1,14 +1,17 @@
 import { useCombobox } from 'downshift'
-import { css, compose } from 'glamor'
 import React from 'react'
 
 import { CaretDownIcon } from '@pluralsight/ps-design-system-icon'
 import Field from '@pluralsight/ps-design-system-field'
 import { BelowLeft } from '@pluralsight/ps-design-system-position'
-import { canUseDOM, forwardRefWithAs } from '@pluralsight/ps-design-system-util'
+import {
+  canUseDOM,
+  classNames,
+  forwardRefWithAs
+} from '@pluralsight/ps-design-system-util'
 import Menu, { MenuItemProps } from '@pluralsight/ps-design-system-menu'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 
 const defaultRenderOption = forwardRefWithAs<MenuItemProps, 'button'>(
   (props, ref) => {
@@ -22,15 +25,6 @@ const defaultRenderOption = forwardRefWithAs<MenuItemProps, 'button'>(
   }
 )
 
-const styles = {
-  caret: () => css(stylesheet['.psds-multi-select__caret']),
-  wrapper: (isOpen: boolean) =>
-    compose(
-      css(stylesheet['.psds-multi-select__wrapper']),
-      css(isOpen && stylesheet['.psds-multi-select__wrapper--open'])
-    ),
-  menu: () => css(stylesheet['.psds-multi-select__menu'])
-}
 export type TypeaheadFilterFunction = (
   options: {
     label: React.ReactText
@@ -219,14 +213,19 @@ const Typeahead: TypeaheadFieldComponent = props => {
     }
   }, [fieldRef])
   const Label = React.useMemo(() => {
+    const _ariaLabel = !label ? ariaLabel : undefined
     if (React.isValidElement(label)) {
       return React.cloneElement<any>(label, {
         ...getLabelProps(),
-        'aria-label': !label ? ariaLabel : undefined
+        'aria-label': _ariaLabel
       })
     }
 
-    return <Field.Label {...getLabelProps()}>{label}</Field.Label>
+    return (
+      <Field.Label {...getLabelProps()} aria-label={_ariaLabel}>
+        {label}
+      </Field.Label>
+    )
   }, [label, getLabelProps])
 
   const SubLabel = React.useMemo(() => {
@@ -237,9 +236,14 @@ const Typeahead: TypeaheadFieldComponent = props => {
   return (
     <BelowLeft
       show={
-        <div {...styles.wrapper(isOpen)}>
+        <div
+          className={classNames(
+            'psds-multi-select__wrapper',
+            isOpen && 'psds-multi-select__wrapper--open'
+          )}
+        >
           <Menu
-            {...styles.menu()}
+            className="psds-multi-select__menu"
             selectedItem={activeItem}
             {...getMenuProps({}, { suppressRefError: true })}
             style={{ width: width || 'auto' }}
@@ -298,7 +302,7 @@ Typeahead.sizes = Field.sizes
 export default Typeahead
 
 const CaretSuffix = forwardRefWithAs((props, ref) => (
-  <div {...props} {...styles.caret()} ref={ref}>
+  <div {...props} className="psds-multi-select__caret" ref={ref}>
     <CaretDownIcon />
   </div>
 ))

@@ -2,43 +2,20 @@ import Halo from '@pluralsight/ps-design-system-halo'
 import { WarningIcon } from '@pluralsight/ps-design-system-icon'
 import {
   ValueOf,
+  classNames,
   combineFns,
   forwardRefWithStatics
 } from '@pluralsight/ps-design-system-util'
 import Theme, { names as themeNames } from '@pluralsight/ps-design-system-theme'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
+import '../css/field.css'
 import { FieldContext } from './context'
-import stylesheet from '../css/field'
 import Input from './input'
 import Label from './label'
 import SubLabel from './sub-label'
 import TextArea from './text-area'
 import { appearances, sizes } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  container: (opts: { disabled?: boolean; error?: boolean }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-field__container']),
-      opts.disabled &&
-        glamor.css(stylesheet['.psds-field__container--disabled']),
-      opts.error && glamor.css(stylesheet['.psds-field__container--error'])
-    ),
-  field: (opts: { hasPrefix: boolean; hasSuffix: boolean; size?: string }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-field']),
-      glamor.css(stylesheet[`.psds-field--${opts.size}`]),
-      opts.hasPrefix && glamor.css(stylesheet['.psds-field--prefix']),
-      opts.hasSuffix && glamor.css(stylesheet['.psds-field--suffix'])
-    ),
-  halo: () => glamor.css(stylesheet['.psds-field__halo']),
-  prefix: () => glamor.css(stylesheet['.psds-field__prefix']),
-  suffix: () => glamor.css(stylesheet['.psds-field__suffix']),
-  errorIcon: () => glamor.css(stylesheet['.psds-field__error-icon'])
-}
 
 type InputElements = HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
 
@@ -50,7 +27,7 @@ export interface FieldProps
   onClick?: React.MouseEventHandler<HTMLDivElement>
   prefix?: React.ReactNode
   renderContainer?: React.ForwardRefExoticComponent<React.RefAttributes<any>>
-  renderTag?: React.FC
+  renderTag?: React.FC<React.HTMLAttributes<HTMLElement>>
   size?: ValueOf<typeof sizes>
   subLabel?: React.ReactNode
   suffix?: React.ReactNode
@@ -70,6 +47,7 @@ const Field = forwardRefWithStatics<FieldProps, HTMLDivElement, FieldStatics>(
   (props, forwardedRef) => {
     const {
       children,
+      className,
       disabled,
       error,
       label,
@@ -111,7 +89,12 @@ const Field = forwardRefWithStatics<FieldProps, HTMLDivElement, FieldStatics>(
         }}
       >
         <Container
-          {...styles.container({ disabled, error })}
+          className={classNames(
+            'psds-field__container',
+            disabled && 'psds-field__container--disabled',
+            error && 'psds-field__container--error',
+            className
+          )}
           onClick={handleClick}
           ref={containerRef}
         >
@@ -121,24 +104,25 @@ const Field = forwardRefWithStatics<FieldProps, HTMLDivElement, FieldStatics>(
             <Halo
               error={error}
               gapSize={Halo.gapSizes.small}
-              {...styles.halo()}
+              className="psds-field__halo"
             >
               <Tag
-                {...styles.field({
-                  hasPrefix: !!prefix,
-                  hasSuffix: !!suffix,
-                  size
-                })}
                 {...rest}
+                className={classNames(
+                  'psds-field',
+                  `psds-field--${size}`,
+                  !!prefix && 'psds-field--prefix',
+                  !!suffix && 'psds-field--suffix'
+                )}
               >
-                {prefix && <div {...styles.prefix()}>{prefix}</div>}
+                {prefix && <div className="psds-field__prefix">{prefix}</div>}
 
                 {children}
 
-                {suffix && <div {...styles.suffix()}>{suffix}</div>}
+                {suffix && <div className="psds-field__suffix">{suffix}</div>}
 
                 {error && (
-                  <div {...styles.errorIcon()}>
+                  <div className="psds-field__error-icon">
                     <WarningIcon />
                   </div>
                 )}

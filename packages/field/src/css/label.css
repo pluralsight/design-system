@@ -1,0 +1,12 @@
+.psds-field__label {
+  display: block;
+  font-size: var(--ps-type-font-size-100);
+  font-weight: var(--ps-type-font-weight-500);
+  margin-bottom: var(--ps-layout-spacing-xxsmall);
+}
+.psds-field__label.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-dark);
+}
+.psds-field__label.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-light);
+}

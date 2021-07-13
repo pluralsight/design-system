@@ -64,6 +64,19 @@ const Template: Story<React.ComponentProps<typeof Dropdown>> = args => (
 export const Basic = Template.bind({})
 Basic.args = { ...defaultArgs }
 
+export const Sizes: Story = () => {
+  return (
+    <div>
+      <Dropdown label="Medium" placeholder="Select one" />
+      <Dropdown
+        label="Small"
+        size={Dropdown.sizes.small}
+        placeholder="Select one"
+      />
+    </div>
+  )
+}
+
 export const LabelOnly = Template.bind({})
 LabelOnly.args = {
   ...defaultArgs,

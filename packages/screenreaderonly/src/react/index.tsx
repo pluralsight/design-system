@@ -1,15 +1,20 @@
-import { accessibility } from '@pluralsight/ps-design-system-core'
-import { forwardRefWithAs } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import {
+  forwardRefWithAs,
+  classNames
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-const glamor = glamorDefault || glamorExports
+import '../css/index.css'
 
 const ScreenReaderOnly = forwardRefWithAs<unknown, 'div'>((props, ref) => {
-  const { as: Tag = 'div', ...rest } = props
+  const { as: Tag = 'div', className, ...rest } = props
 
   return (
-    <Tag ref={ref} {...glamor.css(accessibility.screenReaderOnly)} {...rest} />
+    <Tag
+      ref={ref}
+      className={classNames(className, 'psds-screenreader-only')}
+      {...rest}
+    />
   )
 })
 

@@ -5,35 +5,35 @@
   position: relative;
   border-radius: 100%;
 }
-.psds-avatar--size-xSmall {
+.psds-avatar--size-xsmall {
   width: 32px;
   height: 32px;
-  font-size: var(--psTypeFontSize400);
-  font-weight: var(--psTypeFontWeightDefault);
+  font-size: var(--ps-type-font-size-400);
+  font-weight: var(--ps-type-font-weight-default);
 }
 .psds-avatar--size-small {
   width: 48px;
   height: 48px;
-  font-size: var(--psTypeFontSize600);
-  font-weight: var(--psTypeFontWeightDefault);
+  font-size: var(--ps-type-font-size-600);
+  font-weight: var(--ps-type-font-weight-default);
 }
 .psds-avatar--size-medium {
   width: 72px;
   height: 72px;
-  font-size: var(--psTypeFontSizeXXLarge);
-  font-weight: var(--psTypeFontWeight300);
+  font-size: var(--ps-type-font-size-xxlarge);
+  font-weight: var(--ps-type-font-weight300);
 }
 .psds-avatar--size-large {
   width: 96px;
   height: 96px;
-  font-size: var(--psTypeFontSize1000);
-  font-weight: var(--psTypeFontWeight300);
+  font-size: var(--ps-type-font-size-1000);
+  font-weight: var(--ps-type-font-weight-300);
 }
-.psds-avatar--size-xLarge {
+.psds-avatar--size-xlarge {
   width: 160px;
   height: 160px;
-  font-size: var(--psTypeFontSize1200);
-  font-weight: var(--psTypeFontWeight300);
+  font-size: var(--ps-type-font-size-1200);
+  font-weight: var(--ps-type-font-weight-300);
 }
 .psds-avatar__image {
   position: absolute;
@@ -49,8 +49,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: var(--psColorsTextIconHighOnDark);
+  color: var(--ps-colors-text-icon-high-on-dark);
   /* TODO: revert to bg util color after it exists in css vars */
   background-color: rgb(138, 153, 168);
 }
-

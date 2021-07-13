@@ -1,8 +1,8 @@
 /* TODO: create global vars file */
 :root {
-  --asideWidth: 240px;
-  --metaWidth: 276px;
-  --topNavHeight: 56px;
+  --aside-width: 240px;
+  --meta-width: 276px;
+  --top-nav-height: 56px;
 }
 
 .frame {
@@ -13,14 +13,14 @@
   & .container {
     display: flex;
     flex-direction: row;
-    min-height: calc(100vh - var(--topNavHeight));
+    min-height: calc(100vh - var(--top-nav-height));
   }
 
   @media (width >= 768px) {
-    padding-left: var(--asideWidth);
+    padding-left: var(--aside-width);
   }
   @media (width >= 960px) {
-    padding-right: var(--metaWidth);
+    padding-right: var(--meta-width);
   }
 
   &.fullWidth {
@@ -29,31 +29,35 @@
 }
 
 [data-psds-theme='dark'] {
-  color: var(--psColorsTextIconHighOnDark);
-  background: var(--psColorsBackgroundDark1);
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background: var(--ps-colors-background-dark-1);
 
-  --appColorsBackgroundLow: var(--psColorsBackgroundDark1);
-  --appColorsBackgroundMed: var(--psColorsBackgroundDark2);
-  --appColorsBackgroundHigh: var(--psColorsBackgroundDark3);
-  --appColorsBorderLow: var(--psColorsBorderLowOnDark);
-  --appColorsBorderHigh: var(--psColorsBorderHighOnDark);
-  --appColorsPrimaryActionText: var(--psColorsPrimaryActionTextDarkTheme);
-  --appColorsTextIconHigh: var(--psColorsTextIconHighOnDark);
-  --appColorsTextIconLow: var(--psColorsTextIconLowOnDark);
+  --app-colors-background-low: var(--ps-colors-background-dark-1);
+  --app-colors-background-med: var(--ps-colors-background-dark-2);
+  --app-colors-background-high: var(--ps-colors-background-dark-3);
+  --app-colors-border-low: var(--ps-colors-border-low-on-dark);
+  --app-colors-border-high: var(--ps-colors-border-high-on-dark);
+  --app-colors-primary-action-text: var(
+    --ps-colors-primary-action-text-dark-theme
+  );
+  --app-colors-text-icon-high: var(--ps-colors-text-icon-high-on-dark);
+  --app-colors-text-icon-low: var(--ps-colors-text-icon-low-on-dark);
 }
 
 [data-psds-theme='light'] {
-  color: var(--psColorsTextIconHighOnLight);
-  background: var(--psColorsWhite);
+  color: var(--ps-colors-text-icon-high-on-light);
+  background: var(--ps-colors-white);
 
-  --appColorsBackgroundLow: var(--psColorsBackgroundLight3);
-  --appColorsBackgroundMed: var(--psColorsBackgroundLight2);
-  --appColorsBackgroundHigh: var(--psColorsBackgroundLight1);
-  --appColorsBorderLow: var(--psColorsBorderLowOnLight);
-  --appColorsBorderHigh: var(--psColorsBorderHighOnLight);
-  --appColorsPrimaryActionText: var(--psColorsPrimaryActionTextLightTheme);
-  --appColorsTextIconHigh: var(--psColorsTextIconHighOnLight);
-  --appColorsTextIconLow: var(--psColorsTextIconLowOnLight);
+  --app-colors-background-low: var(--ps-colors-background-light-3);
+  --app-colors-background-med: var(--ps-colors-background-light-2);
+  --app-colors-background-high: var(--ps-colors-background-light-1);
+  --app-colors-border-low: var(--ps-colors-border-low-on-light);
+  --app-colors-border-high: var(--ps-colors-border-high-on-light);
+  --app-colors-primary-action-text: var(
+    --ps-colors-primary-action-text-light-theme
+  );
+  --app-colors-text-icon-high: var(--ps-colors-text-icon-high-on-light);
+  --app-colors-text-icon-low: var(--ps-colors-text-icon-low-on-light);
 }
 
 .main {
@@ -61,5 +65,5 @@
   flex: 1 1 auto;
   margin: 0 auto;
   max-width: 1024px;
-  padding: var(--psLayoutSpacingMedium) var(--psLayoutSpacingXLarge);
+  padding: var(--ps-layout-spacing-medium) var(--ps-layout-spacing-xlarge);
 }

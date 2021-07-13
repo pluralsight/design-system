@@ -3,22 +3,21 @@
 exports[`Storyshots Components/Field/SelectField Basic 1`] = `
 Array [
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-0-toggle-button"
       id="downshift-0-label"
     >
       Choose an element
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-b5kzar=""
+        className="psds-field psds-field--medium psds-field--suffix"
       >
         <button
           aria-expanded={false}
@@ -33,10 +32,10 @@ Array [
             Do something
           </span>
           <div
-            data-css-ugy1u5=""
+            className="psds-field__suffix"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -53,7 +52,7 @@ Array [
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -606,28 +605,27 @@ Array [
 
 exports[`Storyshots Components/Field/TextAreaField Basic 1`] = `
 <div
-  data-css-w0yocm=""
+  className="psds-field__container"
   onClick={[Function]}
 >
   <label
-    data-css-5jjrbq=""
+    className="psds-field__label psds-theme--dark"
     htmlFor="text-area__area-unique-id"
     id="text-area__label-unique-id"
   >
     Text area label area
   </label>
   <div
-    data-css-63oe3q=""
-    data-css-8qmpxt=""
+    className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
   >
     <div
-      data-css-rdms3z=""
+      className="psds-field psds-field--medium"
     >
       <div
-        data-css-1swu3ew=""
+        className="psds-field__text-area__container"
       >
         <textarea
-          data-css-lmn5gg=""
+          className="psds-field__text-area"
           id="text-area__area-unique-id"
           onChange={[Function]}
           value=""
@@ -636,7 +634,7 @@ exports[`Storyshots Components/Field/TextAreaField Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-bv851e=""
+    className="psds-field__sub-label psds-theme--dark"
   >
     Area for additional information
   </div>
@@ -645,28 +643,27 @@ exports[`Storyshots Components/Field/TextAreaField Basic 1`] = `
 
 exports[`Storyshots Components/Field/TextAreaField Disabled 1`] = `
 <div
-  data-css-h2yjsn=""
+  className="psds-field__container psds-field__container--disabled"
   onClick={[Function]}
 >
   <label
-    data-css-5jjrbq=""
+    className="psds-field__label psds-theme--dark"
     htmlFor="text-area__area-unique-id"
     id="text-area__label-unique-id"
   >
     Text area label area
   </label>
   <div
-    data-css-63oe3q=""
-    data-css-8qmpxt=""
+    className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
   >
     <div
-      data-css-rdms3z=""
+      className="psds-field psds-field--medium"
     >
       <div
-        data-css-1swu3ew=""
+        className="psds-field__text-area__container"
       >
         <textarea
-          data-css-lmn5gg=""
+          className="psds-field__text-area psds-field__text-area--disabled"
           disabled={true}
           id="text-area__area-unique-id"
           onChange={[Function]}
@@ -676,7 +673,7 @@ exports[`Storyshots Components/Field/TextAreaField Disabled 1`] = `
     </div>
   </div>
   <div
-    data-css-bv851e=""
+    className="psds-field__sub-label psds-theme--dark"
   >
     Area for additional information
   </div>
@@ -685,38 +682,37 @@ exports[`Storyshots Components/Field/TextAreaField Disabled 1`] = `
 
 exports[`Storyshots Components/Field/TextAreaField Error 1`] = `
 <div
-  data-css-w0yocm=""
+  className="psds-field__container psds-field__container--error"
   onClick={[Function]}
 >
   <label
-    data-css-5jjrbq=""
+    className="psds-field__label psds-theme--dark"
     htmlFor="text-area__area-unique-id"
     id="text-area__label-unique-id"
   >
     Text area label area
   </label>
   <div
-    data-css-63oe3q=""
-    data-css-8ff2sc=""
+    className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-field__halo"
   >
     <div
-      data-css-rdms3z=""
+      className="psds-field psds-field--medium"
     >
       <div
-        data-css-1swu3ew=""
+        className="psds-field__text-area__container"
       >
         <textarea
-          data-css-lmn5gg=""
+          className="psds-field__text-area"
           id="text-area__area-unique-id"
           onChange={[Function]}
           value=""
         />
       </div>
       <div
-        data-css-qrpvsu=""
+        className="psds-field__error-icon"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -734,7 +730,7 @@ exports[`Storyshots Components/Field/TextAreaField Error 1`] = `
     </div>
   </div>
   <div
-    data-css-bv851e=""
+    className="psds-field__sub-label psds-theme--dark"
   >
     Area for additional information
   </div>
@@ -743,28 +739,27 @@ exports[`Storyshots Components/Field/TextAreaField Error 1`] = `
 
 exports[`Storyshots Components/Field/TextAreaField With Placeholder 1`] = `
 <div
-  data-css-w0yocm=""
+  className="psds-field__container"
   onClick={[Function]}
 >
   <label
-    data-css-5jjrbq=""
+    className="psds-field__label psds-theme--dark"
     htmlFor="text-area__area-unique-id"
     id="text-area__label-unique-id"
   >
     Text area label area
   </label>
   <div
-    data-css-63oe3q=""
-    data-css-8qmpxt=""
+    className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
   >
     <div
-      data-css-rdms3z=""
+      className="psds-field psds-field--medium"
     >
       <div
-        data-css-1swu3ew=""
+        className="psds-field__text-area__container"
       >
         <textarea
-          data-css-lmn5gg=""
+          className="psds-field__text-area"
           id="text-area__area-unique-id"
           onChange={[Function]}
           placeholder="Enter some text here"
@@ -774,7 +769,7 @@ exports[`Storyshots Components/Field/TextAreaField With Placeholder 1`] = `
     </div>
   </div>
   <div
-    data-css-bv851e=""
+    className="psds-field__sub-label psds-theme--dark"
   >
     Area for additional information
   </div>
@@ -786,28 +781,27 @@ exports[`Storyshots Components/Field/TextInputField Basic 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-rdms3z=""
+        className="psds-field psds-field--medium"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             type="text"
           />
@@ -815,7 +809,7 @@ exports[`Storyshots Components/Field/TextInputField Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -828,28 +822,27 @@ exports[`Storyshots Components/Field/TextInputField Custom Input Tag 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-rdms3z=""
+        className="psds-field psds-field--medium"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             placeholder="tag from render prop"
             style={
@@ -863,7 +856,7 @@ exports[`Storyshots Components/Field/TextInputField Custom Input Tag 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -876,28 +869,27 @@ exports[`Storyshots Components/Field/TextInputField Disabled 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-h2yjsn=""
+    className="psds-field__container psds-field__container--disabled"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-rdms3z=""
+        className="psds-field psds-field--medium"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             disabled={true}
             id="text-input__input-unique-id"
             type="text"
@@ -906,7 +898,7 @@ exports[`Storyshots Components/Field/TextInputField Disabled 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -919,37 +911,36 @@ exports[`Storyshots Components/Field/TextInputField Error 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container psds-field__container--error"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8ff2sc=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-rdms3z=""
+        className="psds-field psds-field--medium"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             type="text"
           />
         </div>
         <div
-          data-css-qrpvsu=""
+          className="psds-field__error-icon"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -967,7 +958,7 @@ exports[`Storyshots Components/Field/TextInputField Error 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -980,28 +971,27 @@ exports[`Storyshots Components/Field/TextInputField Icon Prefix 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-u3gl1=""
+        className="psds-field psds-field--medium psds-field--prefix"
       >
         <div
-          data-css-16bnq5b=""
+          className="psds-field__prefix"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -1015,10 +1005,10 @@ exports[`Storyshots Components/Field/TextInputField Icon Prefix 1`] = `
           </div>
         </div>
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             type="text"
           />
@@ -1026,7 +1016,7 @@ exports[`Storyshots Components/Field/TextInputField Icon Prefix 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -1039,37 +1029,36 @@ exports[`Storyshots Components/Field/TextInputField Icon Suffix 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-b5kzar=""
+        className="psds-field psds-field--medium psds-field--suffix"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             type="text"
           />
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -1085,7 +1074,7 @@ exports[`Storyshots Components/Field/TextInputField Icon Suffix 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -1098,37 +1087,36 @@ exports[`Storyshots Components/Field/TextInputField Password Type 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-b5kzar=""
+        className="psds-field psds-field--medium psds-field--suffix"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             type="password"
           />
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="lock icon"
@@ -1144,7 +1132,7 @@ exports[`Storyshots Components/Field/TextInputField Password Type 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -1157,28 +1145,27 @@ exports[`Storyshots Components/Field/TextInputField Size Small 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-gz81g2=""
+        className="psds-field psds-field--small"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1f28mdy=""
+            className="psds-field__input psds-field__input--small"
             id="text-input__input-unique-id"
             type="text"
           />
@@ -1186,7 +1173,7 @@ exports[`Storyshots Components/Field/TextInputField Size Small 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>
@@ -1205,7 +1192,7 @@ exports[`Storyshots Components/Field/TextInputField Style Override Display Block
       data-css-pifd7f=""
     >
       <div
-        data-css-w0yocm=""
+        className="psds-field__container"
         onClick={[Function]}
         style={
           Object {
@@ -1214,24 +1201,23 @@ exports[`Storyshots Components/Field/TextInputField Style Override Display Block
         }
       >
         <label
-          data-css-5jjrbq=""
+          className="psds-field__label psds-theme--dark"
           htmlFor="text-input__input-unique-id"
           id="text-input__label-unique-id"
         >
           Text input label area
         </label>
         <div
-          data-css-63oe3q=""
-          data-css-8qmpxt=""
+          className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
         >
           <div
-            data-css-rdms3z=""
+            className="psds-field psds-field--medium"
           >
             <div
-              data-css-n9fe5c=""
+              className="psds-field__input__container"
             >
               <input
-                data-css-1nm5z1g=""
+                className="psds-field__input psds-field__input--medium"
                 id="text-input__input-unique-id"
                 type="text"
               />
@@ -1239,7 +1225,7 @@ exports[`Storyshots Components/Field/TextInputField Style Override Display Block
           </div>
         </div>
         <div
-          data-css-bv851e=""
+          className="psds-field__sub-label psds-theme--dark"
         >
           Area for additional information
         </div>
@@ -1254,28 +1240,27 @@ exports[`Storyshots Components/Field/TextInputField With Placeholder 1`] = `
   data-css-z8g6as=""
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="text-input__input-unique-id"
       id="text-input__label-unique-id"
     >
       Text input label area
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-rdms3z=""
+        className="psds-field psds-field--medium"
       >
         <div
-          data-css-n9fe5c=""
+          className="psds-field__input__container"
         >
           <input
-            data-css-1nm5z1g=""
+            className="psds-field__input psds-field__input--medium"
             id="text-input__input-unique-id"
             placeholder="Enter some text here"
             type="text"
@@ -1284,7 +1269,7 @@ exports[`Storyshots Components/Field/TextInputField With Placeholder 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       Area for additional information
     </div>

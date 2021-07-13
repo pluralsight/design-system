@@ -18,6 +18,43 @@ describe('Carousel', () => {
     expect(Carousel.Control).toBeDefined()
   })
 
+  it('composes className in Carousel', () => {
+    const { container } = render(
+      <Carousel className="compose-classname">
+        <Carousel.Item>
+          <div />
+        </Carousel.Item>
+      </Carousel>
+    )
+
+    expect(container.firstChild).toHaveClass('psds-carousel compose-classname')
+  })
+
+  it('composes className in Carousel.Item', () => {
+    const { container } = render(
+      <Carousel.Item className="compose-classname">
+        <div />
+      </Carousel.Item>
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-carousel__item compose-classname'
+    )
+  })
+
+  it('composes className in Carousel.Control', () => {
+    const { container } = render(
+      <Carousel.Control
+        direction="next"
+        className="compose-classname"
+      ></Carousel.Control>
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-carousel__controls__control compose-classname'
+    )
+  })
+
   describe('with a single item', () => {
     beforeEach(() => {
       render(

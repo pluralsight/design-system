@@ -23,6 +23,14 @@ describe('Dialog', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <Dialog disableFocusOnMount className="compose-classname"></Dialog>
+    )
+
+    expect(container.firstChild).toHaveClass('psds-dialog compose-classname')
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

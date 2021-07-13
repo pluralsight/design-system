@@ -1,32 +1,29 @@
 import Collapsible from '@pluralsight/ps-design-system-collapsible'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import { useForceCollapsed } from './context'
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  list: () => glamor.css(stylesheet['.psds-verticaltabs__list']),
-  listCollapsible: () =>
-    glamor.css(stylesheet['.psds-verticaltabs__list--collapsible'])
-}
+import { classNames } from '@pluralsight/ps-design-system-util'
+import '../css/index.css'
 
 interface ListProps extends React.HTMLAttributes<HTMLUListElement> {
   collapsed?: boolean
 }
 
 export const List: React.FC<ListProps> = props => {
-  const { collapsed, ...rest } = props
-  return <ul {...styles.list()} {...rest} />
+  const { collapsed, className, ...rest } = props
+  return (
+    <ul
+      className={classNames('psds-verticaltabs__list', className)}
+      {...rest}
+    />
+  )
 }
 
 interface CollapsibleListProps extends ListProps {
   collapsed?: boolean
 }
 export const CollapsibleList: React.FC<CollapsibleListProps> = props => {
-  const { collapsed, ...rest } = props
+  const { collapsed, className, ...rest } = props
   const forceCollapsed = useForceCollapsed()
   const [open, setOpen] = React.useState(!collapsed)
 
@@ -39,8 +36,11 @@ export const CollapsibleList: React.FC<CollapsibleListProps> = props => {
       isOpen={!forceCollapsed && open}
       tagName="ul"
       {...rest}
-      {...styles.list()}
-      {...styles.listCollapsible()}
+      className={classNames(
+        'psds-verticaltabs__list',
+        'psds-verticaltabs__list--collapsible',
+        className
+      )}
     />
   )
 }

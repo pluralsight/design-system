@@ -20,6 +20,64 @@ describe('ErrorPage', () => {
     expect(getByTestId('undertest')).toBeInTheDocument()
   })
 
+  it('composes className in ErrorPage', () => {
+    const { container } = render(
+      <ErrorPage className="compose-classname" heading={<div />} />
+    )
+
+    expect(container.firstChild).toHaveClass('psds-errorpage compose-classname')
+  })
+
+  it('composes className in ErrorPage.Actions', () => {
+    const { container } = render(
+      <ErrorPage.Actions className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-errorpage__actions compose-classname'
+    )
+  })
+
+  it('composes className in ErrorPage.Caption', () => {
+    const { container } = render(
+      <ErrorPage.Caption className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-errorpage__caption compose-classname'
+    )
+  })
+
+  it('composes className in ErrorPage.ErrorCode', () => {
+    const { container } = render(
+      <ErrorPage.ErrorCode className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-errorpage__error-code compose-classname'
+    )
+  })
+
+  it('composes className in ErrorPage.Heading', () => {
+    const { container } = render(
+      <ErrorPage.Heading className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-errorpage__heading compose-classname'
+    )
+  })
+
+  it('composes className in ErrorPage.Illustration', () => {
+    const { container } = render(
+      <ErrorPage.Illustration className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-errorpage__illustration compose-classname'
+    )
+  })
+
   it('forwards ref', () => {
     const ref = React.createRef<HTMLDivElement>()
     render(

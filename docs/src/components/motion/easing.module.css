@@ -1,41 +1,41 @@
 b {
-  font-weight: var(--psTypeFontWeightBold);
+  font-weight: var(--ps-type-font-weight-bold);
 }
 .easing {
   overflow: hidden;
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .functions {
   display: flex;
   flex-wrap: wrap;
-  margin: calc(var(--psLayoutSpacingLarge) / -2);
+  margin: calc(var(--ps-layout-spacing-large) / -2);
 }
 .functionBlock {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: calc(50% - var(--psLayoutSpacingLarge));
-  margin: calc(var(--psLayoutSpacingLarge) / 2);
-  padding: var(--psLayoutSpacingLarge);
-  background: var(--psColorsBackgroundLight2);
+  width: calc(50% - var(--ps-layout-spacing-large));
+  margin: calc(var(--ps-layout-spacing-large) / 2);
+  padding: var(--ps-layout-spacing-large);
+  background: var(--ps-colors-background-light-2);
   border-radius: 12px;
   overflow: hidden;
 }
 .defaultFunction {
-  margin-top: var(--psLayoutSpacingLarge);
+  margin-top: var(--ps-layout-spacing-large);
   text-align: center;
-  padding: var(--psLayoutSpacingLarge);
-  background: var(--psColorsBackgroundLight2);
+  padding: var(--ps-layout-spacing-large);
+  background: var(--ps-colors-background-light-2);
   border-radius: 12px;
-  font-size: var(--psTypeFontSizeMedium);
-  line-height: var(--psTypeLineHeightStandard);
-  font-weight: var(--psTypeFontWeightLight);
+  font-size: var(--ps-type-font-size-medium);
+  line-height: var(--ps-type-line-height-standard);
+  font-weight: var(--ps-type-font-weight-light);
 }
 .label {
-  font-size: var(--psTypeFontSizeMedium);
-  line-height: var(--psTypeLineHeightStandard);
-  font-weight: var(--psTypeFontWeightLight);
-  margin-bottom: var(--psLayoutSpacingLarge);
+  font-size: var(--ps-type-font-size-medium);
+  line-height: var(--ps-type-line-height-standard);
+  font-weight: var(--ps-type-font-weight-light);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .graphic {
   text-align: center;
@@ -116,7 +116,7 @@ b {
 }
 .dotContainer {
   position: relative;
-  margin-top: var(--psLayoutSpacingMedium);
+  margin-top: var(--ps-layout-spacing-medium);
 }
 .dotContainer1 {
   animation-duration: 3000ms;
@@ -149,7 +149,7 @@ b {
   height: 16px;
   width: 16px;
   border-radius: 50%;
-  background: var(--psColorsPink6);
+  background: var(--ps-colors-pink-6);
 }
 
 @media (width >= 1280px) {
@@ -159,7 +159,7 @@ b {
   .label {
     display: flex;
     flex-direction: column;
-    margin: 0 var(--psLayoutSpacingSmall) 0 0;
+    margin: 0 var(--ps-layout-spacing-small) 0 0;
   }
   .dotContainer {
     margin-top: auto;

@@ -3,36 +3,18 @@ import { CloseIcon } from '@pluralsight/ps-design-system-icon'
 import { P } from '@pluralsight/ps-design-system-text'
 import {
   RefForwardingComponent,
-  ValueOf
+  RefFor,
+  ValueOf,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 const ColorContext = React.createContext<ValueOf<typeof vars.colors>>(
   vars.colors.blue
 )
-
-type StyleFn = (props: BannerProps) => glamorExports.StyleAttribute
-
-const styles: { [name: string]: StyleFn } = {
-  banner: ({ color }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-banner']),
-      glamor.css(stylesheet[`.psds-banner--color-${color}`])
-    ),
-  button: ({ color }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-banner__button']),
-      glamor.css(stylesheet[`.psds-banner__button--color-${color}`])
-    ),
-  dismiss: () => glamor.css(stylesheet['.psds-banner__dismiss']),
-  text: () => glamor.css(stylesheet['.psds-banner__text'])
-}
 
 interface BannerProps
   extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onClick'> {
@@ -49,14 +31,22 @@ interface BannerComponent
   extends RefForwardingComponent<BannerProps, HTMLDivElement, BannerStatics> {}
 
 const Banner = React.forwardRef((props, ref) => {
-  const { color = vars.colors.blue, onClick, ...rest } = props
+  const { className, color = vars.colors.blue, onClick, ...rest } = props
 
   return (
     <ColorContext.Provider value={color}>
-      <div {...styles.banner({ color })} {...rest} ref={ref}>
-        <P {...styles.text({ color })}>{props.children}</P>
+      <div
+        {...rest}
+        ref={ref}
+        className={classNames(
+          'psds-banner',
+          `psds-banner--color-${color}`,
+          className
+        )}
+      >
+        <P className="psds-banner__text">{props.children}</P>
         {props.onClick && (
-          <button {...styles.dismiss(props)} onClick={onClick}>
+          <button className="psds-banner__dismiss" onClick={onClick}>
             <CloseIcon />
           </button>
         )}
@@ -69,14 +59,17 @@ const Button = React.forwardRef<
   HTMLAnchorElement | HTMLButtonElement,
   React.ComponentProps<typeof DSButton>
 >((props, ref) => {
+  const { className, ...rest } = props
   const color = React.useContext(ColorContext)
   return (
     <DSButton
-      {...(props as React.HTMLAttributes<
-        HTMLButtonElement | HTMLAnchorElement
-      >)}
-      {...styles.button({ color })}
+      {...(rest as React.HTMLAttributes<HTMLButtonElement | HTMLAnchorElement>)}
       appearance={DSButton.appearances.stroke}
+      className={classNames(
+        'psds-banner__button',
+        `psds-banner__button--color-${color}`,
+        className
+      )}
       ref={ref as any}
       size={DSButton.sizes.small}
     />

@@ -4,12 +4,25 @@ import { axe } from 'jest-axe'
 import React from 'react'
 
 import * as stories from '../__stories__/heading.story'
+import { Heading } from '../index'
 
 describe('Text', () => {
   describe('Heading', () => {
     const cases = convertStoriesToJestCases(stories)
 
     it.todo('forwards the ref')
+
+    it('composes className', () => {
+      const { container } = render(
+        <Heading className="compose-classname">
+          <h1>test</h1>
+        </Heading>
+      )
+
+      expect(container.firstChild).toHaveClass(
+        'psds-text__heading compose-classname'
+      )
+    })
 
     it.todo('supports polymorphism')
 

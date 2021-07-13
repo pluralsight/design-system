@@ -1,25 +1,9 @@
 import { CheckIcon } from '@pluralsight/ps-design-system-icon'
-import { RefFor } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { RefFor, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { DropdownContext } from '../js/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  item: (isActive: boolean, disabled: boolean) =>
-    glamor.css(
-      stylesheet['.psds-dropdown__item'],
-      disabled && stylesheet['.psds-dropdown__item--disabled'],
-      isActive && stylesheet['.psds-dropdown__item--active']
-    ),
-  itemIcon: () => glamor.css(stylesheet[`.psds-dropdown__item-icon`]),
-  itemEllipsis: () => glamor.css(stylesheet[`.psds-dropdown__item-text`]),
-  itemSelectedIcon: () =>
-    glamor.css(stylesheet['.psds-dropdown__item-selected-icon'])
-}
 
 interface DropdownItemProps
   extends Omit<React.HTMLAttributes<HTMLButtonElement>, 'onClick'> {
@@ -31,7 +15,10 @@ interface DropdownItemProps
 }
 
 export const Item = React.forwardRef<HTMLButtonElement, DropdownItemProps>(
-  ({ disabled, onClick, value, icon, children, ...rest }, forwardedRef) => {
+  (
+    { className, disabled, onClick, value, icon, children, ...rest },
+    forwardedRef
+  ) => {
     const context = React.useContext(DropdownContext)
     const ref = React.useRef<HTMLButtonElement>()
     React.useImperativeHandle(
@@ -65,7 +52,6 @@ export const Item = React.forwardRef<HTMLButtonElement, DropdownItemProps>(
     }
     return (
       <button
-        {...styles.item(active, !!disabled)}
         disabled={disabled}
         onClick={handleClick}
         onBlur={isActive as React.FocusEventHandler}
@@ -76,10 +62,18 @@ export const Item = React.forwardRef<HTMLButtonElement, DropdownItemProps>(
         ref={ref as RefFor<'button'>}
         tabIndex={-1}
         {...rest}
+        className={classNames(
+          'psds-dropdown__item',
+          !!disabled && 'psds-dropdown__item--disabled',
+          active && 'psds-dropdown__item--active',
+          className
+        )}
       >
-        <span {...styles.itemIcon()}>{icon}</span>
-        <span {...styles.itemEllipsis()}>{children}</span>
-        {isSelected && <CheckIcon {...styles.itemSelectedIcon()} />}
+        <span className="psds-dropdown__item-icon">{icon}</span>
+        <span className="psds-dropdown__item-text">{children}</span>
+        {isSelected && (
+          <CheckIcon className="psds-dropdown__item-selected-icon" />
+        )}
       </button>
     )
   }

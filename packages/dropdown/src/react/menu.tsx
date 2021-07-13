@@ -1,31 +1,16 @@
 import {
+  classNames,
   createUniversalPortal,
   useCloseOnDocumentEvents
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import {
   DropdownContext,
   useMenuRef,
   handleMenuKeyDownEvents
 } from '../js/index'
-
-const glamor = glamorDefault || glamorExports
-
-const slide = glamor.keyframes(
-  stylesheet['@keyframes psds-dropdown__menu__keyframes__slide']
-)
-
-const styles = {
-  menuWrapper: () => glamor.css(stylesheet['.psds-dropdown__menu-wrapper']),
-  menu: () =>
-    glamor.css(
-      stylesheet['.psds-dropdown__menu'],
-      stylesheet['.psds-dropdown__menu__animation']({ slide })
-    )
-}
 
 interface DropdownMenuProps extends React.HTMLAttributes<HTMLDivElement> {
   inNode?: HTMLElement
@@ -39,7 +24,8 @@ export const Menu = React.forwardRef<HTMLDivElement, DropdownMenuProps>(((
   props,
   forwardedRef
 ) => {
-  const { inNode, isOpen, menu, menuPosition, buttonRef, ...rest } = props
+  const { className, inNode, isOpen, menu, menuPosition, buttonRef, ...rest } =
+    props
 
   /* eslint-disable-next-line react-hooks/rules-of-hooks */
   const [adjMenuPosition, setAdjMenuPosition] = React.useState<{
@@ -81,9 +67,12 @@ export const Menu = React.forwardRef<HTMLDivElement, DropdownMenuProps>(((
     menu &&
     isOpen &&
     createUniversalPortal(
-      <div {...styles.menuWrapper()} style={adjMenuPosition}>
+      <div
+        className={classNames('psds-dropdown__menu-wrapper', className)}
+        style={adjMenuPosition}
+      >
         <div
-          {...styles.menu()}
+          className="psds-dropdown__menu"
           ref={ref}
           role="listbox"
           {...rest}

@@ -4,29 +4,29 @@
 .example-grid {
   display: inline-grid;
   grid-template-columns: repeat(4, minmax(0, auto));
-  gap: var(--psLayoutSpacingMedium);
+  gap: var(--ps-layout-spacing-medium);
   justify-items: start;
 }
 .example-grid--col-2 {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, auto));
-  gap: var(--psLayoutSpacingMedium);
+  gap: var(--ps-layout-spacing-medium);
   justify-items: start;
 }
 .example-grid--col-3 {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, auto));
-  gap: var(--psLayoutSpacingMedium);
+  gap: var(--ps-layout-spacing-medium);
   justify-items: start;
 }
 .example-grid--col-5 {
   display: inline-grid;
   grid-template-columns: repeat(5, minmax(0, auto));
-  gap: var(--psLayoutSpacingMedium);
+  gap: var(--ps-layout-spacing-medium);
   justify-items: start;
 }
 .example-grid--spaced > * {
-  margin: var(--psLayoutSpacingSmall);
+  margin: var(--ps-layout-spacing-small);
 }
 
 .example-flex-column {
@@ -37,7 +37,7 @@
 }
 
 .example-flex-column > * {
-  margin-bottom: var(--psLayoutSpacingMedium);
+  margin-bottom: var(--ps-layout-spacing-medium);
 }
 
 .example-flex-row {
@@ -47,7 +47,7 @@
 }
 
 .example-flex-row > :not(:last-child) {
-  margin-right: var(--psLayoutSpacingMedium);
+  margin-right: var(--ps-layout-spacing-medium);
 }
 
 .algolia-autocomplete .ds-dropdown-menu { 

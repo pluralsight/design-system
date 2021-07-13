@@ -1,7 +1,7 @@
 .box {
-  padding: var(--psLayoutSpacingLarge);
+  padding: var(--ps-layout-spacing-large);
   border-radius: 12px;
   overflow: hidden;
-  background: var(--appColorsBackgroundMed);
-  color: var(--appColorsTextIconHigh);
+  background: var(--app-colors-background-med);
+  color: var(--app-colors-text-icon-high);
 }

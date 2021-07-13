@@ -4,5 +4,5 @@
   border-collapse: collapse;
   table-layout: fixed;
   text-align: left;
-  margin-top: var(--psLayoutSpacingLarge);
+  margin-top: var(--ps-layout-spacing-large);
 }

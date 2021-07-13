@@ -20,13 +20,23 @@ describe('Link', () => {
   })
 
   it('forwards ref', () => {
-    const ref = React.createRef<HTMLDivElement>()
+    const ref = React.createRef<HTMLAnchorElement>()
     render(
       <Link ref={ref}>
         <a href="#">A label</a>
       </Link>
     )
     expect(ref).not.toBeNull()
+  })
+
+  it('composes className', () => {
+    const { container } = render(
+      <Link className="compose-classname">
+        <a href="#">A label</a>
+      </Link>
+    )
+
+    expect(container.firstChild).toHaveClass('psds-link compose-classname')
   })
 
   describe.each(cases)('%s story', (_name, Story) => {

@@ -1,0 +1,33 @@
+.psds-page-heading-layout {
+  padding: 24px 0;
+}
+.psds-page-heading-layout__actions {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.psds-page-heading-layout__actions > * {
+  margin-right: 12px;
+  margin-bottom: 16px;
+}
+@media (min-width: 769px) {
+  .psds-page-heading-layout__heading {
+    display: flex;
+    align-items: center;
+  }
+  .psds-page-heading-layout__actions {
+    margin-left: auto;
+    padding-left: var(--ps-layout-spacing-large);
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  .psds-page-heading-layout__actions > * {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .psds-page-heading-layout__actions > * + * {
+    margin-left: var(--ps-layout-spacing-small);
+  }
+}

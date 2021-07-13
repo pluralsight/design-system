@@ -1,0 +1,16 @@
+.psds-link--appearance-default.psds-theme--light {
+  color: var(--ps-colors-primary-action-text-light-theme);
+  text-decoration: none;
+}
+.psds-link--appearance-default.psds-theme--dark {
+  color: var(--ps-colors-primary-action-text-dark-theme);
+  text-decoration: none;
+}
+.psds-link--appearance-subtle {
+  color: currentColor;
+  text-decoration: underline;
+}
+.psds-link:hover {
+  color: var(--ps-colors-primary-action-background);
+  text-decoration: underline;
+}

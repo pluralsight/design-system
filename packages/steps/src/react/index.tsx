@@ -1,110 +1,15 @@
-import { ValueOf, isString } from '@pluralsight/ps-design-system-util'
 import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import glamorDefault, * as glamorExports from 'glamor'
+  ValueOf,
+  isString,
+  classNames
+} from '@pluralsight/ps-design-system-util'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
 
 import Context, { ContextValue, initialContext } from './context'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  steps: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: { orientation: ValueOf<typeof vars.orientations> }
-  ) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-steps']),
-      glamor.css(stylesheet[`.psds-steps.psds-theme--${themeName}`]),
-      glamor.css(stylesheet[`.psds-steps--${opts.orientation}`])
-    ),
-  step: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: {
-      interactive: boolean
-      orientation: ValueOf<typeof vars.orientations>
-      size: ValueOf<typeof vars.sizes>
-      status: ValueOf<typeof vars.statuses>
-    }
-  ) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-steps__step']),
-      glamor.css(stylesheet[`.psds-steps__step.psds-theme--${themeName}`]),
-      glamor.css(stylesheet[`.psds-steps__step--${opts.orientation}`]),
-      glamor.css(stylesheet[`.psds-steps__step--${opts.size}`]),
-      glamor.css(stylesheet[`.psds-steps__step--${opts.status}`]),
-      opts.interactive &&
-        glamor.css(stylesheet['.psds-steps__step--interactive'])
-    ),
-
-  title: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: {
-      size: ValueOf<typeof vars.sizes>
-      status: ValueOf<typeof vars.statuses>
-    }
-  ) => {
-    const theme = `.psds-theme--${themeName}`
-    const status = `.psds-steps__title--${opts.status}`
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-steps__title']),
-      glamor.css(stylesheet['.psds-steps__title' + theme]),
-      glamor.css(stylesheet[`.psds-steps__title--${opts.size}`]),
-      glamor.css(stylesheet[status]),
-      glamor.css(stylesheet[status + theme])
-    )
-  },
-
-  description: (opts: {
-    size: ValueOf<typeof vars.sizes>
-    status: ValueOf<typeof vars.statuses>
-  }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-steps__description']),
-      glamor.css(stylesheet[`.psds-steps__description--${opts.size}`]),
-      glamor.css(stylesheet[`.psds-steps__description--${opts.status}`])
-    ),
-
-  markerContainer: (opts: { size: ValueOf<typeof vars.sizes> }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-steps__marker-container']),
-      glamor.css(stylesheet[`.psds-steps__marker-container--${opts.size}`])
-    ),
-
-  marker: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: {
-      counter: boolean
-      size: ValueOf<typeof vars.sizes>
-      status: ValueOf<typeof vars.statuses>
-    }
-  ) => {
-    const theme = `.psds-theme--${themeName}`
-    const status = `.psds-steps__marker--${opts.status}`
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-steps__marker']),
-      glamor.css(stylesheet['.psds-steps__marker' + theme]),
-      glamor.css(stylesheet[`.psds-steps__marker--${opts.size}`]),
-      glamor.css(stylesheet[status]),
-      glamor.css(stylesheet[status + theme]),
-      !opts.counter &&
-        glamor.css(stylesheet['.psds-steps__marker--hide-counter'])
-    )
-  },
-  markerCircle: () => glamor.css(stylesheet['.psds-steps__marker__circle']),
-  markerCheck: (opts: { status: ValueOf<typeof vars.statuses> }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-steps__marker__check']),
-      glamor.css(stylesheet[`.psds-steps__marker__check--${opts.status}`])
-    )
-}
 
 interface StepsStatics {
   Step: typeof Step
@@ -128,6 +33,7 @@ const Steps = React.forwardRef<HTMLDivElement, StepsProps>((props, ref) => {
     counter = initialContext.counter,
     orientation = initialContext.orientation,
     size = initialContext.size,
+    className,
     ...rest
   } = props
 
@@ -136,7 +42,16 @@ const Steps = React.forwardRef<HTMLDivElement, StepsProps>((props, ref) => {
 
   return (
     <Context.Provider value={contextValue}>
-      <div ref={ref} {...styles.steps(themeName, { orientation })} {...rest} />
+      <div
+        ref={ref}
+        className={classNames(
+          className,
+          'psds-steps',
+          `psds-theme--${themeName}`,
+          `psds-steps--${orientation}`
+        )}
+        {...rest}
+      />
     </Context.Provider>
   )
 }) as React.ForwardRefExoticComponent<StepsProps> & StepsStatics
@@ -162,6 +77,7 @@ const Step = React.forwardRef<HTMLDivElement, StepProps>((props, ref) => {
     marker: StepMarker = Marker,
     renderMarkerContainer = defaultMarkerContainer,
     status,
+    className,
     ...rest
   } = props
 
@@ -178,20 +94,46 @@ const Step = React.forwardRef<HTMLDivElement, StepProps>((props, ref) => {
   return (
     <div
       ref={ref}
-      {...styles.step(themeName, { interactive, orientation, size, status })}
+      className={classNames(
+        className,
+        'psds-steps__step',
+        `psds-theme--${themeName}`,
+        `psds-steps__step--${orientation}`,
+        `psds-steps__step--${size}`,
+        `psds-steps__step--${status}`,
+        interactive && 'psds-steps__step--interactive'
+      )}
       {...rest}
     >
-      <MarkerContainer {...styles.markerContainer({ size })}>
+      <MarkerContainer
+        className={classNames(
+          'psds-steps__marker-container',
+          `psds-steps__marker-container--${size}`
+        )}
+      >
         <StepMarker status={status} />
       </MarkerContainer>
 
       <div>
-        <div {...styles.title(themeName, { size, status })}>
+        <div
+          className={classNames(
+            'psds-steps__title',
+            `psds-theme--${themeName}`,
+            `psds-steps__title--${size}`,
+            `psds-steps__title--${status}`
+          )}
+        >
           {isString(children) ? <p>{children}</p> : children}
         </div>
 
         {description && (
-          <div {...styles.description({ size, status })}>
+          <div
+            className={classNames(
+              'psds-steps__description',
+              `psds-steps__description--${size}`,
+              `psds-steps__description--${status}`
+            )}
+          >
             {isString(description) ? <p>{description}</p> : description}
           </div>
         )}
@@ -207,7 +149,7 @@ interface MarkerProps
 }
 
 const Marker = React.forwardRef<HTMLDivElement, MarkerProps>((props, ref) => {
-  const { status, ...rest } = props
+  const { status, className, ...rest } = props
 
   const themeName = useTheme()
   const { counter, size } = React.useContext(Context)
@@ -224,9 +166,16 @@ const Marker = React.forwardRef<HTMLDivElement, MarkerProps>((props, ref) => {
   return (
     <div
       ref={ref}
-      {...styles.marker(themeName, { counter, size, status })}
-      {...glamor.css({ width: diameter, height: diameter })}
+      className={classNames(
+        className,
+        `psds-theme--${themeName}`,
+        'psds-steps__marker',
+        `psds-steps__marker--${size}`,
+        `psds-steps__marker--${status}`,
+        counter && 'psds-steps__marker--hide-counter'
+      )}
       {...rest}
+      style={{ width: diameter, height: diameter, ...rest.style }}
     >
       <svg viewBox={`0 0 ${diameter} ${diameter}`}>
         <circle
@@ -234,7 +183,7 @@ const Marker = React.forwardRef<HTMLDivElement, MarkerProps>((props, ref) => {
           cy={diameter / 2}
           r={radius}
           strokeWidth={stroke}
-          {...styles.markerCircle()}
+          className={'psds-steps__marker__circle'}
         />
 
         <polyline
@@ -244,7 +193,10 @@ const Marker = React.forwardRef<HTMLDivElement, MarkerProps>((props, ref) => {
             ${diameter / 2.3} ${diameter / 1.5},
             ${diameter / 1.4} ${diameter / 3}
           `}
-          {...styles.markerCheck({ status })}
+          className={classNames(
+            'psds-steps__marker__check',
+            `psds-steps__marker__check--${status}`
+          )}
         />
       </svg>
     </div>

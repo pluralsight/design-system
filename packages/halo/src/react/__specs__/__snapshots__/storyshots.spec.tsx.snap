@@ -2,7 +2,7 @@
 
 exports[`Storyshots Components/Halo Basic 1`] = `
 <div
-  data-css-ctre2o=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-default psds-halo--visible-on-focus"
 >
   <div />
 </div>
@@ -10,7 +10,7 @@ exports[`Storyshots Components/Halo Basic 1`] = `
 
 exports[`Storyshots Components/Halo Error 1`] = `
 <div
-  data-css-in6gqi=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-default psds-halo--error psds-halo--visible-on-focus"
 >
   <div />
 </div>
@@ -18,17 +18,23 @@ exports[`Storyshots Components/Halo Error 1`] = `
 
 exports[`Storyshots Components/Halo Gap Sizes 1`] = `
 <div
-  data-css-1gfhbu8=""
+  style={
+    Object {
+      "display": "grid",
+      "gap": "20px",
+      "gridTemplateColumns": "1fr 1fr",
+    }
+  }
 >
   <div
-    data-css-77dl98=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-default psds-halo--visible psds-halo--visible-on-focus"
   >
     <div>
       default
     </div>
   </div>
   <div
-    data-css-77dl98=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible psds-halo--visible-on-focus"
   >
     <div>
       small
@@ -39,7 +45,7 @@ exports[`Storyshots Components/Halo Gap Sizes 1`] = `
 
 exports[`Storyshots Components/Halo Not Visible On Focus 1`] = `
 <div
-  data-css-rmw7at=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-default"
 >
   <div />
 </div>
@@ -47,17 +53,23 @@ exports[`Storyshots Components/Halo Not Visible On Focus 1`] = `
 
 exports[`Storyshots Components/Halo Shapes 1`] = `
 <div
-  data-css-1gfhbu8=""
+  style={
+    Object {
+      "display": "grid",
+      "gap": "20px",
+      "gridTemplateColumns": "1fr 1fr",
+    }
+  }
 >
   <div
-    data-css-77dl98=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-default psds-halo--visible psds-halo--visible-on-focus"
   >
     <div>
       default
     </div>
   </div>
   <div
-    data-css-1jg9j68=""
+    className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--visible psds-halo--visible-on-focus"
   >
     <div>
       pill
@@ -68,7 +80,7 @@ exports[`Storyshots Components/Halo Shapes 1`] = `
 
 exports[`Storyshots Components/Halo Visible 1`] = `
 <div
-  data-css-77dl98=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-default psds-halo--visible psds-halo--visible-on-focus"
 >
   <div />
 </div>

@@ -1,29 +1,31 @@
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { HTMLPropsFor, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 
-const glamor = glamorDefault || glamorExports
-
-const styles = (themeName: ValueOf<typeof themeNames>) => {
-  const label = 'psds-dropdown__sub-label'
-
-  return glamor.compose(
-    glamor.css(stylesheet[`.${label}`]),
-    glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`])
-  )
+interface SubLabelProps extends HTMLPropsFor<HTMLDivElement> {
+  subLabel?: React.ReactNode
 }
 
-export const SubLabel: React.FC<{ subLabel?: React.ReactNode }> = ({
-  subLabel
+export const SubLabel: React.FC<SubLabelProps> = ({
+  className,
+  subLabel,
+  ...rest
 }) => {
   const themeName = useTheme()
-  return subLabel ? <div {...styles(themeName)}>{subLabel}</div> : null
+  return subLabel ? (
+    <div
+      {...rest}
+      className={classNames(
+        'psds-dropdown__sub-label',
+        `psds-theme--${themeName}`,
+        className
+      )}
+    >
+      {subLabel}
+    </div>
+  ) : null
 }
 
 SubLabel.displayName = 'Dropdown.SubLabel'

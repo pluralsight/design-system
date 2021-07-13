@@ -7,15 +7,13 @@ import {
 } from '@pluralsight/ps-design-system-theme'
 import {
   ValueOf,
-  RefForwardingComponent
+  RefForwardingComponent,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 const calcRowsPxHeight = (rows: React.ReactText) => {
   const int = (varVal: string) => parseInt(varVal.replace('px', ''), 10)
@@ -26,7 +24,7 @@ const calcRowsPxHeight = (rows: React.ReactText) => {
 }
 
 const styles = {
-  error: () => glamor.css(stylesheet['.psds-text-area__error']),
+  error: () => 'psds-text-area__error',
   field: (
     themeName: ValueOf<typeof themeNames>,
     appearance: ValueOf<typeof vars.appearances>,
@@ -34,45 +32,23 @@ const styles = {
   ) => {
     const label = 'psds-text-area__field'
 
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--appearance--${appearance}`]),
-      glamor.css(
-        stylesheet[
-          `.${label}--appearance-${appearance}.psds-theme--${themeName}`
-        ]
-      ),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`]),
-      error &&
-        glamor.css(stylesheet[`.${label}--error.psds-theme--${themeName}`])
+    return classNames(
+      label,
+      `${label}--appearance-${appearance}`,
+      `psds-theme--${themeName}`,
+      error && `${label}--error`
     )
   },
-  fieldContainer: () =>
-    glamor.css(stylesheet['.psds-text-area__field-container']),
+  fieldContainer: () => 'psds-text-area__field-container',
   textarea: (disabled: boolean) => {
     const label = 'psds-text-area'
 
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      disabled && glamor.css(stylesheet[`.${label}--disabled`])
-    )
+    return classNames(label, disabled && `${label}--disabled`)
   },
-  label: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'psds-text-area__label'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`])
-    )
-  },
-  subLabel: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'psds-text-area__sub-label'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`])
-    )
-  }
+  label: (themeName: ValueOf<typeof themeNames>) =>
+    classNames('psds-text-area__label', `psds-theme--${themeName}`),
+  subLabel: (themeName: ValueOf<typeof themeNames>) =>
+    classNames('psds-text-area__sub-label', `psds-theme--${themeName}`)
 }
 
 export interface TextAreaStatics {
@@ -118,13 +94,16 @@ const TextArea = React.forwardRef(
     const themeName = useTheme()
 
     return (
-      <label {...styles.textarea(disabled)} style={style} className={className}>
-        {label && <div {...styles.label(themeName)}>{label}</div>}
-        <div {...styles.fieldContainer()}>
+      <label
+        style={style}
+        className={classNames(styles.textarea(disabled), className)}
+      >
+        {label && <div className={styles.label(themeName)}>{label}</div>}
+        <div className={styles.fieldContainer()}>
           <Halo error={error} gapSize={Halo.gapSizes.small}>
             <textarea
               {...rest}
-              {...styles.field(themeName, appearance, error)}
+              className={styles.field(themeName, appearance, error)}
               disabled={disabled}
               placeholder={placeholder}
               ref={ref}
@@ -133,13 +112,15 @@ const TextArea = React.forwardRef(
           </Halo>
 
           {error && (
-            <div {...styles.error()}>
+            <div className={styles.error()}>
               <WarningIcon />
             </div>
           )}
         </div>
 
-        {subLabel && <div {...styles.subLabel(themeName)}>{subLabel}</div>}
+        {subLabel && (
+          <div className={styles.subLabel(themeName)}>{subLabel}</div>
+        )}
       </label>
     )
   }

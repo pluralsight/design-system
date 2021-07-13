@@ -1,41 +1,16 @@
-import { RefFor, ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import {
+  RefFor,
+  ValueOf,
+  classNames,
+  dashify
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { origins, tagName as tagNames } from '../vars/index'
 
 import { ActionMenuContext } from './context'
 import { Arrow } from './arrow'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  itemContainer: ({
-    active,
-    disabled
-  }: Pick<ItemProps, 'active' | 'disabled'>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-actionmenu__item-container']),
-      disabled && glamor.css(stylesheet['.psds-actionmenu__item--disabled']),
-      active &&
-        glamor.css(stylesheet['.psds-actionmenu__item-container--active'])
-    ),
-  item: ({ hasSubMenu }: { hasSubMenu: boolean }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-actionmenu__item']),
-      hasSubMenu && glamor.css(stylesheet['.psds-actionmenu__item--nested'])
-    ),
-  inner: () => glamor.css(stylesheet['.psds-actionmenu__item-inner']),
-  nested: ({ origin }: { origin?: ValueOf<typeof origins> }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-actionmenu']),
-      glamor.css(stylesheet['.psds-actionmenu__nested']),
-      glamor.css(
-        stylesheet[`.psds-actionmenu__nested.psds-actionmenu--origin-${origin}`]
-      )
-    )
-}
 
 interface ItemProps extends React.HTMLAttributes<HTMLLIElement> {
   active?: boolean
@@ -122,7 +97,11 @@ export const Item = React.forwardRef<HTMLLIElement, ItemProps>(
 
     return (
       <li
-        {...styles.itemContainer({ active, disabled })}
+        className={classNames(
+          'psds-actionmenu__item-container',
+          disabled && 'psds-actionmenu__item--disabled',
+          active && 'psds-actionmenu__item-container--active'
+        )}
         data-disabled={disabled}
         onKeyDown={handleKeyDown}
         onMouseOut={handleMouseOut}
@@ -132,7 +111,6 @@ export const Item = React.forwardRef<HTMLLIElement, ItemProps>(
         tabIndex={!disabled ? -1 : undefined}
       >
         <Component
-          {...styles.item({ hasSubMenu })}
           aria-haspopup={!!nested}
           onClick={handleClick}
           role="menuitem"
@@ -141,15 +119,25 @@ export const Item = React.forwardRef<HTMLLIElement, ItemProps>(
           {...(rest as React.HTMLAttributes<
             HTMLAnchorElement | HTMLButtonElement
           >)}
+          className={classNames(
+            'psds-actionmenu__item',
+            hasSubMenu && 'psds-actionmenu__item--nested'
+          )}
         >
-          <span className={className} {...styles.inner()}>
+          <span
+            className={classNames('psds-actionmenu__item-inner', className)}
+          >
             {children}
             {hasSubMenu && <Arrow />}
           </span>
         </Component>
 
         <ul
-          {...styles.nested({ origin: origin || originContext })}
+          className={classNames(
+            'psds-actionmenu',
+            'psds-actionmenu__nested',
+            `psds-actionmenu--origin-${dashify(origin || originContext)}`
+          )}
           aria-expanded={open}
           onKeyDown={handleArrowLeft}
           ref={subMenuRef}

@@ -5,17 +5,17 @@ exports[`Storyshots Components/Note Actions Visible On Hover 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -37,25 +37,25 @@ exports[`Storyshots Components/Note Actions Visible On Hover 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
         <div
-          data-css-1x9vn53=""
+          className="psds-note__action-bar psds-theme--dark"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -71,29 +71,29 @@ exports[`Storyshots Components/Note Actions Visible On Hover 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -109,17 +109,17 @@ exports[`Storyshots Components/Note Actions With Long Heading 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -141,25 +141,25 @@ exports[`Storyshots Components/Note Actions With Long Heading 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           This is probably the greatest thing that's ever happened in my life
         </div>
         <div
-          data-css-1cuwhss=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Bookmark"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -173,11 +173,11 @@ exports[`Storyshots Components/Note Actions With Long Heading 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -193,29 +193,29 @@ exports[`Storyshots Components/Note Actions With Long Heading 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -231,51 +231,51 @@ exports[`Storyshots Components/Note Actions With No Author 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
         </div>
         <div
-          data-css-509omt=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible psds-note__action-bar--meta-sibling"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Bookmark"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -289,11 +289,11 @@ exports[`Storyshots Components/Note Actions With No Author 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -318,62 +318,62 @@ exports[`Storyshots Components/Note Actions With No Author Long Meta 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             It is impossible to count the grand contributions of this great author
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             Levels heretofore unknown in the battle for truth and knowledge
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             A length of such amazing lengthitude so-as to blow the mind
           </span>
         </div>
         <div
-          data-css-509omt=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible psds-note__action-bar--meta-sibling"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Bookmark"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -387,11 +387,11 @@ exports[`Storyshots Components/Note Actions With No Author Long Meta 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -416,31 +416,31 @@ exports[`Storyshots Components/Note Actions With No Meta 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-1cuwhss=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Bookmark"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -454,11 +454,11 @@ exports[`Storyshots Components/Note Actions With No Meta 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -483,17 +483,17 @@ exports[`Storyshots Components/Note Basic 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -515,41 +515,41 @@ exports[`Storyshots Components/Note Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -565,23 +565,23 @@ exports[`Storyshots Components/Note In A List 1`] = `
   data-css-yto836=""
 >
   <ol
-    data-css-17bsnt1=""
+    className="psds-note__list"
   >
     <li
-      data-css-pu8y6x=""
+      className="psds-note__list-item psds-theme--dark"
     >
       <div
-        data-css-ae1vww=""
+        className="psds-note psds-theme--dark"
         onClick={[Function]}
         onMouseOut={[Function]}
         onMouseOver={[Function]}
       >
         <div
-          data-css-1kfsc44=""
+          className="psds-note__aside"
         >
           <div
             aria-hidden={true}
-            className="psds-avatar psds-avatar--size-xSmall"
+            className="psds-avatar psds-avatar--size-xsmall"
           >
             <img
               className="psds-avatar__image"
@@ -603,41 +603,41 @@ exports[`Storyshots Components/Note In A List 1`] = `
           </div>
         </div>
         <div
-          data-css-odzpq7=""
+          className="psds-note__contents psds-theme--dark"
         >
           <div
-            data-css-1wkpnw7=""
+            className="psds-note__header"
           >
             <div
-              data-css-191rnud=""
+              className="psds-note__heading"
             >
               Bob Ross
             </div>
           </div>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
           </p>
           <div
-            data-css-126k7w0=""
+            className="psds-note__footer"
           >
             <div
-              data-css-11wosax=""
+              className="psds-note__metadata psds-theme--dark"
             >
               <span
-                data-css-1plyjau=""
+                className="psds-note__metadata-datum psds-theme--dark"
               >
                 meta first
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                className="psds-note__metadata-dot"
               >
                 ·
               </span>
               <span
-                data-css-1plyjau=""
+                className="psds-note__metadata-datum psds-theme--dark"
               >
                 meta second
               </span>
@@ -647,20 +647,20 @@ exports[`Storyshots Components/Note In A List 1`] = `
       </div>
     </li>
     <li
-      data-css-pu8y6x=""
+      className="psds-note__list-item psds-theme--dark"
     >
       <div
-        data-css-ae1vww=""
+        className="psds-note psds-theme--dark"
         onClick={[Function]}
         onMouseOut={[Function]}
         onMouseOver={[Function]}
       >
         <div
-          data-css-1kfsc44=""
+          className="psds-note__aside"
         >
           <div
             aria-hidden={true}
-            className="psds-avatar psds-avatar--size-xSmall"
+            className="psds-avatar psds-avatar--size-xsmall"
           >
             <img
               className="psds-avatar__image"
@@ -682,41 +682,41 @@ exports[`Storyshots Components/Note In A List 1`] = `
           </div>
         </div>
         <div
-          data-css-odzpq7=""
+          className="psds-note__contents psds-theme--dark"
         >
           <div
-            data-css-1wkpnw7=""
+            className="psds-note__header"
           >
             <div
-              data-css-191rnud=""
+              className="psds-note__heading"
             >
               Bob Ross
             </div>
           </div>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
           </p>
           <div
-            data-css-126k7w0=""
+            className="psds-note__footer"
           >
             <div
-              data-css-11wosax=""
+              className="psds-note__metadata psds-theme--dark"
             >
               <span
-                data-css-1plyjau=""
+                className="psds-note__metadata-datum psds-theme--dark"
               >
                 meta first
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                className="psds-note__metadata-dot"
               >
                 ·
               </span>
               <span
-                data-css-1plyjau=""
+                className="psds-note__metadata-datum psds-theme--dark"
               >
                 meta second
               </span>
@@ -726,20 +726,20 @@ exports[`Storyshots Components/Note In A List 1`] = `
       </div>
     </li>
     <li
-      data-css-pu8y6x=""
+      className="psds-note__list-item psds-theme--dark"
     >
       <div
-        data-css-ae1vww=""
+        className="psds-note psds-theme--dark"
         onClick={[Function]}
         onMouseOut={[Function]}
         onMouseOver={[Function]}
       >
         <div
-          data-css-1kfsc44=""
+          className="psds-note__aside"
         >
           <div
             aria-hidden={true}
-            className="psds-avatar psds-avatar--size-xSmall"
+            className="psds-avatar psds-avatar--size-xsmall"
           >
             <img
               className="psds-avatar__image"
@@ -761,41 +761,41 @@ exports[`Storyshots Components/Note In A List 1`] = `
           </div>
         </div>
         <div
-          data-css-odzpq7=""
+          className="psds-note__contents psds-theme--dark"
         >
           <div
-            data-css-1wkpnw7=""
+            className="psds-note__header"
           >
             <div
-              data-css-191rnud=""
+              className="psds-note__heading"
             >
               Bob Ross
             </div>
           </div>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
           </p>
           <div
-            data-css-126k7w0=""
+            className="psds-note__footer"
           >
             <div
-              data-css-11wosax=""
+              className="psds-note__metadata psds-theme--dark"
             >
               <span
-                data-css-1plyjau=""
+                className="psds-note__metadata-datum psds-theme--dark"
               >
                 meta first
               </span>
               <span
                 aria-hidden={true}
-                data-css-kykfz1=""
+                className="psds-note__metadata-dot"
               >
                 ·
               </span>
               <span
-                data-css-1plyjau=""
+                className="psds-note__metadata-datum psds-theme--dark"
               >
                 meta second
               </span>
@@ -813,17 +813,17 @@ exports[`Storyshots Components/Note Linked Metadata 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -845,33 +845,33 @@ exports[`Storyshots Components/Note Linked Metadata 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             <a
-              data-css-1o01808=""
+              className="psds-link psds-link--appearance-default psds-theme--dark"
               href="#"
             >
               i'm a link
@@ -879,15 +879,15 @@ exports[`Storyshots Components/Note Linked Metadata 1`] = `
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             <a
-              data-css-1f737qx=""
+              className="psds-link psds-link--appearance-subtle"
               href="#"
             >
               i'm a subtle link
@@ -905,17 +905,17 @@ exports[`Storyshots Components/Note Long Metadata 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -937,52 +937,52 @@ exports[`Storyshots Components/Note Long Metadata 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             It is impossible to count the grand contributions of this great author
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             Levels heretofore unknown in the battle for truth and knowledge
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             A length of such amazing lengthitude so-as to blow the mind
           </span>
@@ -998,38 +998,38 @@ exports[`Storyshots Components/Note No Author 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1045,17 +1045,17 @@ exports[`Storyshots Components/Note Single Action 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1077,25 +1077,25 @@ exports[`Storyshots Components/Note Single Action 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
         <div
-          data-css-1cuwhss=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1111,29 +1111,29 @@ exports[`Storyshots Components/Note Single Action 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1149,17 +1149,17 @@ exports[`Storyshots Components/Note Three Actions 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1181,25 +1181,25 @@ exports[`Storyshots Components/Note Three Actions 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
         <div
-          data-css-1cuwhss=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Bookmark"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1213,11 +1213,11 @@ exports[`Storyshots Components/Note Three Actions 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Analytics"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1231,11 +1231,11 @@ exports[`Storyshots Components/Note Three Actions 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1251,29 +1251,29 @@ exports[`Storyshots Components/Note Three Actions 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1289,17 +1289,17 @@ exports[`Storyshots Components/Note Two Actions 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1321,25 +1321,25 @@ exports[`Storyshots Components/Note Two Actions 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
         <div
-          data-css-1cuwhss=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="Bookmark"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1353,11 +1353,11 @@ exports[`Storyshots Components/Note Two Actions 1`] = `
             </div>
           </button>
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1373,29 +1373,29 @@ exports[`Storyshots Components/Note Two Actions 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1411,17 +1411,17 @@ exports[`Storyshots Components/Note With Action Menu 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1443,26 +1443,26 @@ exports[`Storyshots Components/Note With Action Menu 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
         <div
-          data-css-1cuwhss=""
+          className="psds-note__action-bar psds-theme--dark psds-note__action-bar--action-bar-visible"
         >
           <button
-            data-css-td0jeq=""
+            className="psds-note__action psds-theme--dark"
             onClick={[Function]}
             title="More"
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -1485,29 +1485,29 @@ exports[`Storyshots Components/Note With Action Menu 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1523,17 +1523,17 @@ exports[`Storyshots Components/Note With H 1 Heading 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1555,13 +1555,13 @@ exports[`Storyshots Components/Note With H 1 Heading 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           <h1>
             Bob Ross
@@ -1569,29 +1569,29 @@ exports[`Storyshots Components/Note With H 1 Heading 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1607,17 +1607,17 @@ exports[`Storyshots Components/Note With Heading Component 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1639,45 +1639,45 @@ exports[`Storyshots Components/Note With Heading Component 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           <h3
-            data-css-1gbfzly=""
+            className="psds-text__heading psds-text__heading--size-medium psds-text__heading--color-primary psds-theme--dark"
           >
             Bob Ross
           </h3>
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1693,13 +1693,13 @@ exports[`Storyshots Components/Note With Linked Avatar 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <a
         aria-label="Bob Ross"
@@ -1707,7 +1707,7 @@ exports[`Storyshots Components/Note With Linked Avatar 1`] = `
       >
         <div
           aria-hidden={true}
-          className="psds-avatar psds-avatar--size-xSmall"
+          className="psds-avatar psds-avatar--size-xsmall"
         >
           <img
             className="psds-avatar__image"
@@ -1730,41 +1730,41 @@ exports[`Storyshots Components/Note With Linked Avatar 1`] = `
       </a>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           Bob Ross
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>
@@ -1780,17 +1780,17 @@ exports[`Storyshots Components/Note With Linked Heading 1`] = `
   data-css-yto836=""
 >
   <div
-    data-css-ae1vww=""
+    className="psds-note psds-theme--dark"
     onClick={[Function]}
     onMouseOut={[Function]}
     onMouseOver={[Function]}
   >
     <div
-      data-css-1kfsc44=""
+      className="psds-note__aside"
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -1812,19 +1812,19 @@ exports[`Storyshots Components/Note With Linked Heading 1`] = `
       </div>
     </div>
     <div
-      data-css-odzpq7=""
+      className="psds-note__contents psds-theme--dark"
     >
       <div
-        data-css-1wkpnw7=""
+        className="psds-note__header"
       >
         <div
-          data-css-191rnud=""
+          className="psds-note__heading"
         >
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             <a
-              data-css-1f737qx=""
+              className="psds-link psds-link--appearance-subtle"
               href="#"
             >
               Bob Ross
@@ -1833,29 +1833,29 @@ exports[`Storyshots Components/Note With Linked Heading 1`] = `
         </div>
       </div>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         If these lines aren't straight, your water's going to run right out of your painting and get your floor wet. At home you have unlimited time. See there, told you that would be easy. Decide where your cloud lives. Maybe he lives right in here.
       </p>
       <div
-        data-css-126k7w0=""
+        className="psds-note__footer"
       >
         <div
-          data-css-11wosax=""
+          className="psds-note__metadata psds-theme--dark"
         >
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta first
           </span>
           <span
             aria-hidden={true}
-            data-css-kykfz1=""
+            className="psds-note__metadata-dot"
           >
             ·
           </span>
           <span
-            data-css-1plyjau=""
+            className="psds-note__metadata-datum psds-theme--dark"
           >
             meta second
           </span>

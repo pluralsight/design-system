@@ -1,16 +1,10 @@
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  layout: () => glamor.css(stylesheet['.psds-form-vertical-layout']),
-  child: () => glamor.css(stylesheet['.psds-form-vertical-layout__child'])
-}
+import '../css/index.css'
 
 const VerticalLayout: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
   style,
   ...props
 }) => {
@@ -19,9 +13,9 @@ const VerticalLayout: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
   )
 
   return (
-    <div {...styles.layout()}>
+    <div className={classNames('psds-form-vertical-layout', className)}>
       {children.map((child, i) => (
-        <div key={i} {...styles.child()}>
+        <div key={i} className="psds-form-vertical-layout__child">
           {React.cloneElement(child as React.ReactElement, {
             style: { ...style, width: '100%', maxWidth: 'none' }
           })}

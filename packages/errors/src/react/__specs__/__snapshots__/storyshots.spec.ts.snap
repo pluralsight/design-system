@@ -12,10 +12,10 @@ exports[`Storyshots Components/Errors Custom Error Page 1`] = `
   }
 >
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-small psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -58,37 +58,37 @@ exports[`Storyshots Components/Errors Custom Error Page 1`] = `
       </svg>
     </div>
     <h1
-      data-css-amk6wt=""
+      className="psds-errorpage__heading"
     >
       Heading goes here
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Error caption goes here
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: ### 
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-large psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -138,27 +138,27 @@ exports[`Storyshots Components/Errors Custom Error Page 1`] = `
       </svg>
     </div>
     <h1
-      data-css-10xrzzy=""
+      className="psds-errorpage__heading"
     >
       Heading goes here
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Error caption goes here
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: ### 
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
@@ -185,10 +185,10 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
     large
   </h2>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-small psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -231,38 +231,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-amk6wt=""
+      className="psds-errorpage__heading"
     >
       You’re not authorized to view this page
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Try contacting support or your plan administrator.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 403
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-large psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -312,38 +312,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-10xrzzy=""
+      className="psds-errorpage__heading"
     >
       You’re not authorized to view this page
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Try contacting support or your plan administrator.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 403
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-small psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -386,38 +386,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-amk6wt=""
+      className="psds-errorpage__heading"
     >
       The page you are looking for can’t be found
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Check the web address and try again.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 404
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-large psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -467,38 +467,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-10xrzzy=""
+      className="psds-errorpage__heading"
     >
       The page you are looking for can’t be found
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Check the web address and try again.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 404
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-small psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -541,38 +541,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-amk6wt=""
+      className="psds-errorpage__heading"
     >
       There’s a problem loading this page
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Please try again. If you continue to experience problems, let us know.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 500
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-large psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -622,38 +622,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-10xrzzy=""
+      className="psds-errorpage__heading"
     >
       There’s a problem loading this page
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Please try again. If you continue to experience problems, let us know.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 500
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-small psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -696,27 +696,27 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-amk6wt=""
+      className="psds-errorpage__heading"
     >
       The site is currently unavailable
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       We expect everything back in order shortly. Sorry for the inconvenience.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 503
     </p>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-large psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -766,27 +766,27 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-10xrzzy=""
+      className="psds-errorpage__heading"
     >
       The site is currently unavailable
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       We expect everything back in order shortly. Sorry for the inconvenience.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 503
     </p>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-small psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -829,38 +829,38 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-amk6wt=""
+      className="psds-errorpage__heading"
     >
       There’s a problem loading this page
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Please try again. If you continue to experience problems, let us know.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 504
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>
     </a>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-errorpage psds-errorpage--size-large psds-theme--dark psds-errorpage--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-errorpage__illustration"
     >
       <svg
         aria-hidden="true"
@@ -910,28 +910,28 @@ exports[`Storyshots Components/Errors Sizes 1`] = `
       </svg>
     </div>
     <h1
-      data-css-10xrzzy=""
+      className="psds-errorpage__heading"
     >
       There’s a problem loading this page
     </h1>
     <p
-      data-css-15yp1t4=""
+      className="psds-errorpage__caption"
     >
       Please try again. If you continue to experience problems, let us know.
        
     </p>
     <p
-      data-css-qnkvkp=""
+      className="psds-errorpage__error-code"
     >
       error code: 504
     </p>
     <a
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       href="https://help.pluralsight.com/help/contact-us"
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Contact support
       </span>

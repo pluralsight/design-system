@@ -11,6 +11,12 @@ import * as stories from '../__stories__/index.story'
 describe('Halo', () => {
   const cases = convertStoriesToJestCases(stories)
 
+  it('composes className', () => {
+    const { container } = render(<Halo className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-halo compose-classname')
+  })
+
   describe('.gapSizes', () => {
     it('exists', () => {
       expect(Halo.gapSizes).toEqual(vars.gapSizes)

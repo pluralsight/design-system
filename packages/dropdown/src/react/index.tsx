@@ -56,7 +56,7 @@ interface DropdownComponent
   > {}
 
 const Dropdown = React.forwardRef<HTMLButtonElement, DropdownProps>(
-  ({ children, ...props }, forwardedRef) => {
+  ({ children: _children, ...props }, forwardedRef) => {
     const allProps = useDropdown(props, forwardedRef)
     return (
       <Layout

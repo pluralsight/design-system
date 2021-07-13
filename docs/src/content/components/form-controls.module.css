@@ -1,20 +1,20 @@
 .control {
-  padding-bottom: var(--psLayoutSpacingLarge);
-  border-bottom: 1px solid var(--psColorsBorderLowOnDark);
-  margin-bottom: var(--psLayoutSpacingXLarge);
-  color: var(--appColorsTextIconHigh);
+  padding-bottom: var(--ps-layout-spacing-large);
+  border-bottom: 1px solid var(--ps-colors-border-low-on-dark);
+  margin-bottom: var(--ps-layout-spacing-xlarge);
+  color: var(--app-colors-text-icon-high);
 }
 .label {
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .desc {
   display: inline-block;
-  margin-right: var(--psLayoutSpacingXSmall);
+  margin-right: var(--ps-layout-spacing-xsmall);
 }
 @media (min-width: 769px) {
   .control {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: var(--psLayoutSpacingLarge);
+    gap: var(--ps-layout-spacing-large);
   }
 }

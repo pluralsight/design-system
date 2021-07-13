@@ -1,21 +1,8 @@
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
 import { FieldContext } from './context'
-import stylesheet from '../css/input'
-import { sizes } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  container: () => glamor.css(stylesheet['.psds-field__input__container']),
-  input: (size: ValueOf<typeof sizes>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-field__input']),
-      glamor.css(stylesheet[`.psds-field__input--${size}`])
-    )
-}
+import '../css/input.css'
 
 export interface FieldInputProps
   extends Omit<
@@ -33,6 +20,7 @@ const Input = React.forwardRef<HTMLInputElement, FieldInputProps>(
   (props, ref) => {
     const { size } = React.useContext(FieldContext)
     const {
+      className,
       renderContainer = defaultRenderContainer,
       renderTag = defaultRenderTag,
       ...rest
@@ -44,8 +32,18 @@ const Input = React.forwardRef<HTMLInputElement, FieldInputProps>(
     const Tag = React.useMemo(() => renderTag, [renderTag])
 
     return (
-      <Container {...styles.container()} ref={containerRef}>
-        <Tag ref={ref} {...styles.input(size)} {...rest} />
+      <Container
+        className={classNames('psds-field__input__container', className)}
+        ref={containerRef}
+      >
+        <Tag
+          {...rest}
+          ref={ref}
+          className={classNames(
+            'psds-field__input',
+            `psds-field__input--${size}`
+          )}
+        />
       </Container>
     )
   }

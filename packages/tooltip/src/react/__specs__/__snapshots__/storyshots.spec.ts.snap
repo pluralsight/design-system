@@ -13,12 +13,12 @@ exports[`Storyshots Components/Tooltip Appearances 1`] = `
   }
 >
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
     basic
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
     accent
   </div>
@@ -38,11 +38,11 @@ exports[`Storyshots Components/Tooltip On Close 1`] = `
   }
 >
   <div
-    data-css-1cwxxu7=""
+    className="psds-tooltip psds-tooltip--appearance-basic psds-tooltip--closeable"
   >
     <button
       aria-label="Close tooltip"
-      data-css-q0lk4z=""
+      className="psds-tooltip__close psds-tooltip__close--appearance-basic"
       onClick={[Function]}
     >
       <svg
@@ -59,15 +59,15 @@ exports[`Storyshots Components/Tooltip On Close 1`] = `
     Consectetur adipisicing elit, sed do ab eiusmod tempor incididunt ut
     <div
       aria-hidden={true}
-      data-css-1oan5ap=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-left"
     />
   </div>
   <div
-    data-css-3w2dnc=""
+    className="psds-tooltip psds-tooltip--appearance-accent psds-tooltip--closeable"
   >
     <button
       aria-label="Close tooltip"
-      data-css-a20bro=""
+      className="psds-tooltip__close psds-tooltip__close--appearance-accent"
       onClick={[Function]}
     >
       <svg
@@ -84,7 +84,7 @@ exports[`Storyshots Components/Tooltip On Close 1`] = `
     Consectetur adipisicing elit, sed do ab eiusmod tempor incididunt ut
     <div
       aria-hidden={true}
-      data-css-q7mnkc=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-top-left"
     />
   </div>
 </div>
@@ -103,147 +103,147 @@ exports[`Storyshots Components/Tooltip Tail Positions 1`] = `
   }
 >
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    bottomCenter
+    bottom-center
     <div
       aria-hidden={true}
-      data-css-s1sch4=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-bottom-center"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    bottomCenter
+    bottom-center
     <div
       aria-hidden={true}
-      data-css-nd5yk0=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-bottom-center"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    bottomLeft
+    bottom-left
     <div
       aria-hidden={true}
-      data-css-1jxkkwb=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-bottom-left"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    bottomLeft
+    bottom-left
     <div
       aria-hidden={true}
-      data-css-tyguzv=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-bottom-left"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    bottomRight
+    bottom-right
     <div
       aria-hidden={true}
-      data-css-as9lde=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-bottom-right"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    bottomRight
+    bottom-right
     <div
       aria-hidden={true}
-      data-css-83qlyn=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-bottom-right"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    leftCenter
+    left-center
     <div
       aria-hidden={true}
-      data-css-1bzlzco=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-left-center"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    leftCenter
+    left-center
     <div
       aria-hidden={true}
-      data-css-19dct80=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-left-center"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    rightCenter
+    right-center
     <div
       aria-hidden={true}
-      data-css-1lnrdce=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-right-center"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    rightCenter
+    right-center
     <div
       aria-hidden={true}
-      data-css-65ft98=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-right-center"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    topCenter
+    top-center
     <div
       aria-hidden={true}
-      data-css-161cv40=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-center"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    topCenter
+    top-center
     <div
       aria-hidden={true}
-      data-css-1vyju2i=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-top-center"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    topLeft
+    top-left
     <div
       aria-hidden={true}
-      data-css-1oan5ap=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-left"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    topLeft
+    top-left
     <div
       aria-hidden={true}
-      data-css-q7mnkc=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-top-left"
     />
   </div>
   <div
-    data-css-18t2vqu=""
+    className="psds-tooltip psds-tooltip--appearance-basic"
   >
-    topRight
+    top-right
     <div
       aria-hidden={true}
-      data-css-pnrenl=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-right"
     />
   </div>
   <div
-    data-css-vuc25n=""
+    className="psds-tooltip psds-tooltip--appearance-accent"
   >
-    topRight
+    top-right
     <div
       aria-hidden={true}
-      data-css-1to1u91=""
+      className="psds-tooltip__tail psds-tooltip__tail--appearance-accent psds-tooltip__tail--tailPosition-top-right"
     />
   </div>
 </div>

@@ -9,23 +9,22 @@ exports[`Storyshots Components/MultiSelect Basic 1`] = `
   }
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-0-input"
       id="downshift-0-label"
     >
       The label
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
+        className="psds-field psds-field--small psds-field--suffix"
         data-css-1ghsi1k=""
-        data-css-zhibkn=""
       >
         <div
           data-css-tgxt0u=""
@@ -44,19 +43,19 @@ exports[`Storyshots Components/MultiSelect Basic 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -84,19 +83,19 @@ exports[`Storyshots Components/MultiSelect Basic 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -118,15 +117,15 @@ exports[`Storyshots Components/MultiSelect Basic 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-0-menu"
                 aria-labelledby="downshift-0-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 id="downshift-0-input"
                 onBlur={[Function]}
@@ -546,13 +545,13 @@ exports[`Storyshots Components/MultiSelect Basic 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -569,7 +568,7 @@ exports[`Storyshots Components/MultiSelect Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -586,21 +585,20 @@ exports[`Storyshots Components/MultiSelect Custom Input Tag 1`] = `
   }
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-6-input"
       id="downshift-6-label"
     />
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
+        className="psds-field psds-field--small psds-field--suffix"
         data-css-1ghsi1k=""
-        data-css-zhibkn=""
       >
         <div
           data-css-tgxt0u=""
@@ -619,19 +617,19 @@ exports[`Storyshots Components/MultiSelect Custom Input Tag 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -659,19 +657,19 @@ exports[`Storyshots Components/MultiSelect Custom Input Tag 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -693,15 +691,15 @@ exports[`Storyshots Components/MultiSelect Custom Input Tag 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-6-menu"
                 aria-labelledby="downshift-6-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 id="downshift-6-input"
                 onBlur={[Function]}
@@ -1127,13 +1125,13 @@ exports[`Storyshots Components/MultiSelect Custom Input Tag 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -1150,7 +1148,7 @@ exports[`Storyshots Components/MultiSelect Custom Input Tag 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     />
   </div>
 </div>
@@ -1165,23 +1163,22 @@ exports[`Storyshots Components/MultiSelect Disabled 1`] = `
   }
 >
   <div
-    data-css-h2yjsn=""
+    className="psds-field__container psds-field__container--disabled"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-3-input"
       id="downshift-3-label"
     >
       The label
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
+        className="psds-field psds-field--small psds-field--suffix"
         data-css-11s0ie3=""
-        data-css-zhibkn=""
       >
         <div
           data-css-tgxt0u=""
@@ -1200,19 +1197,19 @@ exports[`Storyshots Components/MultiSelect Disabled 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -1240,19 +1237,19 @@ exports[`Storyshots Components/MultiSelect Disabled 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -1274,15 +1271,15 @@ exports[`Storyshots Components/MultiSelect Disabled 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-3-menu"
                 aria-labelledby="downshift-3-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 disabled={true}
                 id="downshift-3-input"
@@ -1703,13 +1700,13 @@ exports[`Storyshots Components/MultiSelect Disabled 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -1726,7 +1723,7 @@ exports[`Storyshots Components/MultiSelect Disabled 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1743,23 +1740,22 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
   }
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container psds-field__container--error"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-4-input"
       id="downshift-4-label"
     >
       The label
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8ff2sc=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-field__halo"
     >
       <div
+        className="psds-field psds-field--small psds-field--suffix"
         data-css-1ghsi1k=""
-        data-css-zhibkn=""
       >
         <div
           data-css-tgxt0u=""
@@ -1778,19 +1774,19 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -1818,19 +1814,19 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -1852,15 +1848,15 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-4-menu"
                 aria-labelledby="downshift-4-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 id="downshift-4-input"
                 onBlur={[Function]}
@@ -2280,13 +2276,13 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -2301,10 +2297,10 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
           </div>
         </div>
         <div
-          data-css-qrpvsu=""
+          className="psds-field__error-icon"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -2322,7 +2318,7 @@ exports[`Storyshots Components/MultiSelect Error 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2339,32 +2335,31 @@ exports[`Storyshots Components/MultiSelect Icon Prefix 1`] = `
   }
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-5-input"
       id="downshift-5-label"
     >
       The label
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
-        data-css-18bafyq=""
+        className="psds-field psds-field--small psds-field--prefix psds-field--suffix"
         data-css-1ghsi1k=""
       >
         <div
-          data-css-16bnq5b=""
+          className="psds-field__prefix"
         >
           <div
             data-css-bjcvj0=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="placeholder icon"
@@ -2395,19 +2390,19 @@ exports[`Storyshots Components/MultiSelect Icon Prefix 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -2435,19 +2430,19 @@ exports[`Storyshots Components/MultiSelect Icon Prefix 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -2469,15 +2464,15 @@ exports[`Storyshots Components/MultiSelect Icon Prefix 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-5-menu"
                 aria-labelledby="downshift-5-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 id="downshift-5-input"
                 onBlur={[Function]}
@@ -2897,13 +2892,13 @@ exports[`Storyshots Components/MultiSelect Icon Prefix 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -2920,7 +2915,7 @@ exports[`Storyshots Components/MultiSelect Icon Prefix 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2937,21 +2932,20 @@ exports[`Storyshots Components/MultiSelect No Labels 1`] = `
   }
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-2-input"
       id="downshift-2-label"
     />
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
+        className="psds-field psds-field--small psds-field--suffix"
         data-css-1ghsi1k=""
-        data-css-zhibkn=""
       >
         <div
           data-css-tgxt0u=""
@@ -2970,19 +2964,19 @@ exports[`Storyshots Components/MultiSelect No Labels 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -3010,19 +3004,19 @@ exports[`Storyshots Components/MultiSelect No Labels 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -3044,15 +3038,15 @@ exports[`Storyshots Components/MultiSelect No Labels 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-2-menu"
                 aria-labelledby="downshift-2-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 id="downshift-2-input"
                 onBlur={[Function]}
@@ -3473,13 +3467,13 @@ exports[`Storyshots Components/MultiSelect No Labels 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -3496,7 +3490,7 @@ exports[`Storyshots Components/MultiSelect No Labels 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     />
   </div>
 </div>
@@ -3511,23 +3505,22 @@ exports[`Storyshots Components/MultiSelect React Node Label 1`] = `
   }
 >
   <div
-    data-css-w0yocm=""
+    className="psds-field__container"
     onClick={[Function]}
   >
     <label
-      data-css-5jjrbq=""
+      className="psds-field__label psds-theme--dark"
       htmlFor="downshift-1-input"
       id="downshift-1-label"
     >
       React node label
     </label>
     <div
-      data-css-63oe3q=""
-      data-css-8qmpxt=""
+      className="psds-halo psds-theme--light psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-field__halo"
     >
       <div
+        className="psds-field psds-field--small psds-field--suffix"
         data-css-1ghsi1k=""
-        data-css-zhibkn=""
       >
         <div
           data-css-tgxt0u=""
@@ -3546,19 +3539,19 @@ exports[`Storyshots Components/MultiSelect React Node Label 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Hydrogen
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -3586,19 +3579,19 @@ exports[`Storyshots Components/MultiSelect React Node Label 1`] = `
               tabIndex={-1}
             >
               <div
-                data-css-1djcb20=""
+                className="psds-halo psds-theme--light psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
               >
                 <div
                   aria-pressed={true}
-                  data-css-8a12hv=""
+                  className="psds-tag psds-theme--light psds-tag--size-small psds-tag--icon psds-tag--is-pressed"
                 >
                   <span
-                    data-css-13bnfv4=""
+                    className="psds-tag__label psds-tag__label--icon"
                   >
                     Helium
                   </span>
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                     onClick={[Function]}
                     style={
                       Object {
@@ -3620,15 +3613,15 @@ exports[`Storyshots Components/MultiSelect React Node Label 1`] = `
               </div>
             </div>
             <div
+              className="psds-field__input__container"
               data-css-12qnym0=""
-              data-css-n9fe5c=""
             >
               <input
                 aria-autocomplete="list"
                 aria-controls="downshift-1-menu"
                 aria-labelledby="downshift-1-label"
                 autoComplete="off"
-                data-css-1f28mdy=""
+                className="psds-field__input psds-field__input--small"
                 data-css-8z457z=""
                 id="downshift-1-input"
                 onBlur={[Function]}
@@ -4048,13 +4041,13 @@ exports[`Storyshots Components/MultiSelect React Node Label 1`] = `
           </div>
         </div>
         <div
-          data-css-ugy1u5=""
+          className="psds-field__suffix"
         >
           <div
             data-css-3sokjq=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="caret down icon"
@@ -4071,7 +4064,7 @@ exports[`Storyshots Components/MultiSelect React Node Label 1`] = `
       </div>
     </div>
     <div
-      data-css-bv851e=""
+      className="psds-field__sub-label psds-theme--dark"
     >
       The sub label
     </div>

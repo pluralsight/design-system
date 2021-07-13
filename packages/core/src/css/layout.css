@@ -1,0 +1,9 @@
+:root {
+  --ps-layout-spacing-xxsmall: 4px;
+  --ps-layout-spacing-xsmall: 8px;
+  --ps-layout-spacing-small: 12px;
+  --ps-layout-spacing-medium: 16px;
+  --ps-layout-spacing-large: 24px;
+  --ps-layout-spacing-xlarge: 48px;
+  --ps-layout-spacing-xxLarge: 64px;
+}

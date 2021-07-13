@@ -16,6 +16,15 @@ describe('SearchInput', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    // Always forwards to Select.Button so this test for that component to
+    const { container } = render(<SearchInput className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-searchinput'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)
@@ -28,13 +37,11 @@ describe('SearchInput', () => {
   describe('Basic story', () => {
     const { Basic } = stories
 
-    it('forwards className', () => {
-      render(
-        <Basic data-testid="undertest" className="testclass" {...Basic.args} />
-      )
+    it('forwards id', () => {
+      render(<Basic id="testid" {...Basic.args} />)
 
-      const el = screen.getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
+      const input = document.querySelector('#testid')
+      expect(input).toBeInTheDocument()
     })
 
     it('focuses the input when clear button clicked', () => {

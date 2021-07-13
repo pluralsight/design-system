@@ -8,12 +8,12 @@ exports[`Storyshots Components/FocusManager Deep Dynamic Children 1`] = `
     </h2>
     <div>
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Is tabbable
         </span>
@@ -26,12 +26,12 @@ exports[`Storyshots Components/FocusManager Deep Dynamic Children 1`] = `
 exports[`Storyshots Components/FocusManager Dynamic Children 1`] = `
 <div>
   <button
-    data-css-y5dqt5=""
+    className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
     disabled={false}
   >
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       Is tabbable
     </span>
@@ -50,7 +50,7 @@ exports[`Storyshots Components/FocusManager No Focusable Children 1`] = `
   }
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     Tri-tip pork chop jowl, spare ribs shankle sirloin kevin. Ham hock tri-tip jowl, shank venison ham andouille rump salami swine sausage turducken beef ribs cupim jerky. Chuck swine shankle short loin tri-tip beef ribs leberkas andouille spare ribs shoulder buffalo ground round tongue sirloin bresaola. Kielbasa rump buffalo shoulder chicken beef brisket. Spare ribs drumstick tail cupim bacon filet mignon.
   </p>
@@ -68,7 +68,7 @@ exports[`Storyshots Components/FocusManager Not Trapped 1`] = `
   }
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     <a
       href="#"
@@ -103,7 +103,7 @@ exports[`Storyshots Components/FocusManager Trapped 1`] = `
   }
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     <a
       href="#"

@@ -6,23 +6,21 @@ import {
   RefForwardingComponent,
   ValueOf,
   canUseDOM,
+  classNames,
   isFunction,
   useMatchMedia,
   usePrevious
 } from '@pluralsight/ps-design-system-util'
 import polyfillFocusWithin from 'focus-within'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import polyfillElementClosest from '../js/polyfill-element-closest'
 import useBodyScrollLock from './use-body-scroll-lock'
 import useOnClickOutside from './use-on-click-outside'
 import useOnEscape from './use-on-escape'
 import useOnInnerFocus from './use-on-inner-focus'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 if (canUseDOM()) {
   polyfillElementClosest()
@@ -31,32 +29,6 @@ if (canUseDOM()) {
 
 const SKIP_TARGET_ID = 'ps-appframe--skip-target'
 const TOP_NAV_ID = 'ps-appframe--topnav'
-
-const styles = {
-  appframe: (themeName: ValueOf<typeof Theme.names>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-appframe']),
-      glamor.css(stylesheet[`.psds-appframe.psds-theme--${themeName}`])
-    ),
-
-  skipBanner: () => glamor.css(stylesheet['.psds-appframe__skip-banner']),
-
-  container: (variant: ValueOf<typeof vars.sidenavVariants>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-appframe__container']),
-      variant && glamor.css(stylesheet[`.psds-appframe__container--${variant}`])
-    ),
-  content: () => glamor.css(stylesheet['.psds-appframe__content']),
-  sidenav: (variant: ValueOf<typeof vars.sidenavVariants>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-appframe__sidenav']),
-      variant && glamor.css(stylesheet[`.psds-appframe__sidenav--${variant}`])
-    ),
-  sidenavOverflowMask: () =>
-    glamor.css(stylesheet['.psds-appframe__sidenav__overflow-mask']),
-  sidenavInner: () => glamor.css(stylesheet['.psds-appframe__sidenav__inner']),
-  topnav: () => glamor.css(stylesheet['.psds-appframe__topnav'])
-}
 
 interface AppFrameContextValue {
   closeSidenav: () => void
@@ -104,6 +76,7 @@ interface AppFrameComponent
 const AppFrame = React.forwardRef((props, forwardedRef) => {
   const {
     children,
+    className,
     onRequestSideNavClose,
     onRequestSideNavOpen,
     sidenav,
@@ -184,9 +157,18 @@ const AppFrame = React.forwardRef((props, forwardedRef) => {
     sidenavVariant
   }
 
+  // TODO: className specs
   return (
     <AppFrameContext.Provider value={contextValue}>
-      <div ref={ref} {...styles.appframe(themeName)} {...rest}>
+      <div
+        ref={ref}
+        {...rest}
+        className={classNames(
+          'psds-appframe',
+          `psds-theme--${themeName}`,
+          className
+        )}
+      >
         <SkipBanner href={'#' + SKIP_TARGET_ID} />
 
         <TopNav id={TOP_NAV_ID}>{topnav}</TopNav>
@@ -194,7 +176,7 @@ const AppFrame = React.forwardRef((props, forwardedRef) => {
         <Container>
           {sidenav && <SideNav>{sidenav}</SideNav>}
 
-          <main {...styles.content()}>
+          <main className="psds-appframe__content">
             <SkipTarget
               id={SKIP_TARGET_ID}
               onClick={focusSkipTarget}
@@ -218,7 +200,7 @@ interface SkipBannerProps extends React.HTMLAttributes<HTMLDivElement> {
 const SkipBanner: React.FC<SkipBannerProps> = props => {
   return (
     <Theme name={Theme.names.dark}>
-      <div {...styles.skipBanner()} {...props}>
+      <div {...props} className="psds-appframe__skip-banner">
         <Button
           appearance={Button.appearances.secondary}
           size={Button.sizes.small}
@@ -244,7 +226,16 @@ SkipTarget.displayName = 'SkipTarget'
 
 const Container: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
   const context = React.useContext(AppFrameContext)
-  return <div {...styles.container(context.sidenavVariant)} {...props} />
+  return (
+    <div
+      {...props}
+      className={classNames(
+        'psds-appframe__container',
+        context.sidenavVariant &&
+          `psds-appframe__container--${context.sidenavVariant}`
+      )}
+    />
+  )
 }
 
 interface SideNavProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -253,9 +244,12 @@ interface SideNavProps extends React.HTMLAttributes<HTMLDivElement> {
 interface SideNavStatics {
   variants: typeof vars.sidenavVariants
 }
-const SideNav: React.FC<SideNavProps> & SideNavStatics = props => {
+const SideNav: React.FC<SideNavProps> & SideNavStatics = ({
+  className,
+  ...rest
+}) => {
   const { sidenavVariants: variants } = vars
-  const children = props.children as SideNavProps['children']
+  const children = rest.children as SideNavProps['children']
 
   const { closeSidenav, openSidenav, sidenavVariant } =
     React.useContext(AppFrameContext)
@@ -287,15 +281,19 @@ const SideNav: React.FC<SideNavProps> & SideNavStatics = props => {
     <Theme name={Theme.names.dark}>
       <div
         ref={ref}
-        {...styles.sidenav(variant)}
-        {...props}
+        {...rest}
+        className={classNames(
+          'psds-appframe__sidenav',
+          variant && `psds-appframe__sidenav--${variant}`,
+          className
+        )}
         {...(hoverable && {
           onMouseEnter: () => setHovered(true),
           onMouseLeave: () => setHovered(false)
         })}
       >
-        <div {...styles.sidenavOverflowMask()}>
-          <Scrollable {...styles.sidenavInner()}>
+        <div className="psds-appframe__sidenav__overflow-mask">
+          <Scrollable className="psds-appframe__sidenav__inner">
             {typeof children === 'function' ? children({ visible }) : children}
           </Scrollable>
         </div>
@@ -310,8 +308,8 @@ interface TopNavProps extends React.HTMLAttributes<HTMLDivElement> {
   children: AppFrameProps['topnav']
 }
 
-const TopNav: React.FC<TopNavProps> = props => {
-  const children = props.children as TopNavProps['children']
+const TopNav: React.FC<TopNavProps> = ({ className, ...rest }) => {
+  const children = rest.children as TopNavProps['children']
   const { closeSidenav, openSidenav, sidenavOpen } =
     React.useContext(AppFrameContext)
 
@@ -319,7 +317,7 @@ const TopNav: React.FC<TopNavProps> = props => {
 
   return (
     <Theme name={Theme.names.dark}>
-      <div {...styles.topnav()} {...props}>
+      <div {...rest} className={classNames('psds-appframe__topnav', className)}>
         {isFunction<[typeof meta], React.ReactNode>(children)
           ? children(meta)
           : children}

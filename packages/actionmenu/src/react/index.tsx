@@ -1,6 +1,8 @@
 import {
   RefForwardingComponent,
   ValueOf,
+  classNames,
+  dashify,
   handleMenuKeyDownEvents,
   handleMenuKeyUpEvents,
   useMenuRef,
@@ -8,29 +10,15 @@ import {
   useClickOutside,
   useScrollOutside
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
+import '../css/index.css'
 import { ActionMenuContext } from './context'
-import stylesheet from '../css/index'
 import { Divider } from './divider'
 import { Ellipsis } from './ellipsis'
 import { Item } from './item'
 import { Icon } from './icon'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const slide = glamor.keyframes(
-  stylesheet['@keyframes psds-actionmenu__keyframes__slide']
-)
-
-const styles = ({ origin }: { origin?: ValueOf<typeof vars.origins> }) =>
-  glamor.compose(
-    glamor.css(stylesheet['.psds-actionmenu']),
-    glamor.css(stylesheet[`.psds-actionmenu--origin-${origin}`]),
-    glamor.css(stylesheet['.psds-actionmenu__animation']({ slide }))
-  )
 
 // eslint-disable-next-line @typescript-eslint/no-empty-function
 const noop = () => {}
@@ -58,6 +46,7 @@ type ActionMenuComponent = RefForwardingComponent<
 export const ActionMenu = React.forwardRef<HTMLUListElement, ActionMenuProps>(
   (
     {
+      className,
       onClose = noop,
       origin = vars.origins.topLeft,
       onClick,
@@ -83,12 +72,17 @@ export const ActionMenu = React.forwardRef<HTMLUListElement, ActionMenuProps>(
 
     return (
       <ul
-        {...styles({ origin })}
         ref={ref}
         onKeyDown={handleKeyDown}
         onKeyUp={handleMenuKeyUpEvents}
         role="menu"
         {...rest}
+        className={classNames(
+          'psds-actionmenu',
+          `psds-actionmenu--origin-${dashify(origin)}`,
+          'psds-actionmenu__animation',
+          className
+        )}
       >
         <ActionMenuContext.Provider
           value={{ onClickContext: onClick, onClose, originContext: origin }}

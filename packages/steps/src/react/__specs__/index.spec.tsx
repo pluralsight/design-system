@@ -10,6 +10,32 @@ describe('Steps', () => {
     expect(getByTestId('undertest')).toBeInTheDocument()
   })
 
+  it('composes className', () => {
+    const { container } = render(<Steps className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('compose-classname psds-steps')
+  })
+
+  it('composes className for Steps.Step', () => {
+    const { container } = render(
+      <Steps.Step className="compose-classname" status="incomplete" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-steps__step compose-classname'
+    )
+  })
+
+  it('composes className for Steps.Marker', () => {
+    const { container } = render(
+      <Steps.Marker className="compose-classname" status="incomplete" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-steps__marker compose-classname'
+    )
+  })
+
   it('forwards refs', () => {
     const ref = React.createRef<HTMLDivElement>()
 

@@ -2,44 +2,17 @@ import Icon, {
   StarFillIcon,
   StarIcon
 } from '@pluralsight/ps-design-system-icon'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
-  useTheme,
-  names as themeNames
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf, keyMirror } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+  ValueOf,
+  keyMirror,
+  classNames
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 
-const glamor = glamorDefault || glamorExports
 const APPEARANCES = keyMirror('empty', 'half', 'full')
-
-const styles = {
-  star: ({
-    bright,
-    active,
-    interactive,
-    themeName
-  }: {
-    bright: boolean
-    active: boolean
-    interactive: boolean
-    themeName: ValueOf<typeof themeNames>
-  }) =>
-    glamor.css(
-      stylesheet['.psds-starrating__star'],
-      stylesheet[`.psds-starrating__star--theme-${themeName}`],
-      bright &&
-        stylesheet[`.psds-starrating__star--bright.psds-theme--${themeName}`],
-      active && stylesheet['.psds-starrating__star--active'],
-      interactive && stylesheet['.psds-starrating__star--interactive']
-    ),
-  halfStarSecondary: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet[`.psds-starrating__star__half__secondary--theme-${themeName}`]
-    )
-}
 
 const HalfStarIcon = ({ size }: { size: ValueOf<typeof Icon.sizes> }) => {
   const themeName = useTheme()
@@ -62,7 +35,7 @@ const HalfStarIcon = ({ size }: { size: ValueOf<typeof Icon.sizes> }) => {
         </defs>
         <use
           xlinkHref="#psds-starrating__half-star__star"
-          {...styles.halfStarSecondary(themeName)}
+          className={`psds-starrating__star__half__secondary--theme-${themeName}`}
         />
         <use
           xlinkHref="#psds-starrating__half-star__star"
@@ -121,12 +94,13 @@ const Star: React.FC<StarProp> & StarStatics = ({
 
   return (
     <Tag
-      {...styles.star({
-        bright,
-        active,
-        interactive,
-        themeName
-      })}
+      className={classNames(
+        'psds-starrating__star',
+        `psds-starrating__star--theme-${themeName}`,
+        bright && `psds-starrating__star--bright-${themeName}`,
+        active && 'psds-starrating__star--active',
+        interactive && 'psds-starrating__star--interactive'
+      )}
       {...props}
       title={label}
       onBlur={handleLeave}

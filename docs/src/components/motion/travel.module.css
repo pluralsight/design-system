@@ -2,10 +2,10 @@
   position: relative;
   height: 213px;
   width: 100%;
-  background: var(--psColorsBackgroundLight2);
+  background: var(--ps-colors-background-light-2);
   border-radius: 12px;
   overflow: hidden;
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .pills {
   position: absolute;
@@ -13,12 +13,12 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 0 var(--psLayoutSpacingMedium);
+  padding: 0 var(--ps-layout-spacing-medium);
 }
 .pill {
-  background: var(--psColorsPink6);
+  background: var(--ps-colors-pink-6);
   height: 44px;
-  margin-top: var(--psLayoutSpacingLarge);
+  margin-top: var(--ps-layout-spacing-large);
   border-radius: 22px;
 }
 @keyframes pill1 {
@@ -86,9 +86,9 @@
   width: 100%;
   height: 100%;
   display: flex;
-  padding: var(--psLayoutSpacingSmall) 12.5% var(--psLayoutSpacingSmall) 0;
+  padding: var(--ps-layout-spacing-small) 12.5% var(--ps-layout-spacing-small) 0;
 }
 .line {
   flex: 1;
-  border-right: 1px dashed var(--psColorsBlue6);
+  border-right: 1px dashed var(--ps-colors-blue-6);
 }

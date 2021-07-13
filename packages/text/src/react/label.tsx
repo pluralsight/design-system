@@ -1,12 +1,9 @@
 import { useTheme, names } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 const style = ({
   themeName,
@@ -22,17 +19,18 @@ const style = ({
   mono: boolean
   strong: boolean
   caps: boolean
-}) =>
-  glamor.compose(
-    glamor.css(stylesheet['.psds-text__label']),
-    glamor.css(stylesheet[`.psds-text__label--size-${size}`]),
-    glamor.css(
-      stylesheet[`.psds-text__label--color-${color}.psds-theme--${themeName}`]
-    ),
-    strong && glamor.css(stylesheet[`.psds-text__label--strong`]),
-    caps && glamor.css(stylesheet[`.psds-text__label--caps`]),
-    mono && glamor.css(stylesheet[`.psds-text__label--mono`])
+}) => {
+  const label = 'psds-text__label'
+  return classNames(
+    label,
+    `${label}--size-${size}`,
+    `${label}--color-${color}`,
+    `psds-theme--${themeName}`,
+    strong && `${label}--strong`,
+    caps && `${label}--caps`,
+    mono && `${label}--mono`
   )
+}
 
 interface LabelStatics {
   sizes: typeof vars.labelSizes
@@ -53,6 +51,7 @@ const Label: React.FC<LabelProps> & LabelStatics = ({
   mono = false,
   strong = false,
   caps = false,
+  className,
   ...rest
 }) => {
   const themeName = useTheme()
@@ -60,7 +59,10 @@ const Label: React.FC<LabelProps> & LabelStatics = ({
   return (
     <span
       {...rest}
-      {...style({ themeName, mono, size, color, strong, caps })}
+      className={classNames(
+        style({ themeName, mono, size, color, strong, caps }),
+        className
+      )}
     />
   )
 }

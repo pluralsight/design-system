@@ -1,9 +1,9 @@
 .header {
   align-items: center;
   display: flex;
-  height: var(--topNavHeight);
-  padding: var(--psLayoutSpacingXSmall);
-  background: var(--appColorsBackgroundHigh);
+  height: var(--top-nav-height);
+  padding: var(--ps-layout-spacing-xsmall);
+  background: var(--app-colors-background-high);
 
   @media (width >= 768px) {
     background-color: transparent;
@@ -19,12 +19,12 @@
 
   & .themeButton {
     position: fixed;
-    top: var(--psLayoutSpacingXSmall);
-    right: var(--psLayoutSpacingXSmall);
+    top: var(--ps-layout-spacing-xsmall);
+    right: var(--ps-layout-spacing-xsmall);
 
     @media (width >= 768px) {
-      top: var(--psLayoutSpacingMedium);
-      right: var(--psLayoutSpacingMedium);
+      top: var(--ps-layout-spacing-medium);
+      right: var(--ps-layout-spacing-medium);
     }
   }
 }

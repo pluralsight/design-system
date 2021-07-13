@@ -1,22 +1,12 @@
-import { RefFor, forwardRefWithAs } from '@pluralsight/ps-design-system-util'
+import {
+  RefFor,
+  classNames,
+  forwardRefWithAs
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
-import glamorDefault, * as glamorExports from 'glamor'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { MenuContext, ItemContext, SelectedItem } from './context'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  listItem: (isActive: boolean, disabled: boolean) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-menu__list-item']),
-      disabled && glamor.css(stylesheet['.psds-menu__list-item--disabled']),
-      isActive && glamor.css(stylesheet['.psds-menu__list-item--active'])
-    ),
-  option: () => glamor.css(stylesheet['.psds-menu__option']),
-  optionInner: () => glamor.css(stylesheet[`.psds-menu__option-inner`])
-}
 
 export interface MenuItemProps {
   active?: boolean
@@ -33,6 +23,7 @@ export const Item = forwardRefWithAs<MenuItemProps, 'button'>((props, ref) => {
   const {
     as: Comp = 'button',
     active,
+    className,
     disabled,
     onClick,
     value = {
@@ -42,6 +33,7 @@ export const Item = forwardRefWithAs<MenuItemProps, 'button'>((props, ref) => {
     children,
     onKeyDown,
     role: roleFromProps,
+    'aria-selected': ariaSelected,
     ...rest
   } = props
   const {
@@ -69,13 +61,18 @@ export const Item = forwardRefWithAs<MenuItemProps, 'button'>((props, ref) => {
   const listboxProps =
     optionRole === 'option'
       ? {
-          'aria-selected': selected
+          'aria-selected': ariaSelected || selected
         }
       : {}
 
   return (
     <li
-      {...styles.listItem(active || hookActive, disabled || false)}
+      className={classNames(
+        'psds-menu__item',
+        disabled && 'psds-menu__item--disabled',
+        (active || hookActive) && 'psds-menu__item--active',
+        className
+      )}
       data-disabled={disabled}
       tabIndex={!disabled ? -1 : undefined}
       onKeyDown={handleKeyDown}
@@ -87,12 +84,12 @@ export const Item = forwardRefWithAs<MenuItemProps, 'button'>((props, ref) => {
       {...listboxProps}
     >
       <Comp
-        {...styles.option()}
+        className="psds-menu__option"
         disabled={disabled}
         ref={ref as RefFor<typeof Comp>}
         {...rest}
       >
-        <div {...styles.optionInner()}>
+        <div className="psds-menu__option-inner">
           <ItemContext.Provider value={{ selected }}>
             {children}
           </ItemContext.Provider>

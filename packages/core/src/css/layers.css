@@ -1,0 +1,7 @@
+:root {
+  --ps-layers-main: 0;
+  --ps-layers-global-sidenav: 930;
+  --ps-layers-global-topnav: 950;
+  --ps-layers-dropdown: 1000;
+  --ps-layers-skip-to-content-banner: 1600;
+}

@@ -1,7 +1,7 @@
 .skipBanner {
   top: 0;
   left: 50%;
-  padding: var(--psLayoutSpacingSmall);
+  padding: var(--ps-layout-spacing-small);
   position: fixed;
   transform: translate(-50%, -300px);
   transition: transform 1s ease-out;

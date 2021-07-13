@@ -1,0 +1,43 @@
+.psds-navuser {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--ps-layout-spacing-xxsmall) var(--ps-layout-spacing-xsmall);
+  text-decoration: none;
+  border: none;
+  background: 0 0;
+  border-radius: 2px;
+}
+.psds-navuser--clickable {
+  cursor: pointer;
+}
+.psds-navuser--clickable:focus,
+.psds-navuser--clickable:hover {
+  background: rgba([object Object], 0.15);
+}
+.psds-navuser--clickable:focus {
+  outline: 0;
+}
+.psds-navuser--clickable:active {
+  background: rgba([object Object], 0.25);
+}
+.psds-navuser__plan-name {
+  color: var(--ps-colors-text-icon-low-on-dark);
+  font-size: 11px;
+  font-weight: var(--ps-type-font-weight-default);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.psds-navuser__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+.psds-navuser__words {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  line-height: 16px;
+  margin-left: var(--ps-layout-spacing-xsmall);
+  font-weight: var(--ps-type-font-weight-500);
+  text-align: left;
+  white-space: nowrap;
+  max-width: 120px;
+}

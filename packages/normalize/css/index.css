@@ -69,10 +69,10 @@
 html {
   box-sizing: border-box;
   text-size-adjust: 100%;
-  font-family: var(--psTypeFontFamily);
+  font-family: var(--ps-type-font-family);
   font-size: 0.875em;
-  font-weight: var(--psTypeFontWeightRegular);
-  line-height: 1.71429; /* calc(var(--psTypeLineHeightStandard) / var(--psTypeFontSizeSmall)); */
+  font-weight: var(--ps-type-font-weight-regular);
+  line-height: 1.71429; /* calc(var(--ps-type-line-height-standard) / var(--ps-type-font-size-small)); */
   font-feature-settings: 'tnum' on, 'lnum' on;
 }
 
@@ -108,14 +108,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: var(--psTypeFontWeightRegular);
+  font-weight: var(--ps-type-font-weight-regular);
 }
 
 ul,
 ol,
 dd {
-  margin-left: var(--psLayoutSpacingLarge);
-  line-height: var(--psTypeLineHeightStandard);
+  margin-left: var(--ps-layout-spacing-large);
+  line-height: var(--ps-type-line-height-standard);
 }
 
 ul,

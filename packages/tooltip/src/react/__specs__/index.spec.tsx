@@ -23,6 +23,16 @@ describe('Tooltip', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <Tooltip className="compose-classname">Render me</Tooltip>
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-tooltip psds-tooltip--appearance-basic compose-classname'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

@@ -2,23 +2,23 @@
 
 exports[`Storyshots Components/ViewToggle All Long Text Lengths 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       This one is really long because everyone likes those
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -26,7 +26,7 @@ exports[`Storyshots Components/ViewToggle All Long Text Lengths 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -34,7 +34,7 @@ exports[`Storyshots Components/ViewToggle All Long Text Lengths 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -45,23 +45,23 @@ exports[`Storyshots Components/ViewToggle All Long Text Lengths 1`] = `
 
 exports[`Storyshots Components/ViewToggle Default First Option 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       I'm active
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -69,7 +69,7 @@ exports[`Storyshots Components/ViewToggle Default First Option 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -77,7 +77,7 @@ exports[`Storyshots Components/ViewToggle Default First Option 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -88,23 +88,23 @@ exports[`Storyshots Components/ViewToggle Default First Option 1`] = `
 
 exports[`Storyshots Components/ViewToggle Differing Text Lengths 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       This one is really long because everyone likes those
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -112,7 +112,7 @@ exports[`Storyshots Components/ViewToggle Differing Text Lengths 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -120,7 +120,7 @@ exports[`Storyshots Components/ViewToggle Differing Text Lengths 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -131,23 +131,23 @@ exports[`Storyshots Components/ViewToggle Differing Text Lengths 1`] = `
 
 exports[`Storyshots Components/ViewToggle Example Controlled 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Orange
     </div>
   </div>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -155,7 +155,7 @@ exports[`Storyshots Components/ViewToggle Example Controlled 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -163,7 +163,7 @@ exports[`Storyshots Components/ViewToggle Example Controlled 1`] = `
   </button>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -175,16 +175,16 @@ exports[`Storyshots Components/ViewToggle Example Controlled 1`] = `
 exports[`Storyshots Components/ViewToggle Example Dynamic Options 1`] = `
 Array [
   <div
-    data-css-1vmae8p=""
+    className="psds-viewtoggle psds-theme--dark"
     role="radiogroup"
   >
     <div
       aria-hidden={true}
-      data-css-widv77=""
+      className="psds-viewtoggle__option-bg psds-theme--dark"
       style={Object {}}
     >
       <div
-        data-css-1jyyyen=""
+        className="psds-viewtoggle__option-bg__spacer"
       >
         Item: 
         1
@@ -192,7 +192,7 @@ Array [
     </div>
     <button
       aria-checked={true}
-      data-css-fugs1y=""
+      className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
       onClick={[Function]}
       role="radio"
     >
@@ -201,7 +201,7 @@ Array [
     </button>
     <button
       aria-checked={false}
-      data-css-afer0k=""
+      className="psds-viewtoggle__option psds-theme--dark"
       onClick={[Function]}
       role="radio"
     >
@@ -230,23 +230,23 @@ Array [
 
 exports[`Storyshots Components/ViewToggle Explicit Active First 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       I'm active
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -254,7 +254,7 @@ exports[`Storyshots Components/ViewToggle Explicit Active First 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -262,7 +262,7 @@ exports[`Storyshots Components/ViewToggle Explicit Active First 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -273,23 +273,23 @@ exports[`Storyshots Components/ViewToggle Explicit Active First 1`] = `
 
 exports[`Storyshots Components/ViewToggle Explicit Active Second 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Option 2
     </div>
   </div>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -297,7 +297,7 @@ exports[`Storyshots Components/ViewToggle Explicit Active Second 1`] = `
   </button>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -305,7 +305,7 @@ exports[`Storyshots Components/ViewToggle Explicit Active Second 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -316,23 +316,23 @@ exports[`Storyshots Components/ViewToggle Explicit Active Second 1`] = `
 
 exports[`Storyshots Components/ViewToggle Explicit Active Third 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Option 3
     </div>
   </div>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -340,7 +340,7 @@ exports[`Storyshots Components/ViewToggle Explicit Active Third 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -348,7 +348,7 @@ exports[`Storyshots Components/ViewToggle Explicit Active Third 1`] = `
   </button>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -359,23 +359,23 @@ exports[`Storyshots Components/ViewToggle Explicit Active Third 1`] = `
 
 exports[`Storyshots Components/ViewToggle Max Options 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Option 1
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -383,7 +383,7 @@ exports[`Storyshots Components/ViewToggle Max Options 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -391,7 +391,7 @@ exports[`Storyshots Components/ViewToggle Max Options 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -402,23 +402,23 @@ exports[`Storyshots Components/ViewToggle Max Options 1`] = `
 
 exports[`Storyshots Components/ViewToggle One Option 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Option 1
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -429,23 +429,23 @@ exports[`Storyshots Components/ViewToggle One Option 1`] = `
 
 exports[`Storyshots Components/ViewToggle Three Options 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Option 1
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -453,7 +453,7 @@ exports[`Storyshots Components/ViewToggle Three Options 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -461,7 +461,7 @@ exports[`Storyshots Components/ViewToggle Three Options 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >
@@ -472,23 +472,23 @@ exports[`Storyshots Components/ViewToggle Three Options 1`] = `
 
 exports[`Storyshots Components/ViewToggle Two Options 1`] = `
 <div
-  data-css-1vmae8p=""
+  className="psds-viewtoggle psds-theme--dark"
   role="radiogroup"
 >
   <div
     aria-hidden={true}
-    data-css-widv77=""
+    className="psds-viewtoggle__option-bg psds-theme--dark"
     style={Object {}}
   >
     <div
-      data-css-1jyyyen=""
+      className="psds-viewtoggle__option-bg__spacer"
     >
       Option 1
     </div>
   </div>
   <button
     aria-checked={true}
-    data-css-fugs1y=""
+    className="psds-viewtoggle__option psds-theme--dark psds-viewtoggle__option--active"
     onClick={[Function]}
     role="radio"
   >
@@ -496,7 +496,7 @@ exports[`Storyshots Components/ViewToggle Two Options 1`] = `
   </button>
   <button
     aria-checked={false}
-    data-css-afer0k=""
+    className="psds-viewtoggle__option psds-theme--dark"
     onClick={[Function]}
     role="radio"
   >

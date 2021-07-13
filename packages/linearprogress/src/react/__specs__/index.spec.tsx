@@ -20,6 +20,19 @@ describe('LinearProgress', () => {
     expect(getByTestId('mock-component')).toBeInTheDocument()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <LinearProgress
+        aria-label="download video"
+        className="compose-classname"
+      />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-linearprogress__bg compose-classname'
+    )
+  })
+
   // TODO: make it forward ref quickly when you do the a11y update below
   // it('forwards refs', () => {
   //   const ref = React.createRef<HTMLDivElement>()

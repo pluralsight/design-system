@@ -4,90 +4,13 @@ import {
   SortDescIcon,
   SortIcon
 } from '@pluralsight/ps-design-system-icon'
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import invariant from 'invariant'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { alignments, sorts } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  container: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: { scrollable?: boolean }
-  ) => {
-    const themeClass = `.psds-theme--${themeName}`
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-table__container']),
-      glamor.css(stylesheet[`.psds-table__container${themeClass}`]),
-      opts.scrollable &&
-        glamor.css(stylesheet['.psds-table__container--scrollable'])
-    )
-  },
-  table: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-table']),
-      glamor.css(stylesheet[`.psds-table.psds-theme--${themeName}`])
-    ),
-  cell: (opts: { align: ValueOf<typeof alignments> }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-table__cell']),
-      glamor.css(stylesheet[`.psds-table__cell--align-${opts.align}`])
-    ),
-  head: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-table__head']),
-      glamor.css(stylesheet[`.psds-table__head.psds-theme--${themeName}`])
-    ),
-  header: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: {
-      align: ValueOf<typeof alignments>
-      sortable: boolean
-      sticky: boolean
-    }
-  ) => {
-    const stickyClasses = glamor.compose(
-      glamor.css(stylesheet['.psds-table__header--sticky']),
-      glamor.css(
-        stylesheet[`.psds-table__header--sticky.psds-theme--${themeName}`]
-      )
-    )
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-table__header']),
-      glamor.css(stylesheet[`.psds-table__header--align-${opts.align}`]),
-      opts.sortable && glamor.css(stylesheet['.psds-table__header--sortable']),
-      opts.sticky && stickyClasses
-    )
-  },
-  sortIcon: () => glamor.css(stylesheet['.psds-table__header__sort-icon']),
-  row: (
-    themeName: ValueOf<typeof themeNames>,
-    opts: { expanded: boolean; selected: boolean }
-  ) => {
-    const collapsed = !opts.expanded
-    const themeClass = `.psds-theme--${themeName}`
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.psds-table__row${themeClass}`]),
-      collapsed && glamor.css(stylesheet['.psds-table__row--collapsed']),
-      opts.selected &&
-        glamor.css(stylesheet[`.psds-table__row--selected${themeClass}`])
-    )
-  },
-  drawer: () => glamor.css(stylesheet['.psds-table__drawer']),
-  drawerCell: () => glamor.css(stylesheet['.psds-table__drawer__cell']),
-  drawerInner: () => glamor.css(stylesheet['.psds-table__drawer__inner'])
-}
-
 interface TableProps
   extends React.DetailedHTMLProps<
     React.TableHTMLAttributes<HTMLTableElement>,
@@ -111,6 +34,7 @@ const Table = React.forwardRef<HTMLTableElement, TableProps>((props, ref) => {
   const {
     renderContainer = defaultRenderContainer,
     scrollable = false,
+    className,
     ...rest
   } = props
   const themeName = useTheme()
@@ -121,10 +45,20 @@ const Table = React.forwardRef<HTMLTableElement, TableProps>((props, ref) => {
   return (
     <Container
       ref={containerRef}
-      {...styles.container(themeName, { scrollable })}
+      className={classNames(
+        className,
+        `psds-theme--${themeName}`,
+        'psds-table__container',
+        scrollable && 'psds-table__container--scrollable'
+      )}
       {...(scrollable && { role: 'region', tabIndex: 0 })}
     >
-      <table role="grid" ref={ref} {...styles.table(themeName)} {...rest} />
+      <table
+        role="grid"
+        ref={ref}
+        className={classNames('psds-table', `psds-theme--${themeName}`)}
+        {...rest}
+      />
     </Container>
   )
 }) as TableComponent
@@ -148,9 +82,18 @@ interface TableCellProps extends React.HTMLAttributes<HTMLTableCellElement> {
 }
 const TableCell = React.forwardRef<HTMLTableCellElement, TableCellProps>(
   (props, ref) => {
-    const { align = alignments.left, ...rest } = props
+    const { align = alignments.left, className, ...rest } = props
     return (
-      <td role="gridcell" ref={ref} {...styles.cell({ align })} {...rest} />
+      <td
+        role="gridcell"
+        ref={ref}
+        className={classNames(
+          className,
+          'psds-table__cell',
+          `psds-table__cell--align-${align}`
+        )}
+        {...rest}
+      />
     )
   }
 )
@@ -159,10 +102,20 @@ TableCell.displayName = 'Table.Cell'
 const TableHead = React.forwardRef<
   HTMLTableSectionElement,
   React.HTMLAttributes<HTMLTableSectionElement>
->((props, ref) => {
+>(({ className, ...props }, ref) => {
   const themeName = useTheme()
 
-  return <thead ref={ref} {...styles.head(themeName)} {...props} />
+  return (
+    <thead
+      ref={ref}
+      className={classNames(
+        className,
+        'psds-table__head',
+        `psds-theme--${themeName}`
+      )}
+      {...props}
+    />
+  )
 })
 TableHead.displayName = 'Table.Head'
 
@@ -181,6 +134,7 @@ const TableHeader = React.forwardRef<
 >((props, ref) => {
   const {
     align = alignments.left,
+    className,
     children,
     sort,
     sticky = false,
@@ -222,12 +176,18 @@ const TableHeader = React.forwardRef<
 
     return options[ariaSort]
   }, [ariaSort])
-
   return (
     <th
       ref={ref}
       title={title}
-      {...styles.header(themeName, { align, sortable, sticky })}
+      className={classNames(
+        className,
+        `psds-theme--${themeName}`,
+        'psds-table__header',
+        `psds-table__header--align-${align}`,
+        sortable && 'psds-table__header--sortable',
+        sticky && 'psds-table__header--sticky'
+      )}
       {...(sortable && {
         'aria-label': ariaLabel,
         'aria-sort': ariaSort,
@@ -237,7 +197,9 @@ const TableHeader = React.forwardRef<
     >
       <div>
         {children}
-        {sortable && <Icon aria-hidden {...styles.sortIcon()} />}
+        {sortable && (
+          <Icon aria-hidden className={'psds-table__header__sort-icon'} />
+        )}
       </div>
     </th>
   )
@@ -250,14 +212,21 @@ interface TableRowProps extends React.HTMLAttributes<HTMLTableRowElement> {
 }
 const TableRow = React.forwardRef<HTMLTableRowElement, TableRowProps>(
   (props, ref) => {
-    const { expanded = true, selected = false, ...rest } = props
+    const { expanded = true, selected = false, className, ...rest } = props
     const themeName = useTheme()
+    const collapsed = !expanded
 
     return (
       <tr
         role="row"
         ref={ref}
-        {...styles.row(themeName, { expanded, selected })}
+        className={classNames(
+          className,
+          `psds-theme--${themeName}`,
+          `psds-table__row`,
+          collapsed && 'psds-table__row--collapsed',
+          selected && `psds-table__row--selected`
+        )}
         {...rest}
       />
     )
@@ -278,24 +247,24 @@ const TableDrawer = React.forwardRef<HTMLTableRowElement, TableDrawerProps>(
       colSpan,
       children,
       indentWithCell = true,
+      className,
       ...rest
     } = props
     const { 'aria-hidden': ariaHidden, ref: inner } = useCollapsible(expanded)
 
     const cSpan = indentWithCell ? colSpan - 1 : colSpan
-
     return (
       <TableRow
         aria-hidden={ariaHidden}
         expanded={expanded}
         ref={ref}
-        {...styles.drawer()}
         {...rest}
+        className={classNames(className, 'psds-table__drawer')}
       >
-        {indentWithCell && <TableCell {...styles.drawerCell()} />}
+        {indentWithCell && <TableCell className={'psds-table__drawer__cell'} />}
 
-        <TableCell colSpan={cSpan} {...styles.drawerCell()}>
-          <div ref={inner} {...styles.drawerInner()}>
+        <TableCell colSpan={cSpan} className={'psds-table__drawer__cell'}>
+          <div ref={inner} className={'psds-table__drawer__inner'}>
             {children}
           </div>
         </TableCell>

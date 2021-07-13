@@ -1,46 +1,10 @@
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 import ScreenReaderOnly from '@pluralsight/ps-design-system-screenreaderonly'
-import {
-  useTheme,
-  names as themeNames
-} from '@pluralsight/ps-design-system-theme'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { toPercentageString } from '../js/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  bg: ({ themeName }: { themeName: ValueOf<typeof themeNames> }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-linearprogress__bg']),
-      glamor.css(
-        stylesheet[`.psds-linearprogress__bg.psds-theme--${themeName}`]
-      )
-    ),
-  fg: ({
-    themeName,
-    value
-  }: {
-    themeName: ValueOf<typeof themeNames>
-    value: string
-  }) => {
-    const percent = toPercentageString(value)
-    const isComplete = percent === '100%'
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-linearprogress__fg']),
-      glamor.css(
-        stylesheet[`.psds-linearprogress__fg.psds-theme--${themeName}`]
-      ),
-      isComplete &&
-        glamor.css(stylesheet['.psds-linearprogress__fg--complete']),
-      glamor.css({ width: percent })
-    )
-  }
-}
 
 interface LinearProgressProps extends React.HTMLAttributes<HTMLDivElement> {
   value?: number
@@ -50,6 +14,7 @@ interface LinearProgressProps extends React.HTMLAttributes<HTMLDivElement> {
 const LinearProgress: React.FC<LinearProgressProps> = ({
   value = 0,
   'aria-label': ariaLabel,
+  className,
   ...rest
 }) => {
   const themeName = useTheme()
@@ -60,9 +25,15 @@ const LinearProgress: React.FC<LinearProgressProps> = ({
       ? 'true'
       : 'false'
     : 'true'
+  const percent = toPercentageString(`${value}`)
+  const isComplete = percent === '100%'
   return (
     <div
-      {...styles.bg({ themeName })}
+      className={classNames(
+        className,
+        `psds-theme--${themeName}`,
+        'psds-linearprogress__bg'
+      )}
       {...rest}
       role="progressbar"
       aria-busy={busy}
@@ -76,7 +47,13 @@ const LinearProgress: React.FC<LinearProgressProps> = ({
           {value < 100 ? `${Math.round(value)}%` : 'complete'}
         </ScreenReaderOnly>
       ) : null}
-      <div {...styles.fg({ themeName, value: `${value}` })} />
+      <div
+        className={classNames(
+          'psds-linearprogress__fg',
+          isComplete && 'psds-linearprogress__fg--complete'
+        )}
+        style={{ width: percent }}
+      />
     </div>
   )
 }

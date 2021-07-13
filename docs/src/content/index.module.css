@@ -1,10 +1,10 @@
 [data-psds-theme='light'] {
-  --robotImg: url(/img/robot-light@2x.png);
-  --backgroundColor: var(--psColorsBackgroundLight2);
+  --robot-img: url(/img/robot-light@2x.png);
+  --background-color: var(--ps-colors-background-light-2);
 }
 [data-psds-theme='dark'] {
-  --robotImg: url(/img/robot-dark@2x.png);
-  --backgroundColor: var(--psColorsBackgroundDark2);
+  --robot-img: url(/img/robot-dark@2x.png);
+  --background-color: var(--ps-colors-background-dark-2);
 }
 
 .home {
@@ -14,7 +14,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: var(--psLayoutSpacingLarge);
+  grid-column-gap: var(--ps-layout-spacing-large);
 
   @media (width >= 768px) {
     grid-template-columns: repeat(2, 1fr);
@@ -22,50 +22,50 @@
 }
 .headerText {
   & h1 {
-    margin-bottom: var(--psLayoutSpacingLarge);
+    margin-bottom: var(--ps-layout-spacing-large);
   }
 
   & p {
-    line-height: var(--psTypeLineHeightStandard);
+    line-height: var(--ps-type-line-height-standard);
   }
 }
 .headerImg {
-  --robotHeight: 656;
-  --robotWidth: 960;
+  --robot-height: 656;
+  --robot-width: 960;
 
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: var(--robotImg);
+  background-image: var(--robot-img);
   overflow: hidden;
   height: 0;
-  padding-top: calc(var(--robotHeight) / var(--robotWidth) * 100%);
+  padding-top: calc(var(--robot-height) / var(--robot-width) * 100%);
 }
 
 .steps {
   display: grid;
   list-style: none;
   margin: 80px 0 0 0;
-  grid-gap: var(--psLayoutSpacingMedium);
+  grid-gap: var(--ps-layout-spacing-medium);
 
   & > li {
-    background-color: var(--backgroundColor);
-    padding: var(--psLayoutSpacingSmall) var(--psLayoutSpacingLarge);
+    background-color: var(--background-color);
+    padding: var(--ps-layout-spacing-small) var(--ps-layout-spacing-large);
     border-radius: 8px;
 
     &:not(:last-child) > a {
       display: inline-block;
-      margin-top: var(--psLayoutSpacingXSmall);
+      margin-top: var(--ps-layout-spacing-xsmall);
     }
   }
 
   & a {
-    font-weight: var(--psTypeFontWeightMedium);
+    font-weight: var(--ps-type-font-weight-medium);
   }
 
   @media (width >= 768px) {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: var(--psLayoutSpacingLarge);
+    grid-gap: var(--ps-layout-spacing-large);
   }
 }
 

@@ -1,76 +1,11 @@
 import Avatar, {
   sizes as avatarSizes
 } from '@pluralsight/ps-design-system-avatar'
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  note: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note']),
-      glamor.css(stylesheet[`.psds-note.psds-theme--${themeName}`])
-    ),
-  actionBar: (
-    themeName: ValueOf<typeof themeNames>,
-    {
-      hasHeading,
-      hasMetadata,
-      actionBarVisible
-    }: { hasHeading: boolean; hasMetadata: boolean; actionBarVisible: boolean }
-  ) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note__action-bar']),
-      glamor.css(stylesheet[`.psds-note__action-bar.psds-theme--${themeName}`]),
-      actionBarVisible &&
-        glamor.css(stylesheet[`.psds-note__action-bar--action-bar-visible`]),
-      hasMetadata &&
-        !hasHeading &&
-        glamor.css(stylesheet['.psds-note__action-bar--meta-sibling'])
-    ),
-  action: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note__action']),
-      glamor.css(stylesheet[`.psds-note__action.psds-theme--${themeName}`])
-    ),
-  aside: () => glamor.css(stylesheet['.psds-note__aside']),
-  contents: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note__contents']),
-      glamor.css(stylesheet[`.psds-note__contents.psds-theme--${themeName}`])
-    ),
-  footer: () => glamor.css(stylesheet['.psds-note__footer']),
-  header: () => glamor.css(stylesheet['.psds-note__header']),
-  heading: () => glamor.compose(glamor.css(stylesheet['.psds-note__heading'])),
-  noteList: () => glamor.css(stylesheet['.psds-note__list']),
-  noteListItem: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note__list-item']),
-      glamor.css(stylesheet[`.psds-note__list-item.psds-theme--${themeName}`])
-    ),
-  metadata: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note__metadata']),
-      glamor.css(stylesheet[`.psds-note__metadata.psds-theme--${themeName}`])
-    ),
-  metadataDatum: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-note__metadata-datum']),
-      glamor.css(
-        stylesheet[`.psds-note__metadata-datum.psds-theme--${themeName}`]
-      )
-    ),
-  metadataDot: () => glamor.css(stylesheet['.psds-note__metadata-dot'])
-}
-
+import '../css/index.css'
 interface NoteProps extends React.HTMLAttributes<HTMLDivElement> {
   actionBar?: React.ReactElement<typeof Action>[]
   actionBarVisible?: boolean
@@ -99,6 +34,7 @@ const Note: React.FC<NoteProps> & NoteStatics = props => {
     metadata,
     onMouseOut,
     onMouseOver,
+    className,
     ...rest
   } = props
   const themeName = useTheme()
@@ -121,11 +57,13 @@ const Note: React.FC<NoteProps> & NoteStatics = props => {
 
   const renderActionBar = hasActions ? (
     <div
-      {...styles.actionBar(themeName, {
-        hasHeading,
-        hasMetadata,
-        actionBarVisible: actionBarVisible || isHovered
-      })}
+      className={classNames(
+        'psds-note__action-bar',
+        `psds-theme--${themeName}`,
+        (actionBarVisible || isHovered) &&
+          `psds-note__action-bar--action-bar-visible`,
+        hasMetadata && !hasHeading && 'psds-note__action-bar--meta-sibling'
+      )}
     >
       {(actionBar || []).map((action, key) => {
         return React.cloneElement(action, { key })
@@ -135,40 +73,57 @@ const Note: React.FC<NoteProps> & NoteStatics = props => {
 
   return (
     <div
-      {...styles.note(themeName)}
+      className={classNames(className, 'psds-note', `psds-theme--${themeName}`)}
       {...rest}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
       {hasAside && (
-        <div {...styles.aside()}>
+        <div className={'psds-note__aside'}>
           {React.cloneElement(avatar as React.ReactElement<any>, {
             size: avatarSizes.xSmall
           })}
         </div>
       )}
 
-      <div {...styles.contents(themeName)}>
+      <div
+        className={classNames(
+          'psds-note__contents',
+          `psds-theme--${themeName}`
+        )}
+      >
         {hasHeading && (
-          <div {...styles.header()}>
-            {heading && <div {...styles.heading()}>{heading}</div>}
+          <div className={'psds-note__header'}>
+            {heading && <div className={'psds-note__heading'}>{heading}</div>}
             {renderActionBar}
           </div>
         )}
 
         {message}
 
-        <div {...styles.footer()}>
+        <div className={'psds-note__footer'}>
           {hasMetadata && (
-            <div {...styles.metadata(themeName)}>
+            <div
+              className={classNames(
+                'psds-note__metadata',
+                `psds-theme--${themeName}`
+              )}
+            >
               {(metadata || []).map((datum: React.ReactNode, i) => {
                 const hasNext = i < (metadata || []).length - 1
 
                 return (
                   <React.Fragment key={`datum-${i}`}>
-                    <span {...styles.metadataDatum(themeName)}>{datum}</span>
+                    <span
+                      className={classNames(
+                        'psds-note__metadata-datum',
+                        `psds-theme--${themeName}`
+                      )}
+                    >
+                      {datum}
+                    </span>
                     {hasNext && (
-                      <span aria-hidden {...styles.metadataDot()}>
+                      <span aria-hidden className={'psds-note__metadata-dot'}>
                         &middot;
                       </span>
                     )}
@@ -188,13 +143,21 @@ export default Note
 
 const NoteList: React.FC<React.HTMLAttributes<HTMLOListElement>> = ({
   children,
+  className,
   ...rest
 }) => {
   const themeName = useTheme()
   return (
-    <ol {...styles.noteList()} {...rest}>
+    <ol className={classNames(className, 'psds-note__list')} {...rest}>
       {React.Children.map(children, child => (
-        <li {...styles.noteListItem(themeName)}>{child}</li>
+        <li
+          className={classNames(
+            'psds-note__list-item',
+            `psds-theme--${themeName}`
+          )}
+        >
+          {child}
+        </li>
       ))}
     </ol>
   )
@@ -207,10 +170,18 @@ interface ActionProps extends React.HTMLAttributes<HTMLButtonElement> {
 }
 const Action = React.forwardRef<HTMLButtonElement, ActionProps>(
   (props, ref) => {
-    const { icon, ...rest } = props
+    const { icon, className, ...rest } = props
     const themeName = useTheme()
     return (
-      <button ref={ref} {...styles.action(themeName)} {...rest}>
+      <button
+        ref={ref}
+        className={classNames(
+          className,
+          'psds-note__action',
+          `psds-theme--${themeName}`
+        )}
+        {...rest}
+      >
         {icon}
       </button>
     )

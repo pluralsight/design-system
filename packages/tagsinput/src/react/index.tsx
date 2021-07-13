@@ -1,35 +1,18 @@
 import { CloseIcon } from '@pluralsight/ps-design-system-icon'
 import Field from '@pluralsight/ps-design-system-field'
 import Tag from '@pluralsight/ps-design-system-tag'
-import { useUniqueId, usePrevious } from '@pluralsight/ps-design-system-util'
+import {
+  useUniqueId,
+  usePrevious,
+  classNames
+} from '@pluralsight/ps-design-system-util'
 import { useMultipleSelection } from 'downshift'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { Option } from './types'
 
 export { Option }
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  tagsInput: (opts: { disabled?: boolean }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-tagsinput']),
-      opts.disabled && glamor.css(stylesheet['.psds-tagsinput--disabled'])
-    ),
-
-  prefix: () => glamor.css(stylesheet['.psds-tagsinput__prefix']),
-  suffix: () => glamor.css(stylesheet['.psds-tagsinput__suffix']),
-
-  input: () => glamor.css(stylesheet['.psds-tagsinput__input']),
-
-  pillsContainer: () =>
-    glamor.css(stylesheet['.psds-tagsinput__pills-container']),
-  pills: () => glamor.css(stylesheet['.psds-tagsinput__pills']),
-  pill: () => glamor.css(stylesheet['.psds-tagsinput__pill'])
-}
 
 interface TagsInputProps
   extends Omit<
@@ -55,6 +38,7 @@ type TagsInputComponent = React.FC<TagsInputProps> & TagsInputStatics
 
 const TagsInput: TagsInputComponent = props => {
   const {
+    className,
     disabled,
     label,
     onChange,
@@ -142,10 +126,14 @@ const TagsInput: TagsInputComponent = props => {
       size={Field.sizes.small}
       subLabel={SubLabel}
       suffix={suffix && <Suffix>{suffix}</Suffix>}
-      {...styles.tagsInput({ disabled })}
+      className={classNames(
+        'psds-tagsinput',
+        disabled && 'psds-tagsinput--disabled',
+        className
+      )}
       {...rest}
     >
-      <div {...styles.pillsContainer()}>
+      <div className={'psds-tagsinput__pills-container'}>
         <Pills>
           {selectedItems.map((option, index) => (
             <Pill
@@ -184,7 +172,7 @@ const Pills = React.forwardRef<
   const { children, ...rest } = props
 
   return (
-    <div ref={ref} {...rest} {...styles.pills()}>
+    <div ref={ref} {...rest} className={'psds-tagsinput__pills'}>
       {children}
     </div>
   )
@@ -197,7 +185,7 @@ const Pill = React.forwardRef<HTMLDivElement, PillProps>((props, ref) => {
   const { children, onRequestRemove, ...rest } = props
 
   return (
-    <div ref={ref} {...rest} {...styles.pill()}>
+    <div ref={ref} {...rest} className={'psds-tagsinput__pill'}>
       <Tag
         icon={<CloseIcon onClick={onRequestRemove} />}
         isPressed
@@ -223,12 +211,16 @@ const PillAdjacentInput = React.forwardRef<HTMLInputElement>(
         renderContainer={PillAdjacentInputContainer}
         type="text"
         {...props}
-        {...styles.input()}
+        className={'psds-tagsinput__input'}
       />
     )
   }
 )
 
-const Prefix: React.FC = p => <div {...p} {...styles.prefix()} />
+const Prefix: React.FC = p => (
+  <div {...p} className={'psds-tagsinput__prefix'} />
+)
 
-const Suffix: React.FC = p => <div {...p} {...styles.suffix()} />
+const Suffix: React.FC = p => (
+  <div {...p} className={'psds-tagsinput__suffix'} />
+)

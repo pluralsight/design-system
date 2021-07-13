@@ -2,15 +2,15 @@
 
 exports[`Storyshots Components/NavUser As Button 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <button
-    data-css-6uwj3a=""
+    className="psds-navuser psds-navuser--clickable"
     onClick={[Function]}
   >
     <div
       aria-hidden={true}
-      className="psds-avatar psds-avatar--size-xSmall"
+      className="psds-avatar psds-avatar--size-xsmall"
     >
       <img
         className="psds-avatar__image"
@@ -31,15 +31,15 @@ exports[`Storyshots Components/NavUser As Button 1`] = `
       </div>
     </div>
     <div
-      data-css-1mmc9g1=""
+      className="psds-navuser__words"
     >
       <div
-        data-css-6flzpu=""
+        className="psds-navuser__name"
       >
         Jake Trent
       </div>
       <div
-        data-css-60db85=""
+        className="psds-navuser__plan-name"
       />
     </div>
   </button>
@@ -48,15 +48,15 @@ exports[`Storyshots Components/NavUser As Button 1`] = `
 
 exports[`Storyshots Components/NavUser As Link 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <a
-    data-css-6uwj3a=""
+    className="psds-navuser psds-navuser--clickable"
     href="https://jaketrent.com"
   >
     <div
       aria-hidden={true}
-      className="psds-avatar psds-avatar--size-xSmall"
+      className="psds-avatar psds-avatar--size-xsmall"
     >
       <img
         className="psds-avatar__image"
@@ -77,15 +77,15 @@ exports[`Storyshots Components/NavUser As Link 1`] = `
       </div>
     </div>
     <div
-      data-css-1mmc9g1=""
+      className="psds-navuser__words"
     >
       <div
-        data-css-6flzpu=""
+        className="psds-navuser__name"
       >
         Jake Trent
       </div>
       <div
-        data-css-60db85=""
+        className="psds-navuser__plan-name"
       />
     </div>
   </a>
@@ -94,14 +94,14 @@ exports[`Storyshots Components/NavUser As Link 1`] = `
 
 exports[`Storyshots Components/NavUser Avatar Only 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
-    data-css-91smc8=""
+    className="psds-navuser"
   >
     <div
       aria-hidden={true}
-      className="psds-avatar psds-avatar--size-xSmall"
+      className="psds-avatar psds-avatar--size-xsmall"
     >
       <img
         className="psds-avatar__image"
@@ -121,13 +121,13 @@ exports[`Storyshots Components/NavUser Avatar Only 1`] = `
       </div>
     </div>
     <div
-      data-css-1mmc9g1=""
+      className="psds-navuser__words"
     >
       <div
-        data-css-6flzpu=""
+        className="psds-navuser__name"
       />
       <div
-        data-css-60db85=""
+        className="psds-navuser__plan-name"
       />
     </div>
   </div>
@@ -136,14 +136,14 @@ exports[`Storyshots Components/NavUser Avatar Only 1`] = `
 
 exports[`Storyshots Components/NavUser Basic 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
-    data-css-91smc8=""
+    className="psds-navuser"
   >
     <div
       aria-hidden={true}
-      className="psds-avatar psds-avatar--size-xSmall"
+      className="psds-avatar psds-avatar--size-xsmall"
     >
       <img
         className="psds-avatar__image"
@@ -164,15 +164,15 @@ exports[`Storyshots Components/NavUser Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-1mmc9g1=""
+      className="psds-navuser__words"
     >
       <div
-        data-css-6flzpu=""
+        className="psds-navuser__name"
       >
         Jake Trent
       </div>
       <div
-        data-css-60db85=""
+        className="psds-navuser__plan-name"
       />
     </div>
   </div>
@@ -182,13 +182,13 @@ exports[`Storyshots Components/NavUser Basic 1`] = `
 exports[`Storyshots Components/NavUser With Action Menu 1`] = `
 <div>
   <button
-    data-css-y5dqt5=""
+    className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
     disabled={false}
     onClick={[Function]}
   >
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       Click me first
     </span>
@@ -202,13 +202,13 @@ exports[`Storyshots Components/NavUser With Action Menu 1`] = `
   />
   <br />
   <button
-    data-css-y5dqt5=""
+    className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
     disabled={false}
     onClick={[Function]}
   >
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       Then click me, first menu closes, mine opens
     </span>
@@ -222,15 +222,15 @@ exports[`Storyshots Components/NavUser With Action Menu 1`] = `
   />
   <br />
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-6uwj3a=""
+      className="psds-navuser psds-navuser--clickable"
       onClick={[Function]}
     >
       <div
         aria-hidden={true}
-        className="psds-avatar psds-avatar--size-xSmall"
+        className="psds-avatar psds-avatar--size-xsmall"
       >
         <img
           className="psds-avatar__image"
@@ -251,15 +251,15 @@ exports[`Storyshots Components/NavUser With Action Menu 1`] = `
         </div>
       </div>
       <div
-        data-css-1mmc9g1=""
+        className="psds-navuser__words"
       >
         <div
-          data-css-6flzpu=""
+          className="psds-navuser__name"
         >
           Then click me, same as 2nd button
         </div>
         <div
-          data-css-60db85=""
+          className="psds-navuser__plan-name"
         >
           Menu 2 close, Menu 3 open
         </div>
@@ -278,14 +278,14 @@ exports[`Storyshots Components/NavUser With Action Menu 1`] = `
 
 exports[`Storyshots Components/NavUser With Meta 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
-    data-css-91smc8=""
+    className="psds-navuser"
   >
     <div
       aria-hidden={true}
-      className="psds-avatar psds-avatar--size-xSmall"
+      className="psds-avatar psds-avatar--size-xsmall"
     >
       <img
         className="psds-avatar__image"
@@ -306,15 +306,15 @@ exports[`Storyshots Components/NavUser With Meta 1`] = `
       </div>
     </div>
     <div
-      data-css-1mmc9g1=""
+      className="psds-navuser__words"
     >
       <div
-        data-css-6flzpu=""
+        className="psds-navuser__name"
       >
         Jake Trent
       </div>
       <div
-        data-css-60db85=""
+        className="psds-navuser__plan-name"
       >
         Accenture
       </div>

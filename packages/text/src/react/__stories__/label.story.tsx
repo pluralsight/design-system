@@ -2,7 +2,7 @@ import { action } from '@storybook/addon-actions'
 import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 
-import { PaddingDecorator } from './shared'
+import { PaddingDecorator, StoryGrid } from './shared'
 import { Label } from '../index'
 
 export default {
@@ -12,7 +12,7 @@ export default {
 } as Meta
 
 const defaultArgs = {
-  children: <h1>Label</h1>,
+  children: <span>Label</span>,
   onClick: action('click')
 }
 
@@ -34,3 +34,14 @@ Mono.args = { ...defaultArgs, mono: true }
 
 export const StrongCaps = Template.bind({})
 StrongCaps.args = { ...defaultArgs, caps: true, strong: true }
+
+export const Sizes: Story<React.ComponentProps<typeof Label>> = args => (
+  <StoryGrid cols={1}>
+    {Object.values(Label.sizes).map((size, i) => (
+      <Label {...args} key={i} size={size}>
+        <span>{size}</span>
+      </Label>
+    ))}
+  </StoryGrid>
+)
+Sizes.args = { ...defaultArgs }

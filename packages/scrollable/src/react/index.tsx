@@ -1,30 +1,13 @@
 import {
   canUseDOM,
+  classNames,
   combineFns,
   shallowCompare,
   useResizeObserver
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  outer: () =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-scrollable__outer']),
-      glamor.media('not print', stylesheet['.psds-scrollable__outer--screen'])
-    ),
-  inner: () => glamor.css(stylesheet['.psds-scrollable__inner']),
-  content: () => glamor.css(stylesheet['.psds-scrollable__content']),
-  handle: (grabbed: boolean) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-scrollable__handle']),
-      grabbed && glamor.css(stylesheet['.psds-scrollable__handle--grabbed'])
-    )
-}
+import '../css/index.css'
 
 let BLANK_IMAGE: HTMLImageElement | undefined
 if (canUseDOM()) {
@@ -112,9 +95,9 @@ const Scrollable = React.forwardRef<HTMLElement, ScrollableProps>(
 
     const styleOverride = React.useMemo(() => {
       const height = Math.max(scrollRatio * 100, 10) + '%'
-      const visibility = hidden ? 'hidden' : 'initial'
+      const visibility: 'hidden' | 'initial' = hidden ? 'hidden' : 'initial'
 
-      return glamor.css({ height, top: offset, visibility })
+      return { height, top: offset, visibility }
     }, [hidden, offset, scrollRatio])
 
     const onScroll = combineFns<[React.UIEvent<HTMLDivElement>]>(
@@ -128,7 +111,7 @@ const Scrollable = React.forwardRef<HTMLElement, ScrollableProps>(
             {
               children: props.children,
               onScroll,
-              ...styles.content()
+              className: 'psds-scrollable__content'
             },
             (node: HTMLElement) => (ref.current = node)
           )}
@@ -139,7 +122,7 @@ const Scrollable = React.forwardRef<HTMLElement, ScrollableProps>(
           onDrag={onHandleDrag}
           onDragEnd={onHandleDragEnd}
           onDragStart={onHandleDragStart}
-          {...styleOverride}
+          style={styleOverride}
         />
       </Outer>
     )
@@ -150,6 +133,7 @@ Scrollable.displayName = 'Scrollable'
 export interface renderContentProps {
   children: React.ReactNode
   onScroll: React.UIEventHandler
+  className: string
 }
 const defaultRenderContent = (
   contentProps: renderContentProps,
@@ -157,8 +141,17 @@ const defaultRenderContent = (
 ) => <div {...contentProps} ref={contentRef} />
 
 const Outer = React.memo<React.HTMLAttributes<HTMLDivElement>>(
-  function OuterComp(props) {
-    return <div {...styles.outer()} {...props} />
+  function OuterComp({ className, ...props }) {
+    return (
+      <div
+        className={classNames(
+          className,
+          'psds-scrollable__outer',
+          'psds-scrollable__outer--screen'
+        )}
+        {...props}
+      />
+    )
   },
   areEqualProps
 )
@@ -166,13 +159,13 @@ Outer.displayName = 'Scrollable.Outer'
 
 const Inner = React.memo<React.HTMLAttributes<HTMLDivElement>>(
   function InnerComp(props) {
-    return <div {...styles.inner()} {...props} />
+    return <div className={'psds-scrollable__inner'} {...props} />
   },
   areEqualProps
 )
 Inner.displayName = 'Scrollable.Inner'
 
-interface HandleProps {
+interface HandleProps extends React.HTMLAttributes<HTMLDivElement> {
   draggable: boolean
   onDrag?: React.DragEventHandler
   onDragEnd?: React.DragEventHandler
@@ -191,7 +184,10 @@ const Handle: React.FC<HandleProps> = props => {
 
   return (
     <div
-      {...styles.handle(grabbed)}
+      className={classNames(
+        'psds-scrollable__handle',
+        grabbed && 'psds-scrollable__handle--grabbed'
+      )}
       {...props}
       onDragEnd={onDragEnd}
       onDragStart={onDragStart}

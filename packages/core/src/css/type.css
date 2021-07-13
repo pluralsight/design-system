@@ -1,0 +1,79 @@
+:root {
+  /* prettier-ignore */
+  --ps-type-font-family: 'PS TT Commons Roman', 'Gotham SSm A', 'Gotham SSm B', Arial, sans-serif;
+  --ps-type-font-family-code: 'DM Mono', 'Source Code Pro', monospace;
+
+  /* font size (deprecated) */
+  --ps-type-font-size-gigantic: 60px;
+  --ps-type-font-size-jumbo: 48px;
+  --ps-type-font-size-xxlarge: 36px;
+  --ps-type-font-size-xlarge: 30px;
+  --ps-type-font-size-large: 24px;
+  --ps-type-font-size-medium: 18px;
+  --ps-type-font-size-small: 14px;
+  --ps-type-font-size-xsmall: 12px;
+
+  /* font size */
+  --ps-type-font-size-base: 16px;
+  --ps-type-font-size-1200: 88px;
+  --ps-type-font-size-1100: 72px;
+  --ps-type-font-size-1000: 56px;
+  --ps-type-font-size-900: 40px;
+  --ps-type-font-size-800: 34px;
+  --ps-type-font-size-700: 28px;
+  --ps-type-font-size-600: 24px;
+  --ps-type-font-size-500: 20px;
+  --ps-type-font-size-400: 18px;
+  --ps-type-font-size-300: 16px;
+  --ps-type-font-size-200: 14px;
+  --ps-type-font-size-100: 12px;
+
+  /* letter spacing (deprecated) */
+  --ps-type-letter-spacing-gigantic: -1px;
+  --ps-type-letter-spacing-jumbo: -0.72px;
+  --ps-type-letter-spacing-xxlarge: -0.54px;
+  --ps-type-letter-spacing-xlarge: -0.45px;
+  --ps-type-letter-spacing-large: 0.36px;
+  --ps-type-letter-spacing-medium: 0;
+  --ps-type-letter-spacing-small: 0;
+  --ps-type-letter-spacing-xsmall: 0;
+
+  /* letter spacing */
+  --ps-type-letter-spacing-tighter: -0.025em;
+  --ps-type-letter-spacing-tight: -0.01em;
+  --ps-type-letter-spacing-none: 0;
+  --ps-type-letter-spacing-loose: 0.01em;
+  --ps-type-letter-spacing-looser: 0.025em;
+  --ps-type-letter-spacing-all-caps: 0.08em;
+
+  /* font weight (deprecated) */
+  --ps-type-font-weight-black: 900;
+  --ps-type-font-weight-xbold: 800;
+  --ps-type-font-weight-bold: 700;
+  --ps-type-font-weight-demi-bold: 600;
+  --ps-type-font-weight-medium: 500;
+  --ps-type-font-weight-regular: 400;
+  --ps-type-font-weight-book: 400;
+  --ps-type-font-weight-light: 300;
+  --ps-type-font-weight-xlight: 200;
+  --ps-type-font-weight-thin: 100;
+
+  /* font weight */
+  --ps-type-font-weight-default: 400;
+  --ps-type-font-weight-strong: 600;
+  --ps-type-font-weight-900: 900;
+  --ps-type-font-weight-800: 800;
+  --ps-type-font-weight-700: 700;
+  --ps-type-font-weight-600: 600;
+  --ps-type-font-weight-500: 500;
+  --ps-type-font-weight-400: 400;
+  --ps-type-font-weight-300: 300;
+  --ps-type-font-weight-200: 200;
+  --ps-type-font-weight-100: 100;
+
+  /* line height */
+  --ps-type-line-height-tight: 20px;
+  --ps-type-line-height-standard: 24px;
+  --ps-type-line-height-extra: 32px;
+  --ps-type-line-height-huge: 40px;
+}

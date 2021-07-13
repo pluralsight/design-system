@@ -5,23 +5,23 @@ exports[`Storyshots Components/Switch Basic 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-nq9iqf=""
+    className="psds-switch psds-switch--label-align-right"
   >
     <div
-      data-css-1lu7sfl=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
     >
       <div
-        data-css-19bj9q0=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
       >
         <div
-          data-css-1o90whm=""
+          className="psds-switch__thumb psds-switch__thumb--size-large"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={false}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -40,23 +40,23 @@ exports[`Storyshots Components/Switch Checked 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-nq9iqf=""
+    className="psds-switch psds-switch--label-align-right"
   >
     <div
-      data-css-1lu7sfl=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
     >
       <div
-        data-css-3p558u=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large psds-switch__track--checked psds-switch__track--color-orange"
       >
         <div
-          data-css-1a0fvsw=""
+          className="psds-switch__thumb psds-switch__thumb--size-large psds-switch__thumb--checked"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={true}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -75,23 +75,23 @@ exports[`Storyshots Components/Switch Checked Error 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-nq9iqf=""
+    className="psds-switch psds-switch--label-align-right"
   >
     <div
-      data-css-mmyfiy=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--error psds-halo--visible-on-focus"
     >
       <div
-        data-css-3p558u=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large psds-switch__track--checked psds-switch__track--color-orange"
       >
         <div
-          data-css-1a0fvsw=""
+          className="psds-switch__thumb psds-switch__thumb--size-large psds-switch__thumb--checked"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={true}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -113,23 +113,23 @@ exports[`Storyshots Components/Switch Colors 1`] = `
     data-css-1gfhbu8=""
   >
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-3p558u=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large psds-switch__track--checked psds-switch__track--color-blue"
         >
           <div
-            data-css-1a0fvsw=""
+            className="psds-switch__thumb psds-switch__thumb--size-large psds-switch__thumb--checked"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={true}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -140,29 +140,29 @@ exports[`Storyshots Components/Switch Colors 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         blue
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-1ad2n5h=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large psds-switch__track--checked psds-switch__track--color-green"
         >
           <div
-            data-css-1a0fvsw=""
+            className="psds-switch__thumb psds-switch__thumb--size-large psds-switch__thumb--checked"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={true}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -173,29 +173,29 @@ exports[`Storyshots Components/Switch Colors 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         green
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-3p558u=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large psds-switch__track--checked psds-switch__track--color-orange"
         >
           <div
-            data-css-1a0fvsw=""
+            className="psds-switch__thumb psds-switch__thumb--size-large psds-switch__thumb--checked"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={true}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -206,7 +206,7 @@ exports[`Storyshots Components/Switch Colors 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         orange
       </span>
@@ -220,23 +220,23 @@ exports[`Storyshots Components/Switch Disabled 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-wytdm9=""
+    className="psds-switch psds-switch--label-align-right psds-switch--disabled"
   >
     <div
-      data-css-1lu7sfl=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
     >
       <div
-        data-css-19bj9q0=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
       >
         <div
-          data-css-1o90whm=""
+          className="psds-switch__thumb psds-switch__thumb--size-large"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={false}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={true}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -254,23 +254,23 @@ exports[`Storyshots Components/Switch Disabled Error 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-wytdm9=""
+    className="psds-switch psds-switch--label-align-right psds-switch--disabled"
   >
     <div
-      data-css-mmyfiy=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--error psds-halo--visible-on-focus"
     >
       <div
-        data-css-19bj9q0=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
       >
         <div
-          data-css-1o90whm=""
+          className="psds-switch__thumb psds-switch__thumb--size-large"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={false}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={true}
       onBlur={[Function]}
       onFocus={[Function]}
@@ -288,23 +288,23 @@ exports[`Storyshots Components/Switch Error 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-nq9iqf=""
+    className="psds-switch psds-switch--label-align-right"
   >
     <div
-      data-css-mmyfiy=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--error psds-halo--visible-on-focus"
     >
       <div
-        data-css-19bj9q0=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
       >
         <div
-          data-css-1o90whm=""
+          className="psds-switch__thumb psds-switch__thumb--size-large"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={false}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -326,22 +326,22 @@ exports[`Storyshots Components/Switch Example State Demo 1`] = `
     data-css-1gfhbu8=""
   >
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-19bj9q0=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
         >
           <div
-            data-css-1o90whm=""
+            className="psds-switch__thumb psds-switch__thumb--size-large"
           />
         </div>
       </div>
       <input
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -352,28 +352,28 @@ exports[`Storyshots Components/Switch Example State Demo 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         blue
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-19bj9q0=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
         >
           <div
-            data-css-1o90whm=""
+            className="psds-switch__thumb psds-switch__thumb--size-large"
           />
         </div>
       </div>
       <input
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -384,28 +384,28 @@ exports[`Storyshots Components/Switch Example State Demo 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         green
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-19bj9q0=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
         >
           <div
-            data-css-1o90whm=""
+            className="psds-switch__thumb psds-switch__thumb--size-large"
           />
         </div>
       </div>
       <input
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -416,7 +416,7 @@ exports[`Storyshots Components/Switch Example State Demo 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         orange
       </span>
@@ -433,23 +433,23 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
     data-css-1gfhbu8=""
   >
     <label
-      data-css-1u14hec=""
+      className="psds-switch psds-switch--label-align-left"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-f5cui8=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-small"
         >
           <div
-            data-css-44oays=""
+            className="psds-switch__thumb psds-switch__thumb--size-small"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -460,7 +460,7 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
         type="checkbox"
       />
       <span
-        data-css-i4my9=""
+        className="psds-switch__label psds-switch__label--size-small psds-switch__label--label-align-left psds-theme--dark"
       >
         small
         -
@@ -468,23 +468,23 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-f5cui8=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-small"
         >
           <div
-            data-css-44oays=""
+            className="psds-switch__thumb psds-switch__thumb--size-small"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -495,7 +495,7 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
         type="checkbox"
       />
       <span
-        data-css-y6ldsm=""
+        className="psds-switch__label psds-switch__label--size-small psds-switch__label--label-align-right psds-theme--dark"
       >
         small
         -
@@ -503,23 +503,23 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
       </span>
     </label>
     <label
-      data-css-1u14hec=""
+      className="psds-switch psds-switch--label-align-left"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-19bj9q0=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
         >
           <div
-            data-css-1o90whm=""
+            className="psds-switch__thumb psds-switch__thumb--size-large"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -530,7 +530,7 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
         type="checkbox"
       />
       <span
-        data-css-16fknc=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-left psds-theme--dark"
       >
         large
         -
@@ -538,23 +538,23 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-19bj9q0=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
         >
           <div
-            data-css-1o90whm=""
+            className="psds-switch__thumb psds-switch__thumb--size-large"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -565,7 +565,7 @@ exports[`Storyshots Components/Switch Label Alignment 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         large
         -
@@ -581,23 +581,23 @@ exports[`Storyshots Components/Switch Named 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-nq9iqf=""
+    className="psds-switch psds-switch--label-align-right"
   >
     <div
-      data-css-1lu7sfl=""
+      className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
     >
       <div
-        data-css-19bj9q0=""
+        className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
       >
         <div
-          data-css-1o90whm=""
+          className="psds-switch__thumb psds-switch__thumb--size-large"
         />
       </div>
     </div>
     <input
       aria-label="Switch label"
       checked={false}
-      data-css-6wu9td=""
+      className="psds-switch__checkbox"
       disabled={false}
       name="form-name-for-switch"
       onBlur={[Function]}
@@ -620,23 +620,23 @@ exports[`Storyshots Components/Switch Sizes 1`] = `
     data-css-1gfhbu8=""
   >
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-f5cui8=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-small"
         >
           <div
-            data-css-44oays=""
+            className="psds-switch__thumb psds-switch__thumb--size-small"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -647,29 +647,29 @@ exports[`Storyshots Components/Switch Sizes 1`] = `
         type="checkbox"
       />
       <span
-        data-css-y6ldsm=""
+        className="psds-switch__label psds-switch__label--size-small psds-switch__label--label-align-right psds-theme--dark"
       >
         small
       </span>
     </label>
     <label
-      data-css-nq9iqf=""
+      className="psds-switch psds-switch--label-align-right"
     >
       <div
-        data-css-1lu7sfl=""
+        className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
       >
         <div
-          data-css-19bj9q0=""
+          className="psds-switch__track psds-theme--dark psds-switch__track--size-large"
         >
           <div
-            data-css-1o90whm=""
+            className="psds-switch__thumb psds-switch__thumb--size-large"
           />
         </div>
       </div>
       <input
         aria-label="Switch label"
         checked={false}
-        data-css-6wu9td=""
+        className="psds-switch__checkbox"
         disabled={false}
         onBlur={[Function]}
         onClick={[Function]}
@@ -680,7 +680,7 @@ exports[`Storyshots Components/Switch Sizes 1`] = `
         type="checkbox"
       />
       <span
-        data-css-1oms9gl=""
+        className="psds-switch__label psds-switch__label--size-large psds-switch__label--label-align-right psds-theme--dark"
       >
         large
       </span>

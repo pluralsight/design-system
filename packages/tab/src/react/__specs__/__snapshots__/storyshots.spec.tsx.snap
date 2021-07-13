@@ -10,13 +10,13 @@ exports[`Storyshots Components/Tab Active Item Offscreen 1`] = `
   }
 >
   <div
-    data-css-zduid6=""
+    className="psds-tab__list psds-theme--dark"
     onKeyDown={[Function]}
     role="tablist"
     tabIndex={0}
   >
     <div
-      data-css-z1scix=""
+      className="psds-tab__slider"
       style={
         Object {
           "transform": "translateX(0px)",
@@ -25,169 +25,169 @@ exports[`Storyshots Components/Tab Active Item Offscreen 1`] = `
     >
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={1}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             One thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={2}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Two thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={3}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Three thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={4}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Four thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={true}
-        data-css-197sg7a=""
+        className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
         id={5}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             ACTIVE thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={6}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Six thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={7}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Six thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id={8}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Six thing
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
@@ -199,13 +199,13 @@ exports[`Storyshots Components/Tab Active Item Offscreen 1`] = `
 exports[`Storyshots Components/Tab Active Item Preceded By Null 1`] = `
 Array [
   <div
-    data-css-zduid6=""
+    className="psds-tab__list psds-theme--dark"
     onKeyDown={[Function]}
     role="tablist"
     tabIndex={0}
   >
     <div
-      data-css-z1scix=""
+      className="psds-tab__slider"
       style={
         Object {
           "transform": "translateX(0px)",
@@ -214,22 +214,22 @@ Array [
     >
       <button
         aria-selected={true}
-        data-css-197sg7a=""
+        className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
         id={2}
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Tab 2
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
@@ -246,13 +246,13 @@ Array [
 
 exports[`Storyshots Components/Tab As Links 1`] = `
 <div
-  data-css-zduid6=""
+  className="psds-tab__list psds-theme--dark"
   onKeyDown={[Function]}
   role="tablist"
   tabIndex={0}
 >
   <div
-    data-css-z1scix=""
+    className="psds-tab__slider"
     style={
       Object {
         "transform": "translateX(0px)",
@@ -261,7 +261,7 @@ exports[`Storyshots Components/Tab As Links 1`] = `
   >
     <a
       aria-selected={true}
-      data-css-197sg7a=""
+      className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
       href="https://duckduckgo.com"
       id={1}
       onClick={[Function]}
@@ -269,15 +269,15 @@ exports[`Storyshots Components/Tab As Links 1`] = `
       tabIndex={-1}
     >
       <div
-        data-css-1cuoqce=""
+        className="psds-tab__list-item__text"
       >
         <div
-          data-css-3omctz=""
+          className="psds-tab__list-item__text-inner"
         >
           External link
         </div>
         <span
-          data-css-kuoqk0=""
+          className="psds-tab__list-item__bar"
         />
       </div>
     </a>
@@ -295,13 +295,13 @@ exports[`Storyshots Components/Tab Default 1`] = `
   }
 >
   <div
-    data-css-zduid6=""
+    className="psds-tab__list psds-theme--dark"
     onKeyDown={[Function]}
     role="tablist"
     tabIndex={0}
   >
     <div
-      data-css-z1scix=""
+      className="psds-tab__slider"
       style={
         Object {
           "transform": "translateX(0px)",
@@ -310,106 +310,106 @@ exports[`Storyshots Components/Tab Default 1`] = `
     >
       <button
         aria-selected={true}
-        data-css-197sg7a=""
+        className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
         id="example-5-0"
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Menu 0
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id="example-5-1"
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Menu 1
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id="example-5-2"
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Menu 2
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id="example-5-3"
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Menu 3
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
       <button
         aria-selected={false}
-        data-css-18spzod=""
+        className="psds-tab__list-item psds-theme--dark"
         id="example-5-4"
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Menu 4
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
@@ -430,13 +430,13 @@ exports[`Storyshots Components/Tab Default 1`] = `
 
 exports[`Storyshots Components/Tab No Items 1`] = `
 <div
-  data-css-zduid6=""
+  className="psds-tab__list psds-theme--dark"
   onKeyDown={[Function]}
   role="tablist"
   tabIndex={0}
 >
   <div
-    data-css-z1scix=""
+    className="psds-tab__slider"
     style={
       Object {
         "transform": "translateX(0px)",
@@ -469,13 +469,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
     }
   >
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -484,211 +484,211 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="example-10-0"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 0
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-1"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 1
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-2"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 2
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-3"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 3
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-4"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 4
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-5"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 5
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-6"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 6
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-7"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 7
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-8"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 8
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-10-9"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 9
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -717,13 +717,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
     }
   >
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -732,421 +732,421 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="example-20-0"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 0
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-1"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 1
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-2"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 2
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-3"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 3
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-4"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 4
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-5"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 5
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-6"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 6
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-7"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 7
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-8"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 8
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-9"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 9
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-10"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 10
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-11"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 11
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-12"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 12
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-13"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 13
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-14"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 14
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-15"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 15
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-16"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 16
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-17"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 17
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-18"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 18
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-20-19"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 19
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -1175,13 +1175,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
     }
   >
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -1190,631 +1190,631 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="example-30-0"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 0
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-1"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 1
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-2"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 2
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-3"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 3
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-4"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 4
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-5"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 5
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-6"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 6
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-7"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 7
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-8"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 8
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-9"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 9
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-10"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 10
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-11"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 11
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-12"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 12
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-13"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 13
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-14"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 14
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-15"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 15
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-16"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 16
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-17"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 17
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-18"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 18
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-19"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 19
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-20"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 20
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-21"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 21
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-22"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 22
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-23"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 23
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-24"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 24
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-25"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 25
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-26"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 26
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-27"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 27
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-28"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 28
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-30-29"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 29
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -1843,13 +1843,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
     }
   >
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -1858,841 +1858,841 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="example-40-0"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 0
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-1"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 1
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-2"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 2
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-3"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 3
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-4"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 4
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-5"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 5
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-6"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 6
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-7"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 7
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-8"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 8
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-9"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 9
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-10"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 10
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-11"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 11
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-12"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 12
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-13"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 13
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-14"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 14
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-15"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 15
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-16"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 16
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-17"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 17
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-18"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 18
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-19"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 19
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-20"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 20
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-21"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 21
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-22"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 22
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-23"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 23
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-24"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 24
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-25"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 25
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-26"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 26
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-27"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 27
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-28"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 28
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-29"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 29
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-30"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 30
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-31"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 31
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-32"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 32
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-33"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 33
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-34"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 34
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-35"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 35
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-36"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 36
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-37"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 37
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-38"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 38
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-40-39"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 39
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -2729,13 +2729,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       }
     >
       <div
-        data-css-zduid6=""
+        className="psds-tab__list psds-theme--dark"
         onKeyDown={[Function]}
         role="tablist"
         tabIndex={0}
       >
         <div
-          data-css-z1scix=""
+          className="psds-tab__slider"
           style={
             Object {
               "transform": "translateX(0px)",
@@ -2744,736 +2744,736 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
         >
           <button
             aria-selected={true}
-            data-css-197sg7a=""
+            className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
             id="example-35-0"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 0
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-1"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 1
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-2"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 2
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-3"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 3
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-4"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 4
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-5"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 5
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-6"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 6
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-7"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 7
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-8"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 8
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-9"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 9
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-10"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 10
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-11"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 11
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-12"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 12
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-13"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 13
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-14"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 14
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-15"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 15
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-16"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 16
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-17"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 17
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-18"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 18
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-19"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 19
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-20"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 20
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-21"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 21
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-22"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 22
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-23"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 23
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-24"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 24
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-25"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 25
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-26"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 26
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-27"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 27
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-28"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 28
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-29"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 29
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-30"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 30
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-31"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 31
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-32"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 32
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-33"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 33
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
           <button
             aria-selected={false}
-            data-css-18spzod=""
+            className="psds-tab__list-item psds-theme--dark"
             id="example-35-34"
             onClick={[Function]}
             role="tab"
             tabIndex={-1}
           >
             <div
-              data-css-1cuoqce=""
+              className="psds-tab__list-item__text"
             >
               <div
-                data-css-3omctz=""
+                className="psds-tab__list-item__text-inner"
               >
                 Menu 34
               </div>
               <span
-                data-css-kuoqk0=""
+                className="psds-tab__list-item__bar"
               />
             </div>
           </button>
@@ -3503,13 +3503,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
     }
   >
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -3518,148 +3518,148 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="example-7-0"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 0
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-7-1"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 1
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-7-2"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 2
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-7-3"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 3
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-7-4"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 4
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-7-5"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 5
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-7-6"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 6
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -3688,13 +3688,13 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
     }
   >
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -3703,946 +3703,946 @@ exports[`Storyshots Components/Tab Scrolling 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="example-45-0"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 0
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-1"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 1
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-2"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 2
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-3"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 3
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-4"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 4
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-5"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 5
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-6"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 6
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-7"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 7
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-8"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 8
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-9"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 9
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-10"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 10
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-11"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 11
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-12"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 12
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-13"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 13
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-14"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 14
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-15"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 15
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-16"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 16
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-17"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 17
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-18"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 18
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-19"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 19
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-20"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 20
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-21"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 21
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-22"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 22
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-23"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 23
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-24"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 24
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-25"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 25
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-26"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 26
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-27"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 27
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-28"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 28
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-29"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 29
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-30"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 30
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-31"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 31
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-32"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 32
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-33"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 33
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-34"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 34
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-35"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 35
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-36"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 36
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-37"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 37
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-38"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 38
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-39"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 39
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-40"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 40
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-41"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 41
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-42"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 42
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-43"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 43
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
         <button
           aria-selected={false}
-          data-css-18spzod=""
+          className="psds-tab__list-item psds-theme--dark"
           id="example-45-44"
           onClick={[Function]}
           role="tab"
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Menu 44
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -4677,7 +4677,7 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
     list no borderBottom (style)
   </div>
   <div
-    data-css-zduid6=""
+    className="psds-tab__list psds-theme--dark"
     onKeyDown={[Function]}
     role="tablist"
     style={
@@ -4688,7 +4688,7 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
     tabIndex={0}
   >
     <div
-      data-css-z1scix=""
+      className="psds-tab__slider"
       style={
         Object {
           "transform": "translateX(0px)",
@@ -4697,22 +4697,22 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
     >
       <button
         aria-selected={true}
-        data-css-197sg7a=""
+        className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
         id="1"
         onClick={[Function]}
         role="tab"
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Wow
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
@@ -4722,13 +4722,13 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
     listItem disabled opacity (style)
   </div>
   <div
-    data-css-zduid6=""
+    className="psds-tab__list psds-theme--dark"
     onKeyDown={[Function]}
     role="tablist"
     tabIndex={0}
   >
     <div
-      data-css-z1scix=""
+      className="psds-tab__slider"
       style={
         Object {
           "transform": "translateX(0px)",
@@ -4737,7 +4737,7 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
     >
       <button
         aria-selected={true}
-        data-css-197sg7a=""
+        className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
         id="2"
         onClick={[Function]}
         role="tab"
@@ -4749,15 +4749,15 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
         tabIndex={-1}
       >
         <div
-          data-css-1cuoqce=""
+          className="psds-tab__list-item__text"
         >
           <div
-            data-css-3omctz=""
+            className="psds-tab__list-item__text-inner"
           >
             Disabled look
           </div>
           <span
-            data-css-kuoqk0=""
+            className="psds-tab__list-item__bar"
           />
         </div>
       </button>
@@ -4768,13 +4768,13 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
   </div>
   <div>
     <div
-      data-css-zduid6=""
+      className="psds-tab__list psds-theme--dark"
       onKeyDown={[Function]}
       role="tablist"
       tabIndex={0}
     >
       <div
-        data-css-z1scix=""
+        className="psds-tab__slider"
         style={
           Object {
             "transform": "translateX(0px)",
@@ -4783,7 +4783,7 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
       >
         <button
           aria-selected={true}
-          data-css-197sg7a=""
+          className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
           id="3"
           onClick={[Function]}
           role="tab"
@@ -4795,15 +4795,15 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
           tabIndex={-1}
         >
           <div
-            data-css-1cuoqce=""
+            className="psds-tab__list-item__text"
           >
             <div
-              data-css-3omctz=""
+              className="psds-tab__list-item__text-inner"
             >
               Disabled look
             </div>
             <span
-              data-css-kuoqk0=""
+              className="psds-tab__list-item__bar"
             />
           </div>
         </button>
@@ -4826,13 +4826,13 @@ exports[`Storyshots Components/Tab Style Overrides 1`] = `
 
 exports[`Storyshots Components/Tab Super Long Item 1`] = `
 <div
-  data-css-zduid6=""
+  className="psds-tab__list psds-theme--dark"
   onKeyDown={[Function]}
   role="tablist"
   tabIndex={0}
 >
   <div
-    data-css-z1scix=""
+    className="psds-tab__slider"
     style={
       Object {
         "transform": "translateX(0px)",
@@ -4841,64 +4841,64 @@ exports[`Storyshots Components/Tab Super Long Item 1`] = `
   >
     <button
       aria-selected={true}
-      data-css-197sg7a=""
+      className="psds-tab__list-item psds-theme--dark psds-tab__list-item--active"
       id={1}
       onClick={[Function]}
       role="tab"
       tabIndex={-1}
     >
       <div
-        data-css-1cuoqce=""
+        className="psds-tab__list-item__text"
       >
         <div
-          data-css-3omctz=""
+          className="psds-tab__list-item__text-inner"
         >
           This is the song that doesn't end; yes, it goes on and on, my friend; some people started singing it, not knowing what it was; and they'll continue singing it forever just because
         </div>
         <span
-          data-css-kuoqk0=""
+          className="psds-tab__list-item__bar"
         />
       </div>
     </button>
     <button
       aria-selected={false}
-      data-css-18spzod=""
+      className="psds-tab__list-item psds-theme--dark"
       id={2}
       onClick={[Function]}
       role="tab"
       tabIndex={-1}
     >
       <div
-        data-css-1cuoqce=""
+        className="psds-tab__list-item__text"
       >
         <div
-          data-css-3omctz=""
+          className="psds-tab__list-item__text-inner"
         >
           Short
         </div>
         <span
-          data-css-kuoqk0=""
+          className="psds-tab__list-item__bar"
         />
       </div>
     </button>
     <button
       aria-selected={false}
-      data-css-18spzod=""
+      className="psds-tab__list-item psds-theme--dark"
       id={3}
       onClick={[Function]}
       role="tab"
       tabIndex={-1}
     >
       <div
-        data-css-1cuoqce=""
+        className="psds-tab__list-item__text"
       >
         <div
-          data-css-3omctz=""
+          className="psds-tab__list-item__text-inner"
         >
           A little less ridiculous but still long
         </div>
         <span
-          data-css-kuoqk0=""
+          className="psds-tab__list-item__bar"
         />
       </div>
     </button>

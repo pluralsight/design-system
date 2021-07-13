@@ -134,7 +134,7 @@ export const CustomMarker: Story = () => {
         completed: 100
       }[props.status]
 
-      return <CircularProgress size="small" value={value} />
+      return <CircularProgress size="small" value={value} aria-label="" />
     }
 
   return (

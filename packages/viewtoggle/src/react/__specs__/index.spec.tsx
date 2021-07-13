@@ -15,6 +15,14 @@ describe('ViewToggle', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(<ViewToggle className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'psds-viewtoggle psds-theme--dark compose-classname'
+    )
+  })
+
   describe('.Option component', () => {
     it('exists', () => expect(ViewToggle.Option).toBeDefined())
 

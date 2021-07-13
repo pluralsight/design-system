@@ -13,29 +13,34 @@ exports[`Storyshots Components/Row Action Bar 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         One Action
       </div>
     </div>
     <div
-      data-css-1pe5xb7=""
+      className="psds-row__action-bar"
     >
       <button
-        data-css-1dnyz38=""
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
         disabled={false}
       >
         <div
-          data-css-4ducb0=""
+          className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="bookmark icon"
@@ -50,35 +55,40 @@ exports[`Storyshots Components/Row Action Bar 1`] = `
         </div>
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         />
       </button>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Long Title - Amazingly, the Longest Title in the World Because It's Known That If You Give Room For This Kind of a Title, It Will Definitely Come to Pass 2000
       </div>
     </div>
     <div
-      data-css-1pe5xb7=""
+      className="psds-row__action-bar"
     >
       <button
-        data-css-1dnyz38=""
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
         disabled={false}
       >
         <div
-          data-css-4ducb0=""
+          className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="bookmark icon"
@@ -93,35 +103,40 @@ exports[`Storyshots Components/Row Action Bar 1`] = `
         </div>
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         />
       </button>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Long Title with Image - Amazingly, the Longest Title in the World Because It's Known That If You Give Room For This Kind of a Title, It Will Definitely Come to Pass 2000
       </div>
     </div>
     <div
-      data-css-1pe5xb7=""
+      className="psds-row__action-bar"
     >
       <button
-        data-css-1dnyz38=""
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
         disabled={false}
       >
         <div
-          data-css-4ducb0=""
+          className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="bookmark icon"
@@ -136,35 +151,40 @@ exports[`Storyshots Components/Row Action Bar 1`] = `
         </div>
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         />
       </button>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Locked Visible
       </div>
     </div>
     <div
-      data-css-7zyoug=""
+      className="psds-row__action-bar psds-row__action-bar--actionBarVisible"
     >
       <button
-        data-css-1dnyz38=""
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
         disabled={false}
       >
         <div
-          data-css-4ducb0=""
+          className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="bookmark icon"
@@ -179,7 +199,7 @@ exports[`Storyshots Components/Row Action Bar 1`] = `
         </div>
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         />
       </button>
     </div>
@@ -189,16 +209,21 @@ exports[`Storyshots Components/Row Action Bar 1`] = `
 
 exports[`Storyshots Components/Row Combo 1`] = `
 <div
-  data-css-19vzw9x=""
+  className="psds-row psds-theme--dark"
 >
   <div
-    data-css-5n4uhw=""
+    className="psds-row__words"
+    style={
+      Object {
+        "maxWidth": "calc(100% - 0px - (3 * 24px + 3 * 8px))",
+      }
+    }
   >
     <div
-      data-css-nu4y7h=""
+      className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
     >
       <span
-        data-css-1bnk4mn=""
+        className="psds-row__text-link psds-row__text-link psds-theme--dark"
       >
         <a
           href="http://google.com?query=title"
@@ -208,13 +233,13 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </span>
     </div>
     <div
-      data-css-1iuvoh7=""
+      className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
     >
       <span
-        data-css-1kcrbi9=""
+        className="psds-row__metadata__datum"
       >
         <span
-          data-css-1bnk4mn=""
+          className="psds-row__text-link psds-row__text-link psds-theme--dark"
         >
           <a
             href="http://google.com/?query=jaketrent"
@@ -225,15 +250,15 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-row__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1kcrbi9=""
+        className="psds-row__metadata__datum"
       >
         <span
-          data-css-1bnk4mn=""
+          className="psds-row__text-link psds-row__text-link psds-theme--dark"
         >
           <a
             href="http://google.com/?query=jaketrent"
@@ -244,15 +269,15 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </span>
       <span
         aria-hidden={true}
-        data-css-kykfz1=""
+        className="psds-row__metadata__dot"
       >
         ·
       </span>
       <span
-        data-css-1kcrbi9=""
+        className="psds-row__metadata__datum"
       >
         <span
-          data-css-1bnk4mn=""
+          className="psds-row__text-link psds-row__text-link psds-theme--dark"
         >
           <a
             href="http://google.com/?query=jaketrent"
@@ -263,27 +288,27 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </span>
     </div>
     <div
-      data-css-1iuvoh7=""
+      className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
     >
       <span
-        data-css-1kcrbi9=""
+        className="psds-row__metadata__datum"
       >
         Goodness me!
       </span>
     </div>
   </div>
   <div
-    data-css-7b22zo=""
+    className="psds-row__action-bar psds-row__action-bar--fullOverlay psds-row__action-bar--actionBarVisible"
   >
     <button
-      data-css-1dnyz38=""
+      className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
       disabled={false}
     >
       <div
-        data-css-4ducb0=""
+        className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
       >
         <div
-          data-css-k31qw2=""
+          className="psds-icon psds-icon--size-small"
         >
           <svg
             aria-label="bookmark icon"
@@ -298,18 +323,18 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </div>
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       />
     </button>
     <button
-      data-css-1dnyz38=""
+      className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
       disabled={false}
     >
       <div
-        data-css-4ducb0=""
+        className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
       >
         <div
-          data-css-k31qw2=""
+          className="psds-icon psds-icon--size-small"
         >
           <svg
             aria-label="gear icon"
@@ -326,18 +351,18 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </div>
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       />
     </button>
     <button
-      data-css-1dnyz38=""
+      className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
       disabled={false}
     >
       <div
-        data-css-4ducb0=""
+        className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
       >
         <div
-          data-css-k31qw2=""
+          className="psds-icon psds-icon--size-small"
         >
           <svg
             aria-label="more icon"
@@ -352,7 +377,7 @@ exports[`Storyshots Components/Row Combo 1`] = `
       </div>
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       />
     </button>
   </div>
@@ -372,52 +397,72 @@ exports[`Storyshots Components/Row Full Overlay 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Element
       </div>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Link
       </div>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Icon Link
       </div>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Both Icon and Image Have Separate Click Targets
       </div>
@@ -438,21 +483,26 @@ exports[`Storyshots Components/Row Images 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         With Image
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -460,21 +510,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         With Image And Overlay
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -482,21 +537,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Linked Image
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -504,21 +564,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Wide Image
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -526,21 +591,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Tall Image
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -548,21 +618,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Small Image
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -570,21 +645,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         No Image
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -592,21 +672,26 @@ exports[`Storyshots Components/Row Images 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         No Image, With Overlay (Not Shown)
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -628,21 +713,26 @@ exports[`Storyshots Components/Row Metadata 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Meta with Strings
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jake Trent
         </span>
@@ -650,24 +740,29 @@ exports[`Storyshots Components/Row Metadata 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Meta With Links
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           <span
-            data-css-1bnk4mn=""
+            className="psds-row__text-link psds-row__text-link psds-theme--dark"
           >
             <a
               href="http://google.com/?query=jaketrent"
@@ -680,43 +775,48 @@ exports[`Storyshots Components/Row Metadata 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         The Longest Strings in El Mundo
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           It is impossible to count the grand contributions of this great author
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Levels heretofore unknown in the battle for truth and knowledge
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           A length of such amazing lengthitude so-as to blow the mind
         </span>
@@ -724,43 +824,48 @@ exports[`Storyshots Components/Row Metadata 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Long Strings AND Los Imagereo
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           It is impossible to count the grand contributions of this great author
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Levels heretofore unknown in the battle for truth and knowledge
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           A length of such amazing lengthitude so-as to blow the mind
         </span>
@@ -768,43 +873,48 @@ exports[`Storyshots Components/Row Metadata 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Long Strings AND Los Imagereo
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           This string is so long, it should be illegal.This string is so long, it should be illegal.This string is so long, it should be illegal.   This string is so long, it should be illegal. 
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           This is still visible
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           And so is this
         </span>
@@ -812,24 +922,29 @@ exports[`Storyshots Components/Row Metadata 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Meta With Links
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           <span
-            data-css-1bnk4mn=""
+            className="psds-row__text-link psds-row__text-link psds-theme--dark"
           >
             <a
               href="http://google.com/?query=jaketrent"
@@ -840,15 +955,15 @@ exports[`Storyshots Components/Row Metadata 1`] = `
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           <span
-            data-css-1bnk4mn=""
+            className="psds-row__text-link psds-row__text-link psds-theme--dark"
           >
             <a
               href="http://google.com/?query=jaketrent"
@@ -859,15 +974,15 @@ exports[`Storyshots Components/Row Metadata 1`] = `
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           <span
-            data-css-1bnk4mn=""
+            className="psds-row__text-link psds-row__text-link psds-theme--dark"
           >
             <a
               href="http://google.com/?query=jaketrent"
@@ -880,52 +995,57 @@ exports[`Storyshots Components/Row Metadata 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         2 Lines
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jake Trent
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           School of the Internet
         </span>
         <span
           aria-hidden={true}
-          data-css-kykfz1=""
+          className="psds-row__metadata__dot"
         >
           ·
         </span>
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Blasted Good
         </span>
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Certified GMO-free
         </span>
@@ -947,97 +1067,142 @@ exports[`Storyshots Components/Row Progress 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-js3ti3=""
+      className="psds-row__overlays"
     >
       <div
-        data-css-6x74ml=""
+        className="psds-row__image"
+        style={
+          Object {
+            "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
+          }
+        }
       />
     </div>
     <div
-      data-css-kxulf3=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - (96px + 24px) - 0px)",
+        }
+      }
     >
       <div
-        data-css-2pesz8=""
+        className="psds-row__title psds-row__title--size-medium psds-row__title psds-theme--dark"
       >
         0 progress
       </div>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-js3ti3=""
+      className="psds-row__overlays"
     >
       <div
-        data-css-6x74ml=""
+        className="psds-row__image"
+        style={
+          Object {
+            "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
+          }
+        }
       />
       <div
-        data-css-cmz505=""
+        className="psds-row__progress"
       >
         <div
           aria-label="67% complete"
           aria-valuemax={100}
           aria-valuemin={0}
           aria-valuenow={66.6667}
-          data-css-6fy8id=""
+          className="psds-row__progress__bar"
           role="progressbar"
+          style={
+            Object {
+              "width": "67%",
+            }
+          }
         />
       </div>
     </div>
     <div
-      data-css-kxulf3=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - (96px + 24px) - 0px)",
+        }
+      }
     >
       <div
-        data-css-2pesz8=""
+        className="psds-row__title psds-row__title--size-medium psds-row__title psds-theme--dark"
       >
         66.6667 progress
       </div>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-js3ti3=""
+      className="psds-row__overlays"
     >
       <div
-        data-css-6x74ml=""
+        className="psds-row__image"
+        style={
+          Object {
+            "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
+          }
+        }
       />
       <div
-        data-css-cmz505=""
+        className="psds-row__progress"
       >
         <div
           aria-label="100% complete"
           aria-valuemax={100}
           aria-valuemin={0}
           aria-valuenow={100}
-          data-css-1gebpgk=""
+          className="psds-row__progress__bar psds-row__progress__bar--complete"
           role="progressbar"
+          style={
+            Object {
+              "width": "100%",
+            }
+          }
         />
       </div>
     </div>
     <div
-      data-css-kxulf3=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - (96px + 24px) - 0px)",
+        }
+      }
     >
       <div
-        data-css-2pesz8=""
+        className="psds-row__title psds-row__title--size-medium psds-row__title psds-theme--dark"
       >
         100 progress
       </div>
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-2pesz8=""
+        className="psds-row__title psds-row__title--size-medium psds-row__title psds-theme--dark"
       >
         No image, with progress (not shown)
       </div>
@@ -1059,21 +1224,26 @@ exports[`Storyshots Components/Row Sizes 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         small Row
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -1081,21 +1251,26 @@ exports[`Storyshots Components/Row Sizes 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         small With the Longest Title in the World Because It's Known That If You Give Room For This Kind of a Title, It Will Definitely Come to Pass 2000
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -1103,28 +1278,38 @@ exports[`Storyshots Components/Row Sizes 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-js3ti3=""
+      className="psds-row__overlays"
     >
       <div
-        data-css-6x74ml=""
+        className="psds-row__image"
+        style={
+          Object {
+            "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
+          }
+        }
       />
     </div>
     <div
-      data-css-kxulf3=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - (96px + 24px) - 0px)",
+        }
+      }
     >
       <div
-        data-css-2pesz8=""
+        className="psds-row__title psds-row__title--size-medium psds-row__title psds-theme--dark"
       >
         medium Row
       </div>
       <div
-        data-css-1f22p8h=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-medium"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -1132,28 +1317,38 @@ exports[`Storyshots Components/Row Sizes 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-js3ti3=""
+      className="psds-row__overlays"
     >
       <div
-        data-css-6x74ml=""
+        className="psds-row__image"
+        style={
+          Object {
+            "backgroundImage": "url(//picsum.photos/680/320?image=42&gravity=north)",
+          }
+        }
       />
     </div>
     <div
-      data-css-kxulf3=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - (96px + 24px) - 0px)",
+        }
+      }
     >
       <div
-        data-css-2pesz8=""
+        className="psds-row__title psds-row__title--size-medium psds-row__title psds-theme--dark"
       >
         medium With the Longest Title in the World Because It's Known That If You Give Room For This Kind of a Title, It Will Definitely Come to Pass 2000
       </div>
       <div
-        data-css-1f22p8h=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-medium"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           Jim Cooper
         </span>
@@ -1166,38 +1361,43 @@ exports[`Storyshots Components/Row Sizes 1`] = `
 exports[`Storyshots Components/Row Stack Of Rows 1`] = `
 Array [
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Course thing you do
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           1m 46s
         </span>
       </div>
     </div>
     <div
-      data-css-7zyoug=""
+      className="psds-row__action-bar psds-row__action-bar--actionBarVisible"
     >
       <button
-        data-css-1dnyz38=""
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
         disabled={false}
       >
         <div
-          data-css-4ducb0=""
+          className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="more icon"
@@ -1212,44 +1412,49 @@ Array [
         </div>
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         />
       </button>
     </div>
   </div>,
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         Course thing you do
       </div>
       <div
-        data-css-1iuvoh7=""
+        className="psds-row__metadata psds-row__metadatapsds-theme--dark psds-row__metadata--size-small"
       >
         <span
-          data-css-1kcrbi9=""
+          className="psds-row__metadata__datum"
         >
           1m 46s
         </span>
       </div>
     </div>
     <div
-      data-css-7zyoug=""
+      className="psds-row__action-bar psds-row__action-bar--actionBarVisible"
     >
       <button
-        data-css-1dnyz38=""
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
         disabled={false}
       >
         <div
-          data-css-4ducb0=""
+          className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small psds-button__icon--icon-only"
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="more icon"
@@ -1264,7 +1469,7 @@ Array [
         </div>
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         />
       </button>
     </div>
@@ -1284,13 +1489,18 @@ exports[`Storyshots Components/Row Titles 1`] = `
   }
 >
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         A String Title
       </div>
@@ -1304,13 +1514,18 @@ exports[`Storyshots Components/Row Titles 1`] = `
     }
   >
     <div
-      data-css-19vzw9x=""
+      className="psds-row psds-theme--dark"
     >
       <div
-        data-css-1tiyrld=""
+        className="psds-row__words"
+        style={
+          Object {
+            "maxWidth": "calc(100% - 0px - 0px)",
+          }
+        }
       >
         <div
-          data-css-nu4y7h=""
+          className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
         >
           <div>
             String trucated - We'll have a super time. You can create the world you want to see and be a part of. You have that power. These things happen automatically. All you have to do is just let them happen. Only think about one thing at a time. Don't get greedy.
@@ -1320,16 +1535,21 @@ exports[`Storyshots Components/Row Titles 1`] = `
     </div>
   </div>
   <div
-    data-css-19vzw9x=""
+    className="psds-row psds-theme--dark"
   >
     <div
-      data-css-1tiyrld=""
+      className="psds-row__words"
+      style={
+        Object {
+          "maxWidth": "calc(100% - 0px - 0px)",
+        }
+      }
     >
       <div
-        data-css-nu4y7h=""
+        className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
       >
         <span
-          data-css-1bnk4mn=""
+          className="psds-row__text-link psds-row__text-link psds-theme--dark"
         >
           <a
             href="http://google.com"
@@ -1348,16 +1568,21 @@ exports[`Storyshots Components/Row Titles 1`] = `
     }
   >
     <div
-      data-css-19vzw9x=""
+      className="psds-row psds-theme--dark"
     >
       <div
-        data-css-1tiyrld=""
+        className="psds-row__words"
+        style={
+          Object {
+            "maxWidth": "calc(100% - 0px - 0px)",
+          }
+        }
       >
         <div
-          data-css-nu4y7h=""
+          className="psds-row__title psds-row__title--size-small psds-row__title psds-theme--dark"
         >
           <span
-            data-css-1bnk4mn=""
+            className="psds-row__text-link psds-row__text-link psds-theme--dark"
           >
             <a
               href="http://google.com"

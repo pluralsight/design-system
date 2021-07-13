@@ -20,7 +20,7 @@
   "scripts": {
     "build": "run-s build:svg build:cjs build:esm build:css copy:svg",
     "build:cjs": "tsc --project tsconfig.build.json --module commonjs --target es5 --outDir dist/cjs",
-    "build:css": "build-css --useGlamor -i dist/cjs/css/index.js",
+    "build:css": "postcss-compile",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --target es5 --outDir dist/esm",
     "prebuild:svg": "yarn clean:svg",
     "build:svg": "node bin/icon -s src/svg -d src/react/icons core",
@@ -31,8 +31,10 @@
     "test": "tsc --noEmit --project ./tsconfig.json && jest",
     "test:watch": "yarn test -- --watchAll"
   },
-  "sideEffects": false,
-  "style": "dist/index.css",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "style": "dist/esm/css/index.css",
   "types": "dist/esm/index.d.ts",
   "dependencies": {
     "@pluralsight/ps-design-system-core": "^8.2.2",
@@ -44,7 +46,6 @@
   },
   "peerDependencies": {
     "@pluralsight/ps-design-system-normalize": "^5.1.2",
-    "glamor": "^2.20.40",
     "react": "^17.0.1"
   },
   "devDependencies": {

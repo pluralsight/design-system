@@ -1,40 +1,23 @@
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
-  useTheme,
-  names as themeNames
-} from '@pluralsight/ps-design-system-theme'
-import {
+  classNames,
   RefForwardingComponent,
   ValueOf
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { appearances } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const style = ({
-  appearance,
-  themeName
-}: {
-  appearance: ValueOf<typeof appearances>
-  themeName: ValueOf<typeof themeNames>
-}) =>
-  glamor.css(
-    stylesheet[`.psds-link`],
-    appearance === appearances.default
-      ? stylesheet[
-          `.psds-link--appearance-${appearance}.psds-theme--${themeName}`
-        ]
-      : stylesheet[`.psds-link--appearance-${appearance}`]
-  )
 
 interface LinkStatics {
   appearances: typeof appearances
 }
 
-interface Props extends React.HTMLAttributes<HTMLAnchorElement> {
+interface Props
+  extends React.DetailedHTMLProps<
+    React.ButtonHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  > {
   appearance?: string
 }
 interface LinkComponent
@@ -45,6 +28,7 @@ const Link = React.forwardRef<HTMLAnchorElement, Props>(
     const {
       appearance = appearances.default,
       children: _children,
+      className,
       ...rest
     } = props
     const ref = React.useRef<HTMLAnchorElement>()
@@ -57,7 +41,13 @@ const Link = React.forwardRef<HTMLAnchorElement, Props>(
     return React.cloneElement(
       React.Children.only(props.children as React.ReactElement),
       {
-        ...style({ appearance, themeName }),
+        ref: ref,
+        className: classNames(
+          className,
+          'psds-link',
+          `psds-link--appearance-${appearance}`,
+          appearance === appearances.default && `psds-theme--${themeName}`
+        ),
         ...rest
       }
     )

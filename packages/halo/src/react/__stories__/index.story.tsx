@@ -1,11 +1,8 @@
 import { Meta, Story } from '@storybook/react/types-6-0'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import Focusable from './focusable'
 import Halo from '../index'
-
-const glamor = glamorDefault || glamorExports
 
 const defaultArgs = { children: <Focusable /> }
 
@@ -14,11 +11,11 @@ const StoryGrid: React.FC<{ cols?: number }> = props => {
 
   return (
     <div
-      {...glamor.css({
+      style={{
         display: 'grid',
         gap: '20px',
         gridTemplateColumns: Array(cols).fill('1fr').join(' ')
-      })}
+      }}
       {...rest}
     />
   )

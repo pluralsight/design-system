@@ -18,15 +18,22 @@
   "scripts": {
     "build": "run-s build:esm build:cjs build:css",
     "build:cjs": "tsc --project tsconfig.build.json --module commonjs --target es5 --outDir dist/cjs",
-    "build:css": "build-css --useGlamor -i dist/cjs/css/index.js",
+    "build:css": "run-s build:css:field build:css:input build:css:label build:css:sublabel build:css:textarea",
+    "build:css:field": "postcss-compile --input src/css/field.css --output dist/cjs/css/field.css,dist/cjs/css/field.scss,dist/esm/css/field.css,dist/esm/css/field.scss",
+    "build:css:input": "postcss-compile --input src/css/input.css --output dist/cjs/css/input.css,dist/cjs/css/input.scss,dist/esm/css/input.css,dist/esm/css/input.scss",
+    "build:css:label": "postcss-compile --input src/css/label.css --output dist/cjs/css/label.css,dist/cjs/css/label.scss,dist/esm/css/label.css,dist/esm/css/label.scss",
+    "build:css:sublabel": "postcss-compile --input src/css/sub-label.css --output dist/cjs/css/sub-label.css,dist/cjs/css/sub-label.scss,dist/esm/css/sub-label.css,dist/esm/css/sub-label.scss",
+    "build:css:textarea": "postcss-compile --input src/css/text-area.css --output dist/cjs/css/text-area.css,dist/cjs/css/text-area.scss,dist/esm/css/text-area.css,dist/esm/css/text-area.scss",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --target es5 --outDir dist/esm",
     "build:watch": "yarn build:esm -- --watch",
     "storybook": "start-storybook -p 6006",
     "test": "tsc --noEmit --project ./tsconfig.json && jest",
     "test:watch": "yarn test -- --watchAll"
   },
-  "sideEffects": false,
-  "style": "dist/index.css",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "style": "dist/esm/css/field.css",
   "types": "dist/esm/index.d.ts",
   "dependencies": {
     "@pluralsight/ps-design-system-core": "^8.2.2",
@@ -37,7 +44,6 @@
   "peerDependencies": {
     "@pluralsight/ps-design-system-normalize": "^5.1.2",
     "@pluralsight/ps-design-system-theme": "^8.1.4",
-    "glamor": "^2.x.x",
     "react": "^17.0.1"
   },
   "devDependencies": {

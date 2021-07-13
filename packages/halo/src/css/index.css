@@ -1,0 +1,62 @@
+.psds-halo {
+  position: relative;
+  display: inline-block;
+  line-height: 0;
+  flex: 1 1 100%;
+}
+.psds-halo:after {
+  content: ' ';
+  position: absolute;
+  border-width: 3px;
+  border-style: solid;
+  border-color: var(--ps-colors-blue-6);
+  pointer-events: none;
+  visibility: hidden;
+}
+.psds-halo--inline {
+  flex-basis: 0;
+  flex-grow: 0;
+}
+.psds-halo--error:after {
+  visibility: visible;
+  border-color: var(--ps-colors-status-error);
+}
+.psds-halo--visible:after {
+  visibility: visible;
+  border-color: var(--ps-colors-blue-6);
+}
+.psds-halo--visible-on-focus:focus-within:after,
+.psds-halo--visible-on-focus[focus-within]:after {
+  visibility: visible;
+  border-color: var(--ps-colors-blue-6);
+}
+.psds-halo--gap-size-default.psds-theme--dark:after {
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+}
+.psds-halo--gap-size-default.psds-theme--light:after {
+  top: -5px;
+  bottom: -5px;
+  left: -5px;
+  right: -5px;
+}
+.psds-halo--gap-size-small.psds-theme--dark:after {
+  top: -4px;
+  bottom: -4px;
+  left: -4px;
+  right: -4px;
+}
+.psds-halo--gap-size-small.psds-theme--light:after {
+  top: -2px;
+  bottom: -2px;
+  left: -2px;
+  right: -2px;
+}
+.psds-halo--shape-default:after {
+  border-radius: 4px;
+}
+.psds-halo--shape-pill:after {
+  border-radius: 1000px;
+}

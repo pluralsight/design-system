@@ -1,20 +1,20 @@
 .usage {
-  margin: 0 0 var(--psLayoutSpacingXLarge) 0;
+  margin: 0 0 var(--ps-layout-spacing-xlarge) 0;
   list-style: none;
-  font-size: var(--psTypeFontSizeSmall);
+  font-size: var(--ps-type-font-size-small);
   line-height: 16px;
 }
 .item {
   display: flex;
-  margin-bottom: var(--psLayoutSpacingMedium);
+  margin-bottom: var(--ps-layout-spacing-medium);
   white-space: pre-wrap;
 }
 .label {
-  font-size: var(--psTypeFontSizeXSmall);
+  font-size: var(--ps-type-font-size-xsmall);
   width: 80px;
-  color: var(--appColorsTextIconLow);
+  color: var(--app-colors-text-icon-low);
 }
 .value {
-  font-family: var(--psTypeFontFamilyCode);
-  color: var(--appColorsTextIconHigh);
+  font-family: var(--ps-type-font-family-code);
+  color: var(--app-colors-text-icon-high);
 }

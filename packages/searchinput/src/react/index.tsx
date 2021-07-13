@@ -1,4 +1,3 @@
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import Button from '@pluralsight/ps-design-system-button'
@@ -7,20 +6,9 @@ import { CloseIcon, SearchIcon } from '@pluralsight/ps-design-system-icon'
 import TextInput, {
   TextInputProps
 } from '@pluralsight/ps-design-system-textinput'
-import { RefFor } from '@pluralsight/ps-design-system-util'
+import { RefFor, classNames } from '@pluralsight/ps-design-system-util'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  clear: (isClearBtnVisible: boolean) =>
-    glamor.css(
-      stylesheet['.psds-searchinput-clear'],
-      isClearBtnVisible && stylesheet['.psds-searchinput-clear--visible']
-    ),
-  field: () => glamor.css(stylesheet['.psds-searchinput-field'])
-}
+import '../css/index.css'
 
 export interface SearchInputProps extends TextInputProps {
   loading?: boolean
@@ -29,7 +17,7 @@ export interface SearchInputProps extends TextInputProps {
 }
 
 const SearchInput = React.forwardRef<HTMLInputElement, SearchInputProps>(
-  ({ loading = false, onClear, ...rest }, forwardedRef) => {
+  ({ loading = false, onClear, className, ...rest }, forwardedRef) => {
     const isClearable = typeof onClear === 'function'
     const hasVisibleValue = !!rest.value && String(rest.value).length > 0
     const isClearBtnVisible = isClearable && hasVisibleValue
@@ -48,7 +36,10 @@ const SearchInput = React.forwardRef<HTMLInputElement, SearchInputProps>(
     const clearBtn = isClearable && (
       <Button
         onClick={handleClear}
-        {...styles.clear(isClearBtnVisible)}
+        className={classNames(
+          'psds-searchinput-clear',
+          isClearBtnVisible && 'psds-searchinput-clear--visible'
+        )}
         appearance={Button.appearances.flat}
         icon={<CloseIcon />}
         size={Button.sizes.small}
@@ -66,7 +57,7 @@ const SearchInput = React.forwardRef<HTMLInputElement, SearchInputProps>(
 
     return (
       <TextInput
-        {...styles.field()}
+        className={classNames(className, 'psds-searchinput')}
         appearance={TextInput.appearances.subtle}
         fieldAfter={clearBtn}
         icon={icon}

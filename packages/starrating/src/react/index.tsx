@@ -1,18 +1,8 @@
 import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import Star from './star'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  screenReaderInput: () =>
-    glamor.css(stylesheet[`.psds-starrating__screen-reader-input`]),
-  screenReaderText: () =>
-    glamor.css(stylesheet[`.psds-starrating__screen-reader-text`])
-}
 
 interface ScreenReaderInputProps
   extends React.HTMLAttributes<HTMLInputElement> {
@@ -24,11 +14,15 @@ interface ScreenReaderInputProps
 }
 
 const ScreenReaderInput: React.FC<ScreenReaderInputProps> = props => (
-  <input {...styles.screenReaderInput()} tabIndex={-1} {...props} />
+  <input
+    className={'psds-starrating__screen-reader-input'}
+    tabIndex={-1}
+    {...props}
+  />
 )
 
 const ScreenReaderText: React.FC<React.HTMLAttributes<HTMLSpanElement>> =
-  props => <span {...styles.screenReaderText()} {...props} />
+  props => <span className={'psds-starrating__screen-reader-text'} {...props} />
 
 export interface StarRatingProps
   extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {

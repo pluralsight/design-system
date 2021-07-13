@@ -6,13 +6,13 @@ import {
   RefForwardingComponent,
   RefFor,
   ValueOf,
+  classNames,
   useResizeObserver
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
+import '../css/index.css'
 import Context, { ContextValue } from './context'
-import stylesheet, { sizeClasses, themeClasses } from '../css/index'
 import { error } from './illustrations/index'
 import { sizes } from '../vars/index'
 
@@ -42,46 +42,14 @@ interface ErrorPageComponent
     ErrorPageStatics
   > {}
 
-type StyleFn = (
-  props: unknown,
-  ctx: ContextValue,
-  opts?: unknown
-) => glamorExports.StyleAttribute
-
-const glamor = glamorDefault || glamorExports
-
 const renderSmallIfElementLessThan = 450
-
-const styles = {
-  errors: (ctx: ContextValue, hasRenderedOnce: boolean) =>
-    glamor.compose(
-      combineClasses('.psds-error-page', ctx),
-      !hasRenderedOnce && stylesheet['.psds-error-page--hidden']
-    ),
-  actions: (ctx: ContextValue) =>
-    combineClasses('.psds-error-page__actions', ctx),
-  caption: (ctx: ContextValue) =>
-    combineClasses('.psds-error-page__caption', ctx),
-  errorCode: (ctx: ContextValue) =>
-    combineClasses('.psds-error-page__error-code', ctx),
-  heading: (ctx: ContextValue) =>
-    combineClasses('.psds-error-page__heading', ctx),
-  illustration: (ctx: ContextValue) =>
-    combineClasses('.psds-error-page__illustration', ctx)
-}
-
-const combineClasses = (className: string, { size, themeName }: ContextValue) =>
-  glamor.css(
-    stylesheet[className],
-    stylesheet[className + themeClasses[themeName as string]],
-    stylesheet[className + sizeClasses[size as string]]
-  )
 
 const ErrorPage = React.forwardRef<HTMLDivElement, ErrorPageProps>(
   (props, forwardedRef) => {
     const {
       actions,
       caption,
+      className,
       heading,
       illustration,
       errorCode,
@@ -111,8 +79,14 @@ const ErrorPage = React.forwardRef<HTMLDivElement, ErrorPageProps>(
     return (
       <Context.Provider value={ctx}>
         <div
-          {...styles.errors(ctx, hasRenderedOnce)}
           {...rest}
+          className={classNames(
+            'psds-errorpage',
+            `psds-errorpage--size-${size}`,
+            `psds-theme--${themeName}`,
+            !hasRenderedOnce && 'psds-errorpage--hidden',
+            className
+          )}
           ref={ref as RefFor<'div'>}
         >
           {illustration}
@@ -126,43 +100,49 @@ const ErrorPage = React.forwardRef<HTMLDivElement, ErrorPageProps>(
   }
 ) as ErrorPageComponent
 
-const Actions: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => (
-  <Context.Consumer>
-    {ctx => <div {...styles.actions(ctx)} {...props} />}
-  </Context.Consumer>
+const Actions: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
+  ...rest
+}) => (
+  <div {...rest} className={classNames('psds-errorpage__actions', className)} />
 )
 
-const Caption: React.FC<React.HTMLAttributes<HTMLParagraphElement>> = props => (
-  <Context.Consumer>
-    {ctx => <p {...styles.caption(ctx)} {...props} />}
-  </Context.Consumer>
+const Caption: React.FC<React.HTMLAttributes<HTMLParagraphElement>> = ({
+  className,
+  ...rest
+}) => (
+  <p {...rest} className={classNames('psds-errorpage__caption', className)} />
 )
 
-const ErrorCode: React.FC<React.HTMLAttributes<HTMLParagraphElement>> =
-  props => (
-    <Context.Consumer>
-      {ctx => <p {...styles.errorCode(ctx)} {...props} />}
-    </Context.Consumer>
-  )
+const ErrorCode: React.FC<React.HTMLAttributes<HTMLParagraphElement>> = ({
+  className,
+  ...rest
+}) => (
+  <p
+    {...rest}
+    className={classNames('psds-errorpage__error-code', className)}
+  />
+)
 
 interface HeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
   as?: keyof Pick<JSX.IntrinsicElements, 'h1' | 'h2' | 'h3' | 'h4' | 'h5'>
 }
 
 const Heading: React.FC<HeadingProps> = props => {
-  const { as: Tag = 'h1', ...rest } = props
+  const { as: Tag = 'h1', className, ...rest } = props
 
   return (
-    <Context.Consumer>
-      {ctx => <Tag {...styles.heading(ctx)} {...rest} />}
-    </Context.Consumer>
+    <Tag
+      {...rest}
+      className={classNames('psds-errorpage__heading', className)}
+    />
   )
 }
 
 interface IllustrationProps extends React.HTMLAttributes<SVGElement> {}
 
 const Illustration: React.FC<IllustrationProps> = props => {
-  const { children: custom, ...rest } = props
+  const { children: custom, className, ...rest } = props
 
   return (
     <Context.Consumer>
@@ -175,7 +155,9 @@ const Illustration: React.FC<IllustrationProps> = props => {
         if (custom) Comp = () => custom
 
         return (
-          <div {...styles.illustration(ctx)}>
+          <div
+            className={classNames('psds-errorpage__illustration', className)}
+          >
             <Comp {...rest} />
           </div>
         )

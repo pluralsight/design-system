@@ -3,25 +3,25 @@
 .header {
   display: flex;
   align-items: center;
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .title {
   &:not(.hack-to-make-more-specific) {
     margin: 0;
-    margin-right: var(--psLayoutSpacingMedium);
+    margin-right: var(--ps-layout-spacing-medium);
   }
 }
 
 .codeBlock {
-  margin: 0 0 var(--psLayoutSpacingLarge) 0;
+  margin: 0 0 var(--ps-layout-spacing-large) 0;
 }
 
 .actions {
   align-items: center;
   display: flex;
   height: 40px;
-  padding: 0 var(--psLayoutSpacingXSmall);
-  background-color: var(--appColorsBackgroundMed);
+  padding: 0 var(--ps-layout-spacing-xsmall);
+  background-color: var(--app-colors-background-med);
 }
 .actionsLeft {
   margin-right: auto;
@@ -31,32 +31,32 @@
 }
 
 .preview {
-  padding: var(--psLayoutSpacingMedium);
-  background: var(--appColorsBackgroundLow);
-  border-bottom: 1px solid var(--appColorsBorderLow);
+  padding: var(--ps-layout-spacing-medium);
+  background: var(--app-colors-background-low);
+  border-bottom: 1px solid var(--app-colors-border-low);
 
   &.dark {
-    color: var(--psColorsTextIconHighOnDark);
-    background-color: var(--psColorsBackgroundDark2);
+    color: var(--ps-colors-text-icon-high-on-dark);
+    background-color: var(--ps-colors-background-dark-2);
   }
   &.light {
-    color: var(--psColorsTextIconHighOnLight);
-    background-color: var(--psColorsLightDark2);
+    color: var(--ps-colors-text-icon-high-on-light);
+    background-color: var(--ps-colors-light-dark-2);
   }
 }
 
 .editor {
   position: relative;
   font-family: 'DM Mono', monospace;
-  font-size: var(--psTypeFontSizeSmall);
-  line-height: var(--psTypeLineHeightTight);
+  font-size: var(--ps-type-font-size-small);
+  line-height: var(--ps-type-line-height-tight);
   overflow: auto;
-  padding: var(--psLayoutSpacingSmall) var(--psLayoutSpacingMedium);
+  padding: var(--ps-layout-spacing-small) var(--ps-layout-spacing-medium);
   height: auto;
-  max-height: var(--psLayoutSpacingXLarge);
-  transition: max-height var(--psMotionSpeedFast) ease-out;
+  max-height: var(--ps-layout-spacing-xlarge);
+  transition: max-height var(--ps-motion-speed-fast) ease-out;
   overflow-y: hidden;
-  background-color: var(--appColorsBackgroundMed);
+  background-color: var(--app-colors-background-med);
 }
 .editorExpanded {
   /* large number so we have something to animate to */
@@ -102,5 +102,5 @@
 .example {
   border-radius: 0.2em;
   overflow: hidden;
-  border: 1px solid var(--appColorsBorderLow);
+  border: 1px solid var(--app-colors-border-low);
 }

@@ -4,43 +4,17 @@ import {
   CaretRightIcon,
   CaretLeftIcon
 } from '@pluralsight/ps-design-system-icon'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { useResizeObserver, ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+  useResizeObserver,
+  classNames
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import ListItem from './list-item'
 
-const glamor = glamorDefault || glamorExports
-
 const slideAnimationLength = parseInt(motion.speedFast) + 10
-
-const styles = {
-  list: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['.psds-tab__list'],
-      stylesheet[`.psds-tab__list.psds-theme--${themeName}`]
-    ),
-  overflowButton: (
-    position: OverflowButtonPosition,
-    themeName: ValueOf<typeof themeNames>
-  ) =>
-    glamor.css(
-      stylesheet['.psds-tab__overflow-button'],
-      stylesheet[`.psds-tab__overflow-button--${String(position)}`],
-      stylesheet[`.psds-tab__overflow-button.psds-theme--${themeName}`],
-      stylesheet[
-        `.psds-tab__overflow-button--${position}.psds-theme--${themeName}`
-      ]
-    ),
-  overflowButtonIcon: () =>
-    glamor.css(stylesheet['.psds-tab__overflow-button__icon']),
-  slider: () => glamor.css(stylesheet['.psds-tab__slider'])
-}
 
 interface Overflows {
   toLeft: boolean
@@ -192,7 +166,7 @@ const List: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
   }
 
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const { children, ...rest } = props
+  const { children, className, ...rest } = props
   const listProps = {
     ...rest,
     role: 'tablist',
@@ -200,12 +174,20 @@ const List: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
     tabIndex: 0
   }
   return (
-    <div {...listProps} {...styles.list(themeName)} ref={listRef}>
+    <div
+      {...listProps}
+      className={classNames(
+        className,
+        'psds-tab__list',
+        `psds-theme--${themeName}`
+      )}
+      ref={listRef}
+    >
       {overflows.toLeft && (
         <OverflowButton position="left" onClick={handlePageLeft} />
       )}
       <div
-        {...styles.slider()}
+        className={'psds-tab__slider'}
         ref={sliderRef}
         style={styleForXOffset(xOffset)}
       >
@@ -254,11 +236,16 @@ const OverflowButton: React.FC<OverflowButtonProps> = props => {
   const { position, ...rest } = props
   return (
     <button
-      {...styles.overflowButton(position, themeName)}
+      className={classNames(
+        'psds-tab__overflow-button',
+        `psds-tab__overflow-button--${String(position)}`,
+        `psds-theme--${themeName}`,
+        `psds-tab__overflow-button--${position}`
+      )}
       tabIndex={-1}
       {...rest}
     >
-      <div {...styles.overflowButtonIcon()}>
+      <div className={'psds-tab__overflow-button__icon'}>
         {position === 'right' ? <CaretRightIcon /> : <CaretLeftIcon />}
       </div>
     </button>

@@ -6,18 +6,16 @@ import {
 } from '@pluralsight/ps-design-system-theme'
 import {
   ValueOf,
-  forwardRefWithStatics
+  forwardRefWithStatics,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
 
-const glamor = glamorDefault || glamorExports
-
 const styles = {
-  error: () => glamor.css(stylesheet['.psds-text-input__error']),
+  error: () => 'psds-text-input__error',
   field: ({
     appearance,
     error,
@@ -36,37 +34,25 @@ const styles = {
     size: ValueOf<typeof vars.sizes>
   }) => {
     const small = size === vars.sizes.small
-    return glamor.css(
-      stylesheet['.psds-text-input__field'],
-      stylesheet[`.psds-text-input__field--appearance-${appearance}`],
-      stylesheet[`.psds-text-input__field.psds-theme--${themeName}`],
-      stylesheet[
-        `.psds-text-input__field--appearance-${appearance}.psds-theme--${themeName}`
-      ],
-      Boolean(fieldAfter) && stylesheet[`.psds-text-input__field--w-after`],
-      small && stylesheet['.psds-text-input__field.psds-text-input--small'],
-      Boolean(icon) &&
-        small &&
-        stylesheet[
-          `.psds-text-input__field--icon-align-${iconAlign}.psds-text-input--small`
-        ],
-      Boolean(icon) &&
-        !small &&
-        stylesheet[`.psds-text-input__field--icon-align-${iconAlign}`],
-      error &&
-        stylesheet[`.psds-text-input__field--error.psds-theme--${themeName}`]
+    return classNames(
+      'psds-text-input__field',
+      `psds-text-input__field--appearance-${appearance}`,
+      `psds-theme--${themeName}`,
+      Boolean(fieldAfter) && `psds-text-input__field--w-after`,
+      small && 'psds-text-input--small',
+      Boolean(icon) && `psds-text-input__field--icon-align-${iconAlign}`,
+      error && `psds-text-input__field--error`
     )
   },
-  fieldContainer: () =>
-    glamor.css(stylesheet['.psds-text-input__field-container']),
+  fieldContainer: () => 'psds-text-input__field-container',
   fieldInput: (
     appearance: ValueOf<typeof vars.appearances>,
     themeName: ValueOf<typeof themeNames>
   ) =>
-    glamor.css(
-      stylesheet['.psds-text-input__field-input'],
-      stylesheet[`.psds-text-input__field-input--appearance-${appearance}`],
-      stylesheet[`.psds-text-input__field-input.psds-theme--${themeName}`]
+    classNames(
+      `psds-theme--${themeName}`,
+      `psds-text-input__field-input--appearance-${appearance}`,
+      `psds-text-input__field-input`
     ),
   icon: ({
     appearance,
@@ -79,28 +65,23 @@ const styles = {
     iconAlign: ValueOf<typeof vars.iconAligns>
     themeName: ValueOf<typeof themeNames>
   }) =>
-    glamor.css(
-      stylesheet['.psds-text-input__icon'],
-      Boolean(icon) &&
-        stylesheet[`.psds-text-input__icon--icon-align-${iconAlign}`],
-      stylesheet[`.psds-text-input__icon--appearance-${appearance}`],
-      stylesheet[`.psds-text-input__icon.psds-theme--${themeName}`]
+    classNames(
+      'psds-text-input__icon',
+      `psds-theme--${themeName}`,
+      Boolean(icon) && `psds-text-input__icon--icon-align-${iconAlign}`,
+      `psds-text-input__icon--appearance-${appearance}`,
+      `psds-text-input__icon`
     ),
   textInput: (disabled: boolean) =>
-    glamor.css(
-      stylesheet['.psds-text-input'],
-      disabled && stylesheet['.psds-text-input--disabled']
-    ),
+    classNames('psds-text-input', disabled && 'psds-text-input--disabled'),
   label: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['.psds-text-input__label'],
-      stylesheet[`.psds-text-input__label.psds-theme--${themeName}`]
+    classNames(
+      'psds-text-input__label',
+      `psds-theme--${themeName}`,
+      `psds-text-input__label`
     ),
   subLabel: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['.psds-text-input__sub-label'],
-      stylesheet[`.psds-text-input__sub-label.psds-theme--${themeName}`]
-    )
+    classNames('psds-text-input__sub-label', `psds-theme--${themeName}`)
 }
 
 export interface TextInputStatics {
@@ -148,6 +129,7 @@ const TextInput = forwardRefWithStatics<
       icon,
       label,
       subLabel,
+      className,
       ...props
     },
     forwardedRef
@@ -155,16 +137,15 @@ const TextInput = forwardRefWithStatics<
     const themeName = useTheme()
     return (
       <label
-        {...styles.textInput(disabled)}
+        className={classNames(styles.textInput(disabled), className)}
         style={props.style}
-        className={props.className}
       >
-        {label && <div {...styles.label(themeName)}>{label}</div>}
+        {label && <div className={styles.label(themeName)}>{label}</div>}
 
-        <div {...styles.fieldContainer()}>
+        <div className={styles.fieldContainer()}>
           <Halo error={error} gapSize={Halo.gapSizes.small}>
             <div
-              {...styles.field({
+              className={styles.field({
                 appearance,
                 error,
                 fieldAfter,
@@ -176,7 +157,7 @@ const TextInput = forwardRefWithStatics<
             >
               <input
                 {...props}
-                {...styles.fieldInput(appearance, themeName)}
+                className={styles.fieldInput(appearance, themeName)}
                 disabled={disabled}
                 placeholder={props.placeholder}
                 ref={forwardedRef}
@@ -186,19 +167,28 @@ const TextInput = forwardRefWithStatics<
           </Halo>
 
           {icon && (
-            <div {...styles.icon({ appearance, icon, iconAlign, themeName })}>
+            <div
+              className={styles.icon({
+                appearance,
+                icon,
+                iconAlign,
+                themeName
+              })}
+            >
               {icon}
             </div>
           )}
 
           {error && (
-            <div {...styles.error()}>
+            <div className={styles.error()}>
               <WarningIcon />
             </div>
           )}
         </div>
 
-        {subLabel && <div {...styles.subLabel(themeName)}>{subLabel}</div>}
+        {subLabel && (
+          <div className={styles.subLabel(themeName)}>{subLabel}</div>
+        )}
       </label>
     )
   }

@@ -1,0 +1,41 @@
+.psds-scrollable__outer {
+  display: block;
+}
+.psds-scrollable__outer--screen {
+  position: relative;
+}
+.psds-scrollable__inner {
+  height: 100%;
+  overflow: hidden;
+}
+.psds-scrollable__content {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 18px;
+  width: calc(100% + 18px);
+}
+.psds-scrollable__handle {
+  background-color: var(--ps-colors-background-utility-40);
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  right: 2px;
+  top: 0;
+  transition: all var(--ps-motion-speed-fast) ease-in-out;
+  transition-property: opacity, background, right;
+  width: 8px;
+}
+.psds-scrollable__handle:active,
+.psds-scrollable__handle:hover {
+  background-color: var(--ps-colors-background-utility-60);
+}
+[data-scrollable]:active > .psds-scrollable__handle,
+[data-scrollable]:hover > .psds-scrollable__handle {
+  opacity: 1;
+}
+.psds-scrollable__handle--grabbed {
+  opacity: 1;
+  user-select: none;
+}

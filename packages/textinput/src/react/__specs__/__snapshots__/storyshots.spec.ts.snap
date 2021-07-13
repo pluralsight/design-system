@@ -5,24 +5,24 @@ exports[`Storyshots Components/TextInput Appearances 1`] = `
   data-css-1cpmtjf=""
 >
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       medium default
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-1okk1dp=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -32,30 +32,30 @@ exports[`Storyshots Components/TextInput Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
   </label>
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       medium subtle
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-ko2l60=""
+          className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark"
         >
           <input
-            data-css-7mw7i0=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -65,30 +65,30 @@ exports[`Storyshots Components/TextInput Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
   </label>
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       small default
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-120j51l=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark psds-text-input--small"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -98,30 +98,30 @@ exports[`Storyshots Components/TextInput Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
   </label>
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       small subtle
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-pc3zzk=""
+          className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input--small"
         >
           <input
-            data-css-7mw7i0=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -131,7 +131,7 @@ exports[`Storyshots Components/TextInput Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -144,24 +144,24 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
   data-css-1cpmtjf=""
 >
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       medium default
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
       >
         <div
-          data-css-1okk1dp=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark psds-text-input__field--error"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -170,10 +170,10 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
         </div>
       </div>
       <div
-        data-css-1ha66tv=""
+        className="psds-text-input__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -190,30 +190,30 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
   </label>
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       medium subtle
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
       >
         <div
-          data-css-ko2l60=""
+          className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--error"
         >
           <input
-            data-css-7mw7i0=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -222,10 +222,10 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
         </div>
       </div>
       <div
-        data-css-1ha66tv=""
+        className="psds-text-input__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -242,30 +242,30 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
   </label>
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       small default
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
       >
         <div
-          data-css-120j51l=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark psds-text-input--small psds-text-input__field--error"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -274,10 +274,10 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
         </div>
       </div>
       <div
-        data-css-1ha66tv=""
+        className="psds-text-input__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -294,30 +294,30 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
   </label>
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       small subtle
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
       >
         <div
-          data-css-pc3zzk=""
+          className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input--small psds-text-input__field--error"
         >
           <input
-            data-css-7mw7i0=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -326,10 +326,10 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
         </div>
       </div>
       <div
-        data-css-1ha66tv=""
+        className="psds-text-input__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -346,7 +346,7 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -356,24 +356,24 @@ exports[`Storyshots Components/TextInput Appearances With Error 1`] = `
 
 exports[`Storyshots Components/TextInput Basic 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -383,7 +383,7 @@ exports[`Storyshots Components/TextInput Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -395,24 +395,24 @@ exports[`Storyshots Components/TextInput Compare Disabled 1`] = `
   data-css-1cpmtjf=""
 >
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       Normal
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-1okk1dp=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -422,30 +422,30 @@ exports[`Storyshots Components/TextInput Compare Disabled 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       Still normal
     </div>
   </label>
   <label
-    data-css-h2yjsn=""
+    className="psds-text-input psds-text-input--disabled"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       I'm not usable
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-1okk1dp=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={true}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -455,7 +455,7 @@ exports[`Storyshots Components/TextInput Compare Disabled 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       Neither am I
     </div>
@@ -465,24 +465,24 @@ exports[`Storyshots Components/TextInput Compare Disabled 1`] = `
 
 exports[`Storyshots Components/TextInput Date Input 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -493,7 +493,7 @@ exports[`Storyshots Components/TextInput Date Input 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -502,24 +502,24 @@ exports[`Storyshots Components/TextInput Date Input 1`] = `
 
 exports[`Storyshots Components/TextInput Disabled 1`] = `
 <label
-  data-css-h2yjsn=""
+  className="psds-text-input psds-text-input--disabled"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={true}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -529,7 +529,7 @@ exports[`Storyshots Components/TextInput Disabled 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -538,24 +538,24 @@ exports[`Storyshots Components/TextInput Disabled 1`] = `
 
 exports[`Storyshots Components/TextInput Error 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-in6gqi=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark psds-text-input__field--error"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -564,10 +564,10 @@ exports[`Storyshots Components/TextInput Error 1`] = `
       </div>
     </div>
     <div
-      data-css-1ha66tv=""
+      className="psds-text-input__error"
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="warning icon"
@@ -584,7 +584,7 @@ exports[`Storyshots Components/TextInput Error 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -593,31 +593,31 @@ exports[`Storyshots Components/TextInput Error 1`] = `
 
 exports[`Storyshots Components/TextInput Field After 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1b3f1la=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark psds-text-input__field--w-after"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
           placeholder="Some placeholder"
         />
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="placeholder icon"
@@ -633,7 +633,7 @@ exports[`Storyshots Components/TextInput Field After 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -642,24 +642,24 @@ exports[`Storyshots Components/TextInput Field After 1`] = `
 
 exports[`Storyshots Components/TextInput Label Only 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -673,24 +673,24 @@ exports[`Storyshots Components/TextInput Label Only 1`] = `
 
 exports[`Storyshots Components/TextInput Long Placeholder 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -700,7 +700,7 @@ exports[`Storyshots Components/TextInput Long Placeholder 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -709,20 +709,20 @@ exports[`Storyshots Components/TextInput Long Placeholder 1`] = `
 
 exports[`Storyshots Components/TextInput No Labels 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
           aria-label="You need an a11y label"
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -736,24 +736,24 @@ exports[`Storyshots Components/TextInput No Labels 1`] = `
 
 exports[`Storyshots Components/TextInput Password Input 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -764,7 +764,7 @@ exports[`Storyshots Components/TextInput Password Input 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -773,26 +773,24 @@ exports[`Storyshots Components/TextInput Password Input 1`] = `
 
 exports[`Storyshots Components/TextInput Props Inclusion 1`] = `
 <label
-  className="className is allowed"
-  data-css-w0yocm=""
+  className="psds-text-input className is allowed"
 >
   <div
-    data-css-dysqqm=""
+    className="psds-text-input__label psds-theme--dark psds-text-input__label"
   >
     The label
   </div>
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
-          className="className is allowed"
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -803,7 +801,7 @@ exports[`Storyshots Components/TextInput Props Inclusion 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -812,20 +810,20 @@ exports[`Storyshots Components/TextInput Props Inclusion 1`] = `
 
 exports[`Storyshots Components/TextInput Sub Label Only 1`] = `
 <label
-  data-css-w0yocm=""
+  className="psds-text-input"
 >
   <div
-    data-css-1r967oi=""
+    className="psds-text-input__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <div
-        data-css-1okk1dp=""
+        className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
       >
         <input
           aria-label="You need an a11y label"
-          data-css-1iyk6mt=""
+          className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
           disabled={false}
           onBlur={[Function]}
           onFocus={[Function]}
@@ -835,7 +833,7 @@ exports[`Storyshots Components/TextInput Sub Label Only 1`] = `
     </div>
   </div>
   <div
-    data-css-o89kbw=""
+    className="psds-text-input__sub-label psds-theme--dark"
   >
     The sub label
   </div>
@@ -847,24 +845,24 @@ exports[`Storyshots Components/TextInput/examples Autofocused 1`] = `
   data-css-424rvd=""
 >
   <label
-    data-css-w0yocm=""
+    className="psds-text-input"
   >
     <div
-      data-css-dysqqm=""
+      className="psds-text-input__label psds-theme--dark psds-text-input__label"
     >
       The label
     </div>
     <div
-      data-css-1r967oi=""
+      className="psds-text-input__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <div
-          data-css-1okk1dp=""
+          className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
         >
           <input
-            data-css-1iyk6mt=""
+            className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
             disabled={false}
             onBlur={[Function]}
             onFocus={[Function]}
@@ -874,7 +872,7 @@ exports[`Storyshots Components/TextInput/examples Autofocused 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-text-input__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -888,24 +886,24 @@ exports[`Storyshots Components/TextInput/examples Controlled 1`] = `
 >
   <div>
     <label
-      data-css-w0yocm=""
+      className="psds-text-input"
     >
       <div
-        data-css-dysqqm=""
+        className="psds-text-input__label psds-theme--dark psds-text-input__label"
       >
         The label
       </div>
       <div
-        data-css-1r967oi=""
+        className="psds-text-input__field-container"
       >
         <div
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
         >
           <div
-            data-css-1okk1dp=""
+            className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
           >
             <input
-              data-css-1iyk6mt=""
+              className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
               disabled={false}
               onBlur={[Function]}
               onChange={[Function]}
@@ -917,7 +915,7 @@ exports[`Storyshots Components/TextInput/examples Controlled 1`] = `
         </div>
       </div>
       <div
-        data-css-o89kbw=""
+        className="psds-text-input__sub-label psds-theme--dark"
       >
         The sub label
       </div>
@@ -949,7 +947,7 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
     }
   >
     <label
-      data-css-w0yocm=""
+      className="psds-text-input"
       style={
         Object {
           "display": "block",
@@ -958,21 +956,21 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       }
     >
       <div
-        data-css-dysqqm=""
+        className="psds-text-input__label psds-theme--dark psds-text-input__label"
       >
         First
       </div>
       <div
-        data-css-1r967oi=""
+        className="psds-text-input__field-container"
       >
         <div
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
         >
           <div
-            data-css-1okk1dp=""
+            className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
           >
             <input
-              data-css-1iyk6mt=""
+              className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
               disabled={false}
               style={
                 Object {
@@ -986,7 +984,7 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       </div>
     </label>
     <label
-      data-css-w0yocm=""
+      className="psds-text-input"
       style={
         Object {
           "display": "block",
@@ -995,21 +993,21 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       }
     >
       <div
-        data-css-dysqqm=""
+        className="psds-text-input__label psds-theme--dark psds-text-input__label"
       >
         Second
       </div>
       <div
-        data-css-1r967oi=""
+        className="psds-text-input__field-container"
       >
         <div
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
         >
           <div
-            data-css-1okk1dp=""
+            className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark psds-text-input__field--error"
           >
             <input
-              data-css-1iyk6mt=""
+              className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
               disabled={false}
               style={
                 Object {
@@ -1021,10 +1019,10 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
           </div>
         </div>
         <div
-          data-css-1ha66tv=""
+          className="psds-text-input__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -1042,7 +1040,7 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       </div>
     </label>
     <label
-      data-css-w0yocm=""
+      className="psds-text-input"
       style={
         Object {
           "display": "block",
@@ -1051,21 +1049,21 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       }
     >
       <div
-        data-css-dysqqm=""
+        className="psds-text-input__label psds-theme--dark psds-text-input__label"
       >
         Third
       </div>
       <div
-        data-css-1r967oi=""
+        className="psds-text-input__field-container"
       >
         <div
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
         >
           <div
-            data-css-ko2l60=""
+            className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark"
           >
             <input
-              data-css-7mw7i0=""
+              className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
               disabled={false}
               style={
                 Object {
@@ -1079,7 +1077,7 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       </div>
     </label>
     <label
-      data-css-w0yocm=""
+      className="psds-text-input"
       style={
         Object {
           "display": "block",
@@ -1088,21 +1086,21 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
       }
     >
       <div
-        data-css-dysqqm=""
+        className="psds-text-input__label psds-theme--dark psds-text-input__label"
       >
         Fourth
       </div>
       <div
-        data-css-1r967oi=""
+        className="psds-text-input__field-container"
       >
         <div
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
         >
           <div
-            data-css-ko2l60=""
+            className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--error"
           >
             <input
-              data-css-7mw7i0=""
+              className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
               disabled={false}
               style={
                 Object {
@@ -1114,10 +1112,10 @@ exports[`Storyshots Components/TextInput/examples Style Full Width 1`] = `
           </div>
         </div>
         <div
-          data-css-1ha66tv=""
+          className="psds-text-input__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -1158,19 +1156,19 @@ exports[`Storyshots Components/TextInput/examples Style Right Aligned 1`] = `
       }
     >
       <label
-        data-css-w0yocm=""
+        className="psds-text-input"
       >
         <div
-          data-css-1r967oi=""
+          className="psds-text-input__field-container"
         >
           <div
-            data-css-ctre2o=""
+            className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
           >
             <div
-              data-css-1okk1dp=""
+              className="psds-text-input__field psds-text-input__field--appearance-default psds-theme--dark"
             >
               <input
-                data-css-1iyk6mt=""
+                className="psds-theme--dark psds-text-input__field-input--appearance-default psds-text-input__field-input"
                 disabled={false}
                 placeholder="Filter"
               />

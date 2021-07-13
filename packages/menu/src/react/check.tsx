@@ -1,25 +1,24 @@
 import { CheckIcon } from '@pluralsight/ps-design-system-icon'
-
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
+import '../css/index.css'
 import { ItemContext } from './context'
-import stylesheet from '../css/index'
 
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  icon: glamor.css(stylesheet[`.psds-menu__item-icon`]),
-  filler: glamor.css(stylesheet[`.psds-menu__item-icon-filler`])
-}
 interface CheckProps extends React.HTMLAttributes<HTMLDivElement> {}
 
-export const Check: React.FC<CheckProps> = props => {
+export const Check: React.FC<CheckProps> = ({ className, ...rest }) => {
   const { selected } = React.useContext(ItemContext)
   return selected ? (
     // @ts-ignore: ignore icon type
-    <CheckIcon {...styles.icon} {...props} />
+    <CheckIcon
+      {...rest}
+      className={classNames('psds-menu__item-icon', className)}
+    />
   ) : (
-    <div {...styles.filler} style={props.style} />
+    <div
+      className={classNames('psds-menu__item-icon-filler', className)}
+      style={rest.style}
+    />
   )
 }

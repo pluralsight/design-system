@@ -18,7 +18,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       above
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -28,7 +28,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-s1sch4=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-bottom-center"
       />
     </div>
   </div>
@@ -39,7 +39,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       aboveLeft
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -49,7 +49,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-1jxkkwb=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-bottom-left"
       />
     </div>
   </div>
@@ -60,7 +60,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       aboveRight
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -70,7 +70,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-as9lde=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-bottom-right"
       />
     </div>
   </div>
@@ -81,7 +81,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       below
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -91,7 +91,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-161cv40=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-center"
       />
     </div>
   </div>
@@ -102,7 +102,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       belowLeft
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -112,7 +112,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-1oan5ap=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-left"
       />
     </div>
   </div>
@@ -123,7 +123,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       belowRight
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -133,7 +133,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-pnrenl=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-top-right"
       />
     </div>
   </div>
@@ -144,7 +144,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       rightOf
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -154,7 +154,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-1bzlzco=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-left-center"
       />
     </div>
   </div>
@@ -165,7 +165,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       leftOf
     </div>
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -175,7 +175,7 @@ exports[`Storyshots Components/Position Javascript Positions 1`] = `
       The tip
       <div
         aria-hidden={true}
-        data-css-1lnrdce=""
+        className="psds-tooltip__tail psds-tooltip__tail--appearance-basic psds-tooltip__tail--tailPosition-right-center"
       />
     </div>
   </div>
@@ -206,7 +206,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -229,7 +229,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -252,7 +252,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -275,7 +275,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -298,7 +298,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -321,7 +321,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -344,7 +344,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -367,7 +367,7 @@ exports[`Storyshots Components/Position Positions 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -407,7 +407,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -434,7 +434,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -461,7 +461,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -488,7 +488,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -515,7 +515,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -542,7 +542,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -569,7 +569,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -596,7 +596,7 @@ exports[`Storyshots Components/Position Positions In Custom Portal 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -632,7 +632,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -654,7 +654,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -675,7 +675,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -697,7 +697,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -718,7 +718,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -740,7 +740,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -761,7 +761,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -783,7 +783,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -804,7 +804,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -826,7 +826,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -847,7 +847,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -869,7 +869,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -890,7 +890,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -912,7 +912,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -933,7 +933,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
     }
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="info icon"
@@ -955,7 +955,7 @@ exports[`Storyshots Components/Position Positions On Edge 1`] = `
       }
     >
       <div
-        data-css-18t2vqu=""
+        className="psds-tooltip psds-tooltip--appearance-basic"
         style={
           Object {
             "position": "absolute",
@@ -989,7 +989,7 @@ exports[`Storyshots Components/Position Scrollable Container 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1020,7 +1020,7 @@ Array [
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "color": "#E7558B",
@@ -1063,7 +1063,7 @@ Array [
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "color": "#E7558B",
@@ -1109,7 +1109,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1140,7 +1140,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1171,7 +1171,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1202,7 +1202,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1233,7 +1233,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1264,7 +1264,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1295,7 +1295,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",
@@ -1326,7 +1326,7 @@ exports[`Storyshots Components/Position Target 1`] = `
     }
   >
     <div
-      data-css-18t2vqu=""
+      className="psds-tooltip psds-tooltip--appearance-basic"
       style={
         Object {
           "position": "absolute",

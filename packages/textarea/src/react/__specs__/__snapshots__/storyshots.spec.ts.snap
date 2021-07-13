@@ -3,21 +3,21 @@
 exports[`Storyshots Components/TextArea All Labels 1`] = `
 Array [
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       Some label
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
           disabled={false}
           placeholder="Some placeholder"
           style={
@@ -29,27 +29,27 @@ Array [
       </div>
     </div>
     <div
-      data-css-tayj8l=""
+      className="psds-text-area__sub-label psds-theme--dark"
     >
       Some sub label
     </div>
   </label>,
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       Some label
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-8khcid=""
+          className="psds-text-area__field psds-text-area__field--appearance-subtle psds-theme--dark"
           disabled={false}
           placeholder="Some placeholder"
           style={
@@ -61,7 +61,7 @@ Array [
       </div>
     </div>
     <div
-      data-css-tayj8l=""
+      className="psds-text-area__sub-label psds-theme--dark"
     >
       Some sub label
     </div>
@@ -72,21 +72,21 @@ Array [
 exports[`Storyshots Components/TextArea Disabled Compare 1`] = `
 Array [
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       Normal
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
           disabled={false}
           placeholder="I'm normal, see"
           style={
@@ -98,27 +98,27 @@ Array [
       </div>
     </div>
     <div
-      data-css-tayj8l=""
+      className="psds-text-area__sub-label psds-theme--dark"
     >
       Still normal
     </div>
   </label>,
   <label
-    data-css-1tctpgo=""
+    className="psds-text-area psds-text-area--disabled"
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       I'm not usable
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
           disabled={true}
           placeholder="I'm untouchable"
           style={
@@ -130,7 +130,7 @@ Array [
       </div>
     </div>
     <div
-      data-css-tayj8l=""
+      className="psds-text-area__sub-label psds-theme--dark"
     >
       Neither am I
     </div>
@@ -141,21 +141,21 @@ Array [
 exports[`Storyshots Components/TextArea Error Compare 1`] = `
 Array [
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       Normal
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
           disabled={false}
           placeholder="I'm normal, see"
           style={
@@ -167,27 +167,27 @@ Array [
       </div>
     </div>
     <div
-      data-css-tayj8l=""
+      className="psds-text-area__sub-label psds-theme--dark"
     >
       Still normal
     </div>
   </label>,
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       I'm in an error state
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark psds-text-area__field--error"
           disabled={false}
           style={
             Object {
@@ -198,10 +198,10 @@ Array [
         />
       </div>
       <div
-        data-css-h6j4b2=""
+        className="psds-text-area__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -218,7 +218,7 @@ Array [
       </div>
     </div>
     <div
-      data-css-tayj8l=""
+      className="psds-text-area__sub-label psds-theme--dark"
     >
       Here
     </div>
@@ -228,16 +228,16 @@ Array [
 
 exports[`Storyshots Components/TextArea Focus 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -260,7 +260,7 @@ exports[`Storyshots Components/TextArea Full Width Layout 1`] = `
   }
 >
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
     style={
       Object {
         "display": "block",
@@ -269,18 +269,18 @@ exports[`Storyshots Components/TextArea Full Width Layout 1`] = `
     }
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       max-width still applies
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
           disabled={false}
           style={
             Object {
@@ -292,7 +292,7 @@ exports[`Storyshots Components/TextArea Full Width Layout 1`] = `
     </div>
   </label>
   <label
-    data-css-na8jqt=""
+    className="psds-text-area"
     style={
       Object {
         "display": "block",
@@ -302,18 +302,18 @@ exports[`Storyshots Components/TextArea Full Width Layout 1`] = `
     }
   >
     <div
-      data-css-9kywkh=""
+      className="psds-text-area__label psds-theme--dark"
     >
       remove max-width
     </div>
     <div
-      data-css-1ios7mb=""
+      className="psds-text-area__field-container"
     >
       <div
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus"
       >
         <textarea
-          data-css-1paz7u7=""
+          className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark psds-text-area__field--error"
           disabled={false}
           style={
             Object {
@@ -323,10 +323,10 @@ exports[`Storyshots Components/TextArea Full Width Layout 1`] = `
         />
       </div>
       <div
-        data-css-h6j4b2=""
+        className="psds-text-area__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -348,21 +348,21 @@ exports[`Storyshots Components/TextArea Full Width Layout 1`] = `
 
 exports[`Storyshots Components/TextArea Label 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-9kywkh=""
+    className="psds-text-area__label psds-theme--dark"
   >
     Some label
   </div>
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -377,21 +377,21 @@ exports[`Storyshots Components/TextArea Label 1`] = `
 
 exports[`Storyshots Components/TextArea Label And Sub Label 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-9kywkh=""
+    className="psds-text-area__label psds-theme--dark"
   >
     Some label
   </div>
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -402,7 +402,7 @@ exports[`Storyshots Components/TextArea Label And Sub Label 1`] = `
     </div>
   </div>
   <div
-    data-css-tayj8l=""
+    className="psds-text-area__sub-label psds-theme--dark"
   >
     Some sublabel
   </div>
@@ -411,21 +411,21 @@ exports[`Storyshots Components/TextArea Label And Sub Label 1`] = `
 
 exports[`Storyshots Components/TextArea Less Than Four Rows 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-9kywkh=""
+    className="psds-text-area__label psds-theme--dark"
   >
     Min height engages
   </div>
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -440,21 +440,21 @@ exports[`Storyshots Components/TextArea Less Than Four Rows 1`] = `
 
 exports[`Storyshots Components/TextArea More Than Four Rows 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-9kywkh=""
+    className="psds-text-area__label psds-theme--dark"
   >
     6 rows of text
   </div>
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -469,16 +469,16 @@ exports[`Storyshots Components/TextArea More Than Four Rows 1`] = `
 
 exports[`Storyshots Components/TextArea No Label 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -493,16 +493,16 @@ exports[`Storyshots Components/TextArea No Label 1`] = `
 
 exports[`Storyshots Components/TextArea Placeholder 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         placeholder="some placeholder"
         style={
@@ -518,16 +518,16 @@ exports[`Storyshots Components/TextArea Placeholder 1`] = `
 
 exports[`Storyshots Components/TextArea Prop Name 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         name="myFieldNameOfPower"
         placeholder="I have a form name"
@@ -544,16 +544,16 @@ exports[`Storyshots Components/TextArea Prop Name 1`] = `
 
 exports[`Storyshots Components/TextArea Prop On Change 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         onBlur={[Function]}
         onFocus={[Function]}
@@ -571,16 +571,16 @@ exports[`Storyshots Components/TextArea Prop On Change 1`] = `
 
 exports[`Storyshots Components/TextArea Sub Label 1`] = `
 <label
-  data-css-na8jqt=""
+  className="psds-text-area"
 >
   <div
-    data-css-1ios7mb=""
+    className="psds-text-area__field-container"
   >
     <div
-      data-css-ctre2o=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
     >
       <textarea
-        data-css-1paz7u7=""
+        className="psds-text-area__field psds-text-area__field--appearance-default psds-theme--dark"
         disabled={false}
         style={
           Object {
@@ -591,7 +591,7 @@ exports[`Storyshots Components/TextArea Sub Label 1`] = `
     </div>
   </div>
   <div
-    data-css-tayj8l=""
+    className="psds-text-area__sub-label psds-theme--dark"
   >
     Some sublabel
   </div>

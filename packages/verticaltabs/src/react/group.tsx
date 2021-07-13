@@ -1,48 +1,39 @@
-import Theme, { useTheme } from '@pluralsight/ps-design-system-theme'
+import {
+  useTheme,
+  names as themeNames
+} from '@pluralsight/ps-design-system-theme'
 import Collapsible from '@pluralsight/ps-design-system-collapsible'
 import { CaretDownIcon } from '@pluralsight/ps-design-system-icon'
 import {
   RefForwardingComponent,
   ValueOf,
-  omit
+  omit,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
 import { List } from './list'
-
-const glamor = glamorDefault || glamorExports
+import '../css/index.css'
 
 const styles = {
-  group: () => glamor.css({ label: 'verticaltabs__group' }),
+  groupHeader: (themeName: ValueOf<typeof themeNames>) =>
+    classNames(`psds-verticaltabs__group__header`, `psds-theme--${themeName}`),
 
-  groupHeader: (themeName: ValueOf<typeof Theme.names>) => {
-    const label = 'verticaltabs__group__header'
-
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`]),
-      glamor.css(stylesheet[`.psds-${label}.psds-theme--${themeName}`])
-    )
-  },
-
-  groupButton: () =>
-    glamor.css(stylesheet['.psds-verticaltabs__group__button']),
+  groupButton: () => 'psds-verticaltabs__group__button',
 
   groupCollapsibleList: () =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-verticaltabs__list']),
-      glamor.css(stylesheet['.psds-verticaltabs__group__collapsible-list'])
+    classNames(
+      'psds-verticaltabs__list',
+      'psds-verticaltabs__group__collapsible-list'
     ),
 
   rotatable: (open: boolean) =>
-    glamor.css(
-      stylesheet['.psds-verticaltabs__rotatable'],
-      open && stylesheet['.psds-verticaltabs__rotatable--isOpen']
+    classNames(
+      'psds-verticaltabs__rotatable',
+      open && 'psds-verticaltabs__rotatable--is-open'
     ),
 
-  headerLabel: () => glamor.css(stylesheet['.psds-verticaltabs__header__label'])
+  headerLabel: () => 'psds-verticaltabs__header__label'
 }
 
 interface GroupProps extends React.HTMLAttributes<HTMLLIElement> {
@@ -61,7 +52,7 @@ const Group = React.forwardRef((props, ref) => {
   const rest = omit(props as Record<string, any>, ['header', 'startOpen'])
 
   return (
-    <li ref={ref} {...styles.group()} {...rest}>
+    <li ref={ref} {...rest}>
       {props.header}
 
       <List>{props.children}</List>
@@ -73,13 +64,17 @@ interface GroupHeaderProps extends React.HTMLAttributes<HTMLElement> {
   tagName?: React.ElementType | keyof JSX.IntrinsicElements
 }
 const GroupHeader = React.forwardRef<any, GroupHeaderProps>((props, ref) => {
-  const { children, tagName: Tag = 'h2', ...rest } = props
+  const { children, className, tagName: Tag = 'h2', ...rest } = props
   const themeName = useTheme()
 
   return (
-    <Tag {...rest} {...styles.groupHeader(themeName)} ref={ref}>
+    <Tag
+      {...rest}
+      className={classNames(styles.groupHeader(themeName), className)}
+      ref={ref}
+    >
       <div>
-        <span {...styles.headerLabel()}>{children}</span>
+        <span className={styles.headerLabel()}>{children}</span>
       </div>
     </Tag>
   )
@@ -126,7 +121,7 @@ const CollapsibleGroup = React.forwardRef((props, ref) => {
       <Collapsible
         isOpen={open}
         tagName="ul"
-        {...styles.groupCollapsibleList()}
+        className={styles.groupCollapsibleList()}
       >
         {children}
       </Collapsible>
@@ -144,22 +139,33 @@ const CollapsibleGroupHeader = React.forwardRef<
   any,
   CollapsibleGroupHeaderProps
 >((props, ref) => {
-  const { children, open, tagName: Tag = 'h2', toggle, ...rest } = props
+  const {
+    children,
+    className,
+    open,
+    tagName: Tag = 'h2',
+    toggle,
+    ...rest
+  } = props
   const themeName = useTheme()
 
   return (
-    <Tag {...rest} {...styles.groupHeader(themeName)} ref={ref}>
+    <Tag
+      {...rest}
+      className={classNames(styles.groupHeader(themeName), className)}
+      ref={ref}
+    >
       <button
-        {...styles.groupButton()}
+        className={styles.groupButton()}
         onClick={toggle}
         aria-expanded={open ? 'true' : 'false'}
       >
-        <span {...styles.headerLabel()}>{children}</span>
+        <span className={styles.headerLabel()}>{children}</span>
 
         <CaretDownIcon
           aria-hidden="true"
           size={CaretDownIcon.sizes.small}
-          {...styles.rotatable(Boolean(open))}
+          className={styles.rotatable(Boolean(open))}
         />
       </button>
     </Tag>

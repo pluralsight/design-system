@@ -1,38 +1,14 @@
-import { accessibility } from '@pluralsight/ps-design-system-core'
+import '@pluralsight/ps-design-system-core/dist/css/accessibility.css'
 import Halo from '@pluralsight/ps-design-system-halo'
-import Theme, { useTheme } from '@pluralsight/ps-design-system-theme'
-import { ValueOf, omit, isFunction } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import {
+  classNames,
+  omit,
+  isFunction
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  checkbox: (props: { disabled?: boolean }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-checkbox']),
-      props.disabled && glamor.css(stylesheet['.psds-checkbox--disabled'])
-    ),
-  square: (
-    themeName: ValueOf<typeof Theme.names>,
-    props: { checked?: boolean; indeterminate?: boolean }
-  ) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-checkbox__square']),
-      glamor.css(stylesheet[`.psds-checkbox__square.psds-theme--${themeName}`]),
-      (props.checked || props.indeterminate) &&
-        glamor.css(stylesheet['.psds-checkbox__square--active'])
-    ),
-  icon: () => glamor.css(stylesheet['.psds-checkbox__icon']),
-  input: () => glamor.css(accessibility.screenReaderOnly),
-  label: (themeName: ValueOf<typeof Theme.names>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-checkbox__label']),
-      glamor.css(stylesheet[`.psds-checkbox__label.psds-theme--${themeName}`])
-    )
-}
+import '../css/index.css'
 
 interface CheckboxProps
   extends React.HTMLAttributes<HTMLDivElement>,
@@ -109,7 +85,11 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
       <label
         onClick={handleClick}
         onKeyDown={handleKeyDown}
-        {...styles.checkbox({ disabled })}
+        className={classNames(
+          'psds-checkbox',
+          props.disabled && 'psds-checkbox--disabled',
+          props.className
+        )}
       >
         <Halo
           error={props.error}
@@ -122,17 +102,36 @@ const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
             type="checkbox"
             checked={checked}
             readOnly
-            {...styles.input()}
-            {...omit(props, ['label', 'onCheck', 'error', 'indeterminate'])}
+            className="psds-screenreader-only psds-checkbox__input"
+            {...omit(props, [
+              'className',
+              'label',
+              'onCheck',
+              'error',
+              'indeterminate'
+            ])}
           />
 
-          <div {...styles.square(themeName, { checked, indeterminate })}>
+          <div
+            className={classNames(
+              'psds-checkbox__square',
+              `psds-checkbox__square.psds-theme--${themeName}`,
+              (checked || indeterminate) && 'psds-checkbox__square--active'
+            )}
+          >
             {indeterminate && <Indeterminate />}
             {!indeterminate && checked && <Checkmark />}
           </div>
         </Halo>
 
-        <div {...styles.label(themeName)}>{props.label}</div>
+        <div
+          className={classNames(
+            'psds-checkbox__label',
+            `psds-theme--${themeName}`
+          )}
+        >
+          {props.label}
+        </div>
       </label>
     )
   }
@@ -147,7 +146,7 @@ const Checkmark: React.FC = () => (
     viewBox="0 0 16 16"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
-    {...styles.icon()}
+    className="psds-checkbox__icon"
   >
     <polygon points="6.89667458 13 2.62114014 8.72446556 4.12826603 7.21733967 6.89667458 9.97505938 12.871734 4 14.3788599 5.51781473" />
   </svg>
@@ -160,7 +159,7 @@ const Indeterminate: React.FC = () => (
     viewBox="0 0 16 16"
     version="1.1"
     xmlns="http://www.w3.org/2000/svg"
-    {...styles.icon()}
+    className="psds-checkbox__icon"
   >
     <rect x="3" y="7" width="10" height="2" />
   </svg>

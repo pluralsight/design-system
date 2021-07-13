@@ -1,14 +1,7 @@
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/text-area'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  container: () => glamor.css(stylesheet['.psds-field__text-area__container']),
-  textArea: () => glamor.css(stylesheet['.psds-field__text-area'])
-}
+import '../css/text-area.css'
 
 interface TextAreaProps
   extends React.DetailedHTMLProps<
@@ -20,14 +13,28 @@ interface TextAreaProps
 
 const TextArea = React.forwardRef<HTMLTextAreaElement, TextAreaProps>(
   (props, ref) => {
-    const { renderContainer = defaultRenderContainer, ...rest } = props
+    const {
+      className,
+      renderContainer = defaultRenderContainer,
+      ...rest
+    } = props
 
     const containerRef = React.useRef<HTMLDivElement>(null)
     const Container = React.useMemo(() => renderContainer, [renderContainer])
 
     return (
-      <Container {...styles.container()} ref={containerRef}>
-        <textarea ref={ref} {...styles.textArea()} {...rest} />
+      <Container
+        className={classNames('psds-field__text-area__container', className)}
+        ref={containerRef}
+      >
+        <textarea
+          ref={ref}
+          {...rest}
+          className={classNames(
+            'psds-field__text-area',
+            !!rest.disabled && 'psds-field__text-area--disabled'
+          )}
+        />
       </Container>
     )
   }

@@ -5,52 +5,52 @@ exports[`Storyshots Components/Scrollable Basic 1`] = `
   data-css-1gfhbu8=""
 >
   <div
+    className="psds-scrollable__outer psds-scrollable__outer--screen"
     data-css-16jsjct=""
-    data-css-axmbrd=""
     data-scrollable={true}
   >
     <div
-      data-css-1srorb2=""
+      className="psds-scrollable__inner"
     >
       <div
-        data-css-3e2h8g=""
+        className="psds-scrollable__content"
         onScroll={[Function]}
       >
         <div
           data-css-83b6zj=""
         >
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
           </p>
@@ -58,12 +58,18 @@ exports[`Storyshots Components/Scrollable Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-1ackutz=""
-      data-css-ejkno9=""
+      className="psds-scrollable__handle"
       draggable={true}
       onDrag={[Function]}
       onDragEnd={[Function]}
       onDragStart={[Function]}
+      style={
+        Object {
+          "height": "10%",
+          "top": "0%",
+          "visibility": "hidden",
+        }
+      }
     />
   </div>
   <div
@@ -73,37 +79,37 @@ exports[`Storyshots Components/Scrollable Basic 1`] = `
       data-css-83b6zj=""
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
       </p>
@@ -117,53 +123,53 @@ exports[`Storyshots Components/Scrollable Container Padding 1`] = `
   data-css-1gfhbu8=""
 >
   <div
+    className="psds-scrollable__outer psds-scrollable__outer--screen"
     data-css-16jsjct=""
     data-css-1y16c93=""
-    data-css-axmbrd=""
     data-scrollable={true}
   >
     <div
-      data-css-1srorb2=""
+      className="psds-scrollable__inner"
     >
       <div
-        data-css-3e2h8g=""
+        className="psds-scrollable__content"
         onScroll={[Function]}
       >
         <div
           data-css-83b6zj=""
         >
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
           </p>
@@ -171,12 +177,18 @@ exports[`Storyshots Components/Scrollable Container Padding 1`] = `
       </div>
     </div>
     <div
-      data-css-1ackutz=""
-      data-css-ejkno9=""
+      className="psds-scrollable__handle"
       draggable={true}
       onDrag={[Function]}
       onDragEnd={[Function]}
       onDragStart={[Function]}
+      style={
+        Object {
+          "height": "10%",
+          "top": "0%",
+          "visibility": "hidden",
+        }
+      }
     />
   </div>
   <div
@@ -187,37 +199,37 @@ exports[`Storyshots Components/Scrollable Container Padding 1`] = `
       data-css-83b6zj=""
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
       </p>
@@ -231,15 +243,15 @@ exports[`Storyshots Components/Scrollable Content Padding 1`] = `
   data-css-1gfhbu8=""
 >
   <div
+    className="psds-scrollable__outer psds-scrollable__outer--screen"
     data-css-16jsjct=""
-    data-css-axmbrd=""
     data-scrollable={true}
   >
     <div
-      data-css-1srorb2=""
+      className="psds-scrollable__inner"
     >
       <div
-        data-css-3e2h8g=""
+        className="psds-scrollable__content"
         onScroll={[Function]}
       >
         <div
@@ -247,37 +259,37 @@ exports[`Storyshots Components/Scrollable Content Padding 1`] = `
           data-css-83b6zj=""
         >
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
           </p>
           <p
-            data-css-17nixd9=""
+            className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
           >
             We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
           </p>
@@ -285,12 +297,18 @@ exports[`Storyshots Components/Scrollable Content Padding 1`] = `
       </div>
     </div>
     <div
-      data-css-1ackutz=""
-      data-css-ejkno9=""
+      className="psds-scrollable__handle"
       draggable={true}
       onDrag={[Function]}
       onDragEnd={[Function]}
       onDragStart={[Function]}
+      style={
+        Object {
+          "height": "10%",
+          "top": "0%",
+          "visibility": "hidden",
+        }
+      }
     />
   </div>
   <div
@@ -301,37 +319,37 @@ exports[`Storyshots Components/Scrollable Content Padding 1`] = `
       data-css-83b6zj=""
     >
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
       </p>
       <p
-        data-css-17nixd9=""
+        className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       >
         We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
       </p>
@@ -345,16 +363,16 @@ exports[`Storyshots Components/Scrollable Example Dynamic Sizing 1`] = `
   data-css-1gfhbu8=""
 >
   <div
+    className="psds-scrollable__outer psds-scrollable__outer--screen"
     data-css-16jsjct=""
     data-css-18kkulc=""
-    data-css-axmbrd=""
     data-scrollable={true}
   >
     <div
-      data-css-1srorb2=""
+      className="psds-scrollable__inner"
     >
       <div
-        data-css-3e2h8g=""
+        className="psds-scrollable__content"
         onScroll={[Function]}
       >
         <div
@@ -365,37 +383,37 @@ exports[`Storyshots Components/Scrollable Example Dynamic Sizing 1`] = `
             data-css-83b6zj=""
           >
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               There's not a thing in the world wrong with washing your brush. With practice comes confidence. Don't be afraid to make these big decisions. Once you start, they sort of just make themselves.
             </p>
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               You can't have light without dark. You can't know happiness unless you've known sorrow. See. We take the corner of the brush and let it play back-and-forth. Every day I learn. If we're gonna walk though the woods, we need a little path. We don't need any guidelines or formats. All we need to do is just let it flow right out of us.
             </p>
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               Let's make a nice big leafy tree. Let's go up in here, and start having some fun God gave you this gift of imagination. Use it. Life is too short to be alone, too precious. Share it with a friend.
             </p>
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               I get carried away with this brush cleaning. What the devil. It just happens - whether or not you worried about it or tried to plan it. Imagination is the key to painting.
             </p>
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               Use absolutely no pressure. Just like an angel's wing. We'll put some happy little leaves here and there. You don't have to spend all your time thinking about what you're doing, you just let it happen. Just let your mind wander and enjoy. This should make you happy.
             </p>
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               Very easy to work these to death. Just a happy little shadow that lives in there. There are no mistakes. You can fix anything that happens. But they're very easily killed. Clouds are delicate.
             </p>
             <p
-              data-css-17nixd9=""
+              className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
             >
               We'll throw some happy little limbs on this tree. You better get your coat out, this is going to be a cold painting. The only thing worse than yellow snow is green snow.
             </p>
@@ -419,12 +437,18 @@ exports[`Storyshots Components/Scrollable Example Dynamic Sizing 1`] = `
       </div>
     </div>
     <div
-      data-css-1ackutz=""
-      data-css-ejkno9=""
+      className="psds-scrollable__handle"
       draggable={true}
       onDrag={[Function]}
       onDragEnd={[Function]}
       onDragStart={[Function]}
+      style={
+        Object {
+          "height": "10%",
+          "top": "0%",
+          "visibility": "hidden",
+        }
+      }
     />
   </div>
 </div>
@@ -435,38 +459,44 @@ exports[`Storyshots Components/Scrollable No Scroll Needed 1`] = `
   data-css-1gfhbu8=""
 >
   <div
+    className="psds-scrollable__outer psds-scrollable__outer--screen"
     data-css-16jsjct=""
-    data-css-axmbrd=""
     data-scrollable={true}
   >
     <div
-      data-css-1srorb2=""
+      className="psds-scrollable__inner"
     >
       <div
-        data-css-3e2h8g=""
+        className="psds-scrollable__content"
         onScroll={[Function]}
       >
         <p
-          data-css-17nixd9=""
+          className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
         >
           hello world
         </p>
       </div>
     </div>
     <div
-      data-css-1ackutz=""
-      data-css-ejkno9=""
+      className="psds-scrollable__handle"
       draggable={true}
       onDrag={[Function]}
       onDragEnd={[Function]}
       onDragStart={[Function]}
+      style={
+        Object {
+          "height": "10%",
+          "top": "0%",
+          "visibility": "hidden",
+        }
+      }
     />
   </div>
   <div
     data-css-1tfmk30=""
   >
     <p
-      data-css-17nixd9=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
     >
       hello world
     </p>

@@ -1,13 +1,10 @@
 import { useTheme, names } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
 import ListItem from './list-item'
-import stylesheet from '../../css/index'
+import '../../css/index.css'
 import * as vars from '../../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 const styles = ({
   themeName,
@@ -19,15 +16,16 @@ const styles = ({
   size: ValueOf<typeof vars.listSizes>
   color: ValueOf<typeof vars.textColors>
   type: ValueOf<typeof vars.listTypes>
-}) =>
-  glamor.compose(
-    glamor.css(stylesheet[`.psds-text__list`]),
-    glamor.css(stylesheet[`.psds-text__list--size-${size}`]),
-    glamor.css(
-      stylesheet[`.psds-text__list--color-${color}.psds-theme--${themeName}`]
-    ),
-    glamor.css(stylesheet[`.psds-text__list--type-${type}`])
+}) => {
+  const label = 'psds-text__list'
+  return classNames(
+    label,
+    `psds-theme--${themeName}`,
+    `${label}--size-${size}`,
+    `${label}--color-${color}`,
+    `${label}--type-${type}`
   )
+}
 
 interface ListStatics {
   types: typeof vars.listTypes
@@ -55,13 +53,30 @@ const List: React.FC<ListProps> & ListStatics = ({
   type = vars.listTypes.default,
   size = vars.listSizes.medium,
   color = vars.textColors.primary,
-  ...props
+  className,
+  ...rest
 }) => {
   const themeName = useTheme()
   const Wrapper: React.FC = wrapperProps =>
-    type === 'numbered' ? <ol {...wrapperProps} /> : <ul {...wrapperProps} />
+    type === 'numbered' ? (
+      <ol
+        {...wrapperProps}
+        className={classNames(
+          styles({ themeName, type, size, color }),
+          className
+        )}
+      />
+    ) : (
+      <ul
+        {...wrapperProps}
+        className={classNames(
+          styles({ themeName, type, size, color }),
+          className
+        )}
+      />
+    )
 
-  return <Wrapper {...styles({ themeName, type, size, color })} {...props} />
+  return <Wrapper {...rest} />
 }
 
 List.sizes = vars.listSizes

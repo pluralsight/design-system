@@ -24,6 +24,14 @@ describe('Button', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className in Button', () => {
+    const { container } = render(
+      <Button className="compose-classname"></Button>
+    )
+
+    expect(container.firstChild).toHaveClass('psds-button compose-classname')
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

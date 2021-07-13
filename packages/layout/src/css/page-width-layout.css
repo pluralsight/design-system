@@ -1,0 +1,13 @@
+.psds-page-width-layout {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media (min-width: 769px) {
+  .psds-page-width-layout {
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}

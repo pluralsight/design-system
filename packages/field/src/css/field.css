@@ -1,0 +1,58 @@
+.psds-field__container {
+  display: inline-block;
+}
+.psds-field__container--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.psds-field {
+  align-items: center;
+  background: var(--ps-colors-background-light-3);
+  border: 1px solid var(--ps-colors-border-high-on-light);
+  border-radius: 2px;
+  color: var(--ps-colors-text-icon-high-on-light);
+  display: flex;
+  font-weight: var(--ps-type-font-weight-default);
+  padding: 0 var(--ps-layout-spacing-medium);
+  line-height: 20px;
+  position: relative;
+  width: 100%;
+}
+.psds-field--small {
+  padding: 0 var(--ps-layout-spacing-xsmall);
+}
+.psds-field--prefix {
+  padding-left: 11px;
+}
+.psds-field--suffix {
+  padding-right: 11px;
+}
+.psds-field__halo {
+  width: 100%;
+}
+.psds-field__prefix {
+  align-self: stretch;
+  color: var(--ps-colors-text-icon-low-on-light);
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  height: auto;
+  margin-right: var(--ps-layout-spacing-xsmall);
+}
+.psds-field__suffix {
+  align-self: stretch;
+  color: var(--ps-colors-text-icon-low-on-light);
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+  height: auto;
+  margin-left: var(--ps-layout-spacing-xsmall);
+  overflow: visible;
+}
+.psds-field__error-icon {
+  align-items: center;
+  color: var(--ps-colors-status-error);
+  display: flex;
+  position: absolute;
+  right: calc(-1 * (24px + var(--ps-layout-spacing-xsmall)));
+}

@@ -1,9 +1,0 @@
-@import "@pluralsight/ps-design-system-core";
-
-.ps-link {
-  color: var(--psColorsOrange);
-  text-decoration: none;
-}
-.ps-link:hover {
-  text-decoration: underline;
-}

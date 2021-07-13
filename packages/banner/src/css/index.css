@@ -1,0 +1,79 @@
+.psds-banner {
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  overflow: hidden;
+  padding: var(--ps-layout-spacing-xsmall) var(--ps-layout-spacing-small);
+}
+.psds-banner--color-blue {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-blue-7);
+}
+.psds-banner--color-green {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-green-8);
+}
+.psds-banner--color-yellow {
+  color: var(--ps-colors-text-icon-high-on-light);
+  background-color: var(--ps-colors-yellow-6);
+}
+.psds-banner--color-red {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-red-7);
+}
+:not(#fake-id-to-force-higher-specificity) .psds-banner__button {
+  background: 0 0;
+  border-color: currentColor;
+  color: currentColor;
+}
+:not(#fake-id-to-force-higher-specificity) .psds-banner__button:active,
+:not(#fake-id-to-force-higher-specificity) .psds-banner__button:focus,
+:not(#fake-id-to-force-higher-specificity) .psds-banner__button:hover {
+  /* TODO: use core var for black when raw rgb var is available */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+:not(#fake-id-to-force-higher-specificity) .psds-banner__button:focus {
+  /* TODO: use core var for white when raw rgb var is available */
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
+}
+.psds-banner__button--color-yellow:not(#fake-id-to-force-higher-specificity):focus {
+  /* TODO: use core var for black when raw rgb var is available */
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+}
+.psds-banner__text {
+  margin: 0 !important;
+  flex: 1;
+  text-align: center;
+  color: currentColor !important;
+  -webkit-flex: 1;
+}
+.psds-banner__text a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.psds-banner__text a:active,
+.psds-banner__text a:focus,
+.psds-banner__text a:hover {
+  color: inherit;
+  transition: all var(--ps-motion-speed-normal);
+  opacity: 0.85;
+}
+.psds-banner__dismiss {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background: 0 0;
+  border: none;
+  margin-left: var(--ps-layout-spacing-small);
+  padding: 0;
+  color: currentColor;
+  cursor: pointer;
+}
+.psds-banner__dismiss:active,
+.psds-banner__dismiss:focus,
+.psds-banner__dismiss:hover {
+  outline: 0;
+  border-radius: 2px;
+  box-shadow: 0 0 0 3px currentColor;
+}

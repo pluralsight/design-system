@@ -17,6 +17,16 @@ describe('ScreenReaderOnly', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <ScreenReaderOnly className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-screenreader-only compose-classname'
+    )
+  })
+
   it('supports polymorphism', () => {
     expect.assertions(0)
 

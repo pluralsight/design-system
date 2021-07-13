@@ -18,15 +18,17 @@
   "scripts": {
     "build": "run-s build:esm build:cjs build:css",
     "build:cjs": "tsc --project tsconfig.build.json --module commonjs --target es5 --outDir dist/cjs",
-    "build:css": "build-css --useGlamor -i dist/cjs/css/index.js",
+    "build:css": "postcss-compile",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --target es5 --outDir dist/esm",
     "build:watch": "yarn build:esm -- --watch",
     "storybook": "start-storybook -p 6006",
     "test": "tsc --noEmit --project ./tsconfig.json && jest",
     "test:watch": "yarn test -- --watchAll"
   },
-  "sideEffects": false,
-  "style": "dist/index.css",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "style": "dist/esm/css/index.css",
   "types": "dist/esm/index.d.ts",
   "dependencies": {
     "@pluralsight/ps-design-system-button": "^22.1.15",
@@ -34,7 +36,6 @@
     "@pluralsight/ps-design-system-field": "^4.1.15",
     "@pluralsight/ps-design-system-icon": "^23.1.15",
     "@pluralsight/ps-design-system-textinput": "^11.1.15",
-    "@pluralsight/ps-design-system-theme": "^8.1.13",
     "@pluralsight/ps-design-system-util": "^9.2.9",
     "arrow-keys-react": "^1.0.6",
     "date-fns": "^2.16.1",
@@ -43,14 +44,11 @@
   "peerDependencies": {
     "@pluralsight/ps-design-system-normalize": "^5.1.2",
     "@pluralsight/ps-design-system-theme": "^8.1.4",
-    "glamor": "^2.20.40",
     "react": "^17.0.1"
   },
   "devDependencies": {
     "@pluralsight/ps-design-system-build": "^3.2.2",
-    "@pluralsight/ps-design-system-storybook-preset": "^0.7.3",
-    "@pluralsight/ps-design-system-textinput": "^10.0.1",
-    "@pluralsight/ps-design-system-theme": "^8.1.4"
+    "@pluralsight/ps-design-system-storybook-preset": "^0.7.3"
   },
   "gitHead": "0c5576456d80ae8d6dfb82da74320f3e8266c35a"
 }

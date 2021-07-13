@@ -33,6 +33,86 @@ describe('Dropdown', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className in Dropdown', () => {
+    const { container } = render(<Dropdown className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-dropdown compose-classname')
+  })
+
+  it('composes className in Item', () => {
+    const { container } = render(
+      <Dropdown.Item className="compose-classname">Item</Dropdown.Item>
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-dropdown__item compose-classname'
+    )
+  })
+
+  it('composes className in Divider', () => {
+    const { container } = render(
+      <Dropdown.Divider className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-dropdown__divider compose-classname'
+    )
+  })
+
+  it('composes className in Label', () => {
+    const { container } = render(
+      <Dropdown.Label label="someLabel" className="compose-classname" />
+    )
+
+    expect(container.firstChild?.firstChild).toHaveClass(
+      'psds-dropdown__label compose-classname'
+    )
+  })
+
+  it('composes className in Layout', () => {
+    const { container } = render(
+      <Dropdown.Layout className="compose-classname" button={<div />} />
+    )
+
+    expect(container.firstChild).toHaveClass('psds-dropdown compose-classname')
+  })
+
+  it('composes className in SubLabel', () => {
+    const { container } = render(
+      <Dropdown.SubLabel subLabel="someLabel" className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-dropdown__sub-label compose-classname'
+    )
+  })
+
+  it('composes className in Button', () => {
+    const { container } = render(
+      <Dropdown.Button
+        aria-haspopup="listbox"
+        onClick={() => {}}
+        onKeyDown={() => {}}
+        className="compose-classname"
+        setMenuPosition={() => {}}
+      />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-dropdown__field-container compose-classname'
+    )
+  })
+
+  it('composes className in Selected', () => {
+    const { container } = render(
+      <Dropdown.Selected className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-dropdown__button-sizer compose-classname'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

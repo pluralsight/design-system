@@ -137,6 +137,7 @@ export const colorsBackgroundLight = {
   3: '#FFFFFF'
 }
 
+// TODO: rename this with rgb suffix so the color system is in the var name
 export const colorsBackgroundUtilityCsv = '138,153,168'
 
 export const colorsBackgroundUtility = {

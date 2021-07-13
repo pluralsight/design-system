@@ -1,0 +1,17 @@
+.psds-multi-select__caret {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+.psds-multi-select__menu {
+  max-height: 400px;
+  max-width: 320px;
+  min-width: 160px;
+  overflow-y: auto;
+}
+.psds-multi-select__wrapper {
+  display: none;
+}
+.psds-multi-select__wrapper--open {
+  display: inline-block;
+}

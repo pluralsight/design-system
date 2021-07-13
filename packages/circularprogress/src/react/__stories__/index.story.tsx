@@ -68,10 +68,6 @@ export const StyleOverride: Story = () => (
   />
 )
 
-export const ClassNameOverride: Story = () => (
-  <CircularProgress aria-label="course loading" className="someString" />
-)
-
 const StoryGrid: React.FC<{ cols?: number }> = props => {
   const { cols = 2, ...rest } = props
 

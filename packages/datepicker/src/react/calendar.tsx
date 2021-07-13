@@ -4,45 +4,14 @@ import {
   CaretLeftIcon,
   CaretRightIcon
 } from '@pluralsight/ps-design-system-icon'
-import { RefFor, ValueOf } from '@pluralsight/ps-design-system-util'
+import { RefFor, ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import Theme from '@pluralsight/ps-design-system-theme'
 import type { RenderProps } from 'dayzed'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
+import '../css/index.css'
 import { DateContext } from './context'
-import stylesheet from '../css/index'
 import { slides } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const forward = glamor.keyframes(
-  stylesheet['@keyframes psds-calendar__keyframes__forward']
-)
-const backward = glamor.keyframes(
-  stylesheet['@keyframes psds-calendar__keyframes__backward']
-)
-
-const styles = {
-  calendar: () => glamor.css(stylesheet['.psds-calendar']),
-  headerWrapper: () => glamor.css(stylesheet[`.psds-calendar__header-wrapper`]),
-  gridWrapper: () => glamor.css(stylesheet[`.psds-calendar__grid-wrapper`]),
-  gridSlide: (slide?: ValueOf<typeof slides>) =>
-    glamor.css(
-      stylesheet[`.psds-calendar__grid-slide`],
-      slide === 'forward' &&
-        stylesheet[`.psds-calendar__grid-slide--forward`](forward),
-      slide === 'backward' &&
-        stylesheet[`.psds-calendar__grid-slide--backward`](backward)
-    ),
-  month: () => glamor.css(stylesheet['.psds-calendar__month']),
-  header: () => glamor.css(stylesheet['.psds-calendar__header']),
-  headerButton: () => glamor.css(stylesheet['.psds-calendar__header-button']),
-  headerMonth: () => glamor.css(stylesheet['.psds-calendar__header-month']),
-  weekdayHeader: () => glamor.css(stylesheet['.psds-calendar__weekday-header']),
-  dateFiller: () => glamor.css(stylesheet['.psds-calendar__filler']),
-  dateGrid: () => glamor.css(stylesheet['.psds-calendar__date-grid'])
-}
 
 const monthNamesShort = [
   'Jan',
@@ -68,7 +37,15 @@ interface CalendarProps
 
 export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
   (
-    { calendars, getBackProps, getForwardProps, children, slide, ...rest },
+    {
+      calendars,
+      className,
+      getBackProps,
+      getForwardProps,
+      children,
+      slide,
+      ...rest
+    },
     ref
   ) => {
     const [_slide, setSlide] = React.useState<ValueOf<typeof slides>>(slide)
@@ -105,49 +82,53 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
     }, [])
     if (calendars.length) {
       return (
-        <div {...styles.calendar()} {...rest} ref={ref}>
-          <div {...styles.headerWrapper()}>
+        <div
+          {...rest}
+          className={classNames('psds-calendar', className)}
+          ref={ref}
+        >
+          <div className="psds-calendar__header-wrapper">
             {calendars.map((calendar, i) => (
               <div
                 key={`${calendar.month}${calendar.year}`}
-                {...styles.header()}
+                className="psds-calendar__header"
               >
                 <Theme name={Theme.names.light}>
-                  <div {...styles.month()}>
+                  <div className="psds-calendar__month">
                     {i === 0 ? (
                       <Button
                         {...backRest}
-                        {...styles.headerButton()}
+                        className="psds-calendar__header-button"
                         onClick={handleBackClick}
                         icon={<CaretLeftIcon />}
                         appearance={Button.appearances.flat}
                       />
                     ) : (
-                      <div {...styles.headerButton()} />
+                      <div className="psds-calendar__header-button" />
                     )}
                     <div
                       key={`${calendar.month}${calendar.year}`}
-                      {...styles.headerMonth()}
+                      className="psds-calendar__header-month"
                     >
                       {monthNamesShort[calendar.month]} {calendar.year}
                     </div>
                     {calendars.length - 1 === i ? (
                       <Button
                         {...forwardRest}
-                        {...styles.headerButton()}
+                        className="psds-calendar__header-button"
                         onClick={handleForwardClick}
                         icon={<CaretRightIcon />}
                         appearance={Button.appearances.flat}
                       />
                     ) : (
-                      <div {...styles.headerButton()} />
+                      <div className="psds-calendar__header-button" />
                     )}
                   </div>
                 </Theme>
                 {weekdayNamesShort.map(weekday => (
                   <div
                     key={`${calendar.month}${calendar.year}${weekday}`}
-                    {...styles.weekdayHeader()}
+                    className="psds-calendar__weekday-header"
                   >
                     {weekday}
                   </div>
@@ -155,14 +136,18 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
               </div>
             ))}
           </div>
-          <div style={{ height }} {...styles.gridWrapper()}>
+          <div style={{ height }} className="psds-calendar__date-grid">
             <div
-              {...styles.gridSlide(_slide)}
+              className={classNames(
+                'psds-calendar__grid-slide',
+                _slide === 'forward' && 'psds-calendar__grid-slide--forward',
+                _slide === 'backward' && 'psds-calendar__grid-slide--backward'
+              )}
               ref={animationRef as RefFor<'div'>}
             >
               {calendars.map((calendar, i) => (
                 <div
-                  {...styles.dateGrid()}
+                  className="psds-calendar__date-grid"
                   key={`${calendar.month}${calendar.year}`}
                 >
                   <DateContext.Provider value={calendar}>

@@ -65,12 +65,6 @@ export const Sizes: Story<React.ComponentProps<typeof P>> = args => (
 )
 Sizes.args = { ...defaultArgs }
 
-export const ClassOverride = Template.bind({})
-ClassOverride.args = {
-  ...defaultArgs,
-  className: glamor.css({ color: colorsBlue[6] }).toString()
-}
-
 export const StyleOverride = Template.bind({})
 StyleOverride.args = {
   ...defaultArgs,

@@ -3,7 +3,7 @@
 exports[`Storyshots Components/Icon Colors 1`] = `
 <div>
   <div
-    data-css-vqjblb=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-blue"
   >
     <svg
       aria-label="check icon"
@@ -16,7 +16,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-1utzsc1=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-green"
   >
     <svg
       aria-label="check icon"
@@ -29,7 +29,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-8z6bpi=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-red"
   >
     <svg
       aria-label="check icon"
@@ -42,7 +42,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-1neimqp=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-text-icon-high-on-dark"
   >
     <svg
       aria-label="check icon"
@@ -55,7 +55,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-3rdd1v=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-text-icon-high-on-light"
   >
     <svg
       aria-label="check icon"
@@ -68,7 +68,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-1rnoe7f=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-text-icon-low-on-dark"
   >
     <svg
       aria-label="check icon"
@@ -81,7 +81,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-1tizgrg=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-text-icon-low-on-light"
   >
     <svg
       aria-label="check icon"
@@ -94,7 +94,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
     </svg>
   </div>
   <div
-    data-css-gbnukb=""
+    className="psds-icon psds-icon--size-medium psds-icon--color-yellow"
   >
     <svg
       aria-label="check icon"
@@ -111,7 +111,7 @@ exports[`Storyshots Components/Icon Colors 1`] = `
 
 exports[`Storyshots Components/Icon Custom Icon 1`] = `
 <div
-  data-css-1neimqp=""
+  className="psds-icon psds-icon--size-medium psds-icon--color-text-icon-high-on-dark"
 >
   <svg
     aria-label="account icon"
@@ -127,7 +127,7 @@ exports[`Storyshots Components/Icon Custom Icon 1`] = `
 
 exports[`Storyshots Components/Icon Custom Props 1`] = `
 <div
-  data-css-1neimqp=""
+  className="psds-icon psds-icon--size-medium psds-icon--color-text-icon-high-on-dark"
 >
   <svg
     aria-label="completed"
@@ -156,7 +156,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     AccountIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-AccountIcon"
   >
     <svg
@@ -173,7 +173,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     AnalyticsIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-AnalyticsIcon"
   >
     <svg
@@ -192,7 +192,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArrowDownIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArrowDownIcon"
   >
     <svg
@@ -211,7 +211,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArrowDownRightIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArrowDownRightIcon"
   >
     <svg
@@ -228,7 +228,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArrowLeftIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArrowLeftIcon"
   >
     <svg
@@ -247,7 +247,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArrowRightIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArrowRightIcon"
   >
     <svg
@@ -266,7 +266,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArrowUpIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArrowUpIcon"
   >
     <svg
@@ -285,7 +285,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArrowUpRightIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArrowUpRightIcon"
   >
     <svg
@@ -302,7 +302,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ArticleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ArticleIcon"
   >
     <svg
@@ -319,7 +319,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     AuthorKitIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-AuthorKitIcon"
   >
     <svg
@@ -338,7 +338,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     AuthorsNestIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-AuthorsNestIcon"
   >
     <svg
@@ -357,7 +357,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BellIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BellIcon"
   >
     <svg
@@ -376,7 +376,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BellRungIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BellRungIcon"
   >
     <svg
@@ -395,7 +395,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BookmarkFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BookmarkFillIcon"
   >
     <svg
@@ -412,7 +412,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BookmarkIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BookmarkIcon"
   >
     <svg
@@ -429,7 +429,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BriefcaseIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BriefcaseIcon"
   >
     <svg
@@ -448,7 +448,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BrowseIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BrowseIcon"
   >
     <svg
@@ -467,7 +467,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     BuildingIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-BuildingIcon"
   >
     <svg
@@ -486,7 +486,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CalendarIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CalendarIcon"
   >
     <svg
@@ -503,7 +503,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretAltDownIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretAltDownIcon"
   >
     <svg
@@ -522,7 +522,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretAltLeftIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretAltLeftIcon"
   >
     <svg
@@ -541,7 +541,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretAltRightIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretAltRightIcon"
   >
     <svg
@@ -560,7 +560,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretAltUpIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretAltUpIcon"
   >
     <svg
@@ -579,7 +579,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretDownIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretDownIcon"
   >
     <svg
@@ -596,7 +596,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretLeftIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretLeftIcon"
   >
     <svg
@@ -613,7 +613,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretRightIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretRightIcon"
   >
     <svg
@@ -630,7 +630,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CaretUpIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CaretUpIcon"
   >
     <svg
@@ -647,7 +647,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ChannelAddIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ChannelAddIcon"
   >
     <svg
@@ -666,7 +666,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ChannelIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ChannelIcon"
   >
     <svg
@@ -685,7 +685,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ChatAltFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ChatAltFillIcon"
   >
     <svg
@@ -704,7 +704,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ChatAltIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ChatAltIcon"
   >
     <svg
@@ -723,7 +723,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ChatFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ChatFillIcon"
   >
     <svg
@@ -742,7 +742,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ChatIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ChatIcon"
   >
     <svg
@@ -764,7 +764,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CheckCircleFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CheckCircleFillIcon"
   >
     <svg
@@ -781,7 +781,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CheckCircleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CheckCircleIcon"
   >
     <svg
@@ -800,7 +800,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CheckIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CheckIcon"
   >
     <svg
@@ -817,7 +817,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ClockIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ClockIcon"
   >
     <svg
@@ -834,7 +834,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ClockWarningIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ClockWarningIcon"
   >
     <svg
@@ -853,7 +853,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CloseCaptionedFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CloseCaptionedFillIcon"
   >
     <svg
@@ -870,7 +870,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CloseCaptionedIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CloseCaptionedIcon"
   >
     <svg
@@ -889,7 +889,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CloseIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CloseIcon"
   >
     <svg
@@ -906,7 +906,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CloudIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CloudIcon"
   >
     <svg
@@ -923,7 +923,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CloudOffIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CloudOffIcon"
   >
     <svg
@@ -940,7 +940,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CodeBrandedIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CodeBrandedIcon"
   >
     <svg
@@ -959,7 +959,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CodeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CodeIcon"
   >
     <svg
@@ -977,7 +977,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ConnectionWarningIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ConnectionWarningIcon"
   >
     <svg
@@ -996,7 +996,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CopyIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CopyIcon"
   >
     <svg
@@ -1018,7 +1018,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CoursesIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CoursesIcon"
   >
     <svg
@@ -1037,7 +1037,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     CurriculumIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-CurriculumIcon"
   >
     <svg
@@ -1064,7 +1064,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     DashboardIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-DashboardIcon"
   >
     <svg
@@ -1081,7 +1081,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     DesktopIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-DesktopIcon"
   >
     <svg
@@ -1100,7 +1100,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     DownloadIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-DownloadIcon"
   >
     <svg
@@ -1120,7 +1120,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     EnvelopeArrowIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-EnvelopeArrowIcon"
   >
     <svg
@@ -1139,7 +1139,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     EnvelopeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-EnvelopeIcon"
   >
     <svg
@@ -1156,7 +1156,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ExternalLinkIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ExternalLinkIcon"
   >
     <svg
@@ -1173,7 +1173,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     EyeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-EyeIcon"
   >
     <svg
@@ -1192,7 +1192,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     EyeOffIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-EyeOffIcon"
   >
     <svg
@@ -1211,7 +1211,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     FileIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-FileIcon"
   >
     <svg
@@ -1228,7 +1228,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     FilterIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-FilterIcon"
   >
     <svg
@@ -1247,7 +1247,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     FullscreenExitIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-FullscreenExitIcon"
   >
     <svg
@@ -1266,7 +1266,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     FullscreenIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-FullscreenIcon"
   >
     <svg
@@ -1285,7 +1285,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     GearIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-GearIcon"
   >
     <svg
@@ -1304,7 +1304,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     GlobeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-GlobeIcon"
   >
     <svg
@@ -1323,7 +1323,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     HandIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-HandIcon"
   >
     <svg
@@ -1346,7 +1346,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     HelpIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-HelpIcon"
   >
     <svg
@@ -1365,7 +1365,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     HistoryIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-HistoryIcon"
   >
     <svg
@@ -1384,7 +1384,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     HomeAdminToolsIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-HomeAdminToolsIcon"
   >
     <svg
@@ -1401,7 +1401,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     HomeContentToolsIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-HomeContentToolsIcon"
   >
     <svg
@@ -1418,7 +1418,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     HomeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-HomeIcon"
   >
     <svg
@@ -1437,7 +1437,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     InfoIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-InfoIcon"
   >
     <svg
@@ -1456,7 +1456,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     InteractiveIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-InteractiveIcon"
   >
     <svg
@@ -1473,7 +1473,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     IqIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-IqIcon"
   >
     <svg
@@ -1492,7 +1492,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     LabsIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-LabsIcon"
   >
     <svg
@@ -1517,7 +1517,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     LinkIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-LinkIcon"
   >
     <svg
@@ -1536,7 +1536,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ListIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ListIcon"
   >
     <svg
@@ -1555,7 +1555,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     LocationIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-LocationIcon"
   >
     <svg
@@ -1574,7 +1574,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     LockFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-LockFillIcon"
   >
     <svg
@@ -1593,7 +1593,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     LockIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-LockIcon"
   >
     <svg
@@ -1610,7 +1610,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     MegaphoneIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-MegaphoneIcon"
   >
     <svg
@@ -1634,7 +1634,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     MenuCloseIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-MenuCloseIcon"
   >
     <svg
@@ -1653,7 +1653,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     MenuIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-MenuIcon"
   >
     <svg
@@ -1672,7 +1672,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     MicIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-MicIcon"
   >
     <svg
@@ -1691,7 +1691,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     MoreIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-MoreIcon"
   >
     <svg
@@ -1708,7 +1708,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     MoveIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-MoveIcon"
   >
     <svg
@@ -1727,7 +1727,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     NextIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-NextIcon"
   >
     <svg
@@ -1746,7 +1746,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     NoteIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-NoteIcon"
   >
     <svg
@@ -1765,7 +1765,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     NotificationsIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-NotificationsIcon"
   >
     <svg
@@ -1784,7 +1784,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     NotificationsNewIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-NotificationsNewIcon"
   >
     <svg
@@ -1803,7 +1803,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ObjectiveIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ObjectiveIcon"
   >
     <svg
@@ -1822,7 +1822,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     OrgIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-OrgIcon"
   >
     <svg
@@ -1839,7 +1839,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PaperclipIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PaperclipIcon"
   >
     <svg
@@ -1859,7 +1859,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PathIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PathIcon"
   >
     <svg
@@ -1878,7 +1878,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PauseIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PauseIcon"
   >
     <svg
@@ -1897,7 +1897,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PencilIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PencilIcon"
   >
     <svg
@@ -1914,7 +1914,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PeopleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PeopleIcon"
   >
     <svg
@@ -1931,7 +1931,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PhoneDownIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PhoneDownIcon"
   >
     <svg
@@ -1950,7 +1950,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PhoneIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PhoneIcon"
   >
     <svg
@@ -1969,7 +1969,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PlaceholderIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PlaceholderIcon"
   >
     <svg
@@ -1986,7 +1986,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PlayCircleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PlayCircleIcon"
   >
     <svg
@@ -2005,7 +2005,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PlayIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PlayIcon"
   >
     <svg
@@ -2024,7 +2024,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PlusCircleFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PlusCircleFillIcon"
   >
     <svg
@@ -2043,7 +2043,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PlusCircleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PlusCircleIcon"
   >
     <svg
@@ -2060,7 +2060,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PlusIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PlusIcon"
   >
     <svg
@@ -2077,7 +2077,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PodcastIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PodcastIcon"
   >
     <svg
@@ -2096,7 +2096,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     PreviousIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-PreviousIcon"
   >
     <svg
@@ -2115,7 +2115,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ProjectIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ProjectIcon"
   >
     <svg
@@ -2132,7 +2132,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     QNAIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-QNAIcon"
   >
     <svg
@@ -2154,7 +2154,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     QuestionFilledIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-QuestionFilledIcon"
   >
     <svg
@@ -2173,7 +2173,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     QuestionIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-QuestionIcon"
   >
     <svg
@@ -2192,7 +2192,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     RedoIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-RedoIcon"
   >
     <svg
@@ -2209,7 +2209,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ReloadIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ReloadIcon"
   >
     <svg
@@ -2226,7 +2226,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ReportIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ReportIcon"
   >
     <svg
@@ -2243,7 +2243,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ScopeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ScopeIcon"
   >
     <svg
@@ -2260,7 +2260,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ScreenshareIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ScreenshareIcon"
   >
     <svg
@@ -2279,7 +2279,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SearchIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SearchIcon"
   >
     <svg
@@ -2298,7 +2298,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ServiceBoxIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ServiceBoxIcon"
   >
     <svg
@@ -2317,7 +2317,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ServiceDropboxIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ServiceDropboxIcon"
   >
     <svg
@@ -2336,7 +2336,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ServiceGoogleDriveIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ServiceGoogleDriveIcon"
   >
     <svg
@@ -2355,7 +2355,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ShareIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ShareIcon"
   >
     <svg
@@ -2372,7 +2372,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SignoutIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SignoutIcon"
   >
     <svg
@@ -2391,7 +2391,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SkipBackwardIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SkipBackwardIcon"
   >
     <svg
@@ -2410,7 +2410,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SkipForwardIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SkipForwardIcon"
   >
     <svg
@@ -2429,7 +2429,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialDribbbleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialDribbbleIcon"
   >
     <svg
@@ -2448,7 +2448,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialFacebookIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialFacebookIcon"
   >
     <svg
@@ -2467,7 +2467,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialGithubIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialGithubIcon"
   >
     <svg
@@ -2486,7 +2486,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialGooglePlusIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialGooglePlusIcon"
   >
     <svg
@@ -2505,7 +2505,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialLinkedinIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialLinkedinIcon"
   >
     <svg
@@ -2524,7 +2524,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialMediumIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialMediumIcon"
   >
     <svg
@@ -2541,7 +2541,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialRssIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialRssIcon"
   >
     <svg
@@ -2560,7 +2560,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialStackoverflowIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialStackoverflowIcon"
   >
     <svg
@@ -2579,7 +2579,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SocialTwitterIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SocialTwitterIcon"
   >
     <svg
@@ -2598,7 +2598,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SortAscIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SortAscIcon"
   >
     <svg
@@ -2615,7 +2615,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SortDescIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SortDescIcon"
   >
     <svg
@@ -2632,7 +2632,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     SortIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-SortIcon"
   >
     <svg
@@ -2649,7 +2649,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     StarFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-StarFillIcon"
   >
     <svg
@@ -2666,7 +2666,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     StarIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-StarIcon"
   >
     <svg
@@ -2683,7 +2683,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     StopIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-StopIcon"
   >
     <svg
@@ -2702,7 +2702,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     TagAssignmentIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-TagAssignmentIcon"
   >
     <svg
@@ -2734,7 +2734,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     TagIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-TagIcon"
   >
     <svg
@@ -2751,7 +2751,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     TagManagementIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-TagManagementIcon"
   >
     <svg
@@ -2775,7 +2775,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     TestIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-TestIcon"
   >
     <svg
@@ -2794,7 +2794,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ThemeIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ThemeIcon"
   >
     <svg
@@ -2816,7 +2816,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ThumbDownFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ThumbDownFillIcon"
   >
     <svg
@@ -2834,7 +2834,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ThumbDownIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ThumbDownIcon"
   >
     <svg
@@ -2852,7 +2852,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ThumbUpFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ThumbUpFillIcon"
   >
     <svg
@@ -2870,7 +2870,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     ThumbUpIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-ThumbUpIcon"
   >
     <svg
@@ -2888,7 +2888,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     TranscriptIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-TranscriptIcon"
   >
     <svg
@@ -2907,7 +2907,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     TrashIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-TrashIcon"
   >
     <svg
@@ -2926,7 +2926,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     UndoIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-UndoIcon"
   >
     <svg
@@ -2943,7 +2943,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     UnionIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-UnionIcon"
   >
     <svg
@@ -2968,7 +2968,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     UploadIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-UploadIcon"
   >
     <svg
@@ -2988,7 +2988,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     UserAddIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-UserAddIcon"
   >
     <svg
@@ -3007,7 +3007,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     UserIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-UserIcon"
   >
     <svg
@@ -3026,7 +3026,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     VideoIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-VideoIcon"
   >
     <svg
@@ -3045,7 +3045,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     VolumeHighIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-VolumeHighIcon"
   >
     <svg
@@ -3064,7 +3064,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     VolumeLowIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-VolumeLowIcon"
   >
     <svg
@@ -3083,7 +3083,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     VolumeMediumIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-VolumeMediumIcon"
   >
     <svg
@@ -3102,7 +3102,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     VolumeOffIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-VolumeOffIcon"
   >
     <svg
@@ -3121,7 +3121,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     WarningFilledIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-WarningFilledIcon"
   >
     <svg
@@ -3140,7 +3140,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     WarningIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-WarningIcon"
   >
     <svg
@@ -3159,7 +3159,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     WindowIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-WindowIcon"
   >
     <svg
@@ -3178,7 +3178,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     XCircleFillIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-XCircleFillIcon"
   >
     <svg
@@ -3197,7 +3197,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
     XCircleIcon
   </div>
   <div
-    data-css-1vewlbg=""
+    className="psds-icon psds-icon--size-large psds-icon--color-text-icon-high-on-dark"
     id="icon-XCircleIcon"
   >
     <svg
@@ -3218,7 +3218,7 @@ exports[`Storyshots Components/Icon Exported Icons 1`] = `
 exports[`Storyshots Components/Icon Sizes 1`] = `
 <div>
   <div
-    data-css-1gzzcm2=""
+    className="psds-icon psds-icon--size-xsmall"
   >
     <svg
       aria-label="check icon"
@@ -3231,7 +3231,7 @@ exports[`Storyshots Components/Icon Sizes 1`] = `
     </svg>
   </div>
   <div
-    data-css-k31qw2=""
+    className="psds-icon psds-icon--size-small"
   >
     <svg
       aria-label="check icon"
@@ -3244,7 +3244,7 @@ exports[`Storyshots Components/Icon Sizes 1`] = `
     </svg>
   </div>
   <div
-    data-css-7dab2f=""
+    className="psds-icon psds-icon--size-medium"
   >
     <svg
       aria-label="check icon"
@@ -3257,7 +3257,7 @@ exports[`Storyshots Components/Icon Sizes 1`] = `
     </svg>
   </div>
   <div
-    data-css-1vvr7he=""
+    className="psds-icon psds-icon--size-large"
   >
     <svg
       aria-label="check icon"

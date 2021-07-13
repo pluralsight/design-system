@@ -34,6 +34,30 @@ describe('Select', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className for Select/Select.Button', () => {
+    // Always forwards to Select.Button so this test for that component to
+    const { container } = render(<Select className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-select__button'
+    )
+  })
+
+  it('composes className for Select.Selected', () => {
+    // Always forwards to Select.Button so this test for that component to
+    const { container } = render(
+      <Select.Selected
+        className="compose-classname"
+        placeholder="placeholder"
+        selectedItem={{ label: 'placeholder', value: 'placeholder' }}
+      />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-select__selected'
+    )
+  })
+
   describe('.Button component', () => {
     it('exists', () => expect(Select.Button).toBeDefined())
 

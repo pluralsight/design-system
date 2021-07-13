@@ -1,0 +1,7 @@
+:root {
+  --ps-breakpoints-xsmall: 640px;
+  --ps-breakpoints-small: 768px;
+  --ps-breakpoints-medium: 1024px;
+  --ps-breakpoints-large: 1280px;
+  --ps-breakpoints-xlarge: 1600px;
+}

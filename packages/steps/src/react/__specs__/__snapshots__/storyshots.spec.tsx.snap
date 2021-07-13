@@ -5,21 +5,26 @@ exports[`Storyshots Components/Steps/Marker Animations 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-1bdr1pk=""
-    data-css-mwehb=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
   >
     <svg
       viewBox="0 0 36 36"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={18}
         cy={18}
-        data-css-sbdtqb=""
         r={17}
         strokeWidth={2}
       />
       <polyline
-        data-css-67s38y=""
+        className="psds-steps__marker__check psds-steps__marker__check--completed"
         points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -37,21 +42,26 @@ exports[`Storyshots Components/Steps/Marker Completed Large 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-1bdr1pk=""
-    data-css-mwehb=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
   >
     <svg
       viewBox="0 0 36 36"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={18}
         cy={18}
-        data-css-sbdtqb=""
         r={17}
         strokeWidth={2}
       />
       <polyline
-        data-css-67s38y=""
+        className="psds-steps__marker__check psds-steps__marker__check--completed"
         points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -69,21 +79,26 @@ exports[`Storyshots Components/Steps/Marker Completed Medium 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-37nc4w=""
-    data-css-tx2fkq=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 24,
+        "width": 24,
+      }
+    }
   >
     <svg
       viewBox="0 0 24 24"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={12}
         cy={12}
-        data-css-sbdtqb=""
         r={11}
         strokeWidth={2}
       />
       <polyline
-        data-css-67s38y=""
+        className="psds-steps__marker__check psds-steps__marker__check--completed"
         points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -101,21 +116,26 @@ exports[`Storyshots Components/Steps/Marker Current Large 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-mwehb=""
-    data-css-rbxj06=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
   >
     <svg
       viewBox="0 0 36 36"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={18}
         cy={18}
-        data-css-sbdtqb=""
         r={17}
         strokeWidth={2}
       />
       <polyline
-        data-css-y56a94=""
+        className="psds-steps__marker__check psds-steps__marker__check--current"
         points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -133,21 +153,26 @@ exports[`Storyshots Components/Steps/Marker Current Medium 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-37nc4w=""
-    data-css-xcbdyu=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--current psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 24,
+        "width": 24,
+      }
+    }
   >
     <svg
       viewBox="0 0 24 24"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={12}
         cy={12}
-        data-css-sbdtqb=""
         r={11}
         strokeWidth={2}
       />
       <polyline
-        data-css-y56a94=""
+        className="psds-steps__marker__check psds-steps__marker__check--current"
         points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -165,21 +190,26 @@ exports[`Storyshots Components/Steps/Marker Incomplete Large 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-1b6awg7=""
-    data-css-mwehb=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 36,
+        "width": 36,
+      }
+    }
   >
     <svg
       viewBox="0 0 36 36"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={18}
         cy={18}
-        data-css-sbdtqb=""
         r={17}
         strokeWidth={2}
       />
       <polyline
-        data-css-y56a94=""
+        className="psds-steps__marker__check psds-steps__marker__check--incomplete"
         points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -197,21 +227,26 @@ exports[`Storyshots Components/Steps/Marker Incomplete Medium 1`] = `
   data-css-103e380=""
 >
   <div
-    data-css-37nc4w=""
-    data-css-dkw9ct=""
+    className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+    style={
+      Object {
+        "height": 24,
+        "width": 24,
+      }
+    }
   >
     <svg
       viewBox="0 0 24 24"
     >
       <circle
+        className="psds-steps__marker__circle"
         cx={12}
         cy={12}
-        data-css-sbdtqb=""
         r={11}
         strokeWidth={2}
       />
       <polyline
-        data-css-y56a94=""
+        className="psds-steps__marker__check psds-steps__marker__check--incomplete"
         points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -229,41 +264,42 @@ exports[`Storyshots Components/Steps/Step Custom Marker 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
         aria-busy="false"
+        aria-label=""
         aria-valuemax={100}
         aria-valuemin={0}
         aria-valuenow={100}
-        data-css-1abx40i=""
+        className="psds-circularprogress--size-small"
         role="progressbar"
       >
         <div
           aria-live="polite"
-          data-css-6wu9td=""
+          className="psds-screenreader-only"
         >
           complete
         </div>
         <svg
-          data-css-r8je9y=""
+          className="psds-circularprogress__svg"
           version="1.1"
           viewBox="0 0 48 48"
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle
+            className="psds-circularprogress__bg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-rk8c6r=""
             r={22}
           />
           <circle
+            className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-17x5ehd=""
             r={22}
             strokeDasharray="138.23007675795088 138.23007675795088"
             strokeDashoffset={0}
@@ -273,7 +309,7 @@ exports[`Storyshots Components/Steps/Step Custom Marker 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Grapple case shot
@@ -282,41 +318,42 @@ exports[`Storyshots Components/Steps/Step Custom Marker 1`] = `
     </div>
   </div>
   <div
-    data-css-1b94shp=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--current"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
         aria-busy="true"
+        aria-label=""
         aria-valuemax={100}
         aria-valuemin={0}
         aria-valuenow={60}
-        data-css-1abx40i=""
+        className="psds-circularprogress--size-small"
         role="progressbar"
       >
         <div
           aria-live="polite"
-          data-css-6wu9td=""
+          className="psds-screenreader-only"
         >
           60%
         </div>
         <svg
-          data-css-r8je9y=""
+          className="psds-circularprogress__svg"
           version="1.1"
           viewBox="0 0 48 48"
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle
+            className="psds-circularprogress__bg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-rk8c6r=""
             r={22}
           />
           <circle
+            className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-17x5ehd=""
             r={22}
             strokeDasharray="138.23007675795088 138.23007675795088"
             strokeDashoffset={55.29203070318036}
@@ -326,7 +363,7 @@ exports[`Storyshots Components/Steps/Step Custom Marker 1`] = `
     </div>
     <div>
       <div
-        data-css-16qh227=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--current"
       >
         <p>
           Grapple case shot
@@ -335,33 +372,33 @@ exports[`Storyshots Components/Steps/Step Custom Marker 1`] = `
     </div>
   </div>
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--incomplete"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
         aria-busy="true"
         aria-label="Loading"
-        data-css-1abx40i=""
+        className="psds-circularprogress--size-small"
         role="progressbar"
       >
         <svg
-          data-css-r8je9y=""
+          className="psds-circularprogress__svg"
           version="1.1"
           viewBox="0 0 48 48"
           xmlns="http://www.w3.org/2000/svg"
         >
           <circle
+            className="psds-circularprogress__bg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-rk8c6r=""
             r={22}
           />
           <circle
+            className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
             cx="24"
             cy="24"
-            data-css-17x5ehd=""
             r={22}
             strokeDasharray="138.23007675795088 138.23007675795088"
             strokeDashoffset={103.67255756846316}
@@ -371,7 +408,7 @@ exports[`Storyshots Components/Steps/Step Custom Marker 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
       >
         <p>
           Grapple case shot
@@ -387,27 +424,32 @@ exports[`Storyshots Components/Steps/Step Hide Counters 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-14khs4=""
-        data-css-37nc4w=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -420,7 +462,7 @@ exports[`Storyshots Components/Steps/Step Hide Counters 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Grapple case shot
@@ -429,27 +471,32 @@ exports[`Storyshots Components/Steps/Step Hide Counters 1`] = `
     </div>
   </div>
   <div
-    data-css-1b94shp=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--current"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-ses2ku=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--current"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--current"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -462,7 +509,7 @@ exports[`Storyshots Components/Steps/Step Hide Counters 1`] = `
     </div>
     <div>
       <div
-        data-css-16qh227=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--current"
       >
         <p>
           Grapple case shot
@@ -471,27 +518,32 @@ exports[`Storyshots Components/Steps/Step Hide Counters 1`] = `
     </div>
   </div>
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--incomplete"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-8rftgy=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -504,7 +556,7 @@ exports[`Storyshots Components/Steps/Step Hide Counters 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
       >
         <p>
           Grapple case shot
@@ -520,27 +572,32 @@ exports[`Storyshots Components/Steps/Step Large 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1bdr1pk=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -553,7 +610,7 @@ exports[`Storyshots Components/Steps/Step Large 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
       >
         <p>
           Grapple case shot
@@ -569,27 +626,32 @@ exports[`Storyshots Components/Steps/Step Large Description 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1bdr1pk=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -602,14 +664,14 @@ exports[`Storyshots Components/Steps/Step Large Description 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
       >
         <p>
           Fathom belaying pin
         </p>
       </div>
       <div
-        data-css-4gx26r=""
+        className="psds-steps__description psds-steps__description--large psds-steps__description--completed"
       >
         <p>
           Scuttle rigging booty pink six pounders code of conduct mizzen schooner scallywag long clothes.
@@ -625,28 +687,33 @@ exports[`Storyshots Components/Steps/Step Large Interactive 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-dlz1d4=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1bdr1pk=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -659,14 +726,14 @@ exports[`Storyshots Components/Steps/Step Large Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
       >
         <p>
           Gaff knave plunder
         </p>
       </div>
       <div
-        data-css-4gx26r=""
+        className="psds-steps__description psds-steps__description--large psds-steps__description--completed"
       >
         <p>
           Yo-ho-ho hardtack no prey, no pay crack Jennys tea cup draught case shot gally doubloon poop deck reef sails.
@@ -682,27 +749,32 @@ exports[`Storyshots Components/Steps/Step Large Long Title 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1bdr1pk=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -715,7 +787,7 @@ exports[`Storyshots Components/Steps/Step Large Long Title 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
       >
         <p>
           Hang the jib measured fer yer chains aft list long clothes transom pinnace barque American Main cog.
@@ -731,27 +803,32 @@ exports[`Storyshots Components/Steps/Step Medium 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-tx2fkq=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -764,7 +841,7 @@ exports[`Storyshots Components/Steps/Step Medium 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Grapple case shot
@@ -780,27 +857,32 @@ exports[`Storyshots Components/Steps/Step Medium Description 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-tx2fkq=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -813,14 +895,14 @@ exports[`Storyshots Components/Steps/Step Medium Description 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Fathom belaying pin
         </p>
       </div>
       <div
-        data-css-f3xrwq=""
+        className="psds-steps__description psds-steps__description--medium psds-steps__description--completed"
       >
         <p>
           Scuttle rigging booty pink six pounders code of conduct mizzen schooner scallywag long clothes.
@@ -836,28 +918,33 @@ exports[`Storyshots Components/Steps/Step Medium Interactive 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-1hok350=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-tx2fkq=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -870,14 +957,14 @@ exports[`Storyshots Components/Steps/Step Medium Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Gaff knave plunder
         </p>
       </div>
       <div
-        data-css-f3xrwq=""
+        className="psds-steps__description psds-steps__description--medium psds-steps__description--completed"
       >
         <p>
           Yo-ho-ho hardtack no prey, no pay crack Jennys tea cup draught case shot gally doubloon poop deck reef sails.
@@ -893,27 +980,32 @@ exports[`Storyshots Components/Steps/Step Medium Long Title 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-tx2fkq=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -926,7 +1018,7 @@ exports[`Storyshots Components/Steps/Step Medium Long Title 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Hang the jib measured fer yer chains aft list long clothes transom pinnace barque American Main cog.
@@ -942,30 +1034,35 @@ exports[`Storyshots Components/Steps/examples Wizard 1`] = `
   data-css-1wckvg7=""
 >
   <div
-    data-css-wtycqp=""
+    className="psds-steps psds-theme--dark psds-steps--horizontal"
   >
     <div
-      data-css-18wdfqv=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--current"
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-mwehb=""
-          data-css-rbxj06=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--current"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -978,14 +1075,14 @@ exports[`Storyshots Components/Steps/examples Wizard 1`] = `
       </div>
       <div>
         <div
-          data-css-15f98wj=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--current"
         >
           <p>
             First step
           </p>
         </div>
         <div
-          data-css-cvdoch=""
+          className="psds-steps__description psds-steps__description--large psds-steps__description--current"
         >
           <p>
             Prow scuttle parrel provost Sail ho shrouds
@@ -994,27 +1091,32 @@ exports[`Storyshots Components/Steps/examples Wizard 1`] = `
       </div>
     </div>
     <div
-      data-css-1hksre9=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--incomplete"
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1027,7 +1129,7 @@ exports[`Storyshots Components/Steps/examples Wizard 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Second step
@@ -1036,27 +1138,32 @@ exports[`Storyshots Components/Steps/examples Wizard 1`] = `
       </div>
     </div>
     <div
-      data-css-1hksre9=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--incomplete"
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1069,7 +1176,7 @@ exports[`Storyshots Components/Steps/examples Wizard 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Third step
@@ -1128,30 +1235,35 @@ exports[`Storyshots Components/Steps/horizontal Basic 1`] = `
   data-css-1y16c93=""
 >
   <div
-    data-css-wtycqp=""
+    className="psds-steps psds-theme--dark psds-steps--horizontal"
   >
     <div
-      data-css-1hksre9=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--completed"
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1bdr1pk=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-67s38y=""
+              className="psds-steps__marker__check psds-steps__marker__check--completed"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1164,7 +1276,7 @@ exports[`Storyshots Components/Steps/horizontal Basic 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
         >
           <p>
             Select type
@@ -1173,27 +1285,32 @@ exports[`Storyshots Components/Steps/horizontal Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-18wdfqv=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--current"
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-mwehb=""
-          data-css-rbxj06=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--current"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1206,14 +1323,14 @@ exports[`Storyshots Components/Steps/horizontal Basic 1`] = `
       </div>
       <div>
         <div
-          data-css-15f98wj=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--current"
         >
           <p>
             Select template
           </p>
         </div>
         <div
-          data-css-cvdoch=""
+          className="psds-steps__description psds-steps__description--large psds-steps__description--current"
         >
           <p>
             An optional description to provide more detail about this step.
@@ -1222,27 +1339,32 @@ exports[`Storyshots Components/Steps/horizontal Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-1hksre9=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--incomplete"
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1255,7 +1377,7 @@ exports[`Storyshots Components/Steps/horizontal Basic 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Add details
@@ -1272,31 +1394,36 @@ exports[`Storyshots Components/Steps/horizontal Interactive 1`] = `
   data-css-1y16c93=""
 >
   <div
-    data-css-wtycqp=""
+    className="psds-steps psds-theme--dark psds-steps--horizontal"
   >
     <div
-      data-css-19rv4v6=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--completed psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1bdr1pk=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-67s38y=""
+              className="psds-steps__marker__check psds-steps__marker__check--completed"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1309,7 +1436,7 @@ exports[`Storyshots Components/Steps/horizontal Interactive 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
         >
           <p>
             Select type
@@ -1318,28 +1445,33 @@ exports[`Storyshots Components/Steps/horizontal Interactive 1`] = `
       </div>
     </div>
     <div
-      data-css-1hr2q1h=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--current psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-mwehb=""
-          data-css-rbxj06=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--current"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1352,14 +1484,14 @@ exports[`Storyshots Components/Steps/horizontal Interactive 1`] = `
       </div>
       <div>
         <div
-          data-css-15f98wj=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--current"
         >
           <p>
             Select template
           </p>
         </div>
         <div
-          data-css-cvdoch=""
+          className="psds-steps__description psds-steps__description--large psds-steps__description--current"
         >
           <p>
             An optional description to provide more detail about this step.
@@ -1368,28 +1500,33 @@ exports[`Storyshots Components/Steps/horizontal Interactive 1`] = `
       </div>
     </div>
     <div
-      data-css-19rv4v6=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1402,7 +1539,7 @@ exports[`Storyshots Components/Steps/horizontal Interactive 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Add details
@@ -1419,30 +1556,35 @@ exports[`Storyshots Components/Steps/horizontal Medium 1`] = `
   data-css-1y16c93=""
 >
   <div
-    data-css-wtycqp=""
+    className="psds-steps psds-theme--dark psds-steps--horizontal"
   >
     <div
-      data-css-7phubm=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--medium psds-steps__step--completed"
     >
       <div
-        data-css-1f2gu5k=""
+        className="psds-steps__marker-container psds-steps__marker-container--medium"
       >
         <div
-          data-css-37nc4w=""
-          data-css-tx2fkq=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
         >
           <svg
             viewBox="0 0 24 24"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={12}
               cy={12}
-              data-css-sbdtqb=""
               r={11}
               strokeWidth={2}
             />
             <polyline
-              data-css-67s38y=""
+              className="psds-steps__marker__check psds-steps__marker__check--completed"
               points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -1455,7 +1597,7 @@ exports[`Storyshots Components/Steps/horizontal Medium 1`] = `
       </div>
       <div>
         <div
-          data-css-15tg1fu=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
         >
           <p>
             Select type
@@ -1464,27 +1606,32 @@ exports[`Storyshots Components/Steps/horizontal Medium 1`] = `
       </div>
     </div>
     <div
-      data-css-z3aan7=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--medium psds-steps__step--current"
     >
       <div
-        data-css-1f2gu5k=""
+        className="psds-steps__marker-container psds-steps__marker-container--medium"
       >
         <div
-          data-css-37nc4w=""
-          data-css-xcbdyu=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--current psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
         >
           <svg
             viewBox="0 0 24 24"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={12}
               cy={12}
-              data-css-sbdtqb=""
               r={11}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--current"
               points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -1497,14 +1644,14 @@ exports[`Storyshots Components/Steps/horizontal Medium 1`] = `
       </div>
       <div>
         <div
-          data-css-16qh227=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--current"
         >
           <p>
             Select template
           </p>
         </div>
         <div
-          data-css-tt6emo=""
+          className="psds-steps__description psds-steps__description--medium psds-steps__description--current"
         >
           <p>
             An optional description to provide more detail about this step.
@@ -1513,27 +1660,32 @@ exports[`Storyshots Components/Steps/horizontal Medium 1`] = `
       </div>
     </div>
     <div
-      data-css-7phubm=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--horizontal psds-steps__step--medium psds-steps__step--incomplete"
     >
       <div
-        data-css-1f2gu5k=""
+        className="psds-steps__marker-container psds-steps__marker-container--medium"
       >
         <div
-          data-css-37nc4w=""
-          data-css-dkw9ct=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
         >
           <svg
             viewBox="0 0 24 24"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={12}
               cy={12}
-              data-css-sbdtqb=""
               r={11}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -1546,7 +1698,7 @@ exports[`Storyshots Components/Steps/horizontal Medium 1`] = `
       </div>
       <div>
         <div
-          data-css-15tg1fu=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
         >
           <p>
             Add details
@@ -1563,30 +1715,35 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
   data-css-1y16c93=""
 >
   <div
-    data-css-yyluzm=""
+    className="psds-steps psds-theme--dark psds-steps--vertical"
   >
     <div
-      data-css-mjd7ch=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
     >
       <div
-        data-css-1f2gu5k=""
+        className="psds-steps__marker-container psds-steps__marker-container--medium"
       >
         <div
-          data-css-37nc4w=""
-          data-css-tx2fkq=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
         >
           <svg
             viewBox="0 0 24 24"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={12}
               cy={12}
-              data-css-sbdtqb=""
               r={11}
               strokeWidth={2}
             />
             <polyline
-              data-css-67s38y=""
+              className="psds-steps__marker__check psds-steps__marker__check--completed"
               points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -1599,7 +1756,7 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
       </div>
       <div>
         <div
-          data-css-15tg1fu=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
         >
           <p>
             Select type
@@ -1608,27 +1765,32 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
       </div>
     </div>
     <div
-      data-css-1b94shp=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--current"
     >
       <div
-        data-css-1f2gu5k=""
+        className="psds-steps__marker-container psds-steps__marker-container--medium"
       >
         <div
-          data-css-37nc4w=""
-          data-css-xcbdyu=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--current psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
         >
           <svg
             viewBox="0 0 24 24"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={12}
               cy={12}
-              data-css-sbdtqb=""
               r={11}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--current"
               points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -1641,14 +1803,14 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
       </div>
       <div>
         <div
-          data-css-16qh227=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--current"
         >
           <p>
             Select template
           </p>
         </div>
         <div
-          data-css-tt6emo=""
+          className="psds-steps__description psds-steps__description--medium psds-steps__description--current"
         >
           <p>
             An optional description to provide more detail about this step.
@@ -1657,27 +1819,32 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
       </div>
     </div>
     <div
-      data-css-mjd7ch=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--incomplete"
     >
       <div
-        data-css-1f2gu5k=""
+        className="psds-steps__marker-container psds-steps__marker-container--medium"
       >
         <div
-          data-css-37nc4w=""
-          data-css-dkw9ct=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 24,
+              "width": 24,
+            }
+          }
         >
           <svg
             viewBox="0 0 24 24"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={12}
               cy={12}
-              data-css-sbdtqb=""
               r={11}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -1690,7 +1857,7 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
       </div>
       <div>
         <div
-          data-css-15tg1fu=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
         >
           <p>
             Add details
@@ -1704,30 +1871,35 @@ exports[`Storyshots Components/Steps/horizontal Responsive 1`] = `
 
 exports[`Storyshots Components/Steps/vertical Basic 1`] = `
 <div
-  data-css-yyluzm=""
+  className="psds-steps psds-theme--dark psds-steps--vertical"
 >
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1bdr1pk=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1740,7 +1912,7 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
       >
         <p>
           Select type
@@ -1749,27 +1921,32 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-119q09h=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--current"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-mwehb=""
-        data-css-rbxj06=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--current"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1782,14 +1959,14 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
     <div>
       <div
-        data-css-15f98wj=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--current"
       >
         <p>
           Select template
         </p>
       </div>
       <div
-        data-css-cvdoch=""
+        className="psds-steps__description psds-steps__description--large psds-steps__description--current"
       >
         <p>
           An optional description to provide more detail about this step.
@@ -1798,27 +1975,32 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1b6awg7=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1831,7 +2013,7 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
       >
         <p>
           Add details
@@ -1840,27 +2022,32 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1b6awg7=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1873,7 +2060,7 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
       >
         <p>
           Select goals
@@ -1882,27 +2069,32 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
   </div>
   <div
-    data-css-16xy16e=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete"
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1b6awg7=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1915,7 +2107,7 @@ exports[`Storyshots Components/Steps/vertical Basic 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
       >
         <p>
           Review
@@ -1931,31 +2123,36 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
   data-css-12c8fh6=""
 >
   <div
-    data-css-yyluzm=""
+    className="psds-steps psds-theme--dark psds-steps--vertical"
   >
     <div
-      data-css-dlz1d4=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1bdr1pk=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-67s38y=""
+              className="psds-steps__marker__check psds-steps__marker__check--completed"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -1968,7 +2165,7 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
         >
           <p>
             Select type
@@ -1977,28 +2174,33 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
     </div>
     <div
-      data-css-194nfi4=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--current psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-mwehb=""
-          data-css-rbxj06=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--current"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2011,14 +2213,14 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
       <div>
         <div
-          data-css-15f98wj=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--current"
         >
           <p>
             Select template
           </p>
         </div>
         <div
-          data-css-cvdoch=""
+          className="psds-steps__description psds-steps__description--large psds-steps__description--current"
         >
           <p>
             An optional description to provide more detail about this step.
@@ -2027,28 +2229,33 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
     </div>
     <div
-      data-css-dlz1d4=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2061,7 +2268,7 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Add details
@@ -2070,28 +2277,33 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
     </div>
     <div
-      data-css-dlz1d4=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2104,7 +2316,7 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Select goals
@@ -2113,28 +2325,33 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
     </div>
     <div
-      data-css-dlz1d4=""
+      className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
       onClick={[Function]}
     >
       <div
-        data-css-1kqp8s2=""
+        className="psds-steps__marker-container psds-steps__marker-container--large"
       >
         <div
-          data-css-1b6awg7=""
-          data-css-mwehb=""
+          className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+          style={
+            Object {
+              "height": 36,
+              "width": 36,
+            }
+          }
         >
           <svg
             viewBox="0 0 36 36"
           >
             <circle
+              className="psds-steps__marker__circle"
               cx={18}
               cy={18}
-              data-css-sbdtqb=""
               r={17}
               strokeWidth={2}
             />
             <polyline
-              data-css-y56a94=""
+              className="psds-steps__marker__check psds-steps__marker__check--incomplete"
               points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2147,7 +2364,7 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
       </div>
       <div>
         <div
-          data-css-2wbji0=""
+          className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
         >
           <p>
             Review
@@ -2161,31 +2378,36 @@ exports[`Storyshots Components/Steps/vertical In Fixed Container 1`] = `
 
 exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
 <div
-  data-css-yyluzm=""
+  className="psds-steps psds-theme--dark psds-steps--vertical"
 >
   <div
-    data-css-dlz1d4=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--completed psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1bdr1pk=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2198,7 +2420,7 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--completed"
       >
         <p>
           Select type
@@ -2207,28 +2429,33 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
   </div>
   <div
-    data-css-194nfi4=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--current psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-mwehb=""
-        data-css-rbxj06=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--current psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--current"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2241,14 +2468,14 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-15f98wj=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--current"
       >
         <p>
           Select template
         </p>
       </div>
       <div
-        data-css-cvdoch=""
+        className="psds-steps__description psds-steps__description--large psds-steps__description--current"
       >
         <p>
           An optional description to provide more detail about this step.
@@ -2257,28 +2484,33 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
   </div>
   <div
-    data-css-dlz1d4=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1b6awg7=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2291,7 +2523,7 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
       >
         <p>
           Add details
@@ -2300,28 +2532,33 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
   </div>
   <div
-    data-css-dlz1d4=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1b6awg7=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2334,7 +2571,7 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
       >
         <p>
           Select goals
@@ -2343,28 +2580,33 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
   </div>
   <div
-    data-css-dlz1d4=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--large psds-steps__step--incomplete psds-steps__step--interactive"
     onClick={[Function]}
   >
     <div
-      data-css-1kqp8s2=""
+      className="psds-steps__marker-container psds-steps__marker-container--large"
     >
       <div
-        data-css-1b6awg7=""
-        data-css-mwehb=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--large psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 36,
+            "width": 36,
+          }
+        }
       >
         <svg
           viewBox="0 0 36 36"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={18}
             cy={18}
-            data-css-sbdtqb=""
             r={17}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             9.473684210526317 18,
             15.65217391304348 24,
@@ -2377,7 +2619,7 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
     </div>
     <div>
       <div
-        data-css-2wbji0=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--large psds-steps__title--incomplete"
       >
         <p>
           Review
@@ -2390,30 +2632,35 @@ exports[`Storyshots Components/Steps/vertical Interactive 1`] = `
 
 exports[`Storyshots Components/Steps/vertical Medium 1`] = `
 <div
-  data-css-yyluzm=""
+  className="psds-steps psds-theme--dark psds-steps--vertical"
 >
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--completed"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-tx2fkq=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--completed psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-67s38y=""
+            className="psds-steps__marker__check psds-steps__marker__check--completed"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -2426,7 +2673,7 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--completed"
       >
         <p>
           Select type
@@ -2435,27 +2682,32 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
   </div>
   <div
-    data-css-1b94shp=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--current"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-xcbdyu=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--current psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--current"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -2468,14 +2720,14 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
     <div>
       <div
-        data-css-16qh227=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--current"
       >
         <p>
           Select template
         </p>
       </div>
       <div
-        data-css-tt6emo=""
+        className="psds-steps__description psds-steps__description--medium psds-steps__description--current"
       >
         <p>
           An optional description to provide more detail about this step.
@@ -2484,27 +2736,32 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
   </div>
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--incomplete"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-dkw9ct=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -2517,7 +2774,7 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
       >
         <p>
           Add details
@@ -2526,27 +2783,32 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
   </div>
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--incomplete"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-dkw9ct=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -2559,7 +2821,7 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
       >
         <p>
           Select goals
@@ -2568,27 +2830,32 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
   </div>
   <div
-    data-css-mjd7ch=""
+    className="psds-steps__step psds-theme--dark psds-steps__step--vertical psds-steps__step--medium psds-steps__step--incomplete"
   >
     <div
-      data-css-1f2gu5k=""
+      className="psds-steps__marker-container psds-steps__marker-container--medium"
     >
       <div
-        data-css-37nc4w=""
-        data-css-dkw9ct=""
+        className="psds-theme--dark psds-steps__marker psds-steps__marker--medium psds-steps__marker--incomplete psds-steps__marker--hide-counter"
+        style={
+          Object {
+            "height": 24,
+            "width": 24,
+          }
+        }
       >
         <svg
           viewBox="0 0 24 24"
         >
           <circle
+            className="psds-steps__marker__circle"
             cx={12}
             cy={12}
-            data-css-sbdtqb=""
             r={11}
             strokeWidth={2}
           />
           <polyline
-            data-css-y56a94=""
+            className="psds-steps__marker__check psds-steps__marker__check--incomplete"
             points="
             6.315789473684211 12,
             10.434782608695652 16,
@@ -2601,7 +2868,7 @@ exports[`Storyshots Components/Steps/vertical Medium 1`] = `
     </div>
     <div>
       <div
-        data-css-15tg1fu=""
+        className="psds-steps__title psds-theme--dark psds-steps__title--medium psds-steps__title--incomplete"
       >
         <p>
           Review

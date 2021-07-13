@@ -1,0 +1,7 @@
+:root {
+  --ps-motion-speed-xfast: 100ms;
+  --ps-motion-speed-fast: 200ms;
+  --ps-motion-speed-normal: 300ms;
+  --ps-motion-speed-slow: 400ms;
+  --ps-motion-speed-xslow: 500ms;
+}

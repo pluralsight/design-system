@@ -1,0 +1,138 @@
+.psds-text-input {
+  display: inline-block;
+}
+.psds-text-input--disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.psds-text-input__field {
+  align-items: center;
+  background: var(--ps-colors-background-light-3);
+  border: 1px solid var(--ps-colors-border-high-on-light);
+  border-radius: 2px;
+  color: var(--ps-colors-text-icon-high-on-light);
+  display: flex;
+  font-weight: var(--ps-type-font-weight-default);
+  height: 40px;
+  min-width: 192px;
+  padding: var(--ps-layout-spacing-xsmall) var(--ps-layout-spacing-medium);
+  position: relative;
+  width: 100%;
+}
+.psds-text-input__field.psds-theme--light {
+  background: var(--ps-colors-background-light-3);
+  border: 1px solid var(--ps-colors-border-high-on-light);
+}
+.psds-text-input__field.psds-text-input--small {
+  height: 32px;
+  padding: 6px var(--ps-layout-spacing-xsmall);
+}
+.psds-text-input__field--w-after {
+  padding-right: var(--ps-layout-spacing-xsmall);
+}
+.psds-text-input__field-input {
+  width: 100%;
+  background: 0 0;
+  border: none;
+  color: inherit;
+  font-size: var(--ps-type-font-size-200);
+  line-height: var(--ps-type-line-height-standard);
+  outline: 0;
+  padding: 0;
+}
+.psds-text-input__field-input:focus {
+  outline: 0;
+}
+.psds-text-input__field-input::placeholder {
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-text-input__field-input:disabled {
+  cursor: not-allowed;
+}
+.psds-text-input__field-input--appearance-subtle::placeholder {
+  color: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-text-input__field-input.psds-theme--light::placeholder {
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-text-input__field--error.psds-theme--light {
+  border: 1px solid transparent;
+}
+.psds-text-input__field--appearance-subtle {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background: var(--ps-colors-background-dark-1);
+  border: 1px solid var(--ps-colors-border-high-on-dark);
+}
+.psds-text-input__field--appearance-subtle.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-text-input__field--icon-align-left {
+  padding: 0 var(--ps-layout-spacing-medium) 0
+    calc(
+      var(--ps-layout-spacing-xsmall) + 24px + var(--ps-layout-spacing-xsmall)
+    );
+}
+.psds-text-input__field--icon-align-right {
+  padding: 0
+    calc(
+      var(--ps-layout-spacing-xsmall) + 24px + var(--ps-layout-spacing-xsmall)
+    )
+    0 var(--ps-layout-spacing-medium);
+}
+.psds-text-input__field--icon-align-left.psds-text-input--small {
+  padding: 0 var(--ps-layout-spacing-xsmall) 0 NaNpx;
+}
+.psds-text-input__field--icon-align-right.psds-text-input--small {
+  padding: 0 NaNpx 0 var(--ps-layout-spacing-xsmall);
+}
+.psds-text-input__field-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: calc(192px + var(--ps-layout-spacing-xsmall));
+}
+.psds-text-input__icon {
+  position: absolute;
+  left: var(--ps-layout-spacing-xsmall);
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-text-input__icon.psds-theme--light {
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-text-input__icon--icon-align-right {
+  left: auto;
+  right: var(--ps-layout-spacing-xsmall);
+}
+.psds-text-input__icon--appearance-subtle {
+  color: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-text-input__label {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  font-size: var(--ps-type-font-size-100);
+  font-weight: var(--ps-type-font-weight-500);
+  margin-bottom: var(--ps-layout-spacing-xxsmall);
+}
+.psds-text-input__label.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-text-input__sub-label {
+  color: var(--ps-colors-text-icon-low-on-dark);
+  font-size: var(--ps-type-font-size-100);
+  font-weight: var(--ps-type-font-weight-default);
+  margin-top: var(--ps-layout-spacing-xxsmall);
+}
+.psds-text-input__sub-label.psds-theme--light {
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-text-input__error {
+  position: absolute;
+  right: calc(-1 * (24px + var(--ps-layout-spacing-xsmall)));
+  display: flex;
+  align-items: center;
+  color: var(--ps-colors-status-error);
+  margin-left: var(--ps-layout-spacing-xsmall);
+}

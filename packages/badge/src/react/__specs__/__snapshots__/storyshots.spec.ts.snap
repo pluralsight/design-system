@@ -12,70 +12,70 @@ exports[`Storyshots Components/Badge Appearances And Colors 1`] = `
   }
 >
   <div
-    data-css-akmt2m=""
+    className="psds-badge psds-badge--apearance-default psds-badge--color-neutral psds-theme--dark"
   >
     default
      
     neutral
   </div>
   <div
-    data-css-1imiq63=""
+    className="psds-badge psds-badge--apearance-subtle psds-badge--color-neutral psds-theme--dark"
   >
     subtle
      
     neutral
   </div>
   <div
-    data-css-6qp7yi=""
+    className="psds-badge psds-badge--apearance-default psds-badge--color-green psds-theme--dark"
   >
     default
      
     green
   </div>
   <div
-    data-css-akls3u=""
+    className="psds-badge psds-badge--apearance-subtle psds-badge--color-green psds-theme--dark"
   >
     subtle
      
     green
   </div>
   <div
-    data-css-1370srq=""
+    className="psds-badge psds-badge--apearance-default psds-badge--color-yellow psds-theme--dark"
   >
     default
      
     yellow
   </div>
   <div
-    data-css-1739nde=""
+    className="psds-badge psds-badge--apearance-subtle psds-badge--color-yellow psds-theme--dark"
   >
     subtle
      
     yellow
   </div>
   <div
-    data-css-dbjxnr=""
+    className="psds-badge psds-badge--apearance-default psds-badge--color-red psds-theme--dark"
   >
     default
      
     red
   </div>
   <div
-    data-css-1svdoaq=""
+    className="psds-badge psds-badge--apearance-subtle psds-badge--color-red psds-theme--dark"
   >
     subtle
      
     red
   </div>
   <div
-    data-css-i7yiwd=""
+    className="psds-badge psds-badge--apearance-default psds-badge--color-blue psds-theme--dark"
   >
     default
      
     blue
   </div>
   <div
-    data-css-rl0hco=""
+    className="psds-badge psds-badge--apearance-subtle psds-badge--color-blue psds-theme--dark"
   >
     subtle
      

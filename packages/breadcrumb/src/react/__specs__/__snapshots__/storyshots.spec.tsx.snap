@@ -2,18 +2,18 @@
 
 exports[`Storyshots Components/Breadcrumb As Button 1`] = `
 <div
-  data-css-nipl9k=""
+  className="psds-breadcrumb"
 >
   <button
-    data-css-scrazl=""
+    className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--not-icon-only"
     disabled={false}
     onClick={[Function]}
   >
     <div
-      data-css-73kfkk=""
+      className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small"
     >
       <div
-        data-css-k31qw2=""
+        className="psds-icon psds-icon--size-small"
       >
         <svg
           aria-label="caret left icon"
@@ -28,7 +28,7 @@ exports[`Storyshots Components/Breadcrumb As Button 1`] = `
     </div>
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       Clicks once
     </span>
@@ -38,17 +38,17 @@ exports[`Storyshots Components/Breadcrumb As Button 1`] = `
 
 exports[`Storyshots Components/Breadcrumb As Link 1`] = `
 <div
-  data-css-nipl9k=""
+  className="psds-breadcrumb"
 >
   <a
-    data-css-scrazl=""
+    className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--not-icon-only"
     href="https://duckduckgo.com"
   >
     <div
-      data-css-73kfkk=""
+      className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small"
     >
       <div
-        data-css-k31qw2=""
+        className="psds-icon psds-icon--size-small"
       >
         <svg
           aria-label="caret left icon"
@@ -63,7 +63,7 @@ exports[`Storyshots Components/Breadcrumb As Link 1`] = `
     </div>
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       Click as link
     </span>
@@ -73,17 +73,17 @@ exports[`Storyshots Components/Breadcrumb As Link 1`] = `
 
 exports[`Storyshots Components/Breadcrumb Basic 1`] = `
 <div
-  data-css-nipl9k=""
+  className="psds-breadcrumb"
 >
   <button
-    data-css-scrazl=""
+    className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--not-icon-only"
     disabled={false}
   >
     <div
-      data-css-73kfkk=""
+      className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small"
     >
       <div
-        data-css-k31qw2=""
+        className="psds-icon psds-icon--size-small"
       >
         <svg
           aria-label="caret left icon"
@@ -98,7 +98,7 @@ exports[`Storyshots Components/Breadcrumb Basic 1`] = `
     </div>
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       All the things
     </span>
@@ -108,18 +108,18 @@ exports[`Storyshots Components/Breadcrumb Basic 1`] = `
 
 exports[`Storyshots Components/Breadcrumb Disabled 1`] = `
 <div
-  data-css-nipl9k=""
+  className="psds-breadcrumb"
 >
   <button
-    data-css-18r2msp=""
+    className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-flat psds-theme--dark psds-button--disabled psds-button--not-icon-only"
     disabled={true}
     onClick={[Function]}
   >
     <div
-      data-css-73kfkk=""
+      className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-small"
     >
       <div
-        data-css-k31qw2=""
+        className="psds-icon psds-icon--size-small"
       >
         <svg
           aria-label="caret left icon"
@@ -134,7 +134,7 @@ exports[`Storyshots Components/Breadcrumb Disabled 1`] = `
     </div>
     <span
       aria-hidden={false}
-      data-css-15b13by=""
+      className="psds-button__text"
     >
       Disabled
     </span>

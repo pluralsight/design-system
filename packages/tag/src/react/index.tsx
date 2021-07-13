@@ -1,58 +1,11 @@
 import Halo from '@pluralsight/ps-design-system-halo'
 import { sizes as iconSizes } from '@pluralsight/ps-design-system-icon'
-import {
-  useTheme,
-  names as themeNames
-} from '@pluralsight/ps-design-system-theme'
-import { RefFor, ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  tag: ({
-    themeName,
-    clickable,
-    icon,
-    isPressed,
-    size
-  }: {
-    themeName: ValueOf<typeof themeNames>
-    clickable: boolean
-    icon: boolean
-    isPressed: boolean
-    size: ValueOf<typeof vars.sizes>
-  }) => {
-    const label = 'psds-tag'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`]),
-      clickable && glamor.css(stylesheet[`.${label}--clickable`]),
-      clickable &&
-        glamor.css(stylesheet[`.${label}--clickable.psds-theme--${themeName}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`]),
-      icon && glamor.css(stylesheet[`.${label}--icon`]),
-      isPressed && glamor.css(stylesheet[`.${label}--isPressed`]),
-      isPressed &&
-        clickable &&
-        glamor.css(stylesheet[`.${label}--isPressed.${label}--clickable`])
-    )
-  },
-  label: (themeName: ValueOf<typeof themeNames>, icon: boolean) => {
-    const label = 'psds-tag__label'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`]),
-      icon && stylesheet[`.${label}--icon`]
-    )
-  }
-}
 
 export interface TagProps
   extends React.HTMLAttributes<HTMLAnchorElement | HTMLDivElement> {
@@ -74,6 +27,7 @@ export interface TagStatics {
 const Tag = React.forwardRef<TagElement, TagProps>((props, ref) => {
   const {
     children,
+    className,
     error = false,
     icon,
     isPressed = false,
@@ -86,7 +40,8 @@ const Tag = React.forwardRef<TagElement, TagProps>((props, ref) => {
   const themeName = useTheme()
 
   const Wrapper = isAnchor ? 'a' : 'div'
-
+  const label = 'psds-tag'
+  const clickable = Boolean(props.onClick || href)
   return (
     <Halo error={error} shape={Halo.shapes.pill} inline>
       <Wrapper
@@ -94,13 +49,15 @@ const Tag = React.forwardRef<TagElement, TagProps>((props, ref) => {
         {...(isAnchor && { href })}
         {...(isPressed && !isAnchor && { 'aria-pressed': true })}
         {...(Boolean(props.onClick) && { role: 'button', tabIndex: 0 })}
-        {...styles.tag({
-          themeName,
-          clickable: Boolean(props.onClick || href),
-          icon: Boolean(icon),
-          isPressed,
-          size
-        })}
+        className={classNames(
+          className,
+          label,
+          `psds-theme--${themeName}`,
+          clickable && `${label}--clickable`,
+          `${label}--size-${size}`,
+          icon && `${label}--icon`,
+          isPressed && `${label}--is-pressed`
+        )}
         ref={ref as any}
       >
         <Label icon={Boolean(icon)}>{children}</Label>
@@ -117,9 +74,11 @@ interface LabelProps extends React.HTMLAttributes<HTMLSpanElement> {
   icon: boolean
 }
 const Label: React.FC<LabelProps> = ({ icon, ...props }) => {
-  const themeName = useTheme()
+  const label = 'psds-tag__label'
 
-  return <span {...styles.label(themeName, icon)} {...props} />
+  return (
+    <span className={classNames(label, icon && `${label}--icon`)} {...props} />
+  )
 }
 
 const renderIcon = (

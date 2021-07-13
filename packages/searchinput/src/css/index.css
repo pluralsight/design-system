@@ -1,0 +1,12 @@
+.psds-searchinput .psds-text-input__field-input::-webkit-search-cancel-button {
+  display: none;
+}
+.psds-searchinput-clear {
+  margin: 0 0 0 var(--ps-layout-spacing-xxsmall);
+  flex: none;
+  opacity: 0;
+  transition: opacity var(--ps-motion-speed-normal);
+}
+.psds-searchinput-clear--visible {
+  opacity: 1;
+}

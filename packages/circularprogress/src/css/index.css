@@ -1,0 +1,40 @@
+@keyframes psds-circularprogress__keyframes__spin {
+  to {
+    transform: rotate(270deg);
+  }
+}
+.psds-circularprogress--size-small {
+  height: 24px;
+  width: 24px;
+}
+.psds-circularprogress--size-medium {
+  height: 48px;
+  width: 48px;
+}
+.psds-circularprogress__svg {
+  transform: rotate(-90deg);
+}
+.psds-circularprogress__svg--no-value {
+  animation: psds-circularprogress__keyframes__spin 1s linear infinite;
+}
+.psds-circularprogress__fg {
+  fill: transparent;
+  stroke-width: 4px;
+  transition: stroke-dashoffset 1s;
+}
+.psds-circularprogress__fg.psds-theme--light {
+  stroke: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-circularprogress__fg.psds-theme--dark {
+  stroke: var(--ps-colors-text-icon-high-on-dark);
+}
+.psds-circularprogress__bg {
+  fill: transparent;
+  stroke-width: 4px;
+}
+.psds-circularprogress__bg.psds-theme--light {
+  stroke: rgba(0, 0, 0, 0.15);
+}
+.psds-circularprogress__bg.psds-theme--dark {
+  stroke: rgba(255, 255, 255, 0.15);
+}

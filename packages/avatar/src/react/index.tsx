@@ -1,7 +1,8 @@
 import {
   RefForwardingComponent,
   ValueOf,
-  classNames
+  classNames,
+  dashify
 } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
@@ -31,7 +32,7 @@ type AvatarComponent = RefForwardingComponent<
 type ImageState = 'loading' | 'error' | 'success'
 
 const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
-  const { alt, className, name, size, src, ...rest } = props
+  const { alt, className, name, size = sizes.medium, src, ...rest } = props
 
   const [imageState, setImageState] = React.useState<ImageState>('loading')
 
@@ -56,7 +57,7 @@ const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
     <div
       className={classNames(
         'psds-avatar',
-        `psds-avatar--size-${size}`,
+        `psds-avatar--size-${dashify(size)}`,
         className
       )}
       {...(hideFromScreenReaders && { 'aria-hidden': true })}
@@ -86,7 +87,6 @@ const Avatar = React.forwardRef<HTMLDivElement, AvatarProps>((props, ref) => {
   )
 }) as AvatarComponent
 
-Avatar.defaultProps = { size: sizes.medium }
 Avatar.displayName = 'Avatar'
 
 Avatar.sizes = sizes

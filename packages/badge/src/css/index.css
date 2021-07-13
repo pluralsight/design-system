@@ -1,0 +1,90 @@
+.psds-badge {
+  border-radius: 2px;
+  display: inline-block;
+  font-size: var(--ps-type-font-size-100);
+  letter-spacing: var(--ps-type-letter-spacing-all-caps);
+  font-weight: var(--ps-type-font-weight-strong);
+  line-height: var(--ps-type-line-height-standard);
+  padding: 0 var(--ps-layout-spacing-xsmall);
+  text-transform: uppercase;
+}
+.psds-badge--apearance-default.psds-badge--color-neutral.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-light);
+  background-color: var(--ps-colors-white);
+}
+.psds-badge--apearance-default.psds-badge--color-green.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-green-8);
+}
+.psds-badge--apearance-default.psds-badge--color-yellow.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-light);
+  background-color: var(--ps-colors-yellow-6);
+}
+.psds-badge--apearance-default.psds-badge--color-red.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-red-7);
+}
+.psds-badge--apearance-default.psds-badge--color-blue.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-blue-7);
+}
+.psds-badge--apearance-default.psds-badge--color-neutral.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-background-dark-3);
+}
+.psds-badge--apearance-default.psds-badge--color-green.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-green-8);
+}
+.psds-badge--apearance-default.psds-badge--color-yellow.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-light);
+  background-color: var(--ps-colors-yellow-6);
+}
+.psds-badge--apearance-default.psds-badge--color-red.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-red-7);
+}
+.psds-badge--apearance-default.psds-badge--color-blue.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-dark);
+  background-color: var(--ps-colors-blue-7);
+}
+.psds-badge--apearance-subtle.psds-badge--color-neutral.psds-theme--dark {
+  color: var(--ps-colors-text-icon-low-on-dark);
+  background-color: var(--ps-colors-background-utility-40);
+}
+.psds-badge--apearance-subtle.psds-badge--color-green.psds-theme--dark {
+  color: var(--ps-colors-green-1);
+  background-color: rgba(0, 143, 70, 0.5);
+}
+.psds-badge--apearance-subtle.psds-badge--color-yellow.psds-theme--dark {
+  color: var(--ps-colors-yellow-1);
+  background-color: rgba(226, 181, 0, 0.5);
+}
+.psds-badge--apearance-subtle.psds-badge--color-red.psds-theme--dark {
+  color: var(--ps-colors-red-1);
+  background-color: rgba(192, 15, 0, 0.5);
+}
+.psds-badge--apearance-subtle.psds-badge--color-blue.psds-theme--dark {
+  color: var(--ps-colors-blue-1);
+  background-color: rgba(0, 116, 171, 0.5);
+}
+.psds-badge--apearance-subtle.psds-badge--color-neutral.psds-theme--light {
+  color: var(--ps-colors-text-icon-low-on-light);
+  background-color: var(--ps-colors-background-utility-20);
+}
+.psds-badge--apearance-subtle.psds-badge--color-green.psds-theme--light {
+  color: var(--ps-colors-green-10);
+  background-color: var(--ps-colors-green-1);
+}
+.psds-badge--apearance-subtle.psds-badge--color-yellow.psds-theme--light {
+  color: var(--ps-colors-yellow-10);
+  background-color: var(--ps-colors-yellow-1);
+}
+.psds-badge--apearance-subtle.psds-badge--color-red.psds-theme--light {
+  color: var(--ps-colors-red-10);
+  background-color: var(--ps-colors-red-1);
+}
+.psds-badge--apearance-subtle.psds-badge--color-blue.psds-theme--light {
+  color: var(--ps-colors-blue-10);
+  background-color: var(--ps-colors-blue-1);
+}

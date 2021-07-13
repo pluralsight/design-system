@@ -1,16 +1,9 @@
 import Button from '@pluralsight/ps-design-system-button'
 import { CaretLeftIcon } from '@pluralsight/ps-design-system-icon'
-
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  breadcrumb: () => glamor.css(stylesheet['.psds-breadcrumb'])
-}
+import '../css/index.css'
 
 interface BreadcrumbProps
   extends Omit<
@@ -29,9 +22,9 @@ const Breadcrumb = React.forwardRef<
   HTMLAnchorElement | HTMLButtonElement,
   BreadcrumbProps
 >((props, ref) => {
-  const { disabled, href, loading, onClick, ...rest } = props
+  const { className, disabled, href, loading, onClick, ...rest } = props
   return (
-    <div {...rest} {...styles.breadcrumb()}>
+    <div {...rest} className={classNames('psds-breadcrumb', className)}>
       <Button
         appearance={Button.appearances.flat}
         href={href}

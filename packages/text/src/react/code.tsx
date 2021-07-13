@@ -1,24 +1,26 @@
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
-import { useTheme, names } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { classNames } from '@pluralsight/ps-design-system-util'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 
-const glamor = glamorDefault || glamorExports
-
-const style = ({ themeName }: { themeName: ValueOf<typeof names> }) =>
-  glamor.compose(
-    glamor.css(stylesheet[`.psds-text__code`]),
-    glamor.css(stylesheet[`.psds-text__code.psds-theme--${themeName}`])
-  )
-
-const Code: React.FC<React.HTMLAttributes<HTMLElement>> = props => {
+const Code: React.FC<React.HTMLAttributes<HTMLElement>> = ({
+  className,
+  children,
+  ...rest
+}) => {
   const themeName = useTheme()
 
-  return props.children ? (
-    <code {...props} {...style({ themeName })}>
-      {props.children}
+  return children ? (
+    <code
+      {...rest}
+      className={classNames(
+        'psds-text__code',
+        `psds-theme--${themeName}`,
+        className
+      )}
+    >
+      {children}
     </code>
   ) : null
 }

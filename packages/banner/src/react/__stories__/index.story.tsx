@@ -80,10 +80,17 @@ StyleProp.args = {
   style: { outline: '3px solid red' }
 }
 
-export const StyleClassName = Template.bind({})
-StyleClassName.args = {
-  ...defaultArgs,
-  className: 'someClass'
+export const Button: Story = () => {
+  return (
+    <StoryGrid>
+      {Object.values(Banner.colors).map((color, i) => (
+        <Banner key={i} color={color} onClick={action('click')}>
+          {color} with button{' '}
+          <Banner.Button className="overridden">Button</Banner.Button>
+        </Banner>
+      ))}
+    </StoryGrid>
+  )
 }
 
 const StoryGrid: React.FC<{ cols?: number }> = props => {

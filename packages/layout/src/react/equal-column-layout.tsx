@@ -1,28 +1,8 @@
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import { equalColumnLayoutCSS as stylesheet } from '../css/index'
+import '../css/equal-column-layout.css'
 import { equalColumnLayout as vars } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styleLayout = () => glamor.css(stylesheet['.psds-equal-column-layout'])
-
-const styleColumn = (count: ValueOf<typeof vars.counts>) => {
-  const label = 'psds-equal-column-layout__column'
-  const labelCount = `${label}--count-${count}`
-
-  return glamor.compose(
-    glamor.css(stylesheet[`.${label}`]),
-    glamor.css(stylesheet[`.${labelCount}`]),
-
-    glamor.media(
-      '(min-width: 769px)',
-      glamor.css(stylesheet['@media (min-width: 769px)'][`.${labelCount}`])
-    )
-  )
-}
 
 interface EqualColumnLayoutProps extends React.HTMLAttributes<HTMLDivElement> {
   count: ValueOf<typeof vars.counts>
@@ -32,17 +12,23 @@ interface EqualColumnLayoutStatics {
 }
 const EqualColumnLayout: React.FC<EqualColumnLayoutProps> &
   EqualColumnLayoutStatics = props => {
-  const { count = vars.counts.four, ...rest } = props
+  const { className, count = vars.counts.four, ...rest } = props
   const useCustomMarkup = React.Children.count(props.children) === 1
   const parentProps = {
-    ...styleLayout(),
-    ...rest
+    ...rest,
+    className: classNames('psds-equal-column-layout', className)
   }
   const children = React.Children.map(
     useCustomMarkup
       ? (props.children as React.ReactElement).props.children
       : props.children,
-    child => React.cloneElement(child, styleColumn(count))
+    child =>
+      React.cloneElement(child, {
+        className: classNames(
+          'psds-equal-column-layout__column',
+          `psds-equal-column-layout__column--count-${count}`
+        )
+      })
   )
   return useCustomMarkup ? (
     React.cloneElement(

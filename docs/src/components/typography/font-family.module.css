@@ -1,5 +1,5 @@
 .family {
-  font-size: var(--psTypeFontSizeLarge);
-  line-height: var(--psTypeLineHeightExtra);
-  letter-spacing: var(--psLayoutSpacingSmall);
+  font-size: var(--ps-type-font-size-large);
+  line-height: var(--ps-type-line-height-extra);
+  letter-spacing: var(--ps-layout-spacing-small);
 }

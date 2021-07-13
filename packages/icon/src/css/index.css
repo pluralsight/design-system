@@ -1,0 +1,49 @@
+.psds-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.psds-icon > svg {
+  fill: currentColor;
+  flex: 1;
+}
+.psds-icon--size-xsmall {
+  height: 16px;
+  width: 16px;
+}
+.psds-icon--size-small {
+  height: 20px;
+  width: 20px;
+}
+.psds-icon--size-medium {
+  height: 24px;
+  width: 24px;
+}
+.psds-icon--size-large {
+  height: 48px;
+  width: 48px;
+}
+.psds-icon--color-text-icon-high-on-dark > svg {
+  fill: var(--ps-colors-text-icon-high-on-dark);
+}
+.psds-icon--color-text-icon-low-on-dark > svg {
+  fill: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-icon--color-text-icon-high-on-light > svg {
+  fill: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-icon--color-text-icon-low-on-light > svg {
+  fill: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-icon--color-red > svg {
+  fill: var(--ps-colors-red-6);
+}
+.psds-icon--color-blue > svg {
+  fill: var(--ps-colors-blue-6);
+}
+.psds-icon--color-green > svg {
+  fill: var(--ps-colors-green-6);
+}
+.psds-icon--color-yellow > svg {
+  fill: var(--ps-colors-yellow-6);
+}

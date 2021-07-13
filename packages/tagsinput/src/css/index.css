@@ -1,0 +1,41 @@
+.psds-tagsinput {
+  min-height: 40px;
+}
+.psds-tagsinput--disabled {
+  pointer-events: none;
+}
+.psds-tagsinput__prefix {
+  align-items: center;
+  display: flex;
+}
+.psds-tagsinput__suffix {
+  align-items: center;
+  display: flex;
+}
+.psds-tagsinput__pills-container {
+  flex-grow: 1;
+}
+.psds-tagsinput__pills {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  margin: 0 calc(var(--ps-layout-spacing-xxsmall) * -2);
+  max-height: 75px;
+  overflow-y: auto;
+  padding: calc(var(--ps-layout-spacing-xsmall) - 1px)
+    var(--ps-layout-spacing-xsmall)
+    calc(var(--ps-layout-spacing-xsmall) / 2 - 1px)
+    var(--ps-layout-spacing-xsmall);
+}
+.psds-tagsinput__pill {
+  margin: 0 var(--ps-layout-spacing-xxsmall) var(--ps-layout-spacing-xxsmall) 0;
+}
+.psds-tagsinput__input {
+  min-width: 50px;
+  height: 24px !important;
+  margin-bottom: calc(var(--ps-layout-spacing-xsmall) / 2);
+}
+.psds-tagsinput__input:disabled {
+  background: 0 0;
+}

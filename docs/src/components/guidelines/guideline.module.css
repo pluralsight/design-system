@@ -1,19 +1,19 @@
 .guideline {
-  margin-top: var(--psLayoutSpacingLarge);
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-top: var(--ps-layout-spacing-large);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 
 .box {
   border-radius: 12px;
   height: 100%;
-  padding: var(--psLayoutSpacingXLarge);
+  padding: var(--ps-layout-spacing-xlarge);
   position: relative;
-  background: var(--appColorsBackgroundHigh);
-  color: var(--appColorsTextIconHigh);
+  background: var(--app-colors-background-high);
+  color: var(--app-colors-text-icon-high);
 
   &.vertical {
     height: auto;
-    margin-bottom: var(--psLayoutSpacingMedium);
+    margin-bottom: var(--ps-layout-spacing-medium);
   }
 }
 

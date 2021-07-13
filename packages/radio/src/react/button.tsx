@@ -1,40 +1,10 @@
 import Halo from '@pluralsight/ps-design-system-halo'
-import Theme, { useTheme } from '@pluralsight/ps-design-system-theme'
-import { combineFns, ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { combineFns, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
 import { RadioContext } from './context'
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  button: (disabled?: boolean) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-radio-button']),
-      disabled && glamor.css(stylesheet['.psds-radio-button--disabled'])
-    ),
-  circle: (themeName: ValueOf<typeof Theme.names>, checked: boolean) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-radio-button__circle']),
-      glamor.css(
-        stylesheet[`.psds-radio-button__circle.psds-theme--${themeName}`]
-      ),
-      checked && glamor.css(stylesheet['.psds-radio-button__circle--checked'])
-    ),
-  circleOuter: () => glamor.css(stylesheet['.psds-radio-button__circle-outer']),
-  circleInner: () => glamor.css(stylesheet['.psds-radio-button__circle-inner']),
-  halo: () => glamor.css(stylesheet['.psds-radio-button__halo']),
-  input: () => glamor.css(stylesheet['.psds-radio-button__input']),
-  label: (themeName: ValueOf<typeof Theme.names>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-radio-button__label']),
-      glamor.css(
-        stylesheet[`.psds-radio-button__label.psds-theme--${themeName}`]
-      )
-    )
-}
+import '../css/index.css'
 
 const isChecked = (a: React.ReactText, b?: React.ReactText) => a === b
 
@@ -51,7 +21,7 @@ export interface RadioButtonProps
 }
 
 const Button = React.forwardRef<HTMLInputElement, RadioButtonProps>(
-  ({ value, label, ...props }, forwardedRef) => {
+  ({ value, label, className, ...props }, forwardedRef) => {
     const themeName = useTheme()
     const { checkedValue, onChange, disabled, error, name } =
       React.useContext(RadioContext)
@@ -82,18 +52,30 @@ const Button = React.forwardRef<HTMLInputElement, RadioButtonProps>(
 
     const checked = isChecked(value, checkedValue)
     return (
-      <label {...styles.button(disabled)}>
-        <div {...styles.circleOuter()}>
+      <label
+        className={classNames(
+          className,
+          'psds-radio-button',
+          disabled && 'psds-radio-button--disabled'
+        )}
+      >
+        <div className={'psds-radio-button__circle-outer'}>
           <Halo
             error={error}
             inline
             shape={Halo.shapes.pill}
             visibleOnFocus={!disabled}
             visible={isFocused}
-            {...styles.halo()}
+            className={'psds-radio-button__halo'}
           >
-            <div {...styles.circle(themeName, checked)}>
-              {checked && <div {...styles.circleInner()} />}
+            <div
+              className={classNames(
+                'psds-radio-button__circle',
+                `psds-theme--${themeName}`,
+                checked && 'psds-radio-button__circle--checked'
+              )}
+            >
+              {checked && <div className={'psds-radio-button__circle-inner'} />}
             </div>
           </Halo>
         </div>
@@ -109,10 +91,17 @@ const Button = React.forwardRef<HTMLInputElement, RadioButtonProps>(
           name={name}
           ref={ref}
           value={value}
-          {...styles.input()}
+          className={'psds-radio-button__input'}
         />
 
-        <div {...styles.label(themeName)}>{label}</div>
+        <div
+          className={classNames(
+            'psds-radio-button__label',
+            `psds-theme--${themeName}`
+          )}
+        >
+          {label}
+        </div>
       </label>
     )
   }

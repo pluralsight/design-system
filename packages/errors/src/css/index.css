@@ -1,0 +1,75 @@
+.psds-errorpage {
+  margin: 0 auto;
+  padding: var(--ps-layout-spacing-xlarge) var(--ps-layout-spacing-large);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity var(--ps-motion-speed-xfast) var(--ps-motion-speed-normal);
+}
+.psds-errorpage--hidden {
+  opacity: 0;
+}
+.psds-errorpage.psds-theme--dark {
+  color: var(--ps-colors-text-icon-high-on-dark);
+}
+.psds-errorpage.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-errorpage__actions {
+  max-width: 500px;
+}
+.psds-errorpage__caption {
+  margin-bottom: var(--ps-layout-spacing-large);
+  font-size: var(--ps-type-font-size-200);
+  letter-spacing: var(--ps-type-letter-spacing-loose);
+  line-height: var(--ps-type-line-height-standard);
+  max-width: 500px;
+}
+.psds-errorpage.psds-theme--dark .psds-errorpage__caption {
+  color: var(--ps-colors-text-icon-high-on-dark);
+}
+.psds-errorpage.psds-theme--light .psds-errorpage__caption {
+  color: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-errorpage__error-code {
+  text-transform: uppercase;
+  margin-bottom: var(--ps-layout-spacing-large);
+  font-size: var(--ps-type-font-size-100);
+  letter-spacing: var(--ps-type-letter-spacing-all-caps);
+  line-height: 16px;
+  max-width: 500px;
+}
+.psds-errorpage.psds-theme--dark .psds-errorpage__error-code {
+  color: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-errorpage.psds-theme--light .psds-errorpage__error-code {
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-errorpage__heading {
+  margin-bottom: var(--ps-layout-spacing-large);
+  letter-spacing: var(--ps-type-letter-spacing-large);
+  font-weight: var(--ps-type-font-weight-default);
+  max-width: 500px;
+}
+.psds-errorpage--size-small .psds-errorpage__heading {
+  font-size: var(--ps-type-font-size-400);
+}
+.psds-errorpage--size-large .psds-errorpage__heading {
+  font-size: var(--ps-type-font-size-600);
+  line-height: var(--ps-type-line-height-extra);
+}
+.psds-errorpage__illustration {
+  display: inline-block;
+  margin-bottom: var(--ps-layout-spacing-large);
+  transition: all var(--ps-motion-speed-xfast);
+}
+.psds-errorpage--size-small .psds-errorpage__illustration {
+  width: 64px;
+  height: 64px;
+}
+.psds-errorpage--size-large .psds-errorpage__illustration {
+  width: 128px;
+  height: 128px;
+}

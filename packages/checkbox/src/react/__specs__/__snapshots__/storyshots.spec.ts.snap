@@ -5,26 +5,26 @@ exports[`Storyshots Components/Checkbox Basic 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-kn3wr0=""
+    className="psds-checkbox"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <input
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         name="colorRed"
         readOnly={true}
         type="checkbox"
         value="red"
       />
       <div
-        data-css-gx66zw=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
       />
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>
@@ -37,27 +37,27 @@ exports[`Storyshots Components/Checkbox Checked 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-kn3wr0=""
+    className="psds-checkbox"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <input
         checked={true}
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         name="colorRed"
         readOnly={true}
         type="checkbox"
         value="red"
       />
       <div
-        data-css-1cfeqew=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
       >
         <svg
           aria-label="Checkmark"
-          data-css-ey6g07=""
+          className="psds-checkbox__icon"
           role="img"
           version="1.1"
           viewBox="0 0 16 16"
@@ -70,7 +70,7 @@ exports[`Storyshots Components/Checkbox Checked 1`] = `
       </div>
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>
@@ -83,27 +83,27 @@ exports[`Storyshots Components/Checkbox Checked Error 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-kn3wr0=""
+    className="psds-checkbox"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-f76l29=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--error psds-halo--visible-on-focus"
     >
       <input
         checked={true}
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         name="colorRed"
         readOnly={true}
         type="checkbox"
         value="red"
       />
       <div
-        data-css-1cfeqew=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
       >
         <svg
           aria-label="Checkmark"
-          data-css-ey6g07=""
+          className="psds-checkbox__icon"
           role="img"
           version="1.1"
           viewBox="0 0 16 16"
@@ -116,7 +116,7 @@ exports[`Storyshots Components/Checkbox Checked Error 1`] = `
       </div>
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>
@@ -129,27 +129,27 @@ exports[`Storyshots Components/Checkbox Checked Indeterminate 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-kn3wr0=""
+    className="psds-checkbox"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <input
         checked={true}
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         name="colorRed"
         readOnly={true}
         type="checkbox"
         value="red"
       />
       <div
-        data-css-1cfeqew=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
       >
         <svg
           aria-label="Indeterminate Mark"
-          data-css-ey6g07=""
+          className="psds-checkbox__icon"
           role="img"
           version="1.1"
           viewBox="0 0 16 16"
@@ -165,7 +165,7 @@ exports[`Storyshots Components/Checkbox Checked Indeterminate 1`] = `
       </div>
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>
@@ -178,15 +178,15 @@ exports[`Storyshots Components/Checkbox Disabled 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-o2msqt=""
+    className="psds-checkbox psds-checkbox--disabled"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1eqwi1x=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline"
     >
       <input
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         disabled={true}
         name="colorRed"
         readOnly={true}
@@ -194,11 +194,11 @@ exports[`Storyshots Components/Checkbox Disabled 1`] = `
         value="red"
       />
       <div
-        data-css-gx66zw=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
       />
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>
@@ -211,26 +211,26 @@ exports[`Storyshots Components/Checkbox Error 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-kn3wr0=""
+    className="psds-checkbox"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-f76l29=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--error psds-halo--visible-on-focus"
     >
       <input
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         name="colorRed"
         readOnly={true}
         type="checkbox"
         value="red"
       />
       <div
-        data-css-gx66zw=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
       />
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>
@@ -250,79 +250,79 @@ exports[`Storyshots Components/Checkbox Example State Demo 1`] = `
       
     </div>
     <label
-      data-css-kn3wr0=""
+      className="psds-checkbox"
       onClick={[Function]}
       onKeyDown={[Function]}
     >
       <div
-        data-css-1ij5lym=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
       >
         <input
           checked={false}
-          data-css-6wu9td=""
+          className="psds-screenreader-only psds-checkbox__input"
           name="colorRed"
           readOnly={true}
           type="checkbox"
           value="red"
         />
         <div
-          data-css-gx66zw=""
+          className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
         />
       </div>
       <div
-        data-css-ybwuvp=""
+        className="psds-checkbox__label psds-theme--dark"
       >
         Red
       </div>
     </label>
     <label
-      data-css-kn3wr0=""
+      className="psds-checkbox"
       onClick={[Function]}
       onKeyDown={[Function]}
     >
       <div
-        data-css-1ij5lym=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
       >
         <input
           checked={false}
-          data-css-6wu9td=""
+          className="psds-screenreader-only psds-checkbox__input"
           name="colorGreen"
           readOnly={true}
           type="checkbox"
           value="green"
         />
         <div
-          data-css-gx66zw=""
+          className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
         />
       </div>
       <div
-        data-css-ybwuvp=""
+        className="psds-checkbox__label psds-theme--dark"
       >
         Green
       </div>
     </label>
     <label
-      data-css-kn3wr0=""
+      className="psds-checkbox"
       onClick={[Function]}
       onKeyDown={[Function]}
     >
       <div
-        data-css-1ij5lym=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
       >
         <input
           checked={false}
-          data-css-6wu9td=""
+          className="psds-screenreader-only psds-checkbox__input"
           name="colorBlue"
           readOnly={true}
           type="checkbox"
           value="blue"
         />
         <div
-          data-css-gx66zw=""
+          className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
         />
       </div>
       <div
-        data-css-ybwuvp=""
+        className="psds-checkbox__label psds-theme--dark"
       >
         Blue
       </div>
@@ -336,26 +336,26 @@ exports[`Storyshots Components/Checkbox Indeterminate 1`] = `
   data-css-yto836=""
 >
   <label
-    data-css-kn3wr0=""
+    className="psds-checkbox"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <input
-        data-css-6wu9td=""
+        className="psds-screenreader-only psds-checkbox__input"
         name="colorRed"
         readOnly={true}
         type="checkbox"
         value="red"
       />
       <div
-        data-css-1cfeqew=""
+        className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
       >
         <svg
           aria-label="Indeterminate Mark"
-          data-css-ey6g07=""
+          className="psds-checkbox__icon"
           role="img"
           version="1.1"
           viewBox="0 0 16 16"
@@ -371,7 +371,7 @@ exports[`Storyshots Components/Checkbox Indeterminate 1`] = `
       </div>
     </div>
     <div
-      data-css-ybwuvp=""
+      className="psds-checkbox__label psds-theme--dark"
     >
       Red
     </div>

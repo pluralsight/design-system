@@ -28,13 +28,37 @@ describe('AppFrame', () => {
   describe('Basic story', () => {
     const { Basic } = stories
 
-    it('forwards className', () => {
+    it('forwards className on AppFrame', () => {
       render(
         <Basic data-testid="undertest" className="testclass" {...Basic.args} />
       )
 
       const el = screen.getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
+      expect(el).toHaveClass('psds-appframe testclass')
+    })
+
+    it('composes className on AppFrame.SideNav', () => {
+      const { container } = render(
+        <AppFrame.SideNav className="compose-classname">
+          <div />
+        </AppFrame.SideNav>
+      )
+
+      expect(container.firstChild).toHaveClass(
+        'psds-appframe__sidenav compose-classname'
+      )
+    })
+
+    it('composes className on AppFrame.TopNav', () => {
+      const { container } = render(
+        <AppFrame.TopNav className="compose-classname">
+          <div />
+        </AppFrame.TopNav>
+      )
+
+      expect(container.firstChild).toHaveClass(
+        'psds-appframe__topnav compose-classname'
+      )
     })
 
     it('renders the sidenav with a function render prop', () => {
@@ -44,6 +68,7 @@ describe('AppFrame', () => {
       const el = screen.getByTestId('undertest')
       expect(el).toBeInTheDocument()
     })
+
     it('renders the topnav with a function render prop', () => {
       const topnav = () => <div data-testid="undertest">topnav</div>
       render(<Basic {...Basic.args} topnav={topnav} />)

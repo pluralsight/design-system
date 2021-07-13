@@ -22,6 +22,57 @@ describe('ActionMenu', () => {
     expect(el).toBe(refToForward.current)
   })
 
+  it('composes className in ActionMenu', () => {
+    const { container } = render(<ActionMenu className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'psds-actionmenu compose-classname'
+    )
+  })
+
+  it('composes className in ActionMenu.Ellipsis', () => {
+    const { container } = render(
+      <ActionMenu.Ellipsis className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-actionmenu__ellipsis compose-classname'
+    )
+  })
+
+  it('composes className in ActionMenu.Icon', () => {
+    const { container } = render(
+      <ActionMenu.Icon className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-actionmenu__icon compose-classname'
+    )
+  })
+
+  it('composes className in ActionMenu.Item', () => {
+    const { container } = render(
+      <ActionMenu.Item
+        className="compose-classname"
+        origin={ActionMenu.origins.topLeft}
+      />
+    )
+
+    expect(container.querySelector('.psds-actionmenu__item-inner')).toHaveClass(
+      'psds-actionmenu__item-inner compose-classname'
+    )
+  })
+
+  it('composes className in ActionMenu.Divider', () => {
+    const { container } = render(
+      <ActionMenu.Divider className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-actionmenu__divider compose-classname'
+    )
+  })
+
   it('fires onClick on option click', () => {
     const handleClick = jest.fn()
 

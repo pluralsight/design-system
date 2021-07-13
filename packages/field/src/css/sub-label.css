@@ -1,0 +1,11 @@
+.psds-field__sub-label {
+  font-size: var(--ps-type-font-size-100);
+  font-weight: var(--ps-type-font-weight-default);
+  margin-top: var(--ps-layout-spacing-xxsmall);
+}
+.psds-field__sub-label.psds-theme--dark {
+  color: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-field__sub-label.psds-theme--light {
+  color: var(--ps-colors-text-icon-low-on-light);
+}

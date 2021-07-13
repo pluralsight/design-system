@@ -1,7 +1,7 @@
 import Field from '@pluralsight/ps-design-system-field'
 import { HomeIcon, CalendarIcon } from '@pluralsight/ps-design-system-icon'
 import TextInput from '@pluralsight/ps-design-system-textinput'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import { Meta, Story } from '@storybook/react/types-6-0'
 import React from 'react'
 import { DateObj, useDayzed } from 'dayzed'
@@ -38,9 +38,7 @@ export const SingleDateSelectedDate: Story = () => {
   return (
     <Calendar {...dayzedData}>
       <CalendarDates getDateProps={getDateProps}>
-        {renderProps => {
-          return <button {...renderProps} />
-        }}
+        {renderProps => <button {...renderProps} />}
       </CalendarDates>
     </Calendar>
   )
@@ -255,7 +253,10 @@ export const RangeDateCalendar: Story = () => {
           return (
             <button
               {...renderProps}
-              {...isInRange(dateObj.date)}
+              className={classNames(
+                renderProps.className,
+                isInRange(dateObj.date)
+              )}
               onMouseEnter={() => onMouseEnter(dateObj.date)}
             />
           )
@@ -287,7 +288,10 @@ export const RangeDateCalendarWithButton: Story = () => {
             return (
               <button
                 {...renderProps}
-                {...isInRange(dateObj.date)}
+                className={classNames(
+                  renderProps.className,
+                  isInRange(dateObj.date)
+                )}
                 onMouseEnter={() => onMouseEnter(dateObj.date)}
               />
             )
@@ -329,7 +333,10 @@ export const RangeDateCalendarWithInput: Story = () => {
             return (
               <button
                 {...renderProps}
-                {...isInRange(dateObj.date)}
+                className={classNames(
+                  renderProps.className,
+                  isInRange(dateObj.date)
+                )}
                 onMouseEnter={() => onMouseEnter(dateObj.date)}
               />
             )
@@ -372,7 +379,10 @@ export const RangeDateCalendarWithInputTwoMonths: Story = () => {
             return (
               <button
                 {...renderProps}
-                {...isInRange(dateObj.date)}
+                className={classNames(
+                  renderProps.className,
+                  isInRange(dateObj.date)
+                )}
                 onMouseEnter={() => onMouseEnter(dateObj.date)}
               />
             )

@@ -2,36 +2,36 @@
   overflow: hidden;
 }
 .swatchText {
-  padding: 14px var(--psLayoutSpacingSmall);
+  padding: 14px var(--ps-layout-spacing-small);
   flex: 1 1 auto;
 }
 .swatchName {
   font-size: 16px;
   font-weight: 350;
-  line-height: var(--psTypeLineHeightTight);
-  margin-bottom: var(--psLayoutSpacingXXSmall);
+  line-height: var(--ps-type-line-height-tight);
+  margin-bottom: var(--ps-layout-spacing-xxsmall);
 }
 .swatchVar {
   font-size: 11px;
   font-weight: 500;
   line-height: 16px;
-  margin-bottom: var(--psLayoutSpacingXXSmall);
+  margin-bottom: var(--ps-layout-spacing-xxsmall);
 }
 .swatchHex {
-  font-size: var(--psTypeFontSizeSmall);
+  font-size: var(--ps-type-font-size-small);
   font-weight: 500;
-  line-height: var(--psTypeFontSizeSmall);
+  line-height: var(--ps-type-font-size-small);
 }
 .swatchIcon {
   display: flex;
   align-items: center;
-  padding-right: var(--psLayoutSpacingSmall);
+  padding-right: var(--ps-layout-spacing-small);
 }
 .swatchBorderExample {
-  height: var(--psLayoutSpacingXSmall);
+  height: var(--ps-layout-spacing-xsmall);
 }
 
 .grid {
   display: grid;
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-bottom: var(--ps-layout-spacing-large);
 }

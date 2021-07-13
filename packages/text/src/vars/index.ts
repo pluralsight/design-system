@@ -1,21 +1,39 @@
-import { keyMirror } from '@pluralsight/ps-design-system-util'
+export const headingSizes = {
+  xXXSmall: 'xxxsmall',
+  xXSmall: 'xxsmall',
+  xSmall: 'xsmall',
+  small: 'small',
+  medium: 'medium',
+  large: 'large',
+  xLarge: 'xlarge'
+} as const
 
-export const headingSizes = keyMirror(
-  'xXXSmall',
-  'xXSmall',
-  'xSmall',
-  'small',
-  'medium',
-  'large',
-  'xLarge'
-)
+export const labelSizes = {
+  xSmall: 'xsmall',
+  small: 'small',
+  medium: 'medium',
+  large: 'large'
+} as const
 
-export const labelSizes = keyMirror('xSmall', 'small', 'medium', 'large')
+export const listTypes = {
+  default: 'default',
+  bulleted: 'bulleted',
+  numbered: 'numbered'
+} as const
 
-export const listTypes = keyMirror('default', 'bulleted', 'numbered')
+export const listSizes = {
+  small: 'small',
+  medium: 'medium',
+  large: 'large'
+} as const
 
-export const listSizes = keyMirror('small', 'medium', 'large')
+export const pSizes = {
+  small: 'small',
+  medium: 'medium',
+  large: 'large'
+} as const
 
-export const pSizes = keyMirror('small', 'medium', 'large')
-
-export const textColors = keyMirror('primary', 'secondary')
+export const textColors = {
+  primary: 'primary',
+  secondary: 'secondary'
+} as const

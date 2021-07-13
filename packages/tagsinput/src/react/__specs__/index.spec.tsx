@@ -5,9 +5,28 @@ import { axe } from 'jest-axe'
 import React from 'react'
 
 import * as stories from '../__stories__/index.story'
+import TagsInput from '../index'
 
 describe('TagsInput', () => {
   const cases = convertStoriesToJestCases(stories)
+
+  it('composes className', () => {
+    render(
+      <TagsInput
+        className="compose-classname"
+        onChange={(_, nextValue) => {}}
+        onKeyPress={() => {}}
+        onSearchInputChange={() => {}}
+        searchInputValue={''}
+        value={[
+          { label: 'first', value: 'first' },
+          { label: 'second', value: 'second' }
+        ]}
+      />
+    )
+    const el = document.querySelector('.compose-classname')
+    expect(el).toHaveClass('psds-tagsinput compose-classname')
+  })
 
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {

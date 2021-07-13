@@ -1,54 +1,17 @@
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
   RefForwardingComponent,
   ValueOf,
-  canUseDOM
+  canUseDOM,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import polyfillFocusWithin from 'focus-within'
 import React from 'react'
 
-import stylesheet, { BASE_CLASSNAME, themeClasses } from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
 
-const glamor = glamorDefault || glamorExports
-
 if (canUseDOM()) polyfillFocusWithin(document)
-
-export type StyleFn<P> = (
-  themeName: ValueOf<typeof themeNames>,
-  props: P
-) => glamorExports.StyleAttribute
-
-const styles: { [name: string]: StyleFn<InternalHaloProps> } = {
-  halo: (themeName, props) => {
-    const base = BASE_CLASSNAME
-    const theme = base + themeClasses[themeName]
-    const shape = `${BASE_CLASSNAME}--shape-${props.shape}`
-    const gapSize = `${BASE_CLASSNAME}--gap-size-${props.gapSize}`
-
-    const gapTheme = gapSize + themeClasses[themeName]
-
-    const visible = `${BASE_CLASSNAME}--visible`
-    const visibleOnFocus = `${BASE_CLASSNAME}--visible-on-focus`
-
-    return glamor.compose(
-      glamor.css(stylesheet[base]),
-      glamor.css(stylesheet[theme]),
-      glamor.css(stylesheet[shape]),
-      glamor.css(stylesheet[gapSize]),
-      glamor.css(stylesheet[gapTheme]),
-
-      props.inline && glamor.css(stylesheet[`${BASE_CLASSNAME}--inline`]),
-      props.error && glamor.css(stylesheet[`${BASE_CLASSNAME}--error`]),
-      props.visible && glamor.css(stylesheet[visible]),
-      props.visibleOnFocus && glamor.css(stylesheet[visibleOnFocus])
-    )
-  }
-}
 
 interface InternalHaloProps {
   error: boolean
@@ -77,6 +40,7 @@ const Halo = React.forwardRef((props, ref) => {
   const themeName = useTheme()
 
   const {
+    className,
     error = false,
     gapSize = vars.gapSizes.default,
     inline = false,
@@ -86,15 +50,23 @@ const Halo = React.forwardRef((props, ref) => {
     ...rest
   } = props
 
-  const style = styles.halo(themeName, {
-    error,
-    gapSize,
-    inline,
-    shape,
-    visible,
-    visibleOnFocus
-  })
-  return <div ref={ref} {...style} {...rest} />
+  return (
+    <div
+      ref={ref}
+      {...rest}
+      className={classNames(
+        'psds-halo',
+        `psds-theme--${themeName}`,
+        `psds-halo--shape-${shape}`,
+        `psds-halo--gap-size-${gapSize}`,
+        inline && 'psds-halo--inline',
+        error && 'psds-halo--error',
+        visible && 'psds-halo--visible',
+        visibleOnFocus && 'psds-halo--visible-on-focus',
+        className
+      )}
+    />
+  )
 }) as HaloComponent
 
 Halo.gapSizes = vars.gapSizes

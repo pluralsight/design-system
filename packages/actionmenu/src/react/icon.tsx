@@ -1,24 +1,28 @@
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = ({ marginLeft, marginRight }: Props) =>
-  glamor.css(
-    stylesheet[`.psds-actionmenu__icon`],
-    marginRight && stylesheet[`.psds-actionmenu__icon-right`],
-    marginLeft && stylesheet[`.psds-actionmenu__icon-left`]
-  )
+import '../css/index.css'
 
 interface Props extends React.HTMLAttributes<HTMLSpanElement> {
   marginRight?: boolean
   marginLeft?: boolean
 }
 
-export const Icon: React.FC<Props> = ({ marginLeft, marginRight, ...rest }) => (
-  <span {...rest} {...styles({ marginLeft, marginRight })} />
+export const Icon: React.FC<Props> = ({
+  className,
+  marginLeft,
+  marginRight,
+  ...rest
+}) => (
+  <span
+    {...rest}
+    className={classNames(
+      `psds-actionmenu__icon`,
+      marginRight && `psds-actionmenu__icon-right`,
+      marginLeft && `psds-actionmenu__icon-left`,
+      className
+    )}
+  />
 )
 
 Icon.displayName = 'ActionMenu.Icon'

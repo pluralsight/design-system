@@ -2,15 +2,18 @@ import DSLink from '@pluralsight/ps-design-system-link'
 import { Link as GatsbyLink } from 'gatsby'
 import React, { AllHTMLAttributes } from 'react'
 
-export const A: React.FC<AllHTMLAttributes<HTMLAnchorElement>> = props => {
-  const isExternal = /[a-z]+:\/\//.test(props.href)
+export const A: React.FC<AllHTMLAttributes<HTMLAnchorElement>> = ({
+  className,
+  ...rest
+}) => {
+  const isExternal = /[a-z]+:\/\//.test(rest.href)
 
   return (
-    <DSLink>
+    <DSLink className={className}>
       {isExternal ? (
-        <a {...props} rel="noopener noreferrer" />
+        <a {...rest} rel="noopener noreferrer" />
       ) : (
-        <GatsbyLink {...props} to={props.href} />
+        <GatsbyLink {...rest} to={rest.href} />
       )}
     </DSLink>
   )

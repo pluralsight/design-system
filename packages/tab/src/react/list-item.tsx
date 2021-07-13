@@ -1,30 +1,8 @@
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf, RefFor } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { RefFor, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  bar: () => glamor.css(stylesheet['.psds-tab__list-item__bar']),
-  listItem: (active: boolean, themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['.psds-tab__list-item'],
-      stylesheet[`.psds-tab__list-item.psds-theme--${themeName}`],
-      active && stylesheet[`.psds-tab__list-item.psds-tab__list-item--active`],
-      active &&
-        stylesheet[
-          `.psds-tab__list-item.psds-tab__list-item--active.psds-theme--${themeName}`
-        ]
-    ),
-  textInner: () => glamor.css(stylesheet['.psds-tab__list-item__text-inner']),
-  textWidth: () => glamor.css(stylesheet['.psds-tab__list-item__text'])
-}
+import '../css/index.css'
 
 export interface BaseListItemProps {
   id: string | number
@@ -51,21 +29,26 @@ type ListItemComponent = React.ForwardRefExoticComponent<ListItemProps> & {
 
 const ListItem = React.forwardRef<ListItemElement, ListItemProps>(
   (props, ref) => {
-    const { active, children, ...rest } = props
+    const { active, children, className, ...rest } = props
     const themeName = useTheme()
     return React.createElement(
       'href' in props ? 'a' : 'button',
       {
         ...rest,
-        ...styles.listItem(active || false, themeName),
+        className: classNames(
+          className,
+          'psds-tab__list-item',
+          `psds-theme--${themeName}`,
+          active && `psds-tab__list-item--active`
+        ),
         'aria-selected': active,
         ref,
         role: 'tab',
         tabIndex: -1
       },
-      <div {...styles.textWidth()}>
-        <div {...styles.textInner()}>{children}</div>
-        <span {...styles.bar()} />
+      <div className={'psds-tab__list-item__text'}>
+        <div className={'psds-tab__list-item__text-inner'}>{children}</div>
+        <span className={'psds-tab__list-item__bar'} />
       </div>
     )
   }

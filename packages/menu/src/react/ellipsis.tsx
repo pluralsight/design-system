@@ -1,15 +1,17 @@
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = glamor.css(stylesheet[`.psds-menu__ellipsis`])
+import '../css/index.css'
 
 export const Ellipsis = React.forwardRef<
   HTMLSpanElement,
   React.HTMLAttributes<HTMLSpanElement>
->((props, ref) => <span ref={ref} {...props} {...styles} />)
+>(({ className, ...rest }, ref) => (
+  <span
+    ref={ref}
+    {...rest}
+    className={classNames('psds-menu__ellipsis', className)}
+  />
+))
 
 Ellipsis.displayName = 'Menu.Ellipsis'

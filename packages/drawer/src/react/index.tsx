@@ -1,39 +1,15 @@
 import { useCollapsible } from '@pluralsight/ps-design-system-collapsible'
 import { CaretDownIcon } from '@pluralsight/ps-design-system-icon'
 import ScreenReaderOnly from '@pluralsight/ps-design-system-screenreaderonly'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
-  useTheme,
-  names as themeNames
-} from '@pluralsight/ps-design-system-theme'
-import { useToggle, RefFor, ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+  classNames,
+  useToggle,
+  RefFor
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  head: (themeName: ValueOf<typeof themeNames>, isOpen: boolean) =>
-    glamor.css(
-      stylesheet[`.psds-drawer__summary`],
-      isOpen && stylesheet['.psds-drawer__summary.psds-drawer--isOpen'],
-      stylesheet[`.psds-drawer__summary.psds-theme--${themeName}`]
-    ),
-  body: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['.psds-drawer__details'],
-      stylesheet[`.psds-drawer__details.psds-theme--${themeName}`]
-    ),
-  iconSlot: () => glamor.css(stylesheet['.psds-drawer__icon-slot']),
-  rotatable: (themeName: ValueOf<typeof themeNames>, isOpen: boolean) =>
-    glamor.css(
-      stylesheet['.psds-drawer__rotatable'],
-      stylesheet[`.psds-drawer__rotatable.psds-theme--${themeName}`],
-      isOpen && stylesheet['.psds-drawer__rotatable.psds-drawer--isOpen']
-    ),
-  collapsible: () => glamor.css(stylesheet['.psds-drawer__collapsible'])
-}
+import '../css/index.css'
 
 interface DrawerContextValue {
   isOpen: boolean
@@ -58,12 +34,17 @@ export const useDrawerContext = () => {
 
 interface SummaryProps extends React.HTMLAttributes<HTMLDivElement> {}
 const Summary = React.forwardRef<HTMLDivElement, SummaryProps>(
-  ({ children, ...rest }, ref) => {
+  ({ children, className, ...rest }, ref) => {
     const themeName = useTheme()
     const { isOpen, onToggle } = useDrawerContext()
     return (
       <div
-        {...styles.head(themeName, isOpen)}
+        className={classNames(
+          `psds-drawer__summary`,
+          isOpen && 'psds-drawer--is-open',
+          `psds-theme--${themeName}`,
+          className
+        )}
         onClick={onToggle}
         ref={ref}
         role="button"
@@ -71,8 +52,14 @@ const Summary = React.forwardRef<HTMLDivElement, SummaryProps>(
         {...rest}
       >
         {children}
-        <div {...styles.iconSlot()}>
-          <CaretDownIcon {...styles.rotatable(themeName, isOpen)} />
+        <div className="psds-drawer__icon-slot">
+          <CaretDownIcon
+            className={classNames(
+              'psds-drawer__rotatable',
+              `psds-theme--${themeName}`,
+              isOpen && 'psds-drawer--is-open'
+            )}
+          />
           <ScreenReaderOnly>
             {isOpen ? 'Expanded' : 'Collapsed'}
           </ScreenReaderOnly>
@@ -84,7 +71,7 @@ const Summary = React.forwardRef<HTMLDivElement, SummaryProps>(
 
 interface DetailsProps extends React.HTMLAttributes<HTMLDivElement> {}
 const Details = React.forwardRef<HTMLDivElement, DetailsProps>(
-  (props, forwardedRef) => {
+  ({ className, ...rest }, forwardedRef) => {
     const themeName = useTheme()
     const { isOpen } = useDrawerContext()
     const { 'aria-hidden': ariaHidden, ref } = useCollapsible(isOpen)
@@ -97,8 +84,12 @@ const Details = React.forwardRef<HTMLDivElement, DetailsProps>(
       <div
         aria-hidden={ariaHidden}
         ref={ref}
-        {...styles.body(themeName)}
-        {...props}
+        {...rest}
+        className={classNames(
+          'psds-drawer__details',
+          `psds-theme--${themeName}`,
+          className
+        )}
       />
     )
   }

@@ -13,6 +13,34 @@ describe('Note', () => {
 
   it.todo('supports polymorphism')
 
+  it('composes className', () => {
+    const { container } = render(
+      <Note className="compose-classname" message="" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-note psds-theme--dark'
+    )
+  })
+
+  it('composes className for Note.Action', () => {
+    const { container } = render(
+      <Note.Action className="compose-classname" icon="" title="" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-note__action psds-theme--dark'
+    )
+  })
+
+  it('composes className for Note.List', () => {
+    const { container } = render(<Note.List className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-note__list'
+    )
+  })
+
   it('exposes an Action Component', () => {
     expect(Note).toHaveProperty('Action')
   })

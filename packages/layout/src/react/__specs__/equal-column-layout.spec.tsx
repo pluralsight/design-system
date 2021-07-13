@@ -20,6 +20,16 @@ describe('EqualColumnLayout', () => {
     expect(getByTestId('undertest')).toBeInTheDocument()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <EqualColumnLayout className="compose-classname" count={2} />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-equal-column-layout compose-classname'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

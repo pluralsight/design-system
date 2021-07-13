@@ -19,8 +19,15 @@ describe('Tag', () => {
 
   it('forwards ref', () => {
     const ref = React.createRef<HTMLDivElement>()
+    // @ts-ignore: ignore ref error this component is properly setup with forwardRef
     render(<Tag ref={ref} />)
     expect(ref).not.toBeNull()
+  })
+
+  it('composes className', () => {
+    render(<Tag className="compose-classname" data-testid="undertest" />)
+    const el = screen.getByTestId('undertest')
+    expect(el).toHaveClass('psds-tag psds-theme--dark psds-tag--size-medium')
   })
 
   describe.each(cases)('%s story', (_name, Story) => {
@@ -41,15 +48,6 @@ describe('Tag', () => {
 
       expect(el).toBeInTheDocument()
       expect(el.tagName.toLowerCase()).toEqual('div')
-    })
-
-    it('forwards className', () => {
-      render(
-        <Basic data-testid="undertest" className="testclass" {...Basic.args} />
-      )
-
-      const el = screen.getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
     })
   })
 

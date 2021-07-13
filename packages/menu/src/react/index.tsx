@@ -1,12 +1,15 @@
+import polyfillFocusWithin from 'focus-within'
 import {
   RefForwardingComponent,
   ValueOf,
+  canUseDOM,
+  classNames,
+  dashify,
   useMenuRef
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
 
 import { MenuContext, SelectedItem, defaultUseActive } from './context'
@@ -14,19 +17,6 @@ import { Check } from './check'
 import { Divider } from './divider'
 import { Ellipsis } from './ellipsis'
 import { Item } from './item'
-
-const glamor = glamorDefault || glamorExports
-
-const slide = glamor.keyframes(
-  stylesheet['@keyframes psds-menu__keyframes__slide']
-)
-
-const styles = ({ origin }: { origin?: ValueOf<typeof vars.origins> }) =>
-  glamor.compose(
-    glamor.css(stylesheet['.psds-menu']),
-    glamor.css(stylesheet[`.psds-menu--origin-${origin}`]),
-    glamor.css(stylesheet['.psds-menu__animation']({ slide }))
-  )
 
 interface MenuStatics {
   Check: typeof Check
@@ -57,9 +47,13 @@ type MenuComponent = RefForwardingComponent<
   HTMLUListElement,
   MenuStatics
 >
+
+if (canUseDOM()) polyfillFocusWithin(document)
+
 const Menu = React.forwardRef<HTMLUListElement, MenuProps>(
   (
     {
+      className,
       selectedItem,
       origin = vars.origins.topLeft,
       onClick,
@@ -72,7 +66,16 @@ const Menu = React.forwardRef<HTMLUListElement, MenuProps>(
     ref
   ) => {
     return (
-      <ul {...styles({ origin })} ref={ref} {...rest} role={role}>
+      <ul
+        {...rest}
+        className={classNames(
+          'psds-menu',
+          `psds-menu--origin-${dashify(origin)}`,
+          className
+        )}
+        ref={ref}
+        role={role}
+      >
         <MenuContext.Provider
           value={{
             onMenuClick: onClick,

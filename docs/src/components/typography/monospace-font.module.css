@@ -1,23 +1,23 @@
 .box {
-  font-size: var(--psTypeFontSizeLarge);
-  line-height: var(--psTypeLineHeightExtra);
-  font-weight: var(--psTypeFontWeightBook);
+  font-size: var(--ps-type-font-size-large);
+  line-height: var(--ps-type-line-height-extra);
+  font-weight: var(--ps-type-font-weight-book);
 }
 .glyphs {
-  font-family: var(--psTypeFontFamilyCode);
+  font-family: var(--ps-type-font-family-code);
 }
 .fontWeight {
   text-align: center;
 }
 .fontLetter {
   composes: glyphs;
-  padding: var(--psLayoutSpacingLarge);
-  font-family: var(--psTypeFontFamilyCode);
-  font-weight: var(--psTypeFontWeightRegular);
-  font-size: var(--psTypeFontSizeGigantic);
-  letter-spacing: var(--psTypeLetterSpacingGigantic);
+  padding: var(--ps-layout-spacing-large);
+  font-family: var(--ps-type-font-family-code);
+  font-weight: var(--ps-type-font-weight-regular);
+  font-size: var(--ps-type-font-size-gigantic);
+  letter-spacing: var(--ps-type-letter-spacing-gigantic);
 }
 .fontLabel {
-  color: var(--appColorsTextIconLow);
-  font-size: var(--psTypeFontSizeXSmall);
+  color: var(--app-colors-text-icon-low);
+  font-size: var(--ps-type-font-size-xsmall);
 }

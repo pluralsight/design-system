@@ -1,4 +1,4 @@
-import Theme, {
+import {
   useTheme,
   names as themeNames
 } from '@pluralsight/ps-design-system-theme'
@@ -7,93 +7,41 @@ import {
   ValueOf,
   combineFns,
   omit,
-  RefFor
+  RefFor,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React, { useEffect } from 'react'
 
 import { useHideLabels } from './context'
-import stylesheet from '../css/index'
 import { List, CollapsibleList } from './list'
-
-type StyleFn = (
-  themeName?: ValueOf<keyof typeof Theme.names>,
-  props?: Record<string, unknown>
-) => glamorExports.StyleAttribute
-
-const glamor = glamorDefault || glamorExports
+import '../css/index.css'
 
 const styles = {
-  item: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'verticaltabs__item'
+  item: (themeName: ValueOf<typeof themeNames>) =>
+    classNames('psds-verticaltabs__item', `psds-theme--${themeName}`),
 
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`]),
-      glamor.css(stylesheet[`.psds-${label}.psds-theme--${themeName}`])
-    )
-  },
+  itemIcon: () => 'psds-verticaltabs__item__icon',
+  itemIconActive: () => 'psds-verticaltabs__item__icon--active',
 
-  itemIcon: () => glamor.css(stylesheet['.psds-verticaltabs__item__icon']),
-  itemIconActive: () =>
-    glamor.css(stylesheet['.psds-verticaltabs__item__icon--active']),
+  itemTier: (themeName: ValueOf<typeof themeNames>, props: { type?: string }) =>
+    classNames(`psds-verticaltabs__${props.type}`, `psds-theme--${themeName}`),
 
-  itemTier: (
-    themeName: ValueOf<typeof themeNames>,
-    props: { type?: string }
-  ) => {
-    const label = `verticaltabs__${props.type}`
+  tier1Header: () => 'psds-verticaltabs__tier1__header',
+  tier1HeaderInner: () => 'psds-verticaltabs__tier1__header__inner',
 
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`]),
-      glamor.css(stylesheet[`.psds-${label}.psds-theme--${themeName}`])
-    )
-  },
-
-  tier1Header: () => {
-    const label = `verticaltabs__tier1__header`
-
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`])
-    )
-  },
-  tier1HeaderInner: () => {
-    const label = `verticaltabs__tier1__header__inner`
-
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`])
-    )
-  },
-
-  tier2Header: () => {
-    const label = `verticaltabs__tier2__header`
-
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`])
-    )
-  },
+  tier2Header: () => 'psds-verticaltabs__tier2__header',
 
   tierHeaderLabel: (hideLabels: boolean) => {
     const label = `verticaltabs__header__label`
-
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`]),
-      hideLabels && glamor.css(stylesheet[`.psds-${label}--hide-labels`])
+    return classNames(
+      `psds-${label}`,
+      hideLabels && `psds-${label}--hide-labels`
     )
   },
   tierHeaderLabelIcon: (collapsed: boolean) => {
     const label = `verticaltabs__header__label__icon`
 
-    return glamor.compose(
-      glamor.css({ label }),
-      glamor.css(stylesheet[`.psds-${label}`]),
-      collapsed && glamor.css(stylesheet[`.psds-${label}--collapsed`])
-    )
+    return classNames(`psds-${label}`, collapsed && `psds-${label}--collapsed`)
   }
 }
 
@@ -162,8 +110,10 @@ const Item = React.forwardRef<HTMLLIElement, ItemProps>((props, ref) => {
   return (
     <li ref={ref} {...rest}>
       <div
-        {...styles.item(themeName)}
-        {...styles.itemTier(themeName, { type })}
+        className={classNames(
+          styles.item(themeName),
+          styles.itemTier(themeName, { type })
+        )}
         {...(active && { 'data-active': true })}
       >
         {header &&
@@ -190,32 +140,45 @@ const Tier1: React.FC<Tier1Props> & { Header: typeof Tier1Header } = props => (
 )
 
 const Tier1Header = React.forwardRef<any, ItemHeaderProps>((props, ref) => {
-  const { active, collapsed, collapsible, children, icon, ...rest } = props
+  const { active, collapsed, collapsible, children, icon, className, ...rest } =
+    props
   const hideLabels = useHideLabels()
   const Tag: React.FC = wrapperProps =>
     rest.href ? (
-      <a {...wrapperProps} ref={ref as RefFor<'a'>} />
+      <a
+        {...wrapperProps}
+        ref={ref as RefFor<'a'>}
+        className={classNames(styles.tier1Header(), className)}
+      />
     ) : rest.onClick ? (
-      <button {...wrapperProps} ref={ref as RefFor<'button'>} />
+      <button
+        {...wrapperProps}
+        ref={ref as RefFor<'button'>}
+        className={classNames(styles.tier1Header(), className)}
+      />
     ) : (
-      <span {...wrapperProps} ref={ref as RefFor<'span'>} />
+      <span
+        {...wrapperProps}
+        ref={ref as RefFor<'span'>}
+        className={classNames(styles.tier1Header(), className)}
+      />
     )
   return (
-    <Tag {...styles.tier1Header()} {...rest} aria-expanded={!collapsed}>
+    <Tag {...rest} aria-expanded={!collapsed}>
       {icon &&
         React.cloneElement(icon, {
           size: CaretDownIcon.sizes.medium,
-          ...styles.itemIcon(),
+          className: classNames(styles.itemIcon(), icon.props.className),
           ...(active ? { 'data-active': true } : {})
         })}
 
-      <span {...styles.tierHeaderLabel(hideLabels)}>{children}</span>
+      <span className={styles.tierHeaderLabel(hideLabels)}>{children}</span>
 
       {collapsible && (
         <CaretDownIcon
           aria-hidden="true"
           size={CaretDownIcon.sizes.small}
-          {...styles.tierHeaderLabelIcon(Boolean(collapsed))}
+          className={styles.tierHeaderLabelIcon(Boolean(collapsed))}
         />
       )}
     </Tag>
@@ -237,35 +200,51 @@ const Tier2: React.FC<Tier2Props> & {
   return <Item {...props} itemType="tier2" />
 }
 
-const Tier2Header = React.forwardRef<any, ItemHeaderProps>((props, ref) => {
-  const hideLabels = useHideLabels()
+const Tier2Header = React.forwardRef<any, ItemHeaderProps>(
+  ({ className, ...props }, ref) => {
+    const hideLabels = useHideLabels()
 
-  // NOTE: some props are given during clone that are not used as should not be
-  //       passed to the underlying dom node
-  const rest = omit(props as any, ['active', 'collapsed', 'collapsible'])
-  const Tag: React.FC = wrapperProps =>
-    rest.href ? (
-      <a {...wrapperProps} ref={ref as RefFor<'a'>} />
-    ) : rest.onClick ? (
-      <button {...wrapperProps} ref={ref as RefFor<'button'>} />
-    ) : (
-      <span {...wrapperProps} ref={ref as RefFor<'span'>} />
+    // NOTE: some props are given during clone that are not used as should not be
+    //       passed to the underlying dom node
+    const rest = omit(props as any, ['active', 'collapsed', 'collapsible'])
+    const Tag: React.FC = wrapperProps =>
+      rest.href ? (
+        <a
+          {...wrapperProps}
+          ref={ref as RefFor<'a'>}
+          className={classNames(styles.tier2Header(), className)}
+        />
+      ) : rest.onClick ? (
+        <button
+          {...wrapperProps}
+          ref={ref as RefFor<'button'>}
+          className={classNames(styles.tier2Header(), className)}
+        />
+      ) : (
+        <span
+          {...wrapperProps}
+          ref={ref as RefFor<'span'>}
+          className={classNames(styles.tier2Header(), className)}
+        />
+      )
+
+    const hideItemProps =
+      props.collapsed || hideLabels
+        ? {
+            'aria-hidden': 'true',
+            tabIndex: -1
+          }
+        : {}
+
+    return (
+      <Tag {...rest} {...hideItemProps}>
+        <span className={styles.tierHeaderLabel(hideLabels)}>
+          {props.children}
+        </span>
+      </Tag>
     )
-
-  const hideItemProps =
-    props.collapsed || hideLabels
-      ? {
-          'aria-hidden': 'true',
-          tabIndex: -1
-        }
-      : {}
-
-  return (
-    <Tag {...styles.tier2Header} {...rest} {...hideItemProps}>
-      <span {...styles.tierHeaderLabel(hideLabels)}>{props.children}</span>
-    </Tag>
-  )
-})
+  }
+)
 
 Tier2.Header = Tier2Header
 

@@ -4,12 +4,23 @@ import { axe } from 'jest-axe'
 import React from 'react'
 
 import * as stories from '../__stories__/code.story'
+import { Code } from '../index'
 
 describe('Text', () => {
   describe('Code', () => {
     const cases = convertStoriesToJestCases(stories)
 
     it.todo('forwards the ref')
+
+    it('composes className', () => {
+      const { container } = render(
+        <Code className="compose-classname">inline code</Code>
+      )
+
+      expect(container.firstChild).toHaveClass(
+        'psds-text__code compose-classname'
+      )
+    })
 
     it.todo('supports polymorphism')
 

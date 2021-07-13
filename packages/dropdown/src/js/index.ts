@@ -63,7 +63,6 @@ const sortDropdownProps = ({
     appearance,
     disabled,
     error,
-    size,
     ...rest
   },
   hook: {
@@ -82,6 +81,7 @@ const sortDropdownProps = ({
   layout: {
     className,
     disabled,
+    size,
     style
   },
   menu: {
@@ -89,8 +89,7 @@ const sortDropdownProps = ({
   },
   selected: {
     appearance,
-    placeholder,
-    size
+    placeholder
   },
   subLabel: {
     subLabel

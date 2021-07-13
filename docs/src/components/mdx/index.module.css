@@ -1,23 +1,23 @@
 main {
-  font-size: var(--psTypeFontSize300);
+  font-size: var(--ps-type-font-size-300);
 }
 main > .h1 {
   margin-top: 0;
 }
 main > .h2 {
-  margin-top: var(--psLayoutSpacingXLarge);
+  margin-top: var(--ps-layout-spacing-xlarge);
 }
 main > .h3 {
-  margin-top: var(--psLayoutSpacingXLarge);
+  margin-top: var(--ps-layout-spacing-xlarge);
 }
 .blockquote {
-  border-left: 5px solid var(--psColorsBackgroundUtility25);
-  margin-bottom: var(--psLayoutSpacingMedium);
-  padding: var(--psLayoutSpacingXXSmall) 0 var(--psLayoutSpacingXXSmall)
-    var(--psLayoutSpacingMedium);
+  border-left: 5px solid var(--ps-colors-background-utility-25);
+  margin-bottom: var(--ps-layout-spacing-medium);
+  padding: var(--ps-layout-spacing-xxsmall) 0 var(--ps-layout-spacing-xxsmall)
+    var(--ps-layout-spacing-medium);
 }
 
-:not(#fakeid-to-make-more-specific-than-glamor-styles) .headingLink {
+:not(#more-specific-than-component) .headingLink {
   position: relative;
   color: inherit;
 
@@ -26,9 +26,9 @@ main > .h3 {
     content: '#';
     display: block;
     position: absolute;
-    left: calc(-1ch - var(--psLayoutSpacingSmall));
+    left: calc(-1ch - var(--ps-layout-spacing-small));
     height: 100%;
-    color: var(--appColorsPrimaryActionText);
+    color: var(--app-colors-primary-action-text);
   }
   &:hover {
     color: inherit;

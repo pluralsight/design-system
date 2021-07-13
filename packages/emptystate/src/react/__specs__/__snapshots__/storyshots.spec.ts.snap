@@ -2,10 +2,10 @@
 
 exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
 <div
-  data-css-g3x4fp=""
+  className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
 >
   <div
-    data-css-1gwvklx=""
+    className="psds-emptystate__illustration"
   >
     <svg
       aria-hidden="true"
@@ -54,17 +54,17 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
     </svg>
   </div>
   <h1
-    data-css-1akj4c1=""
+    className="psds-emptystate__heading"
   >
     Filet mignon pork chop salami shank tail.
   </h1>
   <p
-    data-css-1wmcf4e=""
+    className="psds-emptystate__caption"
   >
     Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
   </p>
   <div
-    data-css-aelvpu=""
+    className="psds-emptystate__actions"
   >
     <div
       style={
@@ -84,12 +84,12 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
         }
       >
         <button
-          data-css-1cb2wrf=""
+          className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-stroke psds-theme--dark"
           disabled={false}
         >
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           >
             Asssessments
           </span>
@@ -104,12 +104,12 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
         }
       >
         <button
-          data-css-1cb2wrf=""
+          className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-stroke psds-theme--dark"
           disabled={false}
         >
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           >
             Guides
           </span>
@@ -124,12 +124,12 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
         }
       >
         <button
-          data-css-1cb2wrf=""
+          className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-stroke psds-theme--dark"
           disabled={false}
         >
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           >
             Interactive Courses
           </span>
@@ -144,12 +144,12 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
         }
       >
         <button
-          data-css-1cb2wrf=""
+          className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-stroke psds-theme--dark"
           disabled={false}
         >
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           >
             Paths
           </span>
@@ -164,12 +164,12 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
         }
       >
         <button
-          data-css-1cb2wrf=""
+          className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-stroke psds-theme--dark"
           disabled={false}
         >
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           >
             Projects
           </span>
@@ -184,12 +184,12 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
         }
       >
         <button
-          data-css-1cb2wrf=""
+          className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-stroke psds-theme--dark"
           disabled={false}
         >
           <span
             aria-hidden={false}
-            data-css-15b13by=""
+            className="psds-button__text"
           >
             Video Courses
           </span>
@@ -202,10 +202,10 @@ exports[`Storyshots Components/EmptyState Actions With A Button 1`] = `
 
 exports[`Storyshots Components/EmptyState Actions With An Input 1`] = `
 <div
-  data-css-g3x4fp=""
+  className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
 >
   <div
-    data-css-1gwvklx=""
+    className="psds-emptystate__illustration"
   >
     <svg
       aria-hidden="true"
@@ -254,42 +254,42 @@ exports[`Storyshots Components/EmptyState Actions With An Input 1`] = `
     </svg>
   </div>
   <h1
-    data-css-1akj4c1=""
+    className="psds-emptystate__heading"
   >
     Filet mignon pork chop salami shank tail.
   </h1>
   <p
-    data-css-1wmcf4e=""
+    className="psds-emptystate__caption"
   >
     Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
   </p>
   <div
-    data-css-aelvpu=""
+    className="psds-emptystate__actions"
   >
     <label
-      data-css-w0yocm=""
+      className="psds-text-input"
     >
       <div
-        data-css-1r967oi=""
+        className="psds-text-input__field-container"
       >
         <div
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus"
         >
           <div
-            data-css-1c5qy71=""
+            className="psds-text-input__field psds-text-input__field--appearance-subtle psds-theme--dark psds-text-input__field--icon-align-left"
           >
             <input
-              data-css-7mw7i0=""
+              className="psds-theme--dark psds-text-input__field-input--appearance-subtle psds-text-input__field-input"
               disabled={false}
               placeholder="Find Something"
             />
           </div>
         </div>
         <div
-          data-css-1kca8ps=""
+          className="psds-text-input__icon psds-theme--dark psds-text-input__icon--icon-align-left psds-text-input__icon--appearance-subtle psds-text-input__icon"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="search icon"
@@ -312,10 +312,10 @@ exports[`Storyshots Components/EmptyState Actions With An Input 1`] = `
 
 exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
 <div
-  data-css-g3x4fp=""
+  className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
 >
   <div
-    data-css-1gwvklx=""
+    className="psds-emptystate__illustration"
   >
     <svg
       aria-hidden="true"
@@ -364,17 +364,17 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
     </svg>
   </div>
   <h1
-    data-css-1akj4c1=""
+    className="psds-emptystate__heading"
   >
     Filet mignon pork chop salami shank tail.
   </h1>
   <p
-    data-css-1wmcf4e=""
+    className="psds-emptystate__caption"
   >
     Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
   </p>
   <div
-    data-css-aelvpu=""
+    className="psds-emptystate__actions"
   >
     <div
       style={
@@ -394,13 +394,13 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
         }
       >
         <div
-          data-css-1lu7sfl=""
+          className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
         >
           <div
-            data-css-q4lcrt=""
+            className="psds-tag psds-theme--dark psds-tag--size-medium"
           >
             <span
-              data-css-1997kh1=""
+              className="psds-tag__label"
             >
               Asssessments
             </span>
@@ -416,13 +416,13 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
         }
       >
         <div
-          data-css-1lu7sfl=""
+          className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
         >
           <div
-            data-css-q4lcrt=""
+            className="psds-tag psds-theme--dark psds-tag--size-medium"
           >
             <span
-              data-css-1997kh1=""
+              className="psds-tag__label"
             >
               Guides
             </span>
@@ -438,13 +438,13 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
         }
       >
         <div
-          data-css-1lu7sfl=""
+          className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
         >
           <div
-            data-css-q4lcrt=""
+            className="psds-tag psds-theme--dark psds-tag--size-medium"
           >
             <span
-              data-css-1997kh1=""
+              className="psds-tag__label"
             >
               Interactive Courses
             </span>
@@ -460,13 +460,13 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
         }
       >
         <div
-          data-css-1lu7sfl=""
+          className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
         >
           <div
-            data-css-q4lcrt=""
+            className="psds-tag psds-theme--dark psds-tag--size-medium"
           >
             <span
-              data-css-1997kh1=""
+              className="psds-tag__label"
             >
               Paths
             </span>
@@ -482,13 +482,13 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
         }
       >
         <div
-          data-css-1lu7sfl=""
+          className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
         >
           <div
-            data-css-q4lcrt=""
+            className="psds-tag psds-theme--dark psds-tag--size-medium"
           >
             <span
-              data-css-1997kh1=""
+              className="psds-tag__label"
             >
               Projects
             </span>
@@ -504,13 +504,13 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
         }
       >
         <div
-          data-css-1lu7sfl=""
+          className="psds-halo psds-theme--dark psds-halo--shape-pill psds-halo--gap-size-default psds-halo--inline psds-halo--visible-on-focus"
         >
           <div
-            data-css-q4lcrt=""
+            className="psds-tag psds-theme--dark psds-tag--size-medium"
           >
             <span
-              data-css-1997kh1=""
+              className="psds-tag__label"
             >
               Video Courses
             </span>
@@ -524,10 +524,10 @@ exports[`Storyshots Components/EmptyState Actions With Tags 1`] = `
 
 exports[`Storyshots Components/EmptyState Combo 1`] = `
 <div
-  data-css-g3x4fp=""
+  className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
 >
   <div
-    data-css-1gwvklx=""
+    className="psds-emptystate__illustration"
   >
     <svg
       aria-hidden="true"
@@ -576,25 +576,25 @@ exports[`Storyshots Components/EmptyState Combo 1`] = `
     </svg>
   </div>
   <h1
-    data-css-1akj4c1=""
+    className="psds-emptystate__heading"
   >
     Filet mignon pork chop salami shank tail.
   </h1>
   <p
-    data-css-1wmcf4e=""
+    className="psds-emptystate__caption"
   >
     Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
   </p>
   <div
-    data-css-aelvpu=""
+    className="psds-emptystate__actions"
   >
     <button
-      data-css-y5dqt5=""
+      className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
       disabled={false}
     >
       <span
         aria-hidden={false}
-        data-css-15b13by=""
+        className="psds-button__text"
       >
         Do a Thing
       </span>
@@ -615,10 +615,10 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
   }
 >
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden={true}
@@ -632,16 +632,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       Custom Illustration
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden={true}
@@ -655,16 +655,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       Custom Illustration
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -698,16 +698,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       bookmark
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -734,16 +734,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       bookmark
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -796,16 +796,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       channel
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -863,16 +863,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       channel
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -919,16 +919,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       cloud
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -955,16 +955,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       cloud
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1030,16 +1030,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       code
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1098,16 +1098,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       code
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1156,16 +1156,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       data
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1193,16 +1193,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       data
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1273,16 +1273,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       document
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1334,16 +1334,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       document
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1392,16 +1392,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       error
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1443,16 +1443,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       error
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1504,16 +1504,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       image
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1560,16 +1560,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       image
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1605,16 +1605,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       lightning
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1645,16 +1645,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       lightning
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1682,16 +1682,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       lock
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1713,16 +1713,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       lock
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1788,16 +1788,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       magnify
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1846,16 +1846,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       magnify
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -1927,16 +1927,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       people
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2001,16 +2001,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       people
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2062,16 +2062,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       signal
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2119,16 +2119,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       signal
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2158,16 +2158,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       skillIQ
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2189,16 +2189,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       skillIQ
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2240,16 +2240,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       upload
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2284,16 +2284,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       upload
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2329,16 +2329,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       video
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2373,16 +2373,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       video
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2418,16 +2418,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       wrench
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2455,16 +2455,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       wrench
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2513,16 +2513,16 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       zen
     </h1>
   </div>
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2564,7 +2564,7 @@ exports[`Storyshots Components/EmptyState Illustrations 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       zen
     </h1>
@@ -2587,10 +2587,10 @@ Array [
     unmount
   </button>,
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2639,25 +2639,25 @@ Array [
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       Filet mignon pork chop salami shank tail.
     </h1>
     <p
-      data-css-1wmcf4e=""
+      className="psds-emptystate__caption"
     >
       Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
     </p>
     <div
-      data-css-aelvpu=""
+      className="psds-emptystate__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Do a Thing
         </span>
@@ -2670,10 +2670,10 @@ Array [
 exports[`Storyshots Components/EmptyState Sizes 1`] = `
 Array [
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2722,25 +2722,25 @@ Array [
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       Filet mignon pork chop salami shank tail.
     </h1>
     <p
-      data-css-1wmcf4e=""
+      className="psds-emptystate__caption"
     >
       Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
     </p>
     <div
-      data-css-aelvpu=""
+      className="psds-emptystate__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Do a Thing
         </span>
@@ -2748,10 +2748,10 @@ Array [
     </div>
   </div>,
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-large psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-11zs1jp=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2817,25 +2817,25 @@ Array [
       </svg>
     </div>
     <h1
-      data-css-ol3iu9=""
+      className="psds-emptystate__heading"
     >
       Filet mignon pork chop salami shank tail.
     </h1>
     <p
-      data-css-1wmcf4e=""
+      className="psds-emptystate__caption"
     >
       Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
     </p>
     <div
-      data-css-aelvpu=""
+      className="psds-emptystate__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Do a Thing
         </span>
@@ -2854,10 +2854,10 @@ exports[`Storyshots Components/EmptyState Small Fixed Size Container 1`] = `
   }
 >
   <div
-    data-css-g3x4fp=""
+    className="psds-emptystate psds-emptystate--size-small psds-theme--dark psds-emptystate--hidden"
   >
     <div
-      data-css-1gwvklx=""
+      className="psds-emptystate__illustration"
     >
       <svg
         aria-hidden="true"
@@ -2906,25 +2906,25 @@ exports[`Storyshots Components/EmptyState Small Fixed Size Container 1`] = `
       </svg>
     </div>
     <h1
-      data-css-1akj4c1=""
+      className="psds-emptystate__heading"
     >
       Filet mignon pork chop salami shank tail.
     </h1>
     <p
-      data-css-1wmcf4e=""
+      className="psds-emptystate__caption"
     >
       Burgdoggen boudin shoulder, sirloin turducken landjaeger kielbasa brisket. Bacon venison meatball pork, alcatra capicola turducken. Salami shoulder strip steak filet mignon pork.
     </p>
     <div
-      data-css-aelvpu=""
+      className="psds-emptystate__actions"
     >
       <button
-        data-css-y5dqt5=""
+        className="psds-button psds-button--layout-inline psds-button--size-medium psds-button--appearance-primary psds-theme--dark"
         disabled={false}
       >
         <span
           aria-hidden={false}
-          data-css-15b13by=""
+          className="psds-button__text"
         >
           Do a Thing
         </span>

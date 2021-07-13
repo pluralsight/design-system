@@ -1,22 +1,22 @@
 .weight {
   display: grid;
   grid-template-columns: 90px 1fr;
-  grid-gap: var(--psLayoutSpacingMedium);
-  color: var(--appColorsTextIconHigh);
-  margin-bottom: var(--psLayoutSpacingLarge);
+  grid-gap: var(--ps-layout-spacing-medium);
+  color: var(--app-colors-text-icon-high);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .weightLetters {
-  font-size: var(--psTypeFontSize800);
-  letter-spacing: var(--psTypeLetterSpacingWide);
+  font-size: var(--ps-type-font-size-800);
+  letter-spacing: var(--ps-type-letter-spacing-wide);
   line-height: 1em;
 }
 .labels {
-  font-size: var(--psTypeFontSize200);
+  font-size: var(--ps-type-font-size-200);
 }
 .labels code {
-  color: var(--psColorsPink6);
+  color: var(--ps-colors-pink-6);
 }
 .weightLabel {
-  color: var(--appColorsTextIconLow);
-  font-size: var(--psTypeFontSizeBase);
+  color: var(--app-colors-text-icon-low);
+  font-size: var(--ps-type-font-size-base);
 }

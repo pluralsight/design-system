@@ -5,7 +5,6 @@ import {
   forwardRefWithStatics
 } from '@pluralsight/ps-design-system-util'
 import Menu from '@pluralsight/ps-design-system-menu'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import { Button } from './button'
@@ -13,16 +12,12 @@ import { Selected } from './selected'
 import { useListbox, UseListboxProps } from './useListbox'
 import * as vars from '../vars/index'
 
-import stylesheet from '../css'
+import '../css/index.css'
 
 interface DefaultRenderOptionProps {
   value: React.ReactText
   label: React.ReactText
 }
-
-const glamor = glamorDefault || glamorExports
-
-const styles = glamor.css(stylesheet['.psds-select__menu'])
 
 const defaultRenderOption = forwardRefWithAs<
   DefaultRenderOptionProps,
@@ -66,7 +61,11 @@ const Select = forwardRefWithStatics<
       position={PositionComponents[position]}
       when={isOpen}
       show={
-        <Menu origin={Menu.origins.topLeft} {...menuProps} {...styles}>
+        <Menu
+          origin={Menu.origins.topLeft}
+          {...menuProps}
+          className={'psds-select__menu'}
+        >
           {children || options.map(i => <RenderOption key={i.value} {...i} />)}
         </Menu>
       }

@@ -1,20 +1,13 @@
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
   RefForwardingComponent,
-  ValueOf,
   combineFns,
-  RefFor
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 interface ViewToggleProps
   extends Omit<React.ComponentProps<typeof List>, 'onSelect'> {
@@ -31,38 +24,6 @@ interface ViewToggleComponent
     HTMLDivElement,
     ViewToggleStatics
   > {}
-
-const styles = {
-  optionButton: (themeName: ValueOf<typeof themeNames>, active: boolean) =>
-    glamor.compose(
-      glamor.css(
-        { label: 'viewtoggle__option' },
-        stylesheet['.psds-viewtoggle__option'],
-        stylesheet[`.psds-viewtoggle__option.psds-theme--${themeName}`]
-      ),
-      active &&
-        glamor.css(
-          stylesheet['.psds-viewtoggle__option--active'],
-          stylesheet[
-            `.psds-viewtoggle__option--active.psds-theme--${themeName}`
-          ]
-        )
-    ),
-  list: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      { label: 'viewtoggle' },
-      stylesheet['.psds-viewtoggle'],
-      stylesheet[`.psds-viewtoggle.psds-theme--${themeName}`]
-    ),
-  activePillBg: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      { label: 'viewtoggle__option-bg' },
-      stylesheet['.psds-viewtoggle__option-bg'],
-      stylesheet[`.psds-viewtoggle__option-bg.psds-theme--${themeName}`]
-    ),
-  pillBgSpacer: () =>
-    glamor.css(stylesheet['.psds-viewtoggle__option-bg__spacer'])
-}
 
 const ViewToggle = React.forwardRef<HTMLDivElement, ViewToggleProps>(
   (props, forwardedRef) => {
@@ -138,20 +99,38 @@ const ViewToggle = React.forwardRef<HTMLDivElement, ViewToggleProps>(
 
 const ActivePillBg: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
   const themeName = useTheme()
-  return <div {...styles.activePillBg(themeName)} aria-hidden {...props} />
+  return (
+    <div
+      className={classNames(
+        'psds-viewtoggle__option-bg',
+        `psds-theme--${themeName}`
+      )}
+      aria-hidden
+      {...props}
+    />
+  )
 }
 
 const List = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
->((props, ref) => {
+>(({ className, ...rest }, ref) => {
   const themeName = useTheme()
-  return <div ref={ref} {...styles.list(themeName)} {...props} />
+  return (
+    <div
+      ref={ref}
+      className={classNames(
+        'psds-viewtoggle',
+        `psds-theme--${themeName}`,
+        className
+      )}
+      {...rest}
+    />
+  )
 })
 
 const PillBgSpacer: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
-  const themeName = useTheme()
-  return <div {...styles.pillBgSpacer()} {...props} />
+  return <div {...props} className="psds-viewtoggle__option-bg__spacer" />
 }
 
 interface OptionButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
@@ -164,7 +143,15 @@ const OptionButton = React.forwardRef<HTMLButtonElement, OptionButtonProps>(
     const themeName = useTheme()
 
     return (
-      <button ref={ref} {...styles.optionButton(themeName, active)} {...rest} />
+      <button
+        ref={ref}
+        className={classNames(
+          'psds-viewtoggle__option',
+          `psds-theme--${themeName}`,
+          active && 'psds-viewtoggle__option--active'
+        )}
+        {...rest}
+      />
     )
   }
 )

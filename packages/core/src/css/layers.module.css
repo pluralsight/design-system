@@ -1,8 +1,0 @@
-:root {
-  /* layers */
-  --psLayersMain: 0;
-  --psLayersGlobalSidenav: 930;
-  --psLayersGlobalTopnav: 950;
-  --psLayersDropdown: 1000;
-  --psLayersSkipToContentBanner: 1600;
-}

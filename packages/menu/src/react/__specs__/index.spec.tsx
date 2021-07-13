@@ -4,6 +4,7 @@ import { render } from '@testing-library/react'
 import { axe } from 'jest-axe'
 import React from 'react'
 
+import { ItemContext } from '../context'
 import Menu from '../index'
 import * as stories from '../__stories__/index.story'
 
@@ -18,6 +19,50 @@ describe('Menu', () => {
     )
     const menu = screen.queryByRole('menu')
     expect(menu).toBe(refToForward.current)
+  })
+
+  it('composes className in Menu', () => {
+    const { container } = render(<Menu className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-menu compose-classname')
+  })
+
+  it('composes className in selected Menu.Check', () => {
+    const { container } = render(
+      <ItemContext.Provider value={{ selected: true }}>
+        <Menu.Check className="compose-classname" />
+      </ItemContext.Provider>
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-menu__item-icon compose-classname'
+    )
+  })
+
+  it('composes className in unselected Menu.Check', () => {
+    const { container } = render(<Menu.Check className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'psds-menu__item-icon-filler compose-classname'
+    )
+  })
+
+  it('composes className in Menu.Ellipsis', () => {
+    const { container } = render(
+      <Menu.Ellipsis className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-menu__ellipsis compose-classname'
+    )
+  })
+
+  it('composes className in Menu.Item', () => {
+    const { container } = render(<Menu.Item className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'psds-menu__item compose-classname'
+    )
   })
 
   it('fires onClick on option click', () => {

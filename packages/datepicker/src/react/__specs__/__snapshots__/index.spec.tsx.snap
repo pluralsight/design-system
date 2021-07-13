@@ -1,29 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`useIsInRange: start date and end date selected: in range 1`] = `
-Object {
-  "data-css-r2vu8v": "",
-}
-`;
+exports[`useIsInRange: start date and end date selected: in range 1`] = `"psds-calendar__date--in-range"`;
 
-exports[`useIsInRange: start date and end date selected: out of range 1`] = `Object {}`;
+exports[`useIsInRange: start date and end date selected: out of range 1`] = `""`;
 
-exports[`useIsInRange: start date and end date selected: start date 1`] = `
-Object {
-  "data-css-1r79e04": "",
-}
-`;
+exports[`useIsInRange: start date and end date selected: start date 1`] = `"psds-calendar__date--selected-start"`;
 
-exports[`useIsInRange: start date selected: in range 1`] = `
-Object {
-  "data-css-r2vu8v": "",
-}
-`;
+exports[`useIsInRange: start date selected: in range 1`] = `"psds-calendar__date--in-range"`;
 
-exports[`useIsInRange: start date selected: out of range 1`] = `Object {}`;
+exports[`useIsInRange: start date selected: out of range 1`] = `""`;
 
-exports[`useIsInRange: start date selected: start date 1`] = `
-Object {
-  "data-css-1r79e04": "",
-}
-`;
+exports[`useIsInRange: start date selected: start date 1`] = `"psds-calendar__date--selected-start"`;

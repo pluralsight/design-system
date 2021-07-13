@@ -2,7 +2,7 @@
 
 exports[`Storyshots Components/NavBrand As Button 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <button
     aria-label="Placeholder Brand Text"
@@ -55,7 +55,7 @@ exports[`Storyshots Components/NavBrand As Button 1`] = `
 
 exports[`Storyshots Components/NavBrand As Link 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <a
     aria-label="Placeholder Brand Text"
@@ -108,7 +108,7 @@ exports[`Storyshots Components/NavBrand As Link 1`] = `
 
 exports[`Storyshots Components/NavBrand Basic 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
     data-css-1yi1k4r=""
@@ -159,7 +159,7 @@ exports[`Storyshots Components/NavBrand Basic 1`] = `
 
 exports[`Storyshots Components/NavBrand Flow 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
     data-css-1yi1k4r=""
@@ -235,7 +235,7 @@ exports[`Storyshots Components/NavBrand Flow 1`] = `
 
 exports[`Storyshots Components/NavBrand Flow As Button 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <button
     aria-label="Pluralsight Flow"
@@ -313,7 +313,7 @@ exports[`Storyshots Components/NavBrand Flow As Button 1`] = `
 
 exports[`Storyshots Components/NavBrand Flow As Link 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <a
     aria-label="Pluralsight Flow"
@@ -391,7 +391,7 @@ exports[`Storyshots Components/NavBrand Flow As Link 1`] = `
 
 exports[`Storyshots Components/NavBrand Skills 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
     data-css-1yi1k4r=""
@@ -439,7 +439,7 @@ exports[`Storyshots Components/NavBrand Skills 1`] = `
 
 exports[`Storyshots Components/NavBrand Skills As Button 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <button
     aria-label="Pluralsight Skills"
@@ -489,7 +489,7 @@ exports[`Storyshots Components/NavBrand Skills As Button 1`] = `
 
 exports[`Storyshots Components/NavBrand Skills As Link 1`] = `
 <div
-  data-css-1ij5lym=""
+  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <a
     aria-label="Pluralsight Skills"

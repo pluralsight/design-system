@@ -11,7 +11,7 @@ exports[`Storyshots Components/NavBar Basic 1`] = `
       data-css-ruxays=""
     >
       <div
-        data-css-1ij5lym=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
       >
         <button
           data-css-167upi1=""
@@ -24,7 +24,7 @@ exports[`Storyshots Components/NavBar Basic 1`] = `
               data-css-1009u4g=""
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="menu icon"
@@ -136,7 +136,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
       data-css-ruxays=""
     >
       <div
-        data-css-1ij5lym=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
       >
         <button
           data-css-167upi1=""
@@ -149,7 +149,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
               data-css-1009u4g=""
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="menu icon"
@@ -176,7 +176,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
     data-css-1kfsc44=""
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <div
         data-css-1yi1k4r=""
@@ -231,7 +231,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
         data-css-ruxays=""
       >
         <div
-          data-css-1ij5lym=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
         >
           <button
             data-css-167upi1=""
@@ -243,7 +243,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
                 data-css-1o9ctb7=""
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="home icon"
@@ -279,7 +279,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
           data-css-ruxays=""
         >
           <div
-            data-css-1ij5lym=""
+            className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
           >
             <button
               data-css-8y1zv3=""
@@ -292,7 +292,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
                   data-css-1o9ctb7=""
                 >
                   <div
-                    data-css-7dab2f=""
+                    className="psds-icon psds-icon--size-medium"
                   >
                     <svg
                       aria-label="browse icon"
@@ -316,7 +316,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
                   data-css-1cbyl54=""
                 >
                   <div
-                    data-css-k31qw2=""
+                    className="psds-icon psds-icon--size-small"
                   >
                     <svg
                       aria-label="caret down icon"
@@ -356,7 +356,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
         data-css-ruxays=""
       >
         <div
-          data-css-1ij5lym=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
         >
           <button
             data-css-167upi1=""
@@ -368,7 +368,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
                 data-css-1009u4g=""
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="notifications icon"
@@ -398,7 +398,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
         data-css-ruxays=""
       >
         <div
-          data-css-1ij5lym=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
         >
           <button
             data-css-167upi1=""
@@ -410,7 +410,7 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
                 data-css-1009u4g=""
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="account icon"
@@ -434,14 +434,14 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
   </div>
   <div>
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <button
-        data-css-6uwj3a=""
+        className="psds-navuser psds-navuser--clickable"
         onClick={[Function]}
       >
         <div
-          className="psds-avatar psds-avatar--size-xSmall"
+          className="psds-avatar psds-avatar--size-xsmall"
         >
           <div
             aria-label="Jake"
@@ -456,15 +456,15 @@ exports[`Storyshots Components/NavBar Example Skills 1`] = `
           </div>
         </div>
         <div
-          data-css-1mmc9g1=""
+          className="psds-navuser__words"
         >
           <div
-            data-css-6flzpu=""
+            className="psds-navuser__name"
           >
             Jake
           </div>
           <div
-            data-css-60db85=""
+            className="psds-navuser__plan-name"
           >
             Accenture
           </div>
@@ -493,7 +493,7 @@ exports[`Storyshots Components/NavBar With Skills Brand 1`] = `
       data-css-ruxays=""
     >
       <div
-        data-css-1ij5lym=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
       >
         <button
           data-css-167upi1=""
@@ -506,7 +506,7 @@ exports[`Storyshots Components/NavBar With Skills Brand 1`] = `
               data-css-1009u4g=""
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="menu icon"
@@ -533,7 +533,7 @@ exports[`Storyshots Components/NavBar With Skills Brand 1`] = `
     data-css-1kfsc44=""
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <div
         data-css-1yi1k4r=""

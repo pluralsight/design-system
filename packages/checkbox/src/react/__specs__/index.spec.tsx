@@ -16,6 +16,12 @@ describe('Checkbox', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(<Checkbox className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-checkbox compose-classname')
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)
@@ -27,15 +33,6 @@ describe('Checkbox', () => {
 
   describe('Basic story', () => {
     const { Basic } = stories
-
-    it('forwards className', () => {
-      const { getByTestId } = render(
-        <Basic data-testid="undertest" className="testclass" {...Basic.args} />
-      )
-
-      const el = getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
-    })
 
     it('is unchecked', () => {
       render(<Basic {...Basic.args} />)

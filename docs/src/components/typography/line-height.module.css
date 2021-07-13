@@ -1,17 +1,17 @@
 [data-psds-theme='dark'] {
-  --baseLine: #4d90bc;
+  --base-line: #4d90bc;
 }
 [data-psds-theme='light'] {
-  --baseLine: #b4d9f2;
+  --base-line: #b4d9f2;
 }
 .lineHeights {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: var(--psLayoutSpacingLarge);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .lineHeight {
-  width: calc(50% - var(--psLayoutSpacingLarge));
-  margin: calc(var(--psLayoutSpacingLarge) / 2);
+  width: calc(50% - var(--ps-layout-spacing-large));
+  margin: calc(var(--ps-layout-spacing-large) / 2);
 }
 .text {
   position: relative;
@@ -26,28 +26,28 @@
   width: 100%;
   background: linear-gradient(
     to bottom,
-    var(--baseLine),
-    var(--baseLine) 1px,
-    var(--appColorsBackgroundMed) 1px,
-    var(--appColorsBackgroundMed)
+    var(--base-line),
+    var(--base-line) 1px,
+    var(--app-colors-background-med) 1px,
+    var(--app-colors-background-med)
   );
   background-size: 1px 8px;
 }
 .textHuge {
-  font-size: var(--psTypeFontSizeXLarge);
-  line-height: var(--psTypeLineHeightHuge);
+  font-size: var(--ps-type-font-size-xlarge);
+  line-height: var(--ps-type-line-height-huge);
 }
 .textExtra {
-  font-size: var(--psTypeFontSizeLarge);
-  line-height: var(--psTypeLineHeightExtra);
+  font-size: var(--ps-type-font-size-large);
+  line-height: var(--ps-type-line-height-extra);
 }
 .textStandard {
-  font-size: var(--psTypeFontSizeMedium);
-  line-height: var(--psTypeLineHeightStandard);
+  font-size: var(--ps-type-font-size-medium);
+  line-height: var(--ps-type-line-height-standard);
 }
 .textTight {
-  font-size: var(--psTypeFontSizeXSmall);
-  line-height: var(--psTypeLineHeightTight);
+  font-size: var(--ps-type-font-size-xsmall);
+  line-height: var(--ps-type-line-height-tight);
 }
 .textBgHuge {
   top: 31px;
@@ -63,12 +63,12 @@
   background-size: 1px 4px;
 }
 .label {
-  margin-top: var(--psLayoutSpacingSmall);
-  color: var(--appColorsTextIconLow);
-  font-weight: var(--psTypeFontWeightMedium);
+  margin-top: var(--ps-layout-spacing-small);
+  color: var(--app-colors-text-icon-low);
+  font-weight: var(--ps-type-font-weight-medium);
 }
 .varName {
-  margin-top: var(--psLayoutSpacingSmall);
-  font-size: var(--psTypeFontSizeXSmall);
-  color: var(--psColorsPink6);
+  margin-top: var(--ps-layout-spacing-small);
+  font-size: var(--ps-type-font-size-xsmall);
+  color: var(--ps-colors-pink-6);
 }

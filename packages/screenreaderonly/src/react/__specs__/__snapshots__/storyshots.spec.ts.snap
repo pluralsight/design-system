@@ -6,7 +6,7 @@ Array [
     There is some hidden text on this page. Try to find it with a screen reader
   </p>,
   <div
-    data-css-6wu9td=""
+    className="psds-screenreader-only"
   />,
 ]
 `;

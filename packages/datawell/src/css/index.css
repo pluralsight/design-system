@@ -1,0 +1,40 @@
+.psds-datawell {
+  border-left: 1px solid var(--ps-colors-border-low-on-dark);
+  min-height: 104px;
+  padding: 0 var(--ps-layout-spacing-medium) var(--ps-layout-spacing-medium)
+    var(--ps-layout-spacing-large);
+}
+.psds-datawell.psds-theme--light {
+  border-color: var(--ps-colors-border-low-on-light);
+}
+.psds-datawell__label {
+  display: block;
+  margin: 0;
+  font-size: var(--ps-type-font-size-100);
+  line-height: 16px;
+}
+.psds-datawell__label > div {
+  color: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-datawell__label.psds-theme--light > div {
+  color: var(--ps-colors-text-icon-low-on-light);
+}
+.psds-datawell__data {
+  font-weight: var(--ps-type-font-weight-strong);
+  font-size: var(--ps-type-font-size-800);
+  line-height: var(--ps-type-line-height-huge);
+  color: var(--ps-colors-text-icon-high-on-dark);
+  margin-bottom: var(--ps-layout-spacing-medium);
+  word-wrap: break-word;
+}
+.psds-datawell__data.psds-theme--light {
+  color: var(--ps-colors-text-icon-high-on-light);
+}
+.psds-datawell__sublabel {
+  font-size: var(--ps-type-font-size-100);
+  line-height: 16px;
+  color: var(--ps-colors-text-icon-low-on-dark);
+}
+.psds-datawell__sublabel.psds-theme--light {
+  color: var(--ps-colors-text-icon-low-on-light);
+}

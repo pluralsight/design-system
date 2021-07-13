@@ -4,12 +4,21 @@ import { axe } from 'jest-axe'
 import React from 'react'
 
 import * as stories from '../__stories__/label.story'
+import { Label } from '../index'
 
 describe('Text', () => {
   describe('Label', () => {
     const cases = convertStoriesToJestCases(stories)
 
     it.todo('forwards the ref')
+
+    it('composes className', () => {
+      const { container } = render(<Label className="compose-classname" />)
+
+      expect(container.firstChild).toHaveClass(
+        'psds-text__label compose-classname'
+      )
+    })
 
     it.todo('supports polymorphism')
 

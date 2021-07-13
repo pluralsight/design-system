@@ -1,41 +1,41 @@
 .speeds {
   border-radius: 12px;
-  background: var(--appColorsBackgroundMed);
-  padding: var(--psLayoutSpacingMedium);
+  background: var(--app-colors-background-med);
+  padding: var(--ps-layout-spacing-medium);
 }
 .speed {
   display: grid;
   grid-template-columns: 64px 1fr;
-  grid-gap: var(--psLayoutSpacingMedium);
+  grid-gap: var(--ps-layout-spacing-medium);
   grid-template-areas: 'icon vars' 'labels labels';
-  color: var(--appColorsTextIconHigh);
-  margin-bottom: var(--psLayoutSpacingLarge);
+  color: var(--app-colors-text-icon-high);
+  margin-bottom: var(--ps-layout-spacing-large);
 }
 .icon {
   grid-area: icon;
-  font-size: var(--psTypeFontSizeGigantic);
-  letter-spacing: var(--psTypeLetterSpacingGigantic);
+  font-size: var(--ps-type-font-size-gigantic);
+  letter-spacing: var(--ps-type-letter-spacing-gigantic);
   line-height: 1em;
 }
 .labels {
   grid-area: labels;
-  color: var(--appColorsTextIconLow);
-  font-size: var(--psTypeFontSizeXSmall);
+  color: var(--app-colors-text-icon-low);
+  font-size: var(--ps-type-font-size-xsmall);
 }
 .title {
-  font-weight: var(--psTypeFontWeightBook);
+  font-weight: var(--ps-type-font-weight-book);
   text-transform: uppercase;
 }
 .time {
-  font-weight: var(--psTypeFontWeightBold);
+  font-weight: var(--ps-type-font-weight-bold);
 }
 .vars {
   grid-area: vars;
   display: flex;
   flex-direction: column-reverse;
-  font-size: var(--psTypeFontSizeXSmall);
-  font-weight: var(--psTypeFontWeightMedium);
+  font-size: var(--ps-type-font-size-xsmall);
+  font-weight: var(--ps-type-font-weight-medium);
 }
 .vars code {
-  color: var(--psColorsPink6);
+  color: var(--ps-colors-pink-6);
 }

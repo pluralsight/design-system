@@ -35,6 +35,14 @@ describe('TextInput', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(<TextInput className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass(
+      'psds-text-input compose-classname'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)
@@ -47,13 +55,11 @@ describe('TextInput', () => {
   describe('Basic story', () => {
     const { Basic } = stories
 
-    it('forwards className', () => {
-      const { getByTestId } = render(
-        <Basic data-testid="undertest" className="testclass" {...Basic.args} />
-      )
+    it('forwards id', () => {
+      render(<Basic id="testid" {...Basic.args} />)
 
-      const el = getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
+      const input = document.querySelector('#testid')
+      expect(input).toBeInTheDocument()
     })
   })
 })

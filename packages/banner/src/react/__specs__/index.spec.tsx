@@ -17,6 +17,12 @@ describe('Banner', () => {
     expect(getByTestId('undertest')).toBeInTheDocument()
   })
 
+  it('composes className', () => {
+    const { container } = render(<Banner className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-banner compose-classname')
+  })
+
   describe.each(cases)('% story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

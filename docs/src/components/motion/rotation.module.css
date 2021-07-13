@@ -1,8 +1,8 @@
 .rotation {
   display: flex;
-  margin-bottom: var(--psLayoutSpacingLarge);
-  padding: var(--psLayoutSpacingXLarge);
-  background: var(--psColorsBackgroundLight2);
+  margin-bottom: var(--ps-layout-spacing-large);
+  padding: var(--ps-layout-spacing-xlarge);
+  background: var(--ps-colors-background-light-2);
   border-radius: 12px;
   overflow: hidden;
 }
@@ -12,11 +12,11 @@
   }
 }
 .box {
-  background: var(--psColorsBackgroundLight3);
-  margin-right: var(--psLayoutSpacingXLarge);
+  background: var(--ps-colors-background-light-3);
+  margin-right: var(--ps-layout-spacing-xlarge);
 }
 .boxSmall {
-  border: var(--psLayoutSpacingXXSmall) solid var(--psColorsPink6);
+  border: var(--ps-layout-spacing-xxsmall) solid var(--ps-colors-pink-6);
   height: 32px;
   width: 32px;
   animation-duration: 1s;
@@ -25,7 +25,7 @@
   animation-name: rotateme;
 }
 .boxLarge {
-  border: var(--psLayoutSpacingSmall) solid var(--psColorsPink6);
+  border: var(--ps-layout-spacing-small) solid var(--ps-colors-pink-6);
   height: 128px;
   width: 128px;
   animation-duration: 3s;

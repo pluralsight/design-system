@@ -65,6 +65,7 @@ NoLabels.args = {
   ...defaultArgs,
   label: undefined,
   placeholder: 'Placeholder...', // NOTE: a11y requirement when there are no labels
+  'aria-label': 'no label story typeahead',
   subLabel: undefined
 }
 
@@ -79,6 +80,7 @@ IconPrefix.args = { ...defaultArgs, prefix: <PlaceholderIcon /> }
 
 export const CustomInputTag = Template.bind({})
 CustomInputTag.args = {
+  'aria-label': 'custom input tag with no label',
   renderInputTag: React.forwardRef((props, ref) => (
     <input
       {...props}

@@ -5,25 +5,25 @@ exports[`Storyshots Components/CircularProgress Animation 1`] = `
   <div
     aria-busy="true"
     aria-label="Loading"
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}
@@ -43,43 +43,11 @@ exports[`Storyshots Components/CircularProgress Animation 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/CircularProgress Class Name Override 1`] = `
-<div
-  aria-busy="true"
-  aria-label="Loading"
-  className="someString"
-  data-css-1ie49mc=""
-  role="progressbar"
->
-  <svg
-    data-css-1txt1eh=""
-    version="1.1"
-    viewBox="0 0 48 48"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <circle
-      cx="24"
-      cy="24"
-      data-css-rk8c6r=""
-      r={22}
-    />
-    <circle
-      cx="24"
-      cy="24"
-      data-css-17x5ehd=""
-      r={22}
-      strokeDasharray="138.23007675795088 138.23007675795088"
-      strokeDashoffset={103.67255756846316}
-    />
-  </svg>
-</div>
-`;
-
 exports[`Storyshots Components/CircularProgress Style Override 1`] = `
 <div
   aria-busy="true"
   aria-label="Loading"
-  data-css-1ie49mc=""
+  className="psds-circularprogress--size-medium"
   role="progressbar"
   style={
     Object {
@@ -88,21 +56,21 @@ exports[`Storyshots Components/CircularProgress Style Override 1`] = `
   }
 >
   <svg
-    data-css-1txt1eh=""
+    className="psds-circularprogress__svg psds-circularprogress__svg--no-value"
     version="1.1"
     viewBox="0 0 48 48"
     xmlns="http://www.w3.org/2000/svg"
   >
     <circle
+      className="psds-circularprogress__bg psds-theme--dark"
       cx="24"
       cy="24"
-      data-css-rk8c6r=""
       r={22}
     />
     <circle
+      className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
       cx="24"
       cy="24"
-      data-css-17x5ehd=""
       r={22}
       strokeDasharray="138.23007675795088 138.23007675795088"
       strokeDashoffset={103.67255756846316}
@@ -129,25 +97,25 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
   <div
     aria-busy="true"
     aria-label="Loading"
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}
@@ -157,25 +125,25 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
   <div
     aria-busy="true"
     aria-label="Loading"
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}
@@ -191,31 +159,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={25}
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       25%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}
@@ -228,31 +196,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={25}
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       25%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}
@@ -268,31 +236,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={33}
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       33%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={92.6141514278271}
@@ -305,31 +273,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={33}
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       33%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={92.6141514278271}
@@ -345,31 +313,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={50}
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       50%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={69.11503837897544}
@@ -382,31 +350,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={50}
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       50%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={69.11503837897544}
@@ -422,31 +390,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={66}
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       66%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={46.9982260977033}
@@ -459,31 +427,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={66}
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       66%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={46.9982260977033}
@@ -499,31 +467,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={75}
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       75%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={34.55751918948772}
@@ -536,31 +504,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={75}
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       75%
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={34.55751918948772}
@@ -576,31 +544,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={100}
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       complete
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={0}
@@ -613,31 +581,31 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
     aria-valuemax={100}
     aria-valuemin={0}
     aria-valuenow={100}
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <div
       aria-live="polite"
-      data-css-6wu9td=""
+      className="psds-screenreader-only"
     >
       complete
     </div>
     <svg
-      data-css-r8je9y=""
+      className="psds-circularprogress__svg"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={0}
@@ -650,25 +618,25 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
   <div
     aria-busy="true"
     aria-label="Loading"
-    data-css-1abx40i=""
+    className="psds-circularprogress--size-small"
     role="progressbar"
   >
     <svg
-      data-css-1txt1eh=""
+      className="psds-circularprogress__svg psds-circularprogress__svg--no-value"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}
@@ -678,25 +646,25 @@ exports[`Storyshots Components/CircularProgress Values And Sizes 1`] = `
   <div
     aria-busy="true"
     aria-label="Loading"
-    data-css-1ie49mc=""
+    className="psds-circularprogress--size-medium"
     role="progressbar"
   >
     <svg
-      data-css-1txt1eh=""
+      className="psds-circularprogress__svg psds-circularprogress__svg--no-value"
       version="1.1"
       viewBox="0 0 48 48"
       xmlns="http://www.w3.org/2000/svg"
     >
       <circle
+        className="psds-circularprogress__bg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-rk8c6r=""
         r={22}
       />
       <circle
+        className="psds-circularprogress__fg psds-circularprogress__fg psds-theme--dark"
         cx="24"
         cy="24"
-        data-css-17x5ehd=""
         r={22}
         strokeDasharray="138.23007675795088 138.23007675795088"
         strokeDashoffset={103.67255756846316}

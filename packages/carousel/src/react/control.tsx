@@ -4,36 +4,17 @@ import {
   CaretRightIcon,
   sizes as iconSizes
 } from '@pluralsight/ps-design-system-icon'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf, combineFns } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+  ValueOf,
+  classNames,
+  combineFns
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
+import '../css/index.css'
 import CarouselContext from './context'
-import stylesheet from '../css/index'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  control: (direction: ValueOf<typeof vars.controlDirections>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-carousel__controls__control']),
-      glamor.css(stylesheet[`.psds-carousel__controls__control--${direction}`])
-    ),
-  controlButton: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-carousel__controls__control__button']),
-      glamor.css(
-        stylesheet[
-          `.psds-carousel__controls__control__button.psds-theme--${themeName}`
-        ]
-      )
-    )
-}
 
 interface ControlProps
   extends Omit<React.HTMLAttributes<HTMLButtonElement>, 'onClick'> {
@@ -47,7 +28,7 @@ interface ControlStatics {
 
 type ControlComponent = React.FC<ControlProps> & ControlStatics
 export const Control: ControlComponent = props => {
-  const { direction, onClick, ...rest } = props
+  const { className, direction, onClick, ...rest } = props
   const context = React.useContext(CarouselContext)
   const themeName = useTheme()
 
@@ -60,7 +41,11 @@ export const Control: ControlComponent = props => {
 
   return (
     <div
-      {...styles.control(props.direction)}
+      className={classNames(
+        'psds-carousel__controls__control',
+        `psds-carousel__controls__control--${direction}`,
+        className
+      )}
       {...(!isVisible && { hidden: true })}
     >
       <Halo shape={Halo.shapes.pill}>
@@ -68,7 +53,10 @@ export const Control: ControlComponent = props => {
           {...rest}
           aria-label={label}
           onClick={handleClick}
-          {...styles.controlButton(themeName)}
+          className={classNames(
+            'psds-carousel__controls__control__button',
+            `psds-theme--${themeName}`
+          )}
           {...(!isVisible && { tabIndex: -1 })}
         >
           <IconCaret aria-hidden size={iconSizes.medium} />

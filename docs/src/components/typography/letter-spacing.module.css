@@ -1,25 +1,25 @@
 .letterSpacings {
   white-space: nowrap;
-  margin-bottom: var(--psLayoutSpacingMedium);
+  margin-bottom: var(--ps-layout-spacing-medium);
   max-width: 900px;
 }
 .letterSpacing {
-  color: var(--appColorsTextIconHigh);
+  color: var(--app-colors-text-icon-high);
 }
 .letterSpacing + .letterSpacing {
-  margin-top: var(--psLayoutSpacingLarge);
+  margin-top: var(--ps-layout-spacing-large);
 }
 .letterSpacingExample {
-  font-size: var(--psTypeFontSizeBase);
-  color: var(--appColorsTextIconHigh);
-  margin-bottom: var(--psLayoutSpacingXSmall);
+  font-size: var(--ps-type-font-size-base);
+  color: var(--app-colors-text-icon-high);
+  margin-bottom: var(--ps-layout-spacing-xsmall);
 }
 .letterSpacingVariableLabel {
-  color: var(--appColorsTextIconLow);
-  font-size: var(--psTypeFontSizeBase);
+  color: var(--app-colors-text-icon-low);
+  font-size: var(--ps-type-font-size-base);
 }
 .letterSpacingVariable {
-  margin-top: var(--psLayoutSpacingSmall);
-  font-size: var(--psTypeFontSizeXSmall);
-  color: var(--psColorsPink6);
+  margin-top: var(--ps-layout-spacing-small);
+  font-size: var(--ps-type-font-size-xsmall);
+  color: var(--ps-colors-pink-6);
 }

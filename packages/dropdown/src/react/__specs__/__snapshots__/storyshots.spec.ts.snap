@@ -8,52 +8,53 @@ exports[`Storyshots Components/Dropdown Appearances 1`] = `
     data-css-1cpmtjf=""
   >
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           medium default
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -73,52 +74,53 @@ exports[`Storyshots Components/Dropdown Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           medium subtle
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1c2g7cd=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-12qzma8=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -138,52 +140,53 @@ exports[`Storyshots Components/Dropdown Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown psds-dropdown--small"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           small default
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1tv1187=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-1tbr04a=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -203,52 +206,53 @@ exports[`Storyshots Components/Dropdown Appearances 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown psds-dropdown--small"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           small subtle
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-cdtd9o=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-1wx2y9r=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -279,52 +283,53 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
     data-css-1cpmtjf=""
   >
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           medium default
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -342,10 +347,10 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -363,52 +368,53 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           medium subtle
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1c2g7cd=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-12qzma8=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -426,10 +432,10 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -447,52 +453,53 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown psds-dropdown--small"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           small default
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1tv1187=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-1tbr04a=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -510,10 +517,10 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -531,52 +538,53 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown psds-dropdown--small"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           small subtle
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-cdtd9o=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-1wx2y9r=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -594,10 +602,10 @@ exports[`Storyshots Components/Dropdown Appearances With Error 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -623,27 +631,28 @@ exports[`Storyshots Components/Dropdown Basic 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -652,25 +661,25 @@ exports[`Storyshots Components/Dropdown Basic 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -689,7 +698,7 @@ exports[`Storyshots Components/Dropdown Basic 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -705,52 +714,53 @@ exports[`Storyshots Components/Dropdown Compare Disabled 1`] = `
     data-css-1cpmtjf=""
   >
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Normal
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   I'm normal, see
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   I'm normal, see
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -769,57 +779,58 @@ exports[`Storyshots Components/Dropdown Compare Disabled 1`] = `
         </div>
       </div>
       <div
-        data-css-o89kbw=""
+        className="psds-dropdown__sub-label psds-theme--dark"
       >
         Still normal
       </div>
     </div>
     <div
-      data-css-xsf0go=""
+      className="psds-dropdown psds-dropdown--disabled"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           I'm not usable
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={true}
               id="dropdown-button-4fzzzxjyl"
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   I'm untouchable
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   I'm untouchable
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -838,7 +849,7 @@ exports[`Storyshots Components/Dropdown Compare Disabled 1`] = `
         </div>
       </div>
       <div
-        data-css-o89kbw=""
+        className="psds-dropdown__sub-label psds-theme--dark"
       >
         Neither am I
       </div>
@@ -855,52 +866,53 @@ exports[`Storyshots Components/Dropdown Compare Gaps 1`] = `
     data-css-1cpmtjf=""
   >
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Problem field
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -920,52 +932,53 @@ exports[`Storyshots Components/Dropdown Compare Gaps 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Problem field
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -983,10 +996,10 @@ exports[`Storyshots Components/Dropdown Compare Gaps 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -1004,52 +1017,53 @@ exports[`Storyshots Components/Dropdown Compare Gaps 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Problem field
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1c2g7cd=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-12qzma8=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -1069,52 +1083,53 @@ exports[`Storyshots Components/Dropdown Compare Gaps 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Problem field
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1c2g7cd=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-12qzma8=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 >
                   Some placeholder
                 </span>
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -1132,10 +1147,10 @@ exports[`Storyshots Components/Dropdown Compare Gaps 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -1161,27 +1176,28 @@ exports[`Storyshots Components/Dropdown Disabled 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-xsf0go=""
+    className="psds-dropdown psds-dropdown--disabled"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={true}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1189,25 +1205,25 @@ exports[`Storyshots Components/Dropdown Disabled 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1226,7 +1242,7 @@ exports[`Storyshots Components/Dropdown Disabled 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1239,27 +1255,28 @@ exports[`Storyshots Components/Dropdown Disabled Items 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1268,25 +1285,25 @@ exports[`Storyshots Components/Dropdown Disabled Items 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1305,7 +1322,7 @@ exports[`Storyshots Components/Dropdown Disabled Items 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1318,27 +1335,28 @@ exports[`Storyshots Components/Dropdown Error 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-in6gqi=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark psds-dropdown__field-error"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1347,25 +1365,25 @@ exports[`Storyshots Components/Dropdown Error 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1383,10 +1401,10 @@ exports[`Storyshots Components/Dropdown Error 1`] = `
         </div>
       </div>
       <div
-        data-css-vaotfo=""
+        className="psds-dropdown__error"
       >
         <div
-          data-css-7dab2f=""
+          className="psds-icon psds-icon--size-medium"
         >
           <svg
             aria-label="warning icon"
@@ -1403,7 +1421,7 @@ exports[`Storyshots Components/Dropdown Error 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1416,27 +1434,28 @@ exports[`Storyshots Components/Dropdown Label Only 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1445,25 +1464,25 @@ exports[`Storyshots Components/Dropdown Label Only 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1490,27 +1509,28 @@ exports[`Storyshots Components/Dropdown List With Divider 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1519,25 +1539,25 @@ exports[`Storyshots Components/Dropdown List With Divider 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1556,7 +1576,7 @@ exports[`Storyshots Components/Dropdown List With Divider 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1569,27 +1589,28 @@ exports[`Storyshots Components/Dropdown List With Icons 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1598,25 +1619,25 @@ exports[`Storyshots Components/Dropdown List With Icons 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1635,7 +1656,7 @@ exports[`Storyshots Components/Dropdown List With Icons 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1648,27 +1669,28 @@ exports[`Storyshots Components/Dropdown Long Placeholder 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1677,25 +1699,25 @@ exports[`Storyshots Components/Dropdown Long Placeholder 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 This one is longer than any menu item
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 This one is longer than any menu item
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1714,7 +1736,7 @@ exports[`Storyshots Components/Dropdown Long Placeholder 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1727,27 +1749,28 @@ exports[`Storyshots Components/Dropdown Max Height 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1756,25 +1779,25 @@ exports[`Storyshots Components/Dropdown Max Height 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1793,7 +1816,7 @@ exports[`Storyshots Components/Dropdown Max Height 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1806,30 +1829,29 @@ exports[`Storyshots Components/Dropdown No Labels 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
       <span
-        data-css-6wu9td=""
+        className="psds-screenreader-only"
       >
         Dropdown
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-label="You need an a11y label"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1838,25 +1860,25 @@ exports[`Storyshots Components/Dropdown No Labels 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1883,27 +1905,28 @@ exports[`Storyshots Components/Dropdown Preselected By Label 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1912,25 +1935,25 @@ exports[`Storyshots Components/Dropdown Preselected By Label 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-phnd7x=""
+                className="psds-dropdown__placeholder"
               >
                 Item 3
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1949,7 +1972,7 @@ exports[`Storyshots Components/Dropdown Preselected By Label 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -1962,27 +1985,28 @@ exports[`Storyshots Components/Dropdown Preselected Value 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -1991,25 +2015,25 @@ exports[`Storyshots Components/Dropdown Preselected Value 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-phnd7x=""
+                className="psds-dropdown__placeholder"
               >
                 Item 2
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2028,7 +2052,7 @@ exports[`Storyshots Components/Dropdown Preselected Value 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2041,27 +2065,28 @@ exports[`Storyshots Components/Dropdown Preselected Value Unknown 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -2070,25 +2095,25 @@ exports[`Storyshots Components/Dropdown Preselected Value Unknown 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Can't find item
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Can't find item
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2107,9 +2132,150 @@ exports[`Storyshots Components/Dropdown Preselected Value Unknown 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Dropdown Sizes 1`] = `
+<div
+  data-css-424rvd=""
+>
+  <div>
+    <div
+      className="psds-dropdown"
+    >
+      <label>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
+          Medium
+        </span>
+      </label>
+      <div
+        className="psds-dropdown__field-container"
+      >
+        <div
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
+        >
+          <div
+            className="psds-dropdown__field-aligner"
+          >
+            <button
+              aria-haspopup="listbox"
+              aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
+              disabled={false}
+              id="dropdown-button-4fzzzxjyl"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              <span
+                className="psds-dropdown__field-inner"
+              >
+                <span
+                  aria-hidden={true}
+                  className="psds-dropdown__button-sizer"
+                >
+                  Select one
+                </span>
+                <span
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
+                >
+                  Select one
+                </span>
+              </span>
+              <div
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
+              >
+                <div
+                  className="psds-icon psds-icon--size-medium"
+                >
+                  <svg
+                    aria-label="caret down icon"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.6464 15.0565L7.35354 10.7636C7.15828 10.5683 7.15828 10.2518 7.35354 10.0565L8.05692 9.35311C8.25199 9.15804 8.5682 9.15782 8.76354 9.35262L12 12.5801L15.2364 9.35262C15.4318 9.15782 15.748 9.15804 15.943 9.35311L16.6464 10.0565C16.8417 10.2518 16.8417 10.5683 16.6464 10.7636L12.3535 15.0565C12.1583 15.2518 11.8417 15.2518 11.6464 15.0565Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="psds-dropdown psds-dropdown--small"
+    >
+      <label>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
+          Small
+        </span>
+      </label>
+      <div
+        className="psds-dropdown__field-container"
+      >
+        <div
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
+        >
+          <div
+            className="psds-dropdown__field-aligner"
+          >
+            <button
+              aria-haspopup="listbox"
+              aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
+              disabled={false}
+              id="dropdown-button-4fzzzxjyl"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+            >
+              <span
+                className="psds-dropdown__field-inner"
+              >
+                <span
+                  aria-hidden={true}
+                  className="psds-dropdown__button-sizer"
+                >
+                  Select one
+                </span>
+                <span
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
+                >
+                  Select one
+                </span>
+              </span>
+              <div
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
+              >
+                <div
+                  className="psds-icon psds-icon--size-medium"
+                >
+                  <svg
+                    aria-label="caret down icon"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.6464 15.0565L7.35354 10.7636C7.15828 10.5683 7.15828 10.2518 7.35354 10.0565L8.05692 9.35311C8.25199 9.15804 8.5682 9.15782 8.76354 9.35262L12 12.5801L15.2364 9.35262C15.4318 9.15782 15.748 9.15804 15.943 9.35311L16.6464 10.0565C16.8417 10.2518 16.8417 10.5683 16.6464 10.7636L12.3535 15.0565C12.1583 15.2518 11.8417 15.2518 11.6464 15.0565Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -2121,52 +2287,53 @@ exports[`Storyshots Components/Dropdown Stacked 1`] = `
 >
   <div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Level
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Three and the amazing item
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Select one
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2188,52 +2355,53 @@ exports[`Storyshots Components/Dropdown Stacked 1`] = `
   </div>
   <div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Level
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Three and the amazing item
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Select another one
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2261,30 +2429,29 @@ exports[`Storyshots Components/Dropdown Sub Label Only 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
       <span
-        data-css-6wu9td=""
+        className="psds-screenreader-only"
       >
         Dropdown
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-label="You need an a11y label"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -2293,25 +2460,25 @@ exports[`Storyshots Components/Dropdown Sub Label Only 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2330,7 +2497,7 @@ exports[`Storyshots Components/Dropdown Sub Label Only 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2343,27 +2510,28 @@ exports[`Storyshots Components/Dropdown Super Long Item Label 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
@@ -2372,25 +2540,25 @@ exports[`Storyshots Components/Dropdown Super Long Item Label 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 This level really is the longest level that anyone has ever seen. There is none longer
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2409,7 +2577,7 @@ exports[`Storyshots Components/Dropdown Super Long Item Label 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2422,27 +2590,28 @@ exports[`Storyshots Components/Dropdown/advanced Custom Icon 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-undefined psds-theme--dark"
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
             onClick={[Function]}
@@ -2450,13 +2619,13 @@ exports[`Storyshots Components/Dropdown/advanced Custom Icon 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <div
                 data-css-1ehc3sz=""
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2474,22 +2643,22 @@ exports[`Storyshots Components/Dropdown/advanced Custom Icon 1`] = `
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Some placeholder
                 </span>
               </div>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-undefined psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2508,7 +2677,7 @@ exports[`Storyshots Components/Dropdown/advanced Custom Icon 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2521,27 +2690,28 @@ exports[`Storyshots Components/Dropdown/advanced Dynamic Custom Icon 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-undefined psds-theme--dark"
             id="dropdown-button-4fzzzxjyl"
             onBlur={[Function]}
             onClick={[Function]}
@@ -2549,13 +2719,13 @@ exports[`Storyshots Components/Dropdown/advanced Dynamic Custom Icon 1`] = `
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <div
                 data-css-1ehc3sz=""
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="author kit icon"
@@ -2575,22 +2745,22 @@ exports[`Storyshots Components/Dropdown/advanced Dynamic Custom Icon 1`] = `
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-phnd7x=""
+                  className="psds-dropdown__placeholder"
                 >
                   Author Kit
                 </span>
               </div>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-undefined psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2609,7 +2779,7 @@ exports[`Storyshots Components/Dropdown/advanced Dynamic Custom Icon 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2622,52 +2792,53 @@ exports[`Storyshots Components/Dropdown/examples Autofocused 1`] = `
   data-css-424rvd=""
 >
   <div
-    data-css-ottiud=""
+    className="psds-dropdown"
   >
     <label>
-      <span>
+      <span
+        className="psds-dropdown__label psds-theme--dark"
+      >
         The label
       </span>
     </label>
     <div
-      data-css-8befsb=""
+      className="psds-dropdown__field-container"
     >
       <div
-        data-css-3ah8pf=""
-        data-css-ctre2o=""
+        className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
       >
         <div
-          data-css-ne3jjf=""
+          className="psds-dropdown__field-aligner"
         >
           <button
             aria-haspopup="listbox"
             aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-            data-css-185vr3w=""
+            className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
             disabled={false}
             id="dropdown-button-4fzzzxjyl"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <span
-              data-css-1m4meif=""
+              className="psds-dropdown__field-inner"
             >
               <span
                 aria-hidden={true}
-                data-css-mlkf0z=""
+                className="psds-dropdown__button-sizer"
               >
                 Some placeholder
               </span>
               <span
-                data-css-13czx1q=""
+                className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
               >
                 Some placeholder
               </span>
             </span>
             <div
-              data-css-19x2evt=""
+              className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
             >
               <div
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2686,7 +2857,7 @@ exports[`Storyshots Components/Dropdown/examples Autofocused 1`] = `
       </div>
     </div>
     <div
-      data-css-o89kbw=""
+      className="psds-dropdown__sub-label psds-theme--dark"
     >
       The sub label
     </div>
@@ -2700,52 +2871,53 @@ exports[`Storyshots Components/Dropdown/examples Controlled 1`] = `
 >
   <div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           The label
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Some placeholder
                 </span>
                 <span
-                  data-css-phnd7x=""
+                  className="psds-dropdown__placeholder"
                 >
                   Item: two
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2764,7 +2936,7 @@ exports[`Storyshots Components/Dropdown/examples Controlled 1`] = `
         </div>
       </div>
       <div
-        data-css-o89kbw=""
+        className="psds-dropdown__sub-label psds-theme--dark"
       >
         The sub label
       </div>
@@ -2795,7 +2967,7 @@ exports[`Storyshots Components/Dropdown/examples Style Fixed Width 1`] = `
 >
   <div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
       style={
         Object {
           "width": 150,
@@ -2803,49 +2975,50 @@ exports[`Storyshots Components/Dropdown/examples Style Fixed Width 1`] = `
       }
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Fixed Width
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   One item One item One item One item One item One item
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Change me
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2867,52 +3040,53 @@ exports[`Storyshots Components/Dropdown/examples Style Fixed Width 1`] = `
     <br />
     <br />
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Width determined by longest item
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   One item One item One item One item One item One item
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Change me
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2948,7 +3122,7 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
     }
   >
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
       style={
         Object {
           "display": "block",
@@ -2957,45 +3131,46 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       }
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           First
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 />
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 />
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -3015,7 +3190,7 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
       style={
         Object {
           "display": "block",
@@ -3024,45 +3199,46 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       }
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Second
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 />
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 />
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -3080,10 +3256,10 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -3101,7 +3277,7 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
       style={
         Object {
           "display": "block",
@@ -3110,45 +3286,46 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       }
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Third
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1c2g7cd=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 />
                 <span
-                  data-css-12qzma8=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 />
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -3168,7 +3345,7 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       </div>
     </div>
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
       style={
         Object {
           "display": "block",
@@ -3177,45 +3354,46 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
       }
     >
       <label>
-        <span>
+        <span
+          className="psds-dropdown__label psds-theme--dark"
+        >
           Fourth
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-in6gqi=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--error psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-1c2g7cd=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-subtle psds-theme--dark psds-dropdown__field-error"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 />
                 <span
-                  data-css-12qzma8=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color psds-dropdown__field--appearance-subtle"
                 />
               </span>
               <div
-                data-css-cfp7r0=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-subtle psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -3233,10 +3411,10 @@ exports[`Storyshots Components/Dropdown/examples Style Full Width 1`] = `
           </div>
         </div>
         <div
-          data-css-vaotfo=""
+          className="psds-dropdown__error"
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="warning icon"
@@ -3277,54 +3455,53 @@ exports[`Storyshots Components/Dropdown/examples Style Right Aligned 1`] = `
       }
     >
       <div
-        data-css-ottiud=""
+        className="psds-dropdown"
       >
         <label>
           <span
-            data-css-6wu9td=""
+            className="psds-screenreader-only"
           >
             Dropdown
           </span>
         </label>
         <div
-          data-css-8befsb=""
+          className="psds-dropdown__field-container"
         >
           <div
-            data-css-3ah8pf=""
-            data-css-ctre2o=""
+            className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
           >
             <div
-              data-css-ne3jjf=""
+              className="psds-dropdown__field-aligner"
             >
               <button
                 aria-haspopup="listbox"
                 aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-                data-css-185vr3w=""
+                className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
                 disabled={false}
                 id="dropdown-button-4fzzzxjyl"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <span
-                  data-css-1m4meif=""
+                  className="psds-dropdown__field-inner"
                 >
                   <span
                     aria-hidden={true}
-                    data-css-mlkf0z=""
+                    className="psds-dropdown__button-sizer"
                   >
                     Filter
                   </span>
                   <span
-                    data-css-13czx1q=""
+                    className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                   >
                     Filter
                   </span>
                 </span>
                 <div
-                  data-css-19x2evt=""
+                  className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
                 >
                   <div
-                    data-css-7dab2f=""
+                    className="psds-icon psds-icon--size-medium"
                   >
                     <svg
                       aria-label="caret down icon"
@@ -3370,54 +3547,53 @@ exports[`Storyshots Components/Dropdown/examples Style Viewport Bottom 1`] = `
     }
   >
     <div
-      data-css-ottiud=""
+      className="psds-dropdown"
     >
       <label>
         <span
-          data-css-6wu9td=""
+          className="psds-screenreader-only"
         >
           Dropdown
         </span>
       </label>
       <div
-        data-css-8befsb=""
+        className="psds-dropdown__field-container"
       >
         <div
-          data-css-3ah8pf=""
-          data-css-ctre2o=""
+          className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--visible-on-focus psds-dropdown__field-halo"
         >
           <div
-            data-css-ne3jjf=""
+            className="psds-dropdown__field-aligner"
           >
             <button
               aria-haspopup="listbox"
               aria-labelledby="dropdown-button-4fzzzxjyl dropdown-label-4fzzzxjyl"
-              data-css-185vr3w=""
+              className="psds-dropdown__field psds-dropdown__field--appearance-default psds-theme--dark"
               disabled={false}
               id="dropdown-button-4fzzzxjyl"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <span
-                data-css-1m4meif=""
+                className="psds-dropdown__field-inner"
               >
                 <span
                   aria-hidden={true}
-                  data-css-mlkf0z=""
+                  className="psds-dropdown__button-sizer"
                 >
                   Menu appears above
                 </span>
                 <span
-                  data-css-13czx1q=""
+                  className="psds-dropdown__placeholder psds-dropdown__placeholder--color"
                 >
                   Menu appears above
                 </span>
               </span>
               <div
-                data-css-19x2evt=""
+                className="psds-dropdown__icon psds-dropdown__icon--appearance-default psds-theme--dark"
               >
                 <div
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium"
                 >
                   <svg
                     aria-label="caret down icon"

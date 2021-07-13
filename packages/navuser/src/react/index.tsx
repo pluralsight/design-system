@@ -1,26 +1,9 @@
 import Avatar from '@pluralsight/ps-design-system-avatar'
 import Halo from '@pluralsight/ps-design-system-halo'
-import { RefFor } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  navUser: (props: NavUserProps) => {
-    const clickable: boolean = !!props.href || !!props.onClick
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-navuser']),
-      clickable && glamor.css(stylesheet['.psds-navuser--clickable'])
-    )
-  },
-  meta: () => glamor.css(stylesheet['.psds-navuser__plan-name']),
-  name: () => glamor.css(stylesheet['.psds-navuser__name']),
-  words: () => glamor.css(stylesheet['.psds-navuser__words'])
-}
+import '../css/index.css'
 
 interface NavUserProps
   extends React.HTMLAttributes<
@@ -41,7 +24,7 @@ type NavUserElement = HTMLAnchorElement | HTMLButtonElement | HTMLDivElement
 
 const NavUser = React.forwardRef<NavUserElement, NavUserProps>(
   (props, forwardedRef) => {
-    const { meta, name, src, ...rest } = props
+    const { meta, name, src, className, ...rest } = props
 
     const ref = React.useRef<NavUserElement>(null)
     React.useImperativeHandle(
@@ -52,14 +35,18 @@ const NavUser = React.forwardRef<NavUserElement, NavUserProps>(
     const isAnchor = 'href' in props
     const isButton = !isAnchor && 'onClick' in props
     const tagName = isAnchor ? 'a' : isButton ? 'button' : 'div'
+    const clickable: boolean = !!props.href || !!props.onClick
 
     return (
-      <Halo inline gapSize={Halo.gapSizes.small}>
+      <Halo inline gapSize={Halo.gapSizes.small} className={className}>
         {React.createElement(
           tagName,
           {
             ref: ref as any,
-            ...styles.navUser(props),
+            className: classNames(
+              'psds-navuser',
+              clickable && 'psds-navuser--clickable'
+            ),
             ...rest
           },
           <>
@@ -84,9 +71,9 @@ const Words: React.FC<WordsProps> = props => {
   const { name, meta, ...rest } = props
 
   return (
-    <div {...styles.words()} {...rest}>
-      <div {...styles.name()}>{name}</div>
-      <div {...styles.meta()}>{meta}</div>
+    <div className={'psds-navuser__words'} {...rest}>
+      <div className={'psds-navuser__name'}>{name}</div>
+      <div className={'psds-navuser__plan-name'}>{meta}</div>
     </div>
   )
 }

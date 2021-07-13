@@ -1,54 +1,46 @@
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import {
   RefForwardingComponent,
-  ValueOf
+  ValueOf,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
 
-const glamor = glamorDefault || glamorExports
-
-const fade = glamor.keyframes(
-  stylesheet[`@keyframes psds-tooltip__keyframes__fade`]
-)
 const styles = {
   tail: (props: Pick<TooltipProps, 'appearance' | 'tailPosition'>) => {
     const label = 'psds-tooltip__tail'
 
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--appearance-${props.appearance}`]),
-      glamor.css(stylesheet[`.${label}--tailPosition-${props.tailPosition}`])
+    return classNames(
+      label,
+      `${label}--appearance-${props.appearance}`,
+      `${label}--tailPosition-${props.tailPosition}`
     )
   },
   tooltip: (props: Pick<TooltipProps, 'appearance' | 'onClose'>) => {
     const label = 'psds-tooltip'
     const closeable = typeof props.onClose === 'function'
 
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-tooltip']({ fade })),
-      glamor.css(stylesheet[`.${label}--appearance-${props.appearance}`]),
-      closeable && glamor.css(stylesheet[`.${label}--closeable`])
+    return classNames(
+      'psds-tooltip',
+      `${label}--appearance-${props.appearance}`,
+      closeable && `${label}--closeable`
     )
   },
-  close: (props: Pick<TooltipProps, 'appearance'>) => {
+  close: (appearance: ValueOf<typeof vars.appearances>) => {
     const label = 'psds-tooltip__close'
 
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--appearance-${props.appearance}`])
-    )
+    return classNames(label, `${label}--appearance-${appearance}`)
   }
 }
 interface CloseButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   onClick: (evt?: React.MouseEvent) => void
   appearance: ValueOf<typeof vars.appearances>
 }
-const CloseButton: React.FC<CloseButtonProps> = props => (
+const CloseButton: React.FC<CloseButtonProps> = ({ appearance, ...props }) => (
   <button
-    {...styles.close(props)}
+    className={styles.close(appearance)}
     onClick={props.onClick}
     aria-label="Close tooltip"
   >
@@ -89,18 +81,29 @@ const Tooltip = React.forwardRef(
       tailPosition,
       children,
       onClose,
+      className,
       ...rest
     },
     ref
   ) => {
     return (
-      <div {...styles.tooltip({ appearance, onClose })} {...rest} ref={ref}>
+      <div
+        className={classNames(
+          styles.tooltip({ appearance, onClose }),
+          className
+        )}
+        {...rest}
+        ref={ref}
+      >
         {typeof onClose === 'function' && (
           <CloseButton appearance={appearance} onClick={onClose} />
         )}
         {children}
         {tailPosition && (
-          <div {...styles.tail({ appearance, tailPosition })} aria-hidden />
+          <div
+            className={styles.tail({ appearance, tailPosition })}
+            aria-hidden
+          />
         )}
       </div>
     )

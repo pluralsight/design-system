@@ -1,25 +1,25 @@
 [data-psds-theme='dark'] {
-  --nameColor: var(--psColorsPink4);
-  --nameType: var(--psColorsBlue4);
+  --name-color: var(--ps-colors-pink-4);
+  --name-type: var(--ps-colors-blue-4);
 }
 [data-psds-theme='light'] {
-  --nameColor: var(--psColorsPink8);
-  --nameType: var(--psColorsBlue8);
+  --name-color: var(--ps-colors-pink-8);
+  --name-type: var(--ps-colors-blue-8);
 }
 .required {
-  margin-left: var(--psLayoutSpacingXSmall);
+  margin-left: var(--ps-layout-spacing-xsmall);
 }
 .nameCode {
-  color: var(--nameColor);
-  font-weight: var(--psTypeFontWeightBold);
+  color: var(--name-color);
+  font-weight: var(--ps-type-font-weight-bold);
 }
 .typeCode {
-  color: var(--typeColor);
+  color: var(--type-color);
   overflow-wrap: break-word;
 }
 .desc {
-  font-size: var(--psTypeFontSizeXSmall);
+  font-size: var(--ps-type-font-size-xsmall);
 }
 .defaultCode {
-  color: var(--typeColor);
+  color: var(--type-color);
 }

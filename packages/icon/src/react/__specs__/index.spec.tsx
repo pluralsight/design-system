@@ -23,6 +23,12 @@ describe('Icon', () => {
     expect(ref.current).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(<Icon className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-icon compose-classname')
+  })
+
   it('should allow overriding the aria-label of the svg', () => {
     const { container } = render(<Icons.SearchIcon aria-label="test label" />)
     const svg = container.querySelector('svg')

@@ -1,17 +1,8 @@
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  layout: (disabled?: boolean) =>
-    glamor.css(
-      stylesheet[`.psds-dropdown`],
-      disabled && stylesheet[`.psds-dropdown--disabled`]
-    )
-}
+import '../css/index.css'
+import * as vars from '../vars/index'
 
 interface DropdownLayoutProps extends React.HTMLAttributes<HTMLDivElement> {
   button: React.ReactNode
@@ -20,21 +11,33 @@ interface DropdownLayoutProps extends React.HTMLAttributes<HTMLDivElement> {
   label?: React.ReactNode
   menu?: React.ReactNode
   onKeyDown?: (e: React.KeyboardEvent) => void
+  size?: ValueOf<typeof vars.sizes>
   subLabel?: React.ReactNode
 }
 
 export const Layout: React.FC<DropdownLayoutProps> = ({
   button,
+  className,
   disabled,
   input,
   label,
   menu,
   onKeyDown,
+  size,
   subLabel,
   ...rest
 }) => {
   return (
-    <div {...styles.layout(disabled)} onKeyDown={onKeyDown} {...rest}>
+    <div
+      {...rest}
+      onKeyDown={onKeyDown}
+      className={classNames(
+        'psds-dropdown',
+        size === vars.sizes.small && 'psds-dropdown--small',
+        disabled && `psds-dropdown--disabled`,
+        className
+      )}
+    >
       {label}
       {input}
       {button}

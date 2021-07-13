@@ -1,18 +1,14 @@
-import { RefForwardingComponent } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import {
+  RefForwardingComponent,
+  classNames
+} from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
 import Context from './context'
-import stylesheet from '../css/index'
 import Divider from './divider'
 import { Group, CollapsibleGroup } from './group'
 import { Tier1, Tier2 } from './item'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  verticaltabs: () => glamor.css(stylesheet['.psds-verticaltabs'])
-}
+import '../css/index.css'
 
 interface VerticalTabsProps extends React.HTMLAttributes<HTMLUListElement> {
   forceCollapsed?: boolean
@@ -36,6 +32,7 @@ interface VerticalTabsComponents
 
 const VerticalTabs = React.forwardRef((props, ref) => {
   const {
+    className,
     children,
     forceCollapsed = false,
     hideLabels = false,
@@ -49,7 +46,11 @@ const VerticalTabs = React.forwardRef((props, ref) => {
 
   return (
     <Context.Provider value={contextValue}>
-      <ul {...styles.verticaltabs()} ref={ref} {...rest}>
+      <ul
+        className={classNames('psds-verticaltabs', className)}
+        ref={ref}
+        {...rest}
+      >
         {children}
       </ul>
     </Context.Provider>

@@ -3,10 +3,13 @@ import { convertStoriesToJestCases } from '@pluralsight/ps-design-system-util'
 import { render } from '@testing-library/react'
 import { renderHook, act } from '@testing-library/react-hooks'
 import formatISO from 'date-fns/formatISO'
+import { DateObj, useDayzed } from 'dayzed'
 import { axe } from 'jest-axe'
 import React from 'react'
 
 import {
+  Calendar,
+  CalendarDates,
   useIsInRange,
   onRangeDateSelected,
   onMultiDateSelected,
@@ -15,9 +18,61 @@ import {
 } from '..'
 import * as stories from '../__stories__/index.story'
 
+it('Calendar: composes className', () => {
+  const Test = () => {
+    const { getDateProps, ...dayzedData } = useDayzed({
+      date: new Date('05/30/2020'),
+      selected: new Date('05/13/2020'),
+      onDateSelected: (dateObj: DateObj, evt: React.SyntheticEvent) => {}
+    })
+
+    return (
+      <Calendar {...dayzedData} className="compose-classname">
+        <CalendarDates getDateProps={getDateProps}>
+          {renderProps => <button {...renderProps} />}
+        </CalendarDates>
+      </Calendar>
+    )
+  }
+
+  const { container } = render(<Test />)
+
+  expect(container.firstChild).toHaveClass('psds-calendar compose-classname')
+})
+
+it('CalendarDates: composes className', () => {
+  const Test = () => {
+    const { getDateProps, ...dayzedData } = useDayzed({
+      date: new Date('05/30/2020'),
+      selected: new Date('05/13/2020'),
+      onDateSelected: (dateObj: DateObj, evt: React.SyntheticEvent) => {}
+    })
+
+    return (
+      <Calendar {...dayzedData}>
+        <CalendarDates
+          getDateProps={getDateProps}
+          className="compose-classname"
+        >
+          {renderProps => <button {...renderProps} />}
+        </CalendarDates>
+      </Calendar>
+    )
+  }
+
+  const { container } = render(<Test />)
+
+  expect(container.querySelector('.psds-calendar__filler')).toHaveClass(
+    'compose-classname'
+  )
+  expect(container.querySelector('.psds-calendar__date')).toHaveClass(
+    'compose-classname'
+  )
+})
+
 test('useIsInRange: none selected', () => {
   const { result } = renderHook(() => useIsInRange([]))
-  expect(result.current.isInRange(new Date('06/01/2020'))).toMatchObject({})
+  expect(result.current.isInRange(new Date('06/01/2020'))).toEqual('')
 })
 
 test('useIsInRange: start date selected', () => {

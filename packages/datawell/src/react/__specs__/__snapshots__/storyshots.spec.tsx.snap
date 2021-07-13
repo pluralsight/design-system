@@ -5,85 +5,81 @@ exports[`Storyshots Components/DataWell Fixed Width Row 1`] = `
   data-css-1s5t7h8=""
 >
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Dog count
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       234,345
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     >
       All the doggies
     </div>
   </div>
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Cat count
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       123
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     />
   </div>
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Rafters on the River
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       1,345/23,235
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     />
   </div>
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Flotsam
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       About 3
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     >
       The icky stuff that is not cats or dogs, floating in the river
     </div>
@@ -100,85 +96,81 @@ exports[`Storyshots Components/DataWell Row 1`] = `
   }
 >
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Dog count
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       234,345
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     >
       All the doggies
     </div>
   </div>
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Cat count
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       123
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     />
   </div>
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Rafters on the River
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       1,345/23,235
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     />
   </div>
   <div
-    data-css-76j83k=""
+    className="psds-datawell psds-datawell.psds-theme--dark"
   >
     <div>
       <span
-        data-css-1xy8nxm=""
-        data-css-4o8urc=""
+        className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-secondary psds-theme--dark psds-text__label--strong psds-text__label--caps psds-datawell__label psds-theme--dark"
       >
         Flotsam
       </span>
     </div>
     <div
-      data-css-1cytfqa=""
+      className="psds-datawell__data psds-theme--dark"
     >
       About 3
     </div>
     <div
-      data-css-r0jy42=""
+      className="psds-datawell__sublabel psds-theme--dark"
     >
       The icky stuff that is not cats or dogs, floating in the river
     </div>

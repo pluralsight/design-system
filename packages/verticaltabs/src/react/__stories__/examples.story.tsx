@@ -121,7 +121,9 @@ export const DesignSystem: Story<React.ComponentProps<typeof VerticalTabs>> =
                       <Tier1.Header
                         href={section.header.href}
                         icon={section.header.icon}
-                        onClick={evt => activate(evt, section.id)}
+                        onClick={(evt: React.MouseEvent) =>
+                          activate(evt, section.id)
+                        }
                       >
                         {section.header.title}
                       </Tier1.Header>
@@ -134,24 +136,29 @@ export const DesignSystem: Story<React.ComponentProps<typeof VerticalTabs>> =
                         key={sectionKey}
                         header={sectionHeader}
                       >
-                        {(section.items || []).map((item, itemKey) => {
-                          const itemHeader = (
-                            <Tier2.Header
-                              href={item.href}
-                              onClick={evt => activate(evt, item.id)}
-                            >
-                              {item.title}
-                            </Tier2.Header>
-                          )
+                        {
+                          // @ts-ignore: story
+                          (section.items || []).map((item, itemKey) => {
+                            const itemHeader = (
+                              <Tier2.Header
+                                href={item.href}
+                                onClick={(evt: React.MouseEvent) =>
+                                  activate(evt, item.id)
+                                }
+                              >
+                                {item.title}
+                              </Tier2.Header>
+                            )
 
-                          return (
-                            <Tier2
-                              active={isActive(item.id)}
-                              header={itemHeader}
-                              key={itemKey}
-                            />
-                          )
-                        })}
+                            return (
+                              <Tier2
+                                active={isActive(item.id)}
+                                header={itemHeader}
+                                key={itemKey}
+                              />
+                            )
+                          })
+                        }
                       </Tier1>
                     )
                   })}
@@ -202,7 +209,9 @@ export const Flow: Story<React.ComponentProps<typeof VerticalTabs>> = args => {
                   const itemHeader = (
                     <Tier2.Header
                       href={item.href}
-                      onClick={evt => activate(evt, item.id)}
+                      onClick={(evt: React.MouseEvent) =>
+                        activate(evt, item.id)
+                      }
                     >
                       {item.title}
                     </Tier2.Header>

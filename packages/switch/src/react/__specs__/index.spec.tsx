@@ -17,6 +17,12 @@ describe('Switch', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(<Switch className="compose-classname" />)
+    console.log(container.firstChild)
+    expect(container.firstChild).toHaveClass('compose-classname psds-switch')
+  })
+
   describe('accessibility', () => {
     describe.each(cases)('%s story', (_name, Story) => {
       it('has no axe-core violations', async () => {

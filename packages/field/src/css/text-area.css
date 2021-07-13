@@ -1,0 +1,15 @@
+.psds-field__text-area__container {
+  flex: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.psds-field__text-area {
+  border: none;
+  outline: 0;
+  padding: 0;
+  width: 100%;
+  line-height: var(--ps-type-line-height-standard);
+}
+.psds-field__text-area--disabled {
+  background: none;
+}

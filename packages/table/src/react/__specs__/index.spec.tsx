@@ -18,6 +18,14 @@ describe('Table', () => {
       expect(ref.current).toBe(el)
     })
 
+    it('composes className', () => {
+      const { container } = render(<Table className="compose-classname" />)
+
+      expect(container.firstChild).toHaveClass(
+        'compose-classname psds-theme--dark psds-table__container'
+      )
+    })
+
     describe('with a custom container', () => {
       let ref: React.RefObject<HTMLElement>
 
@@ -58,12 +66,6 @@ describe('Table', () => {
         expect(el.tagName.toLowerCase()).toEqual('main')
       })
 
-      it('should allow custom classNames', () => {
-        const el = screen.getByTestId('undertest')
-
-        expect(el).toHaveClass('custom class names')
-      })
-
       it('should allow data attributes', () => {
         const el = screen.getByTestId('undertest')
 
@@ -93,6 +95,12 @@ describe('Table', () => {
       expect(ref.current).not.toBeNull()
       expect(ref.current).toBe(el)
     })
+
+    it('forwards className', () => {
+      const { container } = render(<Table.Body className="compose-classname" />)
+
+      expect(container.firstChild).toHaveClass('compose-classname')
+    })
   })
 
   describe('Table.Cell', () => {
@@ -113,6 +121,14 @@ describe('Table', () => {
       expect(ref.current).not.toBeNull()
       expect(ref.current).toBe(el)
     })
+
+    it('composes className', () => {
+      const { container } = render(<Table.Cell className="compose-classname" />)
+
+      expect(container.firstChild).toHaveClass(
+        'compose-classname psds-table__cell psds-table__cell--align-left'
+      )
+    })
   })
 
   describe('Table.Head', () => {
@@ -128,6 +144,14 @@ describe('Table', () => {
 
       expect(ref.current).not.toBeNull()
       expect(ref.current).toBe(el)
+    })
+
+    it('composes className', () => {
+      const { container } = render(<Table.Head className="compose-classname" />)
+
+      expect(container.firstChild).toHaveClass(
+        'compose-classname psds-table__head psds-theme--dark'
+      )
     })
   })
 
@@ -155,6 +179,20 @@ describe('Table', () => {
       expect(ref.current).not.toBeNull()
       expect(ref.current).toBe(el)
     })
+
+    it('composes className', () => {
+      const { container } = render(
+        <Table.Header
+          className="compose-classname"
+          role="rowheader"
+          scope="row"
+        />
+      )
+
+      expect(container.firstChild).toHaveClass(
+        'compose-classname psds-theme--dark psds-table__header psds-table__header--align-left'
+      )
+    })
   })
 
   describe('Table.Row', () => {
@@ -174,6 +212,14 @@ describe('Table', () => {
 
       expect(ref.current).not.toBeNull()
       expect(ref.current).toBe(el)
+    })
+
+    it('composes className', () => {
+      const { container } = render(<Table.Row className="compose-classname" />)
+
+      expect(container.firstChild).toHaveClass(
+        'compose-classname psds-theme--dark psds-table__row'
+      )
     })
   })
 

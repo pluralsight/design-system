@@ -1,29 +1,9 @@
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import { asideLayoutCSS as stylesheet } from '../css/index'
+import '../css/aside-layout.css'
 import { asideLayout as vars } from '../vars/index'
 
-const glamor = glamorDefault || glamorExports
-
-const styleLayout = (asidePosition: ValueOf<typeof vars.asidePositions>) => {
-  const label = 'psds-aside-layout'
-  const position = `${label}--aside-position-${asidePosition}`
-
-  return glamor.compose(
-    glamor.css(stylesheet[`.${label}`]),
-    glamor.css(stylesheet[`.${position}`]),
-
-    glamor.media(
-      '(min-width: 769px)',
-      glamor.compose(
-        glamor.css(stylesheet['@media (min-width: 769px)'][`.${label}`]),
-        glamor.css(stylesheet['@media (min-width: 769px)'][`.${position}`])
-      )
-    )
-  )
-}
 interface AsideLayoutProps extends React.HTMLAttributes<HTMLDivElement> {
   main: React.ReactElement<typeof Main>
   aside: React.ReactElement<typeof Aside>
@@ -38,11 +18,19 @@ const AsideLayout: React.FC<AsideLayoutProps> & AsideLayoutStatics = props => {
   const {
     asidePosition = vars.asidePositions.first,
     aside,
+    className,
     main,
     ...rest
   } = props
   return (
-    <div {...styleLayout(asidePosition)} {...rest}>
+    <div
+      {...rest}
+      className={classNames(
+        'psds-aside-layout',
+        `psds-aside-layout--aside-position-${asidePosition}`,
+        className
+      )}
+    >
       {React.cloneElement<AsideProps>(aside as any, {
         _asidePosition: asidePosition
       })}
@@ -51,23 +39,6 @@ const AsideLayout: React.FC<AsideLayoutProps> & AsideLayoutStatics = props => {
   )
 }
 
-const styleAside = (asidePosition: ValueOf<typeof vars.asidePositions>) => {
-  const label = 'psds-aside-layout__aside'
-  const position = `${label}--aside-position-${asidePosition}`
-
-  return glamor.compose(
-    glamor.css(stylesheet[`.${label}`]),
-    glamor.css(stylesheet[`.${position}`]),
-
-    glamor.media(
-      '(min-width: 769px)',
-      glamor.compose(
-        glamor.css(stylesheet['@media (min-width: 769px)'][`.${label}`]),
-        glamor.css(stylesheet['@media (min-width: 769px)'][`.${position}`])
-      )
-    )
-  )
-}
 interface AsideProps extends React.HTMLAttributes<HTMLDivElement> {
   _asidePosition?: AsideLayoutProps['asidePosition']
 }
@@ -75,31 +46,30 @@ const Aside: React.FC<AsideProps> = props => {
   const {
     _asidePosition: asidePositionFromParent = vars.asidePositions.first,
     children,
+    className,
     ...rest
   } = props
   return (
-    <div {...styleAside(asidePositionFromParent)} {...rest}>
+    <div
+      {...rest}
+      className={classNames(
+        'psds-aside-layout__aside',
+        `psds-aside-layout__aside--aside-position-${asidePositionFromParent}`,
+        className
+      )}
+    >
       {children}
     </div>
   )
 }
 Aside.displayName = 'AsideLayout.Aside'
 
-const styleMain = () => {
-  const label = 'psds-aside-layout__main'
-
-  return glamor.compose(
-    glamor.css(stylesheet[`.${label}`]),
-
-    glamor.media(
-      '(min-width: 769px)',
-      glamor.css(stylesheet['@media (min-width: 769px)'][`.${label}`])
-    )
-  )
-}
-const Main: React.FC = props => (
-  <div {...styleMain()} {...props}>
-    {props.children}
+const Main: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
+  ...rest
+}) => (
+  <div {...rest} className={classNames('psds-aside-layout__main', className)}>
+    {rest.children}
   </div>
 )
 Main.displayName = 'AsideLayout.Main'

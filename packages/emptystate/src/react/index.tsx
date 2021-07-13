@@ -6,13 +6,13 @@ import {
   RefForwardingComponent,
   RefFor,
   ValueOf,
+  classNames,
   useResizeObserver
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import Context, { ContextValue } from './context'
-import stylesheet, { sizeClasses, themeClasses } from '../css/index'
+import '../css/index.css'
+import Context from './context'
 import * as illustrations from './illustrations/index'
 import { illustrationNames, sizes } from '../vars/index'
 
@@ -40,44 +40,14 @@ interface EmptyStateComponent
     EmptyStateStatics
   > {}
 
-type StyleFn = (
-  props: unknown,
-  ctx: ContextValue,
-  opts?: unknown
-) => glamorExports.StyleAttribute
-
-const glamor = glamorDefault || glamorExports
-
 const renderSmallIfElementLessThan = 450
-
-const styles = {
-  emptyState: (ctx: ContextValue, hasRenderedOnce: boolean) =>
-    glamor.compose(
-      combineClasses('.psds-emptystate', ctx),
-      !hasRenderedOnce && stylesheet['.psds-emptystate--hidden']
-    ),
-  actions: (ctx: ContextValue) =>
-    combineClasses('.psds-emptystate__actions', ctx),
-  caption: (ctx: ContextValue) =>
-    combineClasses('.psds-emptystate__caption', ctx),
-  heading: (ctx: ContextValue) =>
-    combineClasses('.psds-emptystate__heading', ctx),
-  illustration: (ctx: ContextValue) =>
-    combineClasses('.psds-emptystate__illustration', ctx)
-}
-
-const combineClasses = (className: string, { size, themeName }: ContextValue) =>
-  glamor.css(
-    stylesheet[className],
-    stylesheet[className + themeClasses[themeName as string]],
-    stylesheet[className + sizeClasses[size as string]]
-  )
 
 const EmptyState = React.forwardRef<HTMLDivElement, EmptyStateProps>(
   (props, forwardedRef) => {
     const {
       actions,
       caption,
+      className,
       heading,
       illustration,
       size: sizeOverride,
@@ -106,8 +76,14 @@ const EmptyState = React.forwardRef<HTMLDivElement, EmptyStateProps>(
     return (
       <Context.Provider value={ctx}>
         <div
-          {...styles.emptyState(ctx, hasRenderedOnce)}
           {...rest}
+          className={classNames(
+            'psds-emptystate',
+            `psds-emptystate--size-${ctx.size}`,
+            `psds-theme--${ctx.themeName}`,
+            !hasRenderedOnce && 'psds-emptystate--hidden',
+            className
+          )}
           ref={ref as RefFor<'div'>}
         >
           {illustration}
@@ -120,16 +96,21 @@ const EmptyState = React.forwardRef<HTMLDivElement, EmptyStateProps>(
   }
 ) as EmptyStateComponent
 
-const Actions: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => (
-  <Context.Consumer>
-    {ctx => <div {...styles.actions(ctx)} {...props} />}
-  </Context.Consumer>
+const Actions: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
+  ...rest
+}) => (
+  <div
+    {...rest}
+    className={classNames('psds-emptystate__actions', className)}
+  />
 )
 
-const Caption: React.FC<React.HTMLAttributes<HTMLParagraphElement>> = props => (
-  <Context.Consumer>
-    {ctx => <p {...styles.caption(ctx)} {...props} />}
-  </Context.Consumer>
+const Caption: React.FC<React.HTMLAttributes<HTMLParagraphElement>> = ({
+  className,
+  ...rest
+}) => (
+  <p {...rest} className={classNames('psds-emptystate__caption', className)} />
 )
 
 interface HeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
@@ -137,12 +118,13 @@ interface HeadingProps extends React.HTMLAttributes<HTMLHeadingElement> {
 }
 
 const Heading: React.FC<HeadingProps> = props => {
-  const { as: Tag = 'h1', ...rest } = props
+  const { as: Tag = 'h1', className, ...rest } = props
 
   return (
-    <Context.Consumer>
-      {ctx => <Tag {...styles.heading(ctx)} {...rest} />}
-    </Context.Consumer>
+    <Tag
+      {...rest}
+      className={classNames('psds-emptystate__heading', className)}
+    />
   )
 }
 
@@ -158,7 +140,7 @@ const IllustrationNotFound = () => null
 
 const Illustration: React.FC<IllustrationProps> & IllustrationStatics =
   props => {
-    const { children: custom, name, ...rest } = props
+    const { children: custom, className, name, ...rest } = props
 
     return (
       <Context.Consumer>
@@ -171,7 +153,9 @@ const Illustration: React.FC<IllustrationProps> & IllustrationStatics =
           if (custom) Comp = () => custom
 
           return (
-            <div {...styles.illustration(ctx)}>
+            <div
+              className={classNames('psds-emptystate__illustration', className)}
+            >
               <Comp {...rest} />
             </div>
           )

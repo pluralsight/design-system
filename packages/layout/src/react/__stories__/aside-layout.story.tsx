@@ -21,14 +21,14 @@ export const Positions: Story = () => (
           asidePosition={position}
           aside={
             <AsideLayout.Aside>
-              This is aside stuff that goes here. This is aside stuff that goes
+              This is ASIDE stuff that goes here. This is aside stuff that goes
               here. This is aside stuff that goes here. This is aside stuff that
               goes here.
             </AsideLayout.Aside>
           }
           main={
             <AsideLayout.Main>
-              This is main stuff that goes here. This is main stuff that goes
+              This is MAIN stuff that goes here. This is main stuff that goes
               here. This is main stuff that goes here. This is main stuff that
               goes here.
             </AsideLayout.Main>

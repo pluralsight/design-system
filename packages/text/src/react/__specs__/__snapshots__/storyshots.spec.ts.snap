@@ -5,7 +5,7 @@ exports[`Storyshots Components/Text/Code Empty 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     before|
     |after
@@ -18,11 +18,11 @@ exports[`Storyshots Components/Text/Code Ends Single Line 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     This is where we see 
     <code
-      data-css-hvsxkc=""
+      className="psds-text__code psds-theme--dark"
     >
       inline code
     </code>
@@ -35,10 +35,10 @@ exports[`Storyshots Components/Text/Code Lead Single Line 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     <code
-      data-css-hvsxkc=""
+      className="psds-text__code psds-theme--dark"
     >
       inline code
     </code>
@@ -52,11 +52,11 @@ exports[`Storyshots Components/Text/Code Line Wrap 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     text at the start
     <code
-      data-css-hvsxkc=""
+      className="psds-text__code psds-theme--dark"
     >
       buy-in programmatically, or out of the loop. I'll book a meeting so we can solution this before the sprint is over get buy-in, and closing these latest prospects is like putting socks on an octopus. Knowledge is power
     </code>
@@ -70,7 +70,7 @@ exports[`Storyshots Components/Text/Code Maintains Whitespace 1`] = `
   data-css-yto836=""
 >
   <code
-    data-css-hvsxkc=""
+    className="psds-text__code psds-theme--dark"
   >
      in the middle 
   </code>
@@ -82,12 +82,12 @@ exports[`Storyshots Components/Text/Code Middle Of Paragraph 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
   >
     Please advise soonest streamline data-point, and execute , price point. This is not the hill i want to die on going forward. Diversify kpis not the long pole in my tent. Synergize productive mindfulness can you send me an invite? nor high-level so back of the net vertical integration. Deliverables
      
     <code
-      data-css-hvsxkc=""
+      className="psds-text__code psds-theme--dark"
     >
       inline code
     </code>
@@ -101,7 +101,7 @@ exports[`Storyshots Components/Text/Code Standalone 1`] = `
   data-css-yto836=""
 >
   <code
-    data-css-hvsxkc=""
+    className="psds-text__code psds-theme--dark"
   >
     inline code
   </code>
@@ -113,21 +113,7 @@ exports[`Storyshots Components/Text/Heading Basic 1`] = `
   data-css-yto836=""
 >
   <h1
-    data-css-vetqvm=""
-    onClick={[Function]}
-  >
-    Heading
-  </h1>
-</div>
-`;
-
-exports[`Storyshots Components/Text/Heading Class Override 1`] = `
-<div
-  data-css-yto836=""
->
-  <h1
-    className="css-1ub3o27"
-    data-css-vetqvm=""
+    className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     onClick={[Function]}
   >
     Heading
@@ -143,13 +129,13 @@ exports[`Storyshots Components/Text/Heading Colors 1`] = `
     data-css-1cpmtjf=""
   >
     <h1
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       primary
     </h1>
     <h1
-      data-css-3hqi84=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-secondary psds-theme--dark"
       onClick={[Function]}
     >
       secondary
@@ -166,46 +152,46 @@ exports[`Storyshots Components/Text/Heading Sizes 1`] = `
     data-css-1cpmtjf=""
   >
     <h1
-      data-css-jq9ssw=""
+      className="psds-text__heading psds-text__heading--size-xxxsmall psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
-      xXXSmall
+      xxxsmall
     </h1>
     <h1
-      data-css-cjuz5h=""
+      className="psds-text__heading psds-text__heading--size-xxsmall psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
-      xXSmall
+      xxsmall
     </h1>
     <h1
-      data-css-1v8ehyy=""
+      className="psds-text__heading psds-text__heading--size-xsmall psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
-      xSmall
+      xsmall
     </h1>
     <h1
-      data-css-1u6zvn6=""
+      className="psds-text__heading psds-text__heading--size-small psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       small
     </h1>
     <h1
-      data-css-1gbfzly=""
+      className="psds-text__heading psds-text__heading--size-medium psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       medium
     </h1>
     <h1
-      data-css-vetqvm=""
+      className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       large
     </h1>
     <h1
-      data-css-ovsjkc=""
+      className="psds-text__heading psds-text__heading--size-xlarge psds-text__heading--color-primary psds-theme--dark"
       onClick={[Function]}
     >
-      xLarge
+      xlarge
     </h1>
   </div>
 </div>
@@ -216,7 +202,7 @@ exports[`Storyshots Components/Text/Heading Style Override 1`] = `
   data-css-yto836=""
 >
   <h1
-    data-css-vetqvm=""
+    className="psds-text__heading psds-text__heading--size-large psds-text__heading--color-primary psds-theme--dark"
     onClick={[Function]}
     style={
       Object {
@@ -234,12 +220,12 @@ exports[`Storyshots Components/Text/Label Basic 1`] = `
   data-css-yto836=""
 >
   <span
-    data-css-fwyzym=""
+    className="psds-text__label psds-text__label--size-medium psds-text__label--color-primary psds-theme--dark"
     onClick={[Function]}
   >
-    <h1>
+    <span>
       Label
-    </h1>
+    </span>
   </span>
 </div>
 `;
@@ -249,12 +235,12 @@ exports[`Storyshots Components/Text/Label Caps 1`] = `
   data-css-yto836=""
 >
   <span
-    data-css-x2h5do=""
+    className="psds-text__label psds-text__label--size-medium psds-text__label--color-primary psds-theme--dark psds-text__label--caps"
     onClick={[Function]}
   >
-    <h1>
+    <span>
       Label
-    </h1>
+    </span>
   </span>
 </div>
 `;
@@ -264,13 +250,56 @@ exports[`Storyshots Components/Text/Label Mono 1`] = `
   data-css-yto836=""
 >
   <span
-    data-css-1kbv5k2=""
+    className="psds-text__label psds-text__label--size-medium psds-text__label--color-primary psds-theme--dark psds-text__label--mono"
     onClick={[Function]}
   >
-    <h1>
+    <span>
       Label
-    </h1>
+    </span>
   </span>
+</div>
+`;
+
+exports[`Storyshots Components/Text/Label Sizes 1`] = `
+<div
+  data-css-yto836=""
+>
+  <div
+    data-css-1cpmtjf=""
+  >
+    <span
+      className="psds-text__label psds-text__label--size-xsmall psds-text__label--color-primary psds-theme--dark"
+      onClick={[Function]}
+    >
+      <span>
+        xsmall
+      </span>
+    </span>
+    <span
+      className="psds-text__label psds-text__label--size-small psds-text__label--color-primary psds-theme--dark"
+      onClick={[Function]}
+    >
+      <span>
+        small
+      </span>
+    </span>
+    <span
+      className="psds-text__label psds-text__label--size-medium psds-text__label--color-primary psds-theme--dark"
+      onClick={[Function]}
+    >
+      <span>
+        medium
+      </span>
+    </span>
+    <span
+      className="psds-text__label psds-text__label--size-large psds-text__label--color-primary psds-theme--dark"
+      onClick={[Function]}
+    >
+      <span>
+        large
+      </span>
+    </span>
+  </div>
 </div>
 `;
 
@@ -279,12 +308,12 @@ exports[`Storyshots Components/Text/Label Strong 1`] = `
   data-css-yto836=""
 >
   <span
-    data-css-1okv4od=""
+    className="psds-text__label psds-text__label--size-medium psds-text__label--color-primary psds-theme--dark psds-text__label--strong"
     onClick={[Function]}
   >
-    <h1>
+    <span>
       Label
-    </h1>
+    </span>
   </span>
 </div>
 `;
@@ -294,12 +323,12 @@ exports[`Storyshots Components/Text/Label Strong Caps 1`] = `
   data-css-yto836=""
 >
   <span
-    data-css-40hjc7=""
+    className="psds-text__label psds-text__label--size-medium psds-text__label--color-primary psds-theme--dark psds-text__label--strong psds-text__label--caps"
     onClick={[Function]}
   >
-    <h1>
+    <span>
       Label
-    </h1>
+    </span>
   </span>
 </div>
 `;
@@ -309,7 +338,7 @@ exports[`Storyshots Components/Text/List Basic 1`] = `
   data-css-yto836=""
 >
   <ul
-    data-css-n0w93d=""
+    className="psds-text__list psds-theme--dark psds-text__list--size-medium psds-text__list--color-primary psds-text__list--type-default"
     onClick={[Function]}
   >
     <li>
@@ -339,7 +368,7 @@ exports[`Storyshots Components/Text/List Sizes 1`] = `
     data-css-1cpmtjf=""
   >
     <ul
-      data-css-1w2mmlj=""
+      className="psds-text__list psds-theme--dark psds-text__list--size-small psds-text__list--color-primary psds-text__list--type-default"
       onClick={[Function]}
     >
       <li>
@@ -359,7 +388,7 @@ exports[`Storyshots Components/Text/List Sizes 1`] = `
       </li>
     </ul>
     <ul
-      data-css-n0w93d=""
+      className="psds-text__list psds-theme--dark psds-text__list--size-medium psds-text__list--color-primary psds-text__list--type-default"
       onClick={[Function]}
     >
       <li>
@@ -379,7 +408,7 @@ exports[`Storyshots Components/Text/List Sizes 1`] = `
       </li>
     </ul>
     <ul
-      data-css-ejbpq4=""
+      className="psds-text__list psds-theme--dark psds-text__list--size-large psds-text__list--color-primary psds-text__list--type-default"
       onClick={[Function]}
     >
       <li>
@@ -410,7 +439,7 @@ exports[`Storyshots Components/Text/List Types 1`] = `
     data-css-1cpmtjf=""
   >
     <ul
-      data-css-n0w93d=""
+      className="psds-text__list psds-theme--dark psds-text__list--size-medium psds-text__list--color-primary psds-text__list--type-default"
       onClick={[Function]}
     >
       <li>
@@ -430,7 +459,7 @@ exports[`Storyshots Components/Text/List Types 1`] = `
       </li>
     </ul>
     <ul
-      data-css-ktsu2d=""
+      className="psds-text__list psds-theme--dark psds-text__list--size-medium psds-text__list--color-primary psds-text__list--type-bulleted"
       onClick={[Function]}
     >
       <li>
@@ -450,7 +479,7 @@ exports[`Storyshots Components/Text/List Types 1`] = `
       </li>
     </ul>
     <ol
-      data-css-zj3w7f=""
+      className="psds-text__list psds-theme--dark psds-text__list--size-medium psds-text__list--color-primary psds-text__list--type-numbered"
       onClick={[Function]}
     >
       <li>
@@ -478,21 +507,7 @@ exports[`Storyshots Components/Text/P Basic 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
-    onClick={[Function]}
-  >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
-  </p>
-</div>
-`;
-
-exports[`Storyshots Components/Text/P Class Override 1`] = `
-<div
-  data-css-yto836=""
->
-  <p
-    className="css-1ub3o27"
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
     onClick={[Function]}
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
@@ -508,13 +523,13 @@ exports[`Storyshots Components/Text/P Colors 1`] = `
     data-css-1cpmtjf=""
   >
     <p
-      data-css-17nixd9=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
     </p>
     <p
-      data-css-9llqti=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-secondary psds-theme--dark"
       onClick={[Function]}
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
@@ -531,19 +546,19 @@ exports[`Storyshots Components/Text/P Sizes 1`] = `
     data-css-1cpmtjf=""
   >
     <p
-      data-css-1s5i094=""
+      className="psds-text__p psds-text__p--size-small psds-text__p--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
     </p>
     <p
-      data-css-17nixd9=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
     </p>
     <p
-      data-css-7vvqm6=""
+      className="psds-text__p psds-text__p--size-large psds-text__p--color-primary psds-theme--dark"
       onClick={[Function]}
     >
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur aliquam pharetra arcu in commodo. Cras faucibus ex id ligula aliquam, eget porta tortor efficitur. Duis eget ultrices ligula. Pellentesque laoreet massa interdum, venenatis sem pretium, efficitur enim. Vestibulum id nisi a massa tincidunt malesuada vitae non risus. Sed eget convallis libero. Nam ac libero luctus, euismod lectus eget, cursus nibh.
@@ -557,7 +572,7 @@ exports[`Storyshots Components/Text/P Style Override 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
     onClick={[Function]}
     style={
       Object {
@@ -575,7 +590,7 @@ exports[`Storyshots Components/Text/P With Em 1`] = `
   data-css-yto836=""
 >
   <p
-    data-css-17nixd9=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark"
     onClick={[Function]}
   >
     Cras faucibus ex id ligula aliquam, eget porta

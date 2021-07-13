@@ -5,22 +5,21 @@ Array [
   <button
     aria-haspopup="listbox"
     aria-labelledby="select-button-4fzzzxjyl"
-    data-css-vqbjxt=""
+    className="psds-select__button psds-theme--dark"
     id="select-button-4fzzzxjyl"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1nr9efp=""
+      className="psds-select__button-inner"
     >
       <span
-        data-css-1p9e07r=""
+        className="psds-select__selected psds-select__placeholder psds-theme--dark"
       >
         Select item
       </span>
       <div
-        data-css-7dab2f=""
-        data-css-vgdpow=""
+        className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
       >
         <svg
           aria-label="caret down icon"
@@ -46,15 +45,14 @@ Array [
 
 exports[`Storyshots Components/Select Button Basic 1`] = `
 <button
-  data-css-vqbjxt=""
+  className="psds-select__button psds-theme--dark"
 >
   <div
-    data-css-1nr9efp=""
+    className="psds-select__button-inner"
   >
     Hello
     <div
-      data-css-7dab2f=""
-      data-css-vgdpow=""
+      className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
     >
       <svg
         aria-label="caret down icon"
@@ -72,16 +70,15 @@ exports[`Storyshots Components/Select Button Basic 1`] = `
 
 exports[`Storyshots Components/Select Button Disabled 1`] = `
 <button
-  data-css-vqbjxt=""
+  className="psds-select__button psds-theme--dark"
   disabled={true}
 >
   <div
-    data-css-1nr9efp=""
+    className="psds-select__button-inner"
   >
     Hello
     <div
-      data-css-7dab2f=""
-      data-css-vgdpow=""
+      className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
     >
       <svg
         aria-label="caret down icon"
@@ -99,15 +96,14 @@ exports[`Storyshots Components/Select Button Disabled 1`] = `
 
 exports[`Storyshots Components/Select Button Error 1`] = `
 <button
-  data-css-19jlcd8=""
+  className="psds-select__button psds-select__button--error psds-theme--dark"
 >
   <div
-    data-css-1nr9efp=""
+    className="psds-select__button-inner"
   >
     Hello
     <div
-      data-css-7dab2f=""
-      data-css-vgdpow=""
+      className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
     >
       <svg
         aria-label="caret down icon"
@@ -121,8 +117,7 @@ exports[`Storyshots Components/Select Button Error 1`] = `
     </div>
   </div>
   <div
-    data-css-7dab2f=""
-    data-css-vaotfo=""
+    className="psds-icon psds-icon--size-medium psds-select__error"
   >
     <svg
       aria-label="warning icon"
@@ -141,15 +136,14 @@ exports[`Storyshots Components/Select Button Error 1`] = `
 
 exports[`Storyshots Components/Select Button Focused 1`] = `
 <button
-  data-css-vqbjxt=""
+  className="psds-select__button psds-theme--dark"
 >
   <div
-    data-css-1nr9efp=""
+    className="psds-select__button-inner"
   >
     Hello
     <div
-      data-css-7dab2f=""
-      data-css-vgdpow=""
+      className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
     >
       <svg
         aria-label="caret down icon"
@@ -167,15 +161,14 @@ exports[`Storyshots Components/Select Button Focused 1`] = `
 
 exports[`Storyshots Components/Select Button Is Open 1`] = `
 <button
-  data-css-3d7soc=""
+  className="psds-select__button psds-theme--dark psds-select__button--is-open"
 >
   <div
-    data-css-1nr9efp=""
+    className="psds-select__button-inner"
   >
     Hello
     <div
-      data-css-7dab2f=""
-      data-css-vgdpow=""
+      className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
     >
       <svg
         aria-label="caret down icon"
@@ -193,15 +186,14 @@ exports[`Storyshots Components/Select Button Is Open 1`] = `
 
 exports[`Storyshots Components/Select Button Small 1`] = `
 <button
-  data-css-1ns8ici=""
+  className="psds-select__button psds-select__button--small psds-theme--dark"
 >
   <div
-    data-css-1nr9efp=""
+    className="psds-select__button-inner"
   >
     Hello
     <div
-      data-css-7dab2f=""
-      data-css-vgdpow=""
+      className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
     >
       <svg
         aria-label="caret down icon"
@@ -222,22 +214,21 @@ Array [
   <button
     aria-haspopup="listbox"
     aria-labelledby="select-button-4fzzzxjyl"
-    data-css-vqbjxt=""
+    className="psds-select__button psds-theme--dark"
     id="select-button-4fzzzxjyl"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1nr9efp=""
+      className="psds-select__button-inner"
     >
       <span
-        data-css-1p9e07r=""
+        className="psds-select__selected psds-select__placeholder psds-theme--dark"
       >
         Select item
       </span>
       <div
-        data-css-7dab2f=""
-        data-css-vgdpow=""
+        className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
       >
         <svg
           aria-label="caret down icon"
@@ -266,22 +257,21 @@ Array [
   <button
     aria-haspopup="listbox"
     aria-labelledby="select-button-4fzzzxjyl"
-    data-css-vqbjxt=""
+    className="psds-select__button psds-theme--dark"
     id="select-button-4fzzzxjyl"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1nr9efp=""
+      className="psds-select__button-inner"
     >
       <span
-        data-css-1p9e07r=""
+        className="psds-select__selected psds-select__placeholder psds-theme--dark"
       >
         Select item
       </span>
       <div
-        data-css-7dab2f=""
-        data-css-vgdpow=""
+        className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
       >
         <svg
           aria-label="caret down icon"
@@ -310,22 +300,21 @@ Array [
   <button
     aria-haspopup="listbox"
     aria-labelledby="select-button-4fzzzxjyl"
-    data-css-vqbjxt=""
+    className="psds-select__button psds-theme--dark"
     id="select-button-4fzzzxjyl"
     onClick={[Function]}
     onKeyDown={[Function]}
   >
     <div
-      data-css-1nr9efp=""
+      className="psds-select__button-inner"
     >
       <span
-        data-css-1p9e07r=""
+        className="psds-select__selected psds-select__placeholder psds-theme--dark"
       >
         Select item
       </span>
       <div
-        data-css-7dab2f=""
-        data-css-vgdpow=""
+        className="psds-icon psds-icon--size-medium psds-select__icon psds-theme--dark"
       >
         <svg
           aria-label="caret down icon"
@@ -351,7 +340,7 @@ Array [
 
 exports[`Storyshots Components/Select Selected Placeholder 1`] = `
 <span
-  data-css-1p9e07r=""
+  className="psds-select__selected psds-select__placeholder psds-theme--dark"
 >
   placeholder
 </span>
@@ -359,7 +348,7 @@ exports[`Storyshots Components/Select Selected Placeholder 1`] = `
 
 exports[`Storyshots Components/Select Selected Selected 1`] = `
 <span
-  data-css-wvjvpq=""
+  className="psds-select__selected psds-select__placeholder psds-theme--dark"
 >
   selected
 </span>

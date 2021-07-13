@@ -1,16 +1,15 @@
 import * as core from '@pluralsight/ps-design-system-core'
-import { useTheme } from '@pluralsight/ps-design-system-theme'
+import {
+  useTheme,
+  names as themeNames
+} from '@pluralsight/ps-design-system-theme'
 import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import { StyleFn } from '../index'
 import * as vars from '../../vars/index'
 
-const glamor = glamorDefault || glamorExports
-
-const stylesheet: { [selector: string]: Record<string, unknown> } = {
-  '.focusable': {
+const styles = {
+  base: {
     background: core.colorsBackgroundDark[3],
     borderRadius: '2px',
     color: core.colorsTextIcon.highOnDark,
@@ -24,23 +23,14 @@ const stylesheet: { [selector: string]: Record<string, unknown> } = {
     textAlign: 'center',
     width: '100%'
   },
-  '.focusable--theme-light': {
+  light: {
     background: core.colorsBackgroundLight[1],
     borderColor: core.colorsBorder.highOnLight,
     color: core.colorsTextIcon.highOnLight
   },
-  '.focusable--shape-pill': {
+  pill: {
     borderRadius: '1000px'
   }
-}
-
-const styles: { [name: string]: StyleFn<FocusableProps> } = {
-  focusable: (themeName, { shape }) =>
-    glamor.css(
-      stylesheet['.focusable'],
-      stylesheet[`.focusable--theme-${themeName}`],
-      stylesheet[`.focusable--shape-${shape}`]
-    )
 }
 
 interface FocusableProps {
@@ -51,7 +41,16 @@ const Focusable: React.FC<FocusableProps> = props => {
   const { shape, children = 'focusable area' } = props
 
   return (
-    <div {...styles.focusable(themeName, { shape })} tabIndex={0}>
+    <div
+      style={
+        {
+          ...styles.base,
+          ...(themeName === themeNames.light ? styles.light : {}),
+          ...(shape === vars.shapes.pill ? styles.pill : {})
+        } as React.CSSProperties
+      }
+      tabIndex={0}
+    >
       {children}
     </div>
   )

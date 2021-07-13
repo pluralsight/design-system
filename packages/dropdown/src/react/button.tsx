@@ -1,59 +1,13 @@
 import Halo from '@pluralsight/ps-design-system-halo'
 import Icon from '@pluralsight/ps-design-system-icon'
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { CaretDown } from './caret-down'
 import { ErrorIcon } from './error-icon'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  field: (
-    {
-      appearance,
-      error,
-      size
-    }: Pick<DropdownButtonProps, 'appearance' | 'error' | 'size'>,
-    themeName: ValueOf<typeof themeNames>
-  ) => {
-    const label = 'psds-dropdown__field'
-    const isSmall = size === vars.sizes.small
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      isSmall && glamor.css(stylesheet[`.${label}.psds-dropdown--small`]),
-      glamor.css(stylesheet[`.${label}--appearance-${appearance}`]),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`]),
-      error &&
-        glamor.css(stylesheet[`.${label}-error.psds-theme--${themeName}`])
-    )
-  },
-  fieldAligner: () => glamor.css(stylesheet['.psds-dropdown__field-aligner']),
-  fieldContainer: () =>
-    glamor.css(stylesheet['.psds-dropdown__field-container']),
-  halo: () => glamor.css(stylesheet['.psds-dropdown__field-halo']),
-  icon: (
-    appearance: DropdownButtonProps['appearance'],
-    themeName: ValueOf<typeof themeNames>
-  ) => {
-    const label = 'psds-dropdown__icon'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--appearance-${appearance}`]),
-      glamor.css(stylesheet[`.${label}.psds-theme--${themeName}`])
-    )
-  },
-  inner: () => glamor.css(stylesheet['.psds-dropdown__field-inner'])
-}
 
 interface DropdownButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
   appearance?: ValueOf<typeof vars.appearances>
@@ -73,7 +27,6 @@ interface DropdownButtonProps extends React.HTMLAttributes<HTMLButtonElement> {
     top: number
     width: number
   }) => void
-  size?: ValueOf<typeof vars.sizes>
 }
 
 export const Button = React.forwardRef<HTMLButtonElement, DropdownButtonProps>(
@@ -81,12 +34,12 @@ export const Button = React.forwardRef<HTMLButtonElement, DropdownButtonProps>(
     {
       appearance,
       children,
+      className,
       disabled,
       error,
       isOpen,
       onClick,
       setMenuPosition,
-      size,
       ...rest
     },
     ref
@@ -103,18 +56,36 @@ export const Button = React.forwardRef<HTMLButtonElement, DropdownButtonProps>(
       return () => cancelAnimationFrame(requestId)
     }, [fieldContainerRef, isOpen, setMenuPosition])
     return (
-      <div {...styles.fieldContainer()} ref={fieldContainerRef}>
-        <Halo error={error} gapSize={Halo.gapSizes.small} {...styles.halo()}>
-          <div {...styles.fieldAligner()}>
+      <div
+        className={classNames('psds-dropdown__field-container', className)}
+        ref={fieldContainerRef}
+      >
+        <Halo
+          error={error}
+          gapSize={Halo.gapSizes.small}
+          className="psds-dropdown__field-halo"
+        >
+          <div className="psds-dropdown__field-aligner">
             <button
               {...rest}
-              {...styles.field({ appearance, error, size }, themeName)}
+              className={classNames(
+                'psds-dropdown__field',
+                `psds-dropdown__field--appearance-${appearance}`,
+                `psds-theme--${themeName}`,
+                error && 'psds-dropdown__field-error'
+              )}
               disabled={disabled}
               onClick={disabled ? undefined : onClick}
               ref={ref}
             >
-              <span {...styles.inner()}>{children}</span>
-              <div {...styles.icon(appearance, themeName)}>
+              <span className="psds-dropdown__field-inner">{children}</span>
+              <div
+                className={classNames(
+                  'psds-dropdown__icon',
+                  `psds-dropdown__icon--appearance-${appearance}`,
+                  `psds-theme--${themeName}`
+                )}
+              >
                 <Icon>
                   <CaretDown />
                 </Icon>

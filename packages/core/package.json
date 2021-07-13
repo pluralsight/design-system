@@ -19,13 +19,15 @@
     "build:cjs": "tsc --project tsconfig.build.json --module commonjs --target es5 --outDir dist/cjs",
     "build:css": "node ./build/index.mjs",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --target es5 --outDir dist/esm",
-    "test": "tsc --noEmit --project ./tsconfig.json && jest"
+    "test": "tsc --noEmit --project ./tsconfig.json && jest",
+    "test:watch": "yarn test --watchAll"
   },
   "sideEffects": false,
   "style": "dist/css/index.css",
   "types": "dist/esm/index.d.ts",
   "devDependencies": {
     "@pluralsight/ps-design-system-build": "^3.2.2",
+    "@pluralsight/ps-design-system-util": "^9.2.9",
     "globby": "^11.0.2",
     "postcss": "^8.2.10",
     "postcss-import": "^12.0.1",

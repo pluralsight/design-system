@@ -19,6 +19,16 @@ describe('PageWidthLayout', () => {
     expect(getByTestId('undertest')).toBeInTheDocument()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <PageWidthLayout className="compose-classname" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-page-width-layout compose-classname'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

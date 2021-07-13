@@ -1,8 +1,0 @@
-:root {
-  /* breakpoints */
-  --psBreakpointsXSmall: 640px;
-  --psBreakpointsSmall: 768px;
-  --psBreakpointsMedium: 1024px;
-  --psBreakpointsLarge: 1280px;
-  --psBreakpointsXLarge: 1600px;
-}

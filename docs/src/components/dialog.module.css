@@ -6,7 +6,7 @@
 
 .grid {
   display: grid;
-  grid-gap: var(--psLayoutSpacingSmall);
+  grid-gap: var(--ps-layout-spacing-small);
   grid-template-columns: [left] 5fr [right] 1fr [end];
   grid-template-rows: [row1] 1fr [row2] 2fr [row3] 5fr [end];
   height: 100%;
@@ -15,7 +15,7 @@
 }
 .box {
   border-radius: 2px;
-  background: var(--psColorsBackgroundUtility40);
+  background: var(--ps-colors-background-utility-40);
 }
 .top {
   grid-column: left / end;

@@ -36,12 +36,11 @@ describe('NavUser', () => {
     })
 
     it('forwards className', () => {
-      render(
-        <Basic data-testid="undertest" className="testclass" {...Basic.args} />
+      const { container } = render(
+        <Basic className="testclass" {...Basic.args} />
       )
 
-      const el = screen.getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
+      expect(container.firstChild).toHaveClass('testclass')
     })
   })
 

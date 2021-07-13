@@ -1,24 +1,14 @@
 /* eslint-disable @typescript-eslint/no-unnecessary-type-assertion */
-import { ValueOf } from '@pluralsight/ps-design-system-util'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import differenceInCalendarMonths from 'date-fns/differenceInCalendarMonths'
 import format from 'date-fns/format'
 import parse from 'date-fns/parse'
 import isMatch from 'date-fns/isMatch'
 import type { DateObj } from 'dayzed'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { slides } from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const style = {
-  start: () => glamor.css(stylesheet['.psds-calendar__date--selected-start']),
-  end: () => glamor.css(stylesheet['.psds-calendar__date--selected-end']),
-  inRange: (arg?: boolean) =>
-    glamor.css(arg && stylesheet['.psds-calendar__date--in-range'])
-}
 
 export const useIsInRange = (selected: Date[] = []) => {
   const [hoveredDate, setHoveredDate] = React.useState<Date | undefined>()
@@ -35,32 +25,34 @@ export const useIsInRange = (selected: Date[] = []) => {
     setHoveredDate(date)
   }
 
-  const isInRange = (date: Date) => {
+  const isInRange = (date: Date): string => {
     if (selected.length) {
       const firstSelected = selected[0].getTime()
       if (selected.length === 2) {
         const secondSelected = selected[1].getTime()
-        return {
-          ...style.inRange(
-            firstSelected < date.getTime() && secondSelected > date.getTime()
-          ),
-          ...(firstSelected === date.getTime() && style.start()),
-          ...(secondSelected === date.getTime() && style.end())
-        }
+        return classNames(
+          firstSelected < date.getTime() &&
+            secondSelected > date.getTime() &&
+            'psds-calendar__date--in-range',
+          firstSelected === date.getTime() &&
+            'psds-calendar__date--selected-start',
+          secondSelected === date.getTime() &&
+            'psds-calendar__date--selected-end'
+        )
       } else {
-        return {
-          ...style.inRange(
-            hoveredDate &&
-              ((firstSelected < date.getTime() &&
-                hoveredDate.getTime() >= date.getTime()) ||
-                (date.getTime() < firstSelected &&
-                  date.getTime() >= hoveredDate.getTime()))
-          ),
-          ...(firstSelected === date.getTime() && style.start())
-        }
+        return classNames(
+          hoveredDate &&
+            ((firstSelected < date.getTime() &&
+              hoveredDate.getTime() >= date.getTime()) ||
+              (date.getTime() < firstSelected &&
+                date.getTime() >= hoveredDate.getTime())) &&
+            'psds-calendar__date--in-range',
+          firstSelected === date.getTime() &&
+            'psds-calendar__date--selected-start'
+        )
       }
     }
-    return {}
+    return ''
   }
   return { onMouseLeave, onMouseEnter, isInRange }
 }

@@ -1,33 +1,27 @@
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import React from 'react'
 
-import stylesheet from '../css/label'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  label: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-field__label']),
-      glamor.css(stylesheet[`.psds-field__label.psds-theme--${themeName}`])
-    )
-}
+import '../css/label.css'
 
 interface LabelProps extends React.HTMLAttributes<HTMLLabelElement> {
   htmlFor?: string
 }
 
 const Label = React.forwardRef<HTMLLabelElement, LabelProps>((props, ref) => {
-  const { children, ...rest } = props
+  const { className, children, ...rest } = props
   const themeName = useTheme()
 
   return (
-    <label ref={ref} {...styles.label(themeName)} {...rest}>
+    <label
+      {...rest}
+      ref={ref}
+      className={classNames(
+        'psds-field__label',
+        `psds-theme--${themeName}`,
+        className
+      )}
+    >
       {children}
     </label>
   )

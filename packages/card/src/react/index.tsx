@@ -1,3 +1,4 @@
+// TODO: remove when IE desupported
 import polyfillFocusWithin from 'focus-within'
 
 import Icon, { sizes as iconSizes } from '@pluralsight/ps-design-system-icon'
@@ -8,136 +9,17 @@ import {
 import {
   RefForwardingComponent,
   ValueOf,
-  canUseDOM
+  canUseDOM,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 import Shiitake from 'shiitake'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { toPercentageString } from '../js/index'
 import * as vars from '../vars/index'
 
-const glamor = glamorDefault || glamorExports
-
 if (canUseDOM()) polyfillFocusWithin(document)
-
-const styles = {
-  actionBar: ({
-    actionBarVisible,
-    fullOverlay
-  }: {
-    actionBarVisible?: boolean
-    fullOverlay?: boolean
-  }) => {
-    const label = 'psds-card__action-bar'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      fullOverlay &&
-        !actionBarVisible &&
-        glamor.css(
-          stylesheet[`.${label}--fullOverlay.${label}--no-actionBarVisible`]
-        ),
-      actionBarVisible && glamor.css(stylesheet[`.${label}--actionBarVisible`])
-    )
-  },
-  actionButton: (disabled?: boolean) => {
-    const label = 'psds-card__action-bar__button'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      disabled && glamor.css(stylesheet[`.${label}--disabled`])
-    )
-  },
-
-  bonusBar: () => glamor.css(stylesheet['.psds-card__bonus-bar']),
-
-  card: () => glamor.css(stylesheet['.psds-card']),
-
-  fullOverlay: (fullOverlayVisible?: boolean) => {
-    const label = 'psds-card__full-overlay'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      fullOverlayVisible &&
-        glamor.css(stylesheet[`.${label}--fullOverlayVisible`])
-    )
-  },
-  fullOverlayLink: () =>
-    glamor.css(stylesheet['.psds-card__full-overlay-link']),
-
-  image: () => glamor.css(stylesheet['.psds-card__image']),
-  imageLink: () => glamor.css(stylesheet['.psds-card__image-link']),
-
-  metadata: (
-    size: ValueOf<typeof vars.sizes>,
-    themeName: ValueOf<typeof themeNames>
-  ) => {
-    const label = 'psds-card__metadata'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`]),
-      glamor.css(stylesheet[`.${label}--theme-${themeName}`])
-    )
-  },
-  metadataDatum: () => glamor.css(stylesheet['.psds-card__metadata__datum']),
-  metadataDot: () => glamor.css(stylesheet['.psds-card__metadata__dot']),
-
-  overlays: (size: ValueOf<typeof vars.sizes>) => {
-    const label = 'psds-card__overlays'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`])
-    )
-  },
-
-  progress: () => glamor.css(stylesheet['.psds-card__progress']),
-  progressBar: (progress: number) => {
-    const label = 'psds-card__progress__bar'
-    const percent = toPercentageString(progress || 0)
-    const isCompleted = percent === '100%'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      isCompleted && glamor.css(stylesheet[`.${label}--complete`]),
-      glamor.css({ width: percent })
-    )
-  },
-
-  tag: () => glamor.css(stylesheet['.psds-card__tag']),
-  tagIcon: () => glamor.css(stylesheet['.psds-card__tag__icon']),
-  tagText: () => glamor.css(stylesheet['.psds-card__tag__text']),
-
-  textLink: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'psds-card__text-link'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--theme-${themeName}`])
-    )
-  },
-
-  title: (themeName: ValueOf<typeof themeNames>) => {
-    const label = 'psds-card__title'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--theme-${themeName}`])
-    )
-  },
-
-  titleContainer: (size: ValueOf<typeof vars.sizes>) => {
-    const label = 'psds-card__title-container'
-
-    return glamor.compose(
-      glamor.css(stylesheet[`.${label}`]),
-      glamor.css(stylesheet[`.${label}--size-${size}`])
-    )
-  }
-}
 
 interface ActionBarActionProps extends React.HTMLAttributes<HTMLButtonElement> {
   disabled?: boolean
@@ -152,13 +34,17 @@ interface ActionBarActionComponent
     ActionBarActionStatics
   > {}
 const ActionBarAction = React.forwardRef((props, ref) => {
-  const { title, icon, ...rest } = props
+  const { className, title, icon, ...rest } = props
   const ariaLabel = props['aria-label'] || title
   return (
     <button
-      {...styles.actionButton(props.disabled)}
       {...rest}
       aria-label={ariaLabel}
+      className={classNames(
+        'psds-card__action-bar__button',
+        rest.disabled && 'psds-card__action-bar__button--disabled',
+        className
+      )}
       ref={ref}
       title={title}
     >
@@ -169,7 +55,7 @@ const ActionBarAction = React.forwardRef((props, ref) => {
 ActionBarAction.displayName = 'Card.Action'
 
 const FullOverlayLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> =
-  props => <span {...styles.fullOverlayLink()} {...props} />
+  props => <span className="psds-card__full-overlay-link" {...props} />
 
 FullOverlayLink.displayName = 'Card.FullOverlayLink'
 
@@ -178,11 +64,11 @@ interface ImageProps extends React.HTMLAttributes<HTMLDivElement> {
   src: string
 }
 const Image: React.FC<ImageProps> = props => {
-  const { src, ...rest } = props
+  const { className, src, ...rest } = props
   return (
     <div
-      {...styles.image()}
       {...rest}
+      className={classNames('psds-card__image', className)}
       aria-label={rest['aria-label'] || rest.alt}
       role="img"
       style={{ backgroundImage: `url(${src})` }}
@@ -191,30 +77,38 @@ const Image: React.FC<ImageProps> = props => {
 }
 Image.displayName = 'Card.Image'
 
-const ImageLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => (
-  <span {...styles.imageLink()} {...props} />
-)
+const ImageLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => {
+  const { className, ...rest } = props
+  return (
+    <span
+      {...rest}
+      className={classNames('psds-card__image-link', className)}
+    />
+  )
+}
 ImageLink.displayName = 'Card.ImageLink'
 
 interface TagProps extends React.HTMLAttributes<HTMLDivElement> {
   icon?: React.ReactElement<typeof Icon>
 }
-const Tag: React.FC<TagProps> = ({ children, icon, ...rest }) => (
-  <div {...styles.tag()} {...rest}>
-    {icon && (
-      <div {...styles.tagIcon()}>
-        {
-          /* eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion */
-          React.cloneElement(icon as React.ReactElement<any>, {
-            size: iconSizes.small
-          })
-        }
-      </div>
-    )}
+const Tag: React.FC<TagProps> = ({ children, className, icon, ...rest }) => {
+  return (
+    <div {...rest} className={classNames('psds-card__tag', className)}>
+      {icon && (
+        <div className="psds-card__tag__icon">
+          {
+            /* eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion */
+            React.cloneElement(icon as React.ReactElement<any>, {
+              size: iconSizes.small
+            })
+          }
+        </div>
+      )}
 
-    <span {...styles.tagText()}>{children}</span>
-  </div>
-)
+      <span className="psds-card__tag__text">{children}</span>
+    </div>
+  )
+}
 
 Tag.displayName = 'Card.Tag'
 
@@ -223,18 +117,37 @@ const Text: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => (
 )
 Text.displayName = 'Card.Text'
 
-const TextLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => {
+const TextLink: React.FC<React.HTMLAttributes<HTMLSpanElement>> = ({
+  className,
+  ...rest
+}) => {
   const themeName = useTheme()
-  return <span {...styles.textLink(themeName)} {...props} />
+  return (
+    <span
+      {...rest}
+      className={classNames(
+        'psds-card__text-link',
+        `psds-card__text-link--theme-${themeName}`,
+        className
+      )}
+    />
+  )
 }
 TextLink.displayName = 'Card.TextLink'
 
 const Title: React.FC<React.HTMLAttributes<HTMLDivElement>> = props => {
   const themeName = useTheme()
-  const { children, ...rest } = props
+  const { children, className, ...rest } = props
 
   return (
-    <div {...styles.title(themeName)} {...rest}>
+    <div
+      {...rest}
+      className={classNames(
+        'psds-card__title',
+        `psds-card__title--theme-${themeName}`,
+        className
+      )}
+    >
       <Shiitake lines={2}>{children}</Shiitake>
     </div>
   )
@@ -249,13 +162,24 @@ const MetaData: React.FC<MetaDataProps> = props => {
   const { metadata, size, ...rest } = props
   const themeName = useTheme()
   return (
-    <div {...styles.metadata(size, themeName)} {...rest}>
+    <div
+      {...rest}
+      className={classNames(
+        'psds-card__metadata',
+        `psds-card__metadata--size-${size}`,
+        `psds-card__metadata--theme-${themeName}`
+      )}
+    >
       {metadata.map((m, i) => [
-        <span key={`datum${i}`} {...styles.metadataDatum()}>
+        <span key={`datum${i}`} className="psds-card__metadata__datum">
           {m}
         </span>,
         i < metadata.length - 1 && (
-          <span aria-hidden key={`dot${i}`} {...styles.metadataDot()}>
+          <span
+            aria-hidden
+            key={`dot${i}`}
+            className="psds-card__metadata__dot"
+          >
             ·
           </span>
         )
@@ -296,6 +220,7 @@ const Card: React.FC<CardProps> & CardStatics = props => {
     actionBar,
     actionBarVisible,
     bonusBar,
+    className,
     fullOverlay,
     fullOverlayVisible,
     image,
@@ -308,33 +233,55 @@ const Card: React.FC<CardProps> & CardStatics = props => {
     ...rest
   } = props
   return (
-    <div {...styles.card()} {...rest}>
-      <div {...styles.overlays(size)}>
+    <div {...rest} className={classNames('psds-card', className)}>
+      <div
+        className={classNames(
+          'psds-card__overlays',
+          `psds-card__overlays--size-${size}`
+        )}
+      >
         {image || null}
 
         {fullOverlay ? (
-          <div {...styles.fullOverlay(fullOverlayVisible)}>{fullOverlay}</div>
+          <div
+            className={classNames(
+              'psds-card__full-overlay',
+              fullOverlayVisible &&
+                'psds-card__full-overlay--fullOverlayVisible'
+            )}
+          >
+            {fullOverlay}
+          </div>
         ) : null}
 
         {Array.isArray(actionBar) && actionBar.length > 0 ? (
           <div
-            {...styles.actionBar({
-              actionBarVisible,
-              fullOverlay: Boolean(fullOverlay)
-            })}
+            className={classNames(
+              'psds-card__action-bar',
+              fullOverlay && 'psds-card__action-bar--fullOverlay',
+              actionBarVisible
+                ? 'psds-card__action-bar--actionBarVisible'
+                : 'psds-card__action-bar--no-actionBarVisible'
+            )}
           >
             {actionBar}
           </div>
         ) : null}
 
-        {bonusBar ? <div {...styles.bonusBar()}>{bonusBar}</div> : null}
+        {bonusBar ? (
+          <div className="psds-card__bonus-bar">{bonusBar}</div>
+        ) : null}
 
         {tag}
 
         {progress ? (
-          <div {...styles.progress()}>
+          <div className="psds-card__progress">
             <div
-              {...styles.progressBar(progress)}
+              className={classNames(
+                'psds-card__progress__bar',
+                progress === 100 && 'psds-card__progress__bar--complete'
+              )}
+              style={{ width: toPercentageString(progress || 0) }}
               role="progressbar"
               aria-valuemin={0}
               aria-valuemax={100}
@@ -345,7 +292,14 @@ const Card: React.FC<CardProps> & CardStatics = props => {
         ) : null}
       </div>
 
-      <div {...styles.titleContainer(size)}>{title}</div>
+      <div
+        className={classNames(
+          'psds-card__title-container',
+          `psds-card__title-container--size-${size}`
+        )}
+      >
+        {title}
+      </div>
       {metadata1 && <MetaData size={size} metadata={metadata1} />}
       {metadata2 && <MetaData size={size} metadata={metadata2} />}
     </div>

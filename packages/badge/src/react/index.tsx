@@ -1,29 +1,13 @@
-import Theme, { useTheme } from '@pluralsight/ps-design-system-theme'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
   RefForwardingComponent,
-  ValueOf
+  ValueOf,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
-import { select } from '../js/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-type StyleFn = (
-  props: InternalBadgeProps,
-  themeName: ValueOf<typeof Theme.names>
-) => glamorExports.StyleAttribute
-
-const styles: { [key: string]: StyleFn } = {
-  badge: (props, themeName) =>
-    glamor.css(
-      stylesheet['.psds-badge'],
-      stylesheet[select(themeName, props.appearance, props.color)]
-    )
-}
 
 interface InternalBadgeProps {
   appearance: ValueOf<typeof vars.appearances>
@@ -46,6 +30,7 @@ const Badge = React.forwardRef<HTMLDivElement, BadgeProps>(
     {
       appearance = vars.appearances.default,
       color = vars.colors.neutral,
+      className,
       ...rest
     },
     forwardedRef
@@ -60,9 +45,15 @@ const Badge = React.forwardRef<HTMLDivElement, BadgeProps>(
 
     return (
       <div
-        {...styles.badge({ appearance, color }, themeName)}
         ref={ref}
         {...rest}
+        className={classNames(
+          'psds-badge',
+          `psds-badge--apearance-${appearance}`,
+          `psds-badge--color-${color}`,
+          `psds-theme--${themeName}`,
+          className
+        )}
       />
     )
   }

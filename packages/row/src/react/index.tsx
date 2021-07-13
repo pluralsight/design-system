@@ -1,107 +1,17 @@
-import {
-  names as themeNames,
-  useTheme
-} from '@pluralsight/ps-design-system-theme'
+import { useTheme } from '@pluralsight/ps-design-system-theme'
 import {
   ValueOf,
   isString,
-  useMatchMedia
+  useMatchMedia,
+  classNames
 } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import ConditionalWrap from './conditional-wrap'
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { toPercentageString } from '../js/index'
 import Shave from './shave'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  actionBar: (props: ActionBarProps) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-row__action-bar']),
-      !!props.fullOverlay &&
-        glamor.css(stylesheet['.psds-row__action-bar--fullOverlay']),
-      props.actionBarVisible &&
-        glamor.css(stylesheet['.psds-row__action-bar--actionBarVisible'])
-    ),
-
-  fullOverlay: (props: FullOverlayProps) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-row__full-overlay']),
-      props.isFocused &&
-        glamor.css(stylesheet['.psds-row__full-overlay--isFocused']),
-      props.fullOverlayVisible &&
-        glamor.css(stylesheet['.psds-row__full-overlay--fullOverlayVisible'])
-    ),
-
-  fullOverlayLink: () => glamor.css(stylesheet['.psds-row__full-overlay-link']),
-
-  image: (props: ImageProps) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-row__image']),
-      glamor.css({ backgroundImage: `url(${props.src})` })
-    ),
-
-  imageLink: () => glamor.css(stylesheet['.psds-row__image-link']),
-
-  metadata: (themeName: ValueOf<typeof themeNames>, props: MetadataProps) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-row__metadata']),
-      glamor.css(stylesheet[`.psds-row__metadata.psds-theme--${themeName}`]),
-      glamor.css(stylesheet[`.psds-row__metadata--size-${props.size}`])
-    ),
-
-  metadataDatum: () => glamor.css(stylesheet['.psds-row__metadata__datum']),
-
-  metadataDot: () => glamor.css(stylesheet['.psds-row__metadata__dot']),
-
-  overlays: () => glamor.css(stylesheet['.psds-row__overlays']),
-
-  progress: () => glamor.css(stylesheet['.psds-row__progress']),
-
-  progressBar: (props: ProgressBarProps) => {
-    const percent = toPercentageString(props.progress)
-    const complete = percent === '100%'
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-row__progress__bar']),
-      complete && glamor.css(stylesheet['.psds-row__progress__bar--complete']),
-      glamor.css({ width: percent })
-    )
-  },
-
-  row: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.css(
-      stylesheet['.psds-row'],
-      stylesheet[`.psds-row.psds-theme--${themeName}`]
-    ),
-
-  textLink: (themeName: ValueOf<typeof themeNames>) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-row__text-link']),
-      glamor.css(stylesheet[`.psds-row__text-link.psds-theme--${themeName}`])
-    ),
-
-  title: (themeName: ValueOf<typeof themeNames>, props: TitleProps) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-row__title']),
-      glamor.css(stylesheet[`.psds-row__title--size-${props.size}`]),
-      glamor.css(stylesheet[`.psds-row__title.psds-theme--${themeName}`])
-    ),
-
-  words: (props: Pick<WordsProps, 'actionBar' | 'image' | 'size'>) => {
-    const imgWidth = formatImageWidth(props.image, props.size)
-    const actionBarWidth = formatActionBarWidth(props.actionBar)
-
-    return glamor.compose(
-      glamor.css(stylesheet['.psds-row__words']),
-      glamor.css({ maxWidth: `calc(100% - ${imgWidth} - ${actionBarWidth})` })
-    )
-  }
-}
 
 const formatImageWidth = (
   image: unknown,
@@ -175,6 +85,7 @@ const Row: React.FC<RowProps> & RowStatics = props => {
     size: initialSize,
     title,
     titleTruncated,
+    className,
     ...rest
   } = props
 
@@ -182,7 +93,10 @@ const Row: React.FC<RowProps> & RowStatics = props => {
   const size = initialSize || (isDesktop ? vars.sizes.medium : vars.sizes.small)
 
   return (
-    <div {...styles.row(themeName)} {...rest}>
+    <div
+      className={classNames(className, 'psds-row', `psds-theme--${themeName}`)}
+      {...rest}
+    >
       {renderOverlays({
         fullOverlay,
         fullOverlayVisible,
@@ -284,7 +198,14 @@ const ActionBar: React.FC<ActionBarProps> = props => {
   const { actionBarVisible, fullOverlay, ...rest } = props
 
   return (
-    <div {...styles.actionBar({ actionBarVisible, fullOverlay })} {...rest} />
+    <div
+      className={classNames(
+        'psds-row__action-bar',
+        !!fullOverlay && 'psds-row__action-bar--fullOverlay',
+        actionBarVisible && 'psds-row__action-bar--actionBarVisible'
+      )}
+      {...rest}
+    />
   )
 }
 
@@ -326,16 +247,32 @@ interface FullOverlayProps
   isFocused: boolean
 }
 const FullOverlay: React.FC<FullOverlayProps> = props => {
-  const { fullOverlayVisible, isFocused, ...rest } = props
+  const { fullOverlayVisible, isFocused, className, ...rest } = props
 
   return (
-    <div {...styles.fullOverlay({ fullOverlayVisible, isFocused })} {...rest} />
+    <div
+      className={classNames(
+        className,
+        'psds-row__full-overlay',
+        isFocused && 'psds-row__full-overlay--isFocused',
+        fullOverlayVisible && 'psds-row__full-overlay--fullOverlayVisible'
+      )}
+      {...rest}
+    />
   )
 }
 
 interface FullOverlayLinkProps extends React.HTMLAttributes<HTMLSpanElement> {}
-const FullOverlayLink: React.FC<FullOverlayLinkProps> = props => {
-  return <span {...styles.fullOverlayLink()} {...props} />
+const FullOverlayLink: React.FC<FullOverlayLinkProps> = ({
+  className,
+  ...props
+}) => {
+  return (
+    <span
+      className={classNames(className, 'psds-row__full-overlay-link')}
+      {...props}
+    />
+  )
 }
 FullOverlayLink.displayName = 'Row.FullOverlayLink'
 
@@ -343,15 +280,26 @@ interface ImageProps extends React.HTMLAttributes<HTMLDivElement> {
   src: string
 }
 const Image: React.FC<ImageProps> = props => {
-  const { src, ...rest } = props
-  return <div {...styles.image({ src })} {...rest} />
+  const { src, className, style, ...rest } = props
+  return (
+    <div
+      className={classNames(className, 'psds-row__image')}
+      style={{ ...style, backgroundImage: `url(${src})` }}
+      {...rest}
+    />
+  )
 }
 
 Image.displayName = 'Row.Image'
 
 interface ImageLinkProps extends React.HTMLAttributes<HTMLSpanElement> {}
-const ImageLink: React.FC<ImageLinkProps> = props => {
-  return <span {...styles.imageLink()} {...props} />
+const ImageLink: React.FC<ImageLinkProps> = ({ className, ...props }) => {
+  return (
+    <span
+      className={classNames('psds-row__image-link', className)}
+      {...props}
+    />
+  )
 }
 ImageLink.displayName = 'Row.ImageLink'
 
@@ -359,46 +307,78 @@ interface MetadataProps
   extends React.HTMLAttributes<HTMLDivElement>,
     Required<Pick<RowProps, 'size'>> {}
 const Metadata: React.FC<MetadataProps> = props => {
-  const { size, ...rest } = props
+  const { size, className, ...rest } = props
   const themeName = useTheme()
 
-  return <div {...styles.metadata(themeName, { size })} {...rest} />
+  return (
+    <div
+      className={classNames(
+        className,
+        'psds-row__metadata',
+        `psds-row__metadatapsds-theme--${themeName}`,
+        `psds-row__metadata--size-${size}`
+      )}
+      {...rest}
+    />
+  )
 }
 
 interface MetadataDatumProps extends React.HTMLAttributes<HTMLSpanElement> {}
-const MetadataDatum: React.FC<MetadataDatumProps> = props => {
-  return <span {...styles.metadataDatum()} {...props} />
+const MetadataDatum: React.FC<MetadataDatumProps> = ({
+  className,
+  ...props
+}) => {
+  return (
+    <span
+      className={classNames(className, 'psds-row__metadata__datum')}
+      {...props}
+    />
+  )
 }
 
 interface MetadataDotProps extends React.HTMLAttributes<HTMLSpanElement> {}
-const MetadataDot: React.FC<MetadataDotProps> = props => {
+const MetadataDot: React.FC<MetadataDotProps> = ({ className, ...props }) => {
   return (
-    <span {...styles.metadataDot()} {...props} aria-hidden>
+    <span
+      className={classNames(className, 'psds-row__metadata__dot')}
+      {...props}
+      aria-hidden
+    >
       ·
     </span>
   )
 }
 
 interface OverlaysProps extends React.HTMLAttributes<HTMLDivElement> {}
-const Overlays: React.FC<OverlaysProps> = props => {
-  return <div {...styles.overlays()} {...props} />
+const Overlays: React.FC<OverlaysProps> = ({ className, ...props }) => {
+  return (
+    <div className={classNames(className, 'psds-row__overlays')} {...props} />
+  )
 }
 
 interface ProgressProps extends React.HTMLAttributes<HTMLDivElement> {}
-const Progress: React.FC<ProgressProps> = props => {
-  return <div {...styles.progress()} {...props} />
+const Progress: React.FC<ProgressProps> = ({ className, ...props }) => {
+  return (
+    <div className={classNames(className, 'psds-row__progress')} {...props} />
+  )
 }
 
 interface ProgressBarProps
   extends React.HTMLAttributes<HTMLDivElement>,
     Required<Pick<RowProps, 'progress'>> {}
 const ProgressBar: React.FC<ProgressBarProps> = props => {
-  const { progress = 0, ...rest } = props
+  const { progress = 0, style, className, ...rest } = props
   const percent = toPercentageString(progress)
+  const complete = percent === '100%'
 
   return (
     <div
-      {...styles.progressBar({ progress })}
+      className={classNames(
+        className,
+        'psds-row__progress__bar',
+        complete && 'psds-row__progress__bar--complete'
+      )}
+      style={{ ...style, width: percent }}
       {...rest}
       role="progressbar"
       aria-valuemin={0}
@@ -418,7 +398,7 @@ interface TextLinkProps extends React.HTMLAttributes<HTMLSpanElement> {
   truncated?: boolean
 }
 const TextLink: React.FC<TextLinkProps> = props => {
-  const { children, truncated = false, ...rest } = props
+  const { children, truncated = false, className, ...rest } = props
   const themeName = useTheme()
 
   const anchor = React.Children.only(children)
@@ -432,7 +412,14 @@ const TextLink: React.FC<TextLinkProps> = props => {
   }
 
   return (
-    <span {...styles.textLink(themeName)} {...rest}>
+    <span
+      className={classNames(
+        className,
+        'psds-row__text-link',
+        `psds-row__text-link psds-theme--${themeName}`
+      )}
+      {...rest}
+    >
       <a {...anchor.props}>
         <ConditionalWrap shouldWrap={shouldWrap} wrapper={shaveWrap}>
           {anchorText}
@@ -449,7 +436,7 @@ interface TitleProps
   truncated?: boolean
 }
 const Title: React.FC<TitleProps> = props => {
-  const { children, size, truncated = false, ...rest } = props
+  const { children, size, truncated = false, className, ...rest } = props
   const themeName = useTheme()
 
   const wrapAsLink = (child: React.ReactNode) => {
@@ -471,7 +458,15 @@ const Title: React.FC<TitleProps> = props => {
   }
 
   return (
-    <div {...styles.title(themeName, { size })} {...rest}>
+    <div
+      className={classNames(
+        className,
+        'psds-row__title',
+        `psds-row__title--size-${size}`,
+        `psds-row__title psds-theme--${themeName}`
+      )}
+      {...rest}
+    >
       {isString(children) ? wrapWithShave(children) : wrapAsLink(children)}
     </div>
   )
@@ -481,8 +476,20 @@ interface WordsProps
   extends Pick<RowProps, 'actionBar' | 'image' | 'size'>,
     React.HTMLAttributes<HTMLDivElement> {}
 const Words: React.FC<WordsProps> = props => {
-  const { actionBar, image, size, ...rest } = props
-  return <div {...styles.words({ actionBar, image, size })} {...rest} />
+  const { actionBar, image, size, className, style, ...rest } = props
+  const imgWidth = formatImageWidth(image, size)
+  const actionBarWidth = formatActionBarWidth(actionBar)
+
+  return (
+    <div
+      className={classNames(className, 'psds-row__words')}
+      style={{
+        ...style,
+        maxWidth: `calc(100% - ${imgWidth} - ${actionBarWidth})`
+      }}
+      {...rest}
+    />
+  )
 }
 
 Row.FullOverlayLink = FullOverlayLink

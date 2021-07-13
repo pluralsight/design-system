@@ -103,6 +103,3 @@ export const Sizes: Story = () => (
 
 export const StyleOverride = Template.bind({})
 StyleOverride.args = { ...defaultArgs, style: { border: '3px solid red' } }
-
-export const ClassNameOverride = Template.bind({})
-ClassNameOverride.args = { ...defaultArgs, className: 'fakeClassName' }

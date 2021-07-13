@@ -2,21 +2,21 @@
 
 exports[`Storyshots Components/Table Alignment 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -25,7 +25,7 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <th
-          data-css-1o6l4fn=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-center"
           role="columnheader"
           scope="col"
         >
@@ -34,7 +34,7 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <th
-          data-css-8x8fga=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-right"
           role="columnheader"
           scope="col"
         >
@@ -46,11 +46,11 @@ exports[`Storyshots Components/Table Alignment 1`] = `
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -59,24 +59,24 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <td
-          data-css-rg0vl=""
+          className="psds-table__cell psds-table__cell--align-center"
           role="gridcell"
         >
           Schaefer
         </td>
         <td
-          data-css-486wol=""
+          className="psds-table__cell psds-table__cell--align-right"
           role="gridcell"
         >
           Mathilde2@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -85,24 +85,24 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <td
-          data-css-rg0vl=""
+          className="psds-table__cell psds-table__cell--align-center"
           role="gridcell"
         >
           Heaney
         </td>
         <td
-          data-css-486wol=""
+          className="psds-table__cell psds-table__cell--align-right"
           role="gridcell"
         >
           Fabian_Reichel@gmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -111,24 +111,24 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <td
-          data-css-rg0vl=""
+          className="psds-table__cell psds-table__cell--align-center"
           role="gridcell"
         >
           Baumbach
         </td>
         <td
-          data-css-486wol=""
+          className="psds-table__cell psds-table__cell--align-right"
           role="gridcell"
         >
           Jerrell.Hackett@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -137,24 +137,24 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <td
-          data-css-rg0vl=""
+          className="psds-table__cell psds-table__cell--align-center"
           role="gridcell"
         >
           Haley
         </td>
         <td
-          data-css-486wol=""
+          className="psds-table__cell psds-table__cell--align-right"
           role="gridcell"
         >
           Wilson.Jakubowski@gmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -163,13 +163,13 @@ exports[`Storyshots Components/Table Alignment 1`] = `
           </div>
         </th>
         <td
-          data-css-rg0vl=""
+          className="psds-table__cell psds-table__cell--align-center"
           role="gridcell"
         >
           Kutch
         </td>
         <td
-          data-css-486wol=""
+          className="psds-table__cell psds-table__cell--align-right"
           role="gridcell"
         >
           Coy87@hotmail.com
@@ -182,21 +182,21 @@ exports[`Storyshots Components/Table Alignment 1`] = `
 
 exports[`Storyshots Components/Table Basic 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -205,7 +205,7 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -214,7 +214,7 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -226,11 +226,11 @@ exports[`Storyshots Components/Table Basic 1`] = `
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -239,24 +239,24 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           O'Connell
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Silas.Will@gmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -265,24 +265,24 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           VonRueden
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Helen_Schmeler@yahoo.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -291,24 +291,24 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Leuschke
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Yasmeen49@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -317,24 +317,24 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Jacobs
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Birdie0@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -343,13 +343,13 @@ exports[`Storyshots Components/Table Basic 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Dach
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Hubert_Welch@yahoo.com
@@ -362,21 +362,21 @@ exports[`Storyshots Components/Table Basic 1`] = `
 
 exports[`Storyshots Components/Table Mixed Content 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -385,7 +385,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -394,7 +394,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -406,11 +406,11 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -424,7 +424,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
               }
             >
               <div
-                className="psds-avatar psds-avatar--size-xSmall"
+                className="psds-avatar psds-avatar--size-xsmall"
               >
                 <div
                   aria-label="Baron"
@@ -453,24 +453,24 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Beer
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Derrick_Raynor@yahoo.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -484,7 +484,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
               }
             >
               <div
-                className="psds-avatar psds-avatar--size-xSmall"
+                className="psds-avatar psds-avatar--size-xsmall"
               >
                 <div
                   aria-label="Ignacio"
@@ -513,24 +513,24 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Swift
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Hans.Marquardt@yahoo.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -544,7 +544,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
               }
             >
               <div
-                className="psds-avatar psds-avatar--size-xSmall"
+                className="psds-avatar psds-avatar--size-xsmall"
               >
                 <div
                   aria-label="Edwina"
@@ -573,24 +573,24 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Predovic
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Damaris_Wilderman@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -604,7 +604,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
               }
             >
               <div
-                className="psds-avatar psds-avatar--size-xSmall"
+                className="psds-avatar psds-avatar--size-xsmall"
               >
                 <div
                   aria-label="Devante"
@@ -633,24 +633,24 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Schuppe
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Kris_Parker@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
         >
@@ -664,7 +664,7 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
               }
             >
               <div
-                className="psds-avatar psds-avatar--size-xSmall"
+                className="psds-avatar psds-avatar--size-xsmall"
               >
                 <div
                   aria-label="Skylar"
@@ -693,13 +693,13 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Greenholt
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Gust.Hodkiewicz@hotmail.com
@@ -712,44 +712,44 @@ exports[`Storyshots Components/Table Mixed Content 1`] = `
 
 exports[`Storyshots Components/Table Row Selection 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
           <div>
             <label
-              data-css-kn3wr0=""
+              className="psds-checkbox"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <div
-                data-css-1ij5lym=""
+                className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
               >
                 <input
-                  data-css-6wu9td=""
+                  className="psds-screenreader-only psds-checkbox__input"
                   readOnly={true}
                   type="checkbox"
                 />
                 <div
-                  data-css-1cfeqew=""
+                  className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
                 >
                   <svg
                     aria-label="Indeterminate Mark"
-                    data-css-ey6g07=""
+                    className="psds-checkbox__icon"
                     role="img"
                     version="1.1"
                     viewBox="0 0 16 16"
@@ -765,13 +765,13 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
                 </div>
               </div>
               <div
-                data-css-ybwuvp=""
+                className="psds-checkbox__label psds-theme--dark"
               />
             </label>
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -780,7 +780,7 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -789,7 +789,7 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -801,83 +801,83 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Delphine
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Huel
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Forest_Lind@yahoo.com
         </td>
       </tr>
       <tr
-        data-css-pf8cc5=""
+        className="psds-theme--dark psds-table__row psds-table__row--selected"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={true}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-1cfeqew=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
               >
                 <svg
                   aria-label="Checkmark"
-                  data-css-ey6g07=""
+                  className="psds-checkbox__icon"
                   role="img"
                   version="1.1"
                   viewBox="0 0 16 16"
@@ -890,157 +890,157 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
               </div>
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Brittany
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Hirthe
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Efrain_Gerhold71@gmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Geovany
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Franecki
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Nathanael.Wolff9@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Ena
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Boyle
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Luna.Christiansen@gmail.com
         </td>
       </tr>
       <tr
-        data-css-pf8cc5=""
+        className="psds-theme--dark psds-table__row psds-table__row--selected"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={true}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-1cfeqew=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
               >
                 <svg
                   aria-label="Checkmark"
-                  data-css-ey6g07=""
+                  className="psds-checkbox__icon"
                   role="img"
                   version="1.1"
                   viewBox="0 0 16 16"
@@ -1053,157 +1053,157 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
               </div>
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Emil
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Willms
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Lura_Pouros95@gmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Monique
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Reilly
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Rhoda_Botsford43@gmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Araceli
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Huels
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Hailey33@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-pf8cc5=""
+        className="psds-theme--dark psds-table__row psds-table__row--selected"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={true}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-1cfeqew=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark psds-checkbox__square--active"
               >
                 <svg
                   aria-label="Checkmark"
-                  data-css-ey6g07=""
+                  className="psds-checkbox__icon"
                   role="img"
                   version="1.1"
                   viewBox="0 0 16 16"
@@ -1216,124 +1216,124 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
               </div>
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Nathan
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Becker
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Thad33@yahoo.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Maximillian
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           McKenzie
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Julius87@hotmail.com
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <label
-            data-css-kn3wr0=""
+            className="psds-checkbox"
             onClick={[Function]}
             onKeyDown={[Function]}
           >
             <div
-              data-css-1ij5lym=""
+              className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
             >
               <input
                 checked={false}
-                data-css-6wu9td=""
+                className="psds-screenreader-only psds-checkbox__input"
                 readOnly={true}
                 type="checkbox"
               />
               <div
-                data-css-gx66zw=""
+                className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
               />
             </div>
             <div
-              data-css-ybwuvp=""
+              className="psds-checkbox__label psds-theme--dark"
             />
           </label>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Brad
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Lang
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Flavio.Morar82@gmail.com
@@ -1346,11 +1346,11 @@ exports[`Storyshots Components/Table Row Selection 1`] = `
 
 exports[`Storyshots Components/Table Sorting 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
     aria-labelledby="test-caption-id"
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <caption
@@ -1358,22 +1358,22 @@ exports[`Storyshots Components/Table Sorting 1`] = `
       id="test-caption-id"
     >
       <div
-        data-css-6wu9td=""
+        className="psds-screenreader-only"
       >
         Mock table title: Not sorted
       </div>
     </caption>
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
           aria-label="First name: No sort applied"
           aria-sort="none"
-          data-css-1sqr5y4=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sortable"
           data-header-id="h-first-name"
           onClick={[Function]}
           onKeyUp={[Function]}
@@ -1386,8 +1386,7 @@ exports[`Storyshots Components/Table Sorting 1`] = `
             First name
             <div
               aria-hidden={true}
-              data-css-7dab2f=""
-              data-css-yaqq33=""
+              className="psds-icon psds-icon--size-medium psds-table__header__sort-icon"
             >
               <svg
                 aria-label="sort icon"
@@ -1404,7 +1403,7 @@ exports[`Storyshots Components/Table Sorting 1`] = `
         <th
           aria-label="Last name: No sort applied"
           aria-sort="none"
-          data-css-1sqr5y4=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sortable"
           data-header-id="h-last-name"
           onClick={[Function]}
           onKeyUp={[Function]}
@@ -1417,8 +1416,7 @@ exports[`Storyshots Components/Table Sorting 1`] = `
             Last name
             <div
               aria-hidden={true}
-              data-css-7dab2f=""
-              data-css-yaqq33=""
+              className="psds-icon psds-icon--size-medium psds-table__header__sort-icon"
             >
               <svg
                 aria-label="sort icon"
@@ -1435,7 +1433,7 @@ exports[`Storyshots Components/Table Sorting 1`] = `
         <th
           aria-label="Email: No sort applied"
           aria-sort="none"
-          data-css-1sqr5y4=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sortable"
           data-header-id="h-email"
           onClick={[Function]}
           onKeyUp={[Function]}
@@ -1448,8 +1446,7 @@ exports[`Storyshots Components/Table Sorting 1`] = `
             Email
             <div
               aria-hidden={true}
-              data-css-7dab2f=""
-              data-css-yaqq33=""
+              className="psds-icon psds-icon--size-medium psds-table__header__sort-icon"
             >
               <svg
                 aria-label="sort icon"
@@ -1467,11 +1464,11 @@ exports[`Storyshots Components/Table Sorting 1`] = `
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="rowheader"
           scope="row"
           title="First name"
@@ -1481,13 +1478,13 @@ exports[`Storyshots Components/Table Sorting 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Dooley
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Schuyler_MacGyver50@hotmail.com
@@ -1500,25 +1497,25 @@ exports[`Storyshots Components/Table Sorting 1`] = `
 
 exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -1527,7 +1524,7 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -1536,7 +1533,7 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -1548,24 +1545,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -1580,24 +1577,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Adolphus
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Donnelly
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Braulio_Rempel33@hotmail.com
@@ -1605,23 +1602,20 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={3}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -1642,24 +1636,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret down icon"
@@ -1674,24 +1668,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Krystal
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           MacGyver
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Kacey7@yahoo.com
@@ -1699,23 +1693,20 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
       </tr>
       <tr
         aria-hidden={false}
-        data-css-glcvea=""
-        data-css-nr5oo2=""
+        className="psds-table__drawer psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={3}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -1736,24 +1727,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -1768,24 +1759,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Aglae
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Greenholt
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Vivianne.Johnson79@hotmail.com
@@ -1793,23 +1784,20 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={3}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -1830,24 +1818,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -1862,24 +1850,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Vladimir
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           White
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Beaulah_Douglas@yahoo.com
@@ -1887,23 +1875,20 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={3}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -1924,24 +1909,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -1956,24 +1941,24 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Hillard
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Bauch
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Michelle_OConnell58@hotmail.com
@@ -1981,23 +1966,20 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={3}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -2024,21 +2006,21 @@ exports[`Storyshots Components/Table/drawer Left Indented 1`] = `
 
 exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
 <div
-  data-css-f3t1g9=""
+  className="psds-theme--dark psds-table__container"
 >
   <table
-    data-css-1sa3un9=""
+    className="psds-table psds-theme--dark"
     role="grid"
   >
     <thead
-      data-css-1decmr1=""
+      className="psds-table__head psds-theme--dark"
     >
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -2047,7 +2029,7 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -2056,7 +2038,7 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
           </div>
         </th>
         <th
-          data-css-kj95yb=""
+          className="psds-theme--dark psds-table__header psds-table__header--align-left"
           role="columnheader"
           scope="col"
         >
@@ -2065,49 +2047,49 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
           </div>
         </th>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         />
       </tr>
     </thead>
     <tbody>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Darien
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Romaguera
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Kathryn91@gmail.com
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -2122,25 +2104,23 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={4}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -2161,42 +2141,42 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Libby
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Treutel
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Rogelio.Kuhic@hotmail.com
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret down icon"
@@ -2211,25 +2191,23 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
       </tr>
       <tr
         aria-hidden={false}
-        data-css-glcvea=""
-        data-css-nr5oo2=""
+        className="psds-table__drawer psds-theme--dark psds-table__row"
         role="row"
       >
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={4}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -2250,42 +2228,42 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Myrna
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Bernier
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Bridget23@yahoo.com
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -2300,25 +2278,23 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={4}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -2339,42 +2315,42 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Darrell
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Stamm
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Bruce_Bartell@gmail.com
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -2389,25 +2365,23 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={4}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -2428,42 +2402,42 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
         </td>
       </tr>
       <tr
-        data-css-nr5oo2=""
+        className="psds-theme--dark psds-table__row"
         role="row"
       >
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Damon
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Goyette
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           Luisa.Nader53@yahoo.com
         </td>
         <td
-          data-css-nyp2vl=""
+          className="psds-table__cell psds-table__cell--align-left"
           role="gridcell"
         >
           <button
-            data-css-66vnlm=""
+            className="psds-button psds-button--layout-inline psds-button--size-xsmall psds-button--appearance-flat psds-theme--dark psds-button--icon-only"
             disabled={false}
             onClick={[Function]}
             title="Expand/Collapse additional content"
           >
             <div
-              data-css-4ducb0=""
+              className="psds-button__icon psds-button__icon--icon-align-left psds-button__icon--size-xSmall psds-button__icon--icon-only"
             >
               <div
-                data-css-1gzzcm2=""
+                className="psds-icon psds-icon--size-xsmall"
               >
                 <svg
                   aria-label="caret right icon"
@@ -2478,25 +2452,23 @@ exports[`Storyshots Components/Table/drawer Right Not Indented 1`] = `
             </div>
             <span
               aria-hidden={false}
-              data-css-15b13by=""
+              className="psds-button__text"
             />
           </button>
         </td>
       </tr>
       <tr
         aria-hidden={true}
-        data-css-e862eu=""
-        data-css-glcvea=""
+        className="psds-table__drawer psds-theme--dark psds-table__row psds-table__row--collapsed"
         role="row"
       >
         <td
+          className="psds-table__drawer__cell psds-table__cell psds-table__cell--align-left"
           colSpan={4}
-          data-css-1hk2tgq=""
-          data-css-nyp2vl=""
           role="gridcell"
         >
           <div
-            data-css-16cxc22=""
+            className="psds-table__drawer__inner"
           >
             <div
               style={
@@ -2535,49 +2507,49 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
   }
 >
   <div
-    data-css-62vpq9=""
+    className="psds-theme--dark psds-table__container psds-table__container--scrollable"
     role="region"
     tabIndex={0}
   >
     <table
-      data-css-1sa3un9=""
+      className="psds-table psds-theme--dark"
       role="grid"
     >
       <thead
-        data-css-1decmr1=""
+        className="psds-table__head psds-theme--dark"
       >
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             <label
-              data-css-kn3wr0=""
+              className="psds-checkbox"
               onClick={[Function]}
               onKeyDown={[Function]}
             >
               <div
-                data-css-1ij5lym=""
+                className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
               >
                 <input
-                  data-css-6wu9td=""
+                  className="psds-screenreader-only psds-checkbox__input"
                   readOnly={true}
                   type="checkbox"
                 />
                 <div
-                  data-css-gx66zw=""
+                  className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                 />
               </div>
               <div
-                data-css-ybwuvp=""
+                className="psds-checkbox__label psds-theme--dark"
               />
             </label>
           </td>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="col"
             title="Full name"
@@ -2587,7 +2559,7 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="col"
             title="First name"
@@ -2597,7 +2569,7 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="col"
             title="Last name"
@@ -2607,7 +2579,7 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="col"
             title="Email"
@@ -2620,40 +2592,40 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
       </thead>
       <tbody>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
             title="Full name"
@@ -2665,59 +2637,59 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Frederick
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Lindgren
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Jaycee_Rice@yahoo.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
             title="Full name"
@@ -2729,59 +2701,59 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Gerard
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Frami
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Cicero_Hartmann90@gmail.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
             title="Full name"
@@ -2793,59 +2765,59 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Virgie
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Satterfield
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Ron54@hotmail.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
             title="Full name"
@@ -2857,59 +2829,59 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Eino
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Homenick
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Delta_Yost13@hotmail.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
             title="Full name"
@@ -2921,19 +2893,19 @@ exports[`Storyshots Components/Table/responsive Horizontal Scroll 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Luella
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Kirlin
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Addison_Bins@hotmail.com
@@ -2959,23 +2931,23 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
   }
 >
   <div
-    data-css-62vpq9=""
+    className="psds-theme--dark psds-table__container psds-table__container--scrollable"
     role="region"
     tabIndex={0}
   >
     <table
-      data-css-1sa3un9=""
+      className="psds-table psds-theme--dark"
       role="grid"
     >
       <thead
-        data-css-1decmr1=""
+        className="psds-table__head psds-theme--dark"
       >
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-g5xyh8=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sticky"
             role="columnheader"
             scope="row"
             style={
@@ -2987,30 +2959,30 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
@@ -3019,7 +2991,7 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
@@ -3028,7 +3000,7 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
@@ -3037,7 +3009,7 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="columnheader"
             scope="row"
           >
@@ -3049,40 +3021,40 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
       </thead>
       <tbody>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-g5xyh8=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sticky"
             role="rowheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="rowheader"
             scope="row"
           >
@@ -3093,59 +3065,59 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Otilia
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Collins
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Seamus.Hettinger46@yahoo.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-g5xyh8=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sticky"
             role="rowheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="rowheader"
             scope="row"
           >
@@ -3156,59 +3128,59 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Baby
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Mayert
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Karianne24@yahoo.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-g5xyh8=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sticky"
             role="rowheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="rowheader"
             scope="row"
           >
@@ -3219,59 +3191,59 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Aisha
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             VonRueden
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Mitchel.Parker@gmail.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-g5xyh8=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sticky"
             role="rowheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="rowheader"
             scope="row"
           >
@@ -3282,59 +3254,59 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Lynn
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Runolfsdottir
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Vivienne.Jenkins@hotmail.com
           </td>
         </tr>
         <tr
-          data-css-nr5oo2=""
+          className="psds-theme--dark psds-table__row"
           role="row"
         >
           <th
-            data-css-g5xyh8=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left psds-table__header--sticky"
             role="rowheader"
             scope="row"
           >
             <div>
               <label
-                data-css-kn3wr0=""
+                className="psds-checkbox"
                 onClick={[Function]}
                 onKeyDown={[Function]}
               >
                 <div
-                  data-css-1ij5lym=""
+                  className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
                 >
                   <input
-                    data-css-6wu9td=""
+                    className="psds-screenreader-only psds-checkbox__input"
                     readOnly={true}
                     type="checkbox"
                   />
                   <div
-                    data-css-gx66zw=""
+                    className="psds-checkbox__square psds-checkbox__square.psds-theme--dark"
                   />
                 </div>
                 <div
-                  data-css-ybwuvp=""
+                  className="psds-checkbox__label psds-theme--dark"
                 />
               </label>
             </div>
           </th>
           <th
-            data-css-kj95yb=""
+            className="psds-theme--dark psds-table__header psds-table__header--align-left"
             role="rowheader"
             scope="row"
           >
@@ -3345,19 +3317,19 @@ exports[`Storyshots Components/Table/responsive Sticky Row Header 1`] = `
             </div>
           </th>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Viva
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Sipes
           </td>
           <td
-            data-css-nyp2vl=""
+            className="psds-table__cell psds-table__cell--align-left"
             role="gridcell"
           >
             Haven2@hotmail.com

@@ -5,36 +5,33 @@ exports[`Storyshots Components/VerticalTabs Active Item 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
-    <li
-      data-css-1268me8=""
-    >
+    <li>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Group Header
           </span>
         </div>
       </h2>
       <ul
-        data-css-gkw1j5=""
+        className="psds-verticaltabs__list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 First
               </span>
@@ -43,15 +40,14 @@ exports[`Storyshots Components/VerticalTabs Active Item 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Second
               </span>
@@ -60,16 +56,15 @@ exports[`Storyshots Components/VerticalTabs Active Item 1`] = `
         </li>
         <li>
           <div
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             data-active={true}
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Third
               </span>
@@ -78,15 +73,14 @@ exports[`Storyshots Components/VerticalTabs Active Item 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Fourth
               </span>
@@ -104,25 +98,22 @@ exports[`Storyshots Components/VerticalTabs Basic 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
-    <li
-      data-css-1268me8=""
-    >
+    <li>
       <ul
-        data-css-gkw1j5=""
+        className="psds-verticaltabs__list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 First
               </span>
@@ -131,15 +122,14 @@ exports[`Storyshots Components/VerticalTabs Basic 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Second
               </span>
@@ -148,15 +138,14 @@ exports[`Storyshots Components/VerticalTabs Basic 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Third
               </span>
@@ -165,15 +154,14 @@ exports[`Storyshots Components/VerticalTabs Basic 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Fourth
               </span>
@@ -191,26 +179,25 @@ exports[`Storyshots Components/VerticalTabs Collapsible 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <div>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <button
           aria-expanded="false"
-          data-css-h54kwj=""
+          className="psds-verticaltabs__group__button"
           onClick={[Function]}
         >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Group Header
           </span>
           <div
             aria-hidden="true"
-            data-css-1gtb6c4=""
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small psds-verticaltabs__rotatable"
           >
             <svg
               aria-label="caret down icon"
@@ -226,19 +213,18 @@ exports[`Storyshots Components/VerticalTabs Collapsible 1`] = `
       </h2>
       <ul
         aria-hidden={true}
-        data-css-1y8i23u=""
+        className="psds-verticaltabs__list psds-verticaltabs__group__collapsible-list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 First
               </span>
@@ -247,15 +233,14 @@ exports[`Storyshots Components/VerticalTabs Collapsible 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Second
               </span>
@@ -264,15 +249,14 @@ exports[`Storyshots Components/VerticalTabs Collapsible 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Third
               </span>
@@ -281,15 +265,14 @@ exports[`Storyshots Components/VerticalTabs Collapsible 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Fourth
               </span>
@@ -307,26 +290,25 @@ exports[`Storyshots Components/VerticalTabs Collapsible Start Open 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <div>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <button
           aria-expanded="true"
-          data-css-h54kwj=""
+          className="psds-verticaltabs__group__button"
           onClick={[Function]}
         >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Group Header
           </span>
           <div
             aria-hidden="true"
-            data-css-1rikgj2=""
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small psds-verticaltabs__rotatable psds-verticaltabs__rotatable--is-open"
           >
             <svg
               aria-label="caret down icon"
@@ -342,19 +324,18 @@ exports[`Storyshots Components/VerticalTabs Collapsible Start Open 1`] = `
       </h2>
       <ul
         aria-hidden={false}
-        data-css-1y8i23u=""
+        className="psds-verticaltabs__list psds-verticaltabs__group__collapsible-list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 First
               </span>
@@ -363,15 +344,14 @@ exports[`Storyshots Components/VerticalTabs Collapsible Start Open 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Second
               </span>
@@ -380,15 +360,14 @@ exports[`Storyshots Components/VerticalTabs Collapsible Start Open 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Third
               </span>
@@ -397,15 +376,14 @@ exports[`Storyshots Components/VerticalTabs Collapsible Start Open 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Fourth
               </span>
@@ -423,36 +401,33 @@ exports[`Storyshots Components/VerticalTabs Header 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
-    <li
-      data-css-1268me8=""
-    >
+    <li>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Group Header
           </span>
         </div>
       </h2>
       <ul
-        data-css-gkw1j5=""
+        className="psds-verticaltabs__list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 First
               </span>
@@ -461,15 +436,14 @@ exports[`Storyshots Components/VerticalTabs Header 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Second
               </span>
@@ -478,15 +452,14 @@ exports[`Storyshots Components/VerticalTabs Header 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Third
               </span>
@@ -495,15 +468,14 @@ exports[`Storyshots Components/VerticalTabs Header 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Fourth
               </span>
@@ -521,22 +493,20 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Active 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
         data-active={true}
-        data-css-1dfha3z=""
-        data-css-1pa08jv=""
       >
         <span
           aria-expanded={true}
-          data-css-zrqgca=""
+          className="psds-verticaltabs__tier1__header"
         >
           <div
+            className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
             data-active={true}
-            data-css-1kqp8s2=""
-            data-css-7dab2f=""
           >
             <svg
               aria-label="placeholder icon"
@@ -549,7 +519,7 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Active 1`] = `
             </svg>
           </div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -565,21 +535,19 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Collapsible 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1dfha3z=""
-        data-css-1pa08jv=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
       >
         <button
           aria-expanded={true}
-          data-css-zrqgca=""
+          className="psds-verticaltabs__tier1__header"
           onClick={[Function]}
         >
           <div
-            data-css-1kqp8s2=""
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
           >
             <svg
               aria-label="placeholder icon"
@@ -592,14 +560,13 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Collapsible 1`] = `
             </svg>
           </div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
           <div
             aria-hidden="true"
-            data-css-7bjcwq=""
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small psds-verticaltabs__header__label__icon"
           >
             <svg
               aria-label="caret down icon"
@@ -623,20 +590,18 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Header Basic 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1dfha3z=""
-        data-css-1pa08jv=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
       >
         <span
           aria-expanded={true}
-          data-css-zrqgca=""
+          className="psds-verticaltabs__tier1__header"
         >
           <div
-            data-css-1kqp8s2=""
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
           >
             <svg
               aria-label="placeholder icon"
@@ -649,7 +614,7 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Header Basic 1`] = `
             </svg>
           </div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -665,21 +630,19 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Header Button 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1dfha3z=""
-        data-css-1pa08jv=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
       >
         <button
           aria-expanded={true}
-          data-css-zrqgca=""
+          className="psds-verticaltabs__tier1__header"
           onClick={[Function]}
         >
           <div
-            data-css-1kqp8s2=""
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
           >
             <svg
               aria-label="placeholder icon"
@@ -692,7 +655,7 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Header Button 1`] = `
             </svg>
           </div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -708,21 +671,19 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Header Link 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1dfha3z=""
-        data-css-1pa08jv=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
       >
         <a
           aria-expanded={true}
-          data-css-zrqgca=""
+          className="psds-verticaltabs__tier1__header"
           href="href"
         >
           <div
-            data-css-1kqp8s2=""
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
           >
             <svg
               aria-label="placeholder icon"
@@ -735,7 +696,7 @@ exports[`Storyshots Components/VerticalTabs Tier 1 Header Link 1`] = `
             </svg>
           </div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -751,17 +712,18 @@ exports[`Storyshots Components/VerticalTabs Tier 2 Active 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
         data-active={true}
-        data-css-1pa08jv=""
-        data-css-1xd3fna=""
       >
-        <span>
+        <span
+          className="psds-verticaltabs__tier2__header"
+        >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -777,16 +739,17 @@ exports[`Storyshots Components/VerticalTabs Tier 2 Basic 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1pa08jv=""
-        data-css-1xd3fna=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
       >
-        <span>
+        <span
+          className="psds-verticaltabs__tier2__header"
+        >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -802,18 +765,18 @@ exports[`Storyshots Components/VerticalTabs Tier 2 Header Basic 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1pa08jv=""
-        data-css-1xd3fna=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
       >
         <span
+          className="psds-verticaltabs__tier2__header"
           icon={<PlaceholderIcon />}
         >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -829,19 +792,19 @@ exports[`Storyshots Components/VerticalTabs Tier 2 Header Button 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1pa08jv=""
-        data-css-1xd3fna=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
       >
         <button
+          className="psds-verticaltabs__tier2__header"
           icon={<PlaceholderIcon />}
           onClick={[Function]}
         >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -857,19 +820,19 @@ exports[`Storyshots Components/VerticalTabs Tier 2 Header Link 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
     <li>
       <div
-        data-css-1pa08jv=""
-        data-css-1xd3fna=""
+        className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
       >
         <a
+          className="psds-verticaltabs__tier2__header"
           href="#"
           icon={<PlaceholderIcon />}
         >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             text here
           </span>
@@ -885,52 +848,50 @@ exports[`Storyshots Components/VerticalTabs Tiers 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
-    <li
-      data-css-1268me8=""
-    >
+    <li>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Group Header
           </span>
         </div>
       </h2>
       <ul
-        data-css-gkw1j5=""
+        className="psds-verticaltabs__list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 First
               </span>
             </span>
           </div>
           <ul
-            data-css-gkw1j5=""
+            className="psds-verticaltabs__list"
           >
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     First
                   </span>
@@ -939,12 +900,13 @@ exports[`Storyshots Components/VerticalTabs Tiers 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Second
                   </span>
@@ -953,12 +915,13 @@ exports[`Storyshots Components/VerticalTabs Tiers 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Third
                   </span>
@@ -969,31 +932,31 @@ exports[`Storyshots Components/VerticalTabs Tiers 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Second
               </span>
             </span>
           </div>
           <ul
-            data-css-gkw1j5=""
+            className="psds-verticaltabs__list"
           >
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     First
                   </span>
@@ -1002,12 +965,13 @@ exports[`Storyshots Components/VerticalTabs Tiers 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Second
                   </span>
@@ -1016,12 +980,13 @@ exports[`Storyshots Components/VerticalTabs Tiers 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Third
                   </span>
@@ -1041,52 +1006,50 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
   data-css-b1z6un=""
 >
   <ul
-    data-css-15hj73r=""
+    className="psds-verticaltabs"
   >
-    <li
-      data-css-1268me8=""
-    >
+    <li>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <div>
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
           </span>
         </div>
       </h2>
       <ul
-        data-css-gkw1j5=""
+        className="psds-verticaltabs__list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
               </span>
             </span>
           </div>
           <ul
-            data-css-gkw1j5=""
+            className="psds-verticaltabs__list"
           >
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1095,12 +1058,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1109,12 +1073,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1125,16 +1090,14 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <div
-                data-css-1kqp8s2=""
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
               >
                 <svg
                   aria-label="placeholder icon"
@@ -1147,23 +1110,24 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
                 </svg>
               </div>
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
               </span>
             </span>
           </div>
           <ul
-            data-css-gkw1j5=""
+            className="psds-verticaltabs__list"
           >
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1172,12 +1136,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1186,12 +1151,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1204,22 +1170,21 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
     </li>
     <div>
       <h2
-        data-css-1972lph=""
+        className="psds-verticaltabs__group__header psds-theme--dark"
       >
         <button
           aria-expanded="true"
-          data-css-h54kwj=""
+          className="psds-verticaltabs__group__button"
           onClick={[Function]}
         >
           <span
-            data-css-1mxrpw9=""
+            className="psds-verticaltabs__header__label"
           >
             Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
           </span>
           <div
             aria-hidden="true"
-            data-css-1rikgj2=""
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small psds-verticaltabs__rotatable psds-verticaltabs__rotatable--is-open"
           >
             <svg
               aria-label="caret down icon"
@@ -1235,35 +1200,35 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
       </h2>
       <ul
         aria-hidden={false}
-        data-css-1y8i23u=""
+        className="psds-verticaltabs__list psds-verticaltabs__group__collapsible-list"
       >
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
               </span>
             </span>
           </div>
           <ul
-            data-css-gkw1j5=""
+            className="psds-verticaltabs__list"
           >
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1272,12 +1237,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1286,12 +1252,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1302,16 +1269,14 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
         </li>
         <li>
           <div
-            data-css-1dfha3z=""
-            data-css-1pa08jv=""
+            className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
           >
             <span
               aria-expanded={true}
-              data-css-zrqgca=""
+              className="psds-verticaltabs__tier1__header"
             >
               <div
-                data-css-1kqp8s2=""
-                data-css-7dab2f=""
+                className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
               >
                 <svg
                   aria-label="placeholder icon"
@@ -1324,23 +1289,24 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
                 </svg>
               </div>
               <span
-                data-css-1mxrpw9=""
+                className="psds-verticaltabs__header__label"
               >
                 Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
               </span>
             </span>
           </div>
           <ul
-            data-css-gkw1j5=""
+            className="psds-verticaltabs__list"
           >
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1349,12 +1315,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1363,12 +1330,13 @@ exports[`Storyshots Components/VerticalTabs Truncated 1`] = `
             </li>
             <li>
               <div
-                data-css-1pa08jv=""
-                data-css-1xd3fna=""
+                className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
               >
-                <span>
+                <span
+                  className="psds-verticaltabs__tier2__header"
+                >
                   <span
-                    data-css-1mxrpw9=""
+                    className="psds-verticaltabs__header__label"
                   >
                     Polaroid slow-carb chartreuse keytar cold-pressed salvia single-origin coffee.
                   </span>
@@ -1397,27 +1365,23 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
     }
   >
     <ul
-      data-css-15hj73r=""
+      className="psds-verticaltabs"
     >
-      <li
-        data-css-1268me8=""
-      >
+      <li>
         <ul
-          data-css-gkw1j5=""
+          className="psds-verticaltabs__list"
         >
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1430,29 +1394,27 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Dashboard
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1465,29 +1427,27 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Account
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <button
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1500,14 +1460,13 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   People
                 </span>
                 <div
                   aria-hidden="true"
-                  data-css-7bjcwq=""
-                  data-css-k31qw2=""
+                  className="psds-icon psds-icon--size-small psds-verticaltabs__header__label__icon"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -1523,22 +1482,21 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
             </div>
             <ul
               aria-hidden={false}
-              data-css-gkw1j5=""
-              data-css-jlpnjv=""
+              className="psds-verticaltabs__list psds-verticaltabs__list--collapsible"
             >
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Organization
                     </span>
@@ -1547,18 +1505,18 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
               </li>
               <li>
                 <div
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                   data-active={true}
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Admins
                     </span>
@@ -1567,17 +1525,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Managers
                     </span>
@@ -1586,17 +1544,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Unassigned users
                     </span>
@@ -1605,17 +1563,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Pending invites
                     </span>
@@ -1626,17 +1584,15 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1649,29 +1605,27 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Analytics
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1684,14 +1638,14 @@ exports[`Storyshots Components/VerticalTabs/Examples Admin Tools 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Log
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
         </ul>
@@ -1713,149 +1667,139 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
     }
   >
     <ul
-      data-css-15hj73r=""
+      className="psds-verticaltabs"
     >
-      <li
-        data-css-1268me8=""
-      >
+      <li>
         <h2
-          data-css-1972lph=""
+          className="psds-verticaltabs__group__header psds-theme--dark"
         >
           <div>
             <span
-              data-css-1mxrpw9=""
+              className="psds-verticaltabs__header__label"
             >
               Introduction
             </span>
           </div>
         </h2>
         <ul
-          data-css-gkw1j5=""
+          className="psds-verticaltabs__list"
         >
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Install
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Design assets
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Contribute
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Roadmap
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
         </ul>
       </li>
       <hr
-        data-css-7hrnfu=""
+        className="psds-verticaltabs__divider psds-theme--dark"
       />
-      <li
-        data-css-1268me8=""
-      >
+      <li>
         <h2
-          data-css-1972lph=""
+          className="psds-verticaltabs__group__header psds-theme--dark"
         >
           <div>
             <span
-              data-css-1mxrpw9=""
+              className="psds-verticaltabs__header__label"
             >
               Foundations
             </span>
           </div>
         </h2>
         <ul
-          data-css-gkw1j5=""
+          className="psds-verticaltabs__list"
         >
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1868,30 +1812,28 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Color
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1904,30 +1846,28 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Typography
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1940,30 +1880,28 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Spacing
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -1976,30 +1914,28 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Iconography
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2012,71 +1948,68 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Voice & Tone
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
         </ul>
       </li>
       <hr
-        data-css-7hrnfu=""
+        className="psds-verticaltabs__divider psds-theme--dark"
       />
-      <li
-        data-css-1268me8=""
-      >
+      <li>
         <h2
-          data-css-1972lph=""
+          className="psds-verticaltabs__group__header psds-theme--dark"
         >
           <div>
             <span
-              data-css-1mxrpw9=""
+              className="psds-verticaltabs__header__label"
             >
               Components
             </span>
           </div>
         </h2>
         <ul
-          data-css-gkw1j5=""
+          className="psds-verticaltabs__list"
         >
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Avatar
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             >
               <li>
                 <div
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                   data-active={true}
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
                 >
                   <a
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                   >
                     <span
-                      data-css-1mxrpw9=""
+                      className="psds-verticaltabs__header__label"
                     >
                       PropTypes
                     </span>
@@ -2085,15 +2018,15 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                   >
                     <span
-                      data-css-1mxrpw9=""
+                      className="psds-verticaltabs__header__label"
                     >
                       Guidelines
                     </span>
@@ -2104,52 +2037,50 @@ exports[`Storyshots Components/VerticalTabs/Examples Design System 1`] = `
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Badge
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <a
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 href="#"
                 onClick={[Function]}
               >
                 <span
-                  data-css-1mxrpw9=""
+                  className="psds-verticaltabs__header__label"
                 >
                   Breadcrumb
                 </span>
               </a>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
         </ul>
       </li>
       <hr
-        data-css-7hrnfu=""
+        className="psds-verticaltabs__divider psds-theme--dark"
       />
     </ul>
   </div>
@@ -2170,26 +2101,22 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
     }
   >
     <ul
-      data-css-15hj73r=""
+      className="psds-verticaltabs"
     >
-      <li
-        data-css-1268me8=""
-      >
+      <li>
         <ul
-          data-css-gkw1j5=""
+          className="psds-verticaltabs__list"
         >
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <span
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2202,29 +2129,27 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Reports Home
                 </span>
               </span>
             </div>
             <ul
-              data-css-gkw1j5=""
+              className="psds-verticaltabs__list"
             />
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <button
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2237,14 +2162,13 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Operational Reports
                 </span>
                 <div
                   aria-hidden="true"
-                  data-css-7bjcwq=""
-                  data-css-k31qw2=""
+                  className="psds-icon psds-icon--size-small psds-verticaltabs__header__label__icon"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2260,22 +2184,21 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
             </div>
             <ul
               aria-hidden={true}
-              data-css-gkw1j5=""
-              data-css-jlpnjv=""
+              className="psds-verticaltabs__list psds-verticaltabs__list--collapsible"
             >
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Work Log
                     </span>
@@ -2284,17 +2207,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Project Timeline
                     </span>
@@ -2303,17 +2226,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Leaderboard
                     </span>
@@ -2322,17 +2245,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Snapshot
                     </span>
@@ -2341,17 +2264,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Daily Updates
                     </span>
@@ -2360,17 +2283,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Spot Check
                     </span>
@@ -2381,17 +2304,15 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <button
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2404,14 +2325,13 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Review & Collaborate
                 </span>
                 <div
                   aria-hidden="true"
-                  data-css-7bjcwq=""
-                  data-css-k31qw2=""
+                  className="psds-icon psds-icon--size-small psds-verticaltabs__header__label__icon"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2427,22 +2347,21 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
             </div>
             <ul
               aria-hidden={true}
-              data-css-gkw1j5=""
-              data-css-jlpnjv=""
+              className="psds-verticaltabs__list psds-verticaltabs__list--collapsible"
             >
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Review Workflow
                     </span>
@@ -2451,17 +2370,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Review Collaboration
                     </span>
@@ -2470,18 +2389,18 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                   data-active={true}
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       PR Resolution
                     </span>
@@ -2490,17 +2409,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Knowledge Sharing
                     </span>
@@ -2509,17 +2428,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Player Card
                     </span>
@@ -2530,17 +2449,15 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <button
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2553,14 +2470,13 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Delivery
                 </span>
                 <div
                   aria-hidden="true"
-                  data-css-7bjcwq=""
-                  data-css-k31qw2=""
+                  className="psds-icon psds-icon--size-small psds-verticaltabs__header__label__icon"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2576,22 +2492,21 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
             </div>
             <ul
               aria-hidden={true}
-              data-css-gkw1j5=""
-              data-css-jlpnjv=""
+              className="psds-verticaltabs__list psds-verticaltabs__list--collapsible"
             >
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Retrospective
                     </span>
@@ -2602,17 +2517,15 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
           </li>
           <li>
             <div
-              data-css-1dfha3z=""
-              data-css-1pa08jv=""
+              className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier1 psds-theme--dark"
             >
               <button
                 aria-expanded={true}
-                data-css-zrqgca=""
+                className="psds-verticaltabs__tier1__header"
                 onClick={[Function]}
               >
                 <div
-                  data-css-1kqp8s2=""
-                  data-css-7dab2f=""
+                  className="psds-icon psds-icon--size-medium psds-verticaltabs__item__icon"
                 >
                   <svg
                     aria-label="placeholder icon"
@@ -2625,14 +2538,13 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
                   </svg>
                 </div>
                 <span
-                  data-css-113cwui=""
+                  className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                 >
                   Fundamentals
                 </span>
                 <div
                   aria-hidden="true"
-                  data-css-7bjcwq=""
-                  data-css-k31qw2=""
+                  className="psds-icon psds-icon--size-small psds-verticaltabs__header__label__icon"
                 >
                   <svg
                     aria-label="caret down icon"
@@ -2648,22 +2560,21 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
             </div>
             <ul
               aria-hidden={true}
-              data-css-gkw1j5=""
-              data-css-jlpnjv=""
+              className="psds-verticaltabs__list psds-verticaltabs__list--collapsible"
             >
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Code
                     </span>
@@ -2672,17 +2583,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Submit
                     </span>
@@ -2691,17 +2602,17 @@ exports[`Storyshots Components/VerticalTabs/Examples Flow 1`] = `
               </li>
               <li>
                 <div
-                  data-css-1pa08jv=""
-                  data-css-1xd3fna=""
+                  className="psds-verticaltabs__item psds-theme--dark psds-verticaltabs__tier2 psds-theme--dark"
                 >
                   <a
                     aria-hidden="true"
+                    className="psds-verticaltabs__tier2__header"
                     href="#"
                     onClick={[Function]}
                     tabIndex={-1}
                   >
                     <span
-                      data-css-113cwui=""
+                      className="psds-verticaltabs__header__label psds-verticaltabs__header__label--hide-labels"
                     >
                       Review
                     </span>

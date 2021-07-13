@@ -18,15 +18,17 @@
   "scripts": {
     "build": "run-s build:esm build:cjs build:css",
     "build:cjs": "tsc --project tsconfig.build.json --module commonjs --target es5 --outDir dist/cjs",
-    "build:css": "build-css --useGlamor -i dist/cjs/css/index.js",
+    "build:css": "postcss-compile",
     "build:esm": "tsc --project tsconfig.build.json --module es2015 --target es5 --outDir dist/esm",
     "build:watch": "yarn build:esm --watch",
     "storybook": "start-storybook -p 6006",
     "test": "tsc --noEmit --project ./tsconfig.json && jest",
     "test:watch": "yarn test --watchAll"
   },
-  "sideEffects": false,
-  "style": "dist/index.css",
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "style": "dist/esm/css/index.css",
   "types": "dist/esm/index.d.ts",
   "dependencies": {
     "@pluralsight/ps-design-system-core": "^8.2.2",
@@ -36,7 +38,6 @@
   "peerDependencies": {
     "@pluralsight/ps-design-system-normalize": "^5.1.2",
     "@pluralsight/ps-design-system-theme": "^8.1.4",
-    "glamor": "^2.x.x",
     "react": "^17.0.1"
   },
   "devDependencies": {

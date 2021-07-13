@@ -5,7 +5,7 @@ exports[`Storyshots Components/NavItem As Link 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
       data-css-167upi1=""
@@ -34,7 +34,7 @@ exports[`Storyshots Components/NavItem Basic 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -62,7 +62,7 @@ exports[`Storyshots Components/NavItem Horizontal 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -90,7 +90,7 @@ exports[`Storyshots Components/NavItem Horizontal As Link 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
       data-css-167upi1=""
@@ -119,7 +119,7 @@ exports[`Storyshots Components/NavItem Horizontal As Link With Icon 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
       data-css-167upi1=""
@@ -133,7 +133,7 @@ exports[`Storyshots Components/NavItem Horizontal As Link With Icon 1`] = `
           data-css-1o9ctb7=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -165,7 +165,7 @@ exports[`Storyshots Components/NavItem Horizontal Selected 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-8y1zv3=""
@@ -178,7 +178,7 @@ exports[`Storyshots Components/NavItem Horizontal Selected 1`] = `
           data-css-1o9ctb7=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -210,7 +210,7 @@ exports[`Storyshots Components/NavItem Horizontal With Icon 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -223,7 +223,7 @@ exports[`Storyshots Components/NavItem Horizontal With Icon 1`] = `
           data-css-1o9ctb7=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -255,7 +255,7 @@ exports[`Storyshots Components/NavItem Horizontal With Menu 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -268,7 +268,7 @@ exports[`Storyshots Components/NavItem Horizontal With Menu 1`] = `
           data-css-1o9ctb7=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -290,7 +290,7 @@ exports[`Storyshots Components/NavItem Horizontal With Menu 1`] = `
           data-css-1cbyl54=""
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="caret down icon"
@@ -317,7 +317,7 @@ exports[`Storyshots Components/NavItem Selected Flow Item 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-8y1zv3=""
@@ -330,7 +330,7 @@ exports[`Storyshots Components/NavItem Selected Flow Item 1`] = `
           data-css-1o9ctb7=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -362,7 +362,7 @@ exports[`Storyshots Components/NavItem Selected Skills Item 1`] = `
   data-css-ruxays=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-8y1zv3=""
@@ -375,7 +375,7 @@ exports[`Storyshots Components/NavItem Selected Skills Item 1`] = `
           data-css-1o9ctb7=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -407,7 +407,7 @@ exports[`Storyshots Components/NavItem Vertical 1`] = `
   data-css-1ccmf7q=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -435,7 +435,7 @@ exports[`Storyshots Components/NavItem Vertical As Link 1`] = `
   data-css-1ccmf7q=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
       data-css-167upi1=""
@@ -464,7 +464,7 @@ exports[`Storyshots Components/NavItem Vertical As Link With Icon 1`] = `
   data-css-1ccmf7q=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
       data-css-167upi1=""
@@ -478,7 +478,7 @@ exports[`Storyshots Components/NavItem Vertical As Link With Icon 1`] = `
           data-css-1nd5vjz=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -510,7 +510,7 @@ exports[`Storyshots Components/NavItem Vertical Selected 1`] = `
   data-css-1ccmf7q=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-8y1zv3=""
@@ -523,7 +523,7 @@ exports[`Storyshots Components/NavItem Vertical Selected 1`] = `
           data-css-1nd5vjz=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -555,7 +555,7 @@ exports[`Storyshots Components/NavItem Vertical With Icon 1`] = `
   data-css-1ccmf7q=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -568,7 +568,7 @@ exports[`Storyshots Components/NavItem Vertical With Icon 1`] = `
           data-css-1nd5vjz=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -600,7 +600,7 @@ exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
   data-css-1ccmf7q=""
 >
   <div
-    data-css-1ij5lym=""
+    className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
       data-css-167upi1=""
@@ -613,7 +613,7 @@ exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
           data-css-1nd5vjz=""
         >
           <div
-            data-css-7dab2f=""
+            className="psds-icon psds-icon--size-medium"
           >
             <svg
               aria-label="placeholder icon"
@@ -635,7 +635,7 @@ exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
           data-css-mz08e=""
         >
           <div
-            data-css-k31qw2=""
+            className="psds-icon psds-icon--size-small"
           >
             <svg
               aria-label="caret down icon"
@@ -663,7 +663,7 @@ exports[`Storyshots Components/NavItem With Action Menu 1`] = `
     data-css-ruxays=""
   >
     <div
-      data-css-1ij5lym=""
+      className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <button
         data-css-167upi1=""
@@ -676,7 +676,7 @@ exports[`Storyshots Components/NavItem With Action Menu 1`] = `
             data-css-1o9ctb7=""
           >
             <div
-              data-css-7dab2f=""
+              className="psds-icon psds-icon--size-medium"
             >
               <svg
                 aria-label="home icon"
@@ -701,7 +701,7 @@ exports[`Storyshots Components/NavItem With Action Menu 1`] = `
             data-css-1cbyl54=""
           >
             <div
-              data-css-k31qw2=""
+              className="psds-icon psds-icon--size-small"
             >
               <svg
                 aria-label="caret down icon"

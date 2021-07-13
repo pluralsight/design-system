@@ -10,11 +10,12 @@ import * as stories from '../__stories__/index.story'
 describe('Scrollable', () => {
   const cases = convertStoriesToJestCases(stories)
 
-  it('forwards className', () => {
-    render(<Scrollable data-testid="undertest" className="testclass" />)
+  it('composes className', () => {
+    const { container } = render(<Scrollable className="compose-classname" />)
 
-    const el = screen.getByTestId('undertest')
-    expect(el).toHaveClass('testclass')
+    expect(container.firstChild).toHaveClass(
+      'compose-classname psds-scrollable__outer'
+    )
   })
 
   it('forwards the ref', () => {

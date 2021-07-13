@@ -2,24 +2,195 @@
 
 exports[`Storyshots Components/Banner Basic 1`] = `
 <div
-  data-css-1bbe0j3=""
+  className="psds-banner psds-banner--color-blue"
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     Banner text
   </p>
 </div>
 `;
 
+exports[`Storyshots Components/Banner Button 1`] = `
+<div
+  style={
+    Object {
+      "display": "grid",
+      "gap": "20px",
+      "gridTemplateColumns": "1fr 1fr",
+    }
+  }
+>
+  <div
+    className="psds-banner psds-banner--color-blue"
+  >
+    <p
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
+    >
+      blue
+       with button
+       
+      <button
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-stroke psds-theme--dark psds-banner__button psds-banner__button--color-blue overridden"
+        disabled={false}
+      >
+        <span
+          aria-hidden={false}
+          className="psds-button__text"
+        >
+          Button
+        </span>
+      </button>
+    </p>
+    <button
+      className="psds-banner__dismiss"
+      onClick={[Function]}
+    >
+      <div
+        className="psds-icon psds-icon--size-medium"
+      >
+        <svg
+          aria-label="close icon"
+          role="img"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m17.646 7.056-.702-.702a.5.5 0 0 0-.708 0L12 10.59 7.764 6.354a.5.5 0 0 0-.708 0l-.702.702a.5.5 0 0 0 0 .708L10.59 12l-4.236 4.236a.5.5 0 0 0 0 .707l.702.703a.5.5 0 0 0 .708 0L12 13.41l4.236 4.236a.5.5 0 0 0 .708 0l.702-.703a.5.5 0 0 0 0-.707L13.41 12l4.236-4.236a.5.5 0 0 0 0-.708z"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+  <div
+    className="psds-banner psds-banner--color-green"
+  >
+    <p
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
+    >
+      green
+       with button
+       
+      <button
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-stroke psds-theme--dark psds-banner__button psds-banner__button--color-green overridden"
+        disabled={false}
+      >
+        <span
+          aria-hidden={false}
+          className="psds-button__text"
+        >
+          Button
+        </span>
+      </button>
+    </p>
+    <button
+      className="psds-banner__dismiss"
+      onClick={[Function]}
+    >
+      <div
+        className="psds-icon psds-icon--size-medium"
+      >
+        <svg
+          aria-label="close icon"
+          role="img"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m17.646 7.056-.702-.702a.5.5 0 0 0-.708 0L12 10.59 7.764 6.354a.5.5 0 0 0-.708 0l-.702.702a.5.5 0 0 0 0 .708L10.59 12l-4.236 4.236a.5.5 0 0 0 0 .707l.702.703a.5.5 0 0 0 .708 0L12 13.41l4.236 4.236a.5.5 0 0 0 .708 0l.702-.703a.5.5 0 0 0 0-.707L13.41 12l4.236-4.236a.5.5 0 0 0 0-.708z"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+  <div
+    className="psds-banner psds-banner--color-yellow"
+  >
+    <p
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
+    >
+      yellow
+       with button
+       
+      <button
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-stroke psds-theme--dark psds-banner__button psds-banner__button--color-yellow overridden"
+        disabled={false}
+      >
+        <span
+          aria-hidden={false}
+          className="psds-button__text"
+        >
+          Button
+        </span>
+      </button>
+    </p>
+    <button
+      className="psds-banner__dismiss"
+      onClick={[Function]}
+    >
+      <div
+        className="psds-icon psds-icon--size-medium"
+      >
+        <svg
+          aria-label="close icon"
+          role="img"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m17.646 7.056-.702-.702a.5.5 0 0 0-.708 0L12 10.59 7.764 6.354a.5.5 0 0 0-.708 0l-.702.702a.5.5 0 0 0 0 .708L10.59 12l-4.236 4.236a.5.5 0 0 0 0 .707l.702.703a.5.5 0 0 0 .708 0L12 13.41l4.236 4.236a.5.5 0 0 0 .708 0l.702-.703a.5.5 0 0 0 0-.707L13.41 12l4.236-4.236a.5.5 0 0 0 0-.708z"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+  <div
+    className="psds-banner psds-banner--color-red"
+  >
+    <p
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
+    >
+      red
+       with button
+       
+      <button
+        className="psds-button psds-button--layout-inline psds-button--size-small psds-button--appearance-stroke psds-theme--dark psds-banner__button psds-banner__button--color-red overridden"
+        disabled={false}
+      >
+        <span
+          aria-hidden={false}
+          className="psds-button__text"
+        >
+          Button
+        </span>
+      </button>
+    </p>
+    <button
+      className="psds-banner__dismiss"
+      onClick={[Function]}
+    >
+      <div
+        className="psds-icon psds-icon--size-medium"
+      >
+        <svg
+          aria-label="close icon"
+          role="img"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m17.646 7.056-.702-.702a.5.5 0 0 0-.708 0L12 10.59 7.764 6.354a.5.5 0 0 0-.708 0l-.702.702a.5.5 0 0 0 0 .708L10.59 12l-4.236 4.236a.5.5 0 0 0 0 .707l.702.703a.5.5 0 0 0 .708 0L12 13.41l4.236 4.236a.5.5 0 0 0 .708 0l.702-.703a.5.5 0 0 0 0-.707L13.41 12l4.236-4.236a.5.5 0 0 0 0-.708z"
+          />
+        </svg>
+      </div>
+    </button>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Components/Banner Child Anchor 1`] = `
 <div
-  data-css-1bbe0j3=""
+  className="psds-banner psds-banner--color-blue"
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     this is the text with an 
     <a
@@ -34,11 +205,10 @@ exports[`Storyshots Components/Banner Child Anchor 1`] = `
 
 exports[`Storyshots Components/Banner Child Anchor Yellow 1`] = `
 <div
-  data-css-mrqgze=""
+  className="psds-banner psds-banner--color-yellow"
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     this is the text with an 
     <a
@@ -53,16 +223,15 @@ exports[`Storyshots Components/Banner Child Anchor Yellow 1`] = `
 
 exports[`Storyshots Components/Banner Child Link 1`] = `
 <div
-  data-css-1bbe0j3=""
+  className="psds-banner psds-banner--color-blue"
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     this is the text with an
      
     <a
-      data-css-1o01808=""
+      className="psds-link psds-link--appearance-default psds-theme--dark"
       href="https://duckduckgo.com"
     >
       Link component
@@ -82,20 +251,19 @@ exports[`Storyshots Components/Banner Colors 1`] = `
   }
 >
   <div
-    data-css-1bbe0j3=""
+    className="psds-banner psds-banner--color-blue"
   >
     <p
-      data-css-17nixd9=""
-      data-css-sdl038=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
     >
       blue
     </p>
     <button
-      data-css-w2n93m=""
+      className="psds-banner__dismiss"
       onClick={[Function]}
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="close icon"
@@ -110,20 +278,19 @@ exports[`Storyshots Components/Banner Colors 1`] = `
     </button>
   </div>
   <div
-    data-css-1obqs0o=""
+    className="psds-banner psds-banner--color-green"
   >
     <p
-      data-css-17nixd9=""
-      data-css-sdl038=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
     >
       green
     </p>
     <button
-      data-css-w2n93m=""
+      className="psds-banner__dismiss"
       onClick={[Function]}
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="close icon"
@@ -138,20 +305,19 @@ exports[`Storyshots Components/Banner Colors 1`] = `
     </button>
   </div>
   <div
-    data-css-mrqgze=""
+    className="psds-banner psds-banner--color-yellow"
   >
     <p
-      data-css-17nixd9=""
-      data-css-sdl038=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
     >
       yellow
     </p>
     <button
-      data-css-w2n93m=""
+      className="psds-banner__dismiss"
       onClick={[Function]}
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="close icon"
@@ -166,20 +332,19 @@ exports[`Storyshots Components/Banner Colors 1`] = `
     </button>
   </div>
   <div
-    data-css-k0cdxm=""
+    className="psds-banner psds-banner--color-red"
   >
     <p
-      data-css-17nixd9=""
-      data-css-sdl038=""
+      className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
     >
       red
     </p>
     <button
-      data-css-w2n93m=""
+      className="psds-banner__dismiss"
       onClick={[Function]}
     >
       <div
-        data-css-7dab2f=""
+        className="psds-icon psds-icon--size-medium"
       >
         <svg
           aria-label="close icon"
@@ -198,20 +363,19 @@ exports[`Storyshots Components/Banner Colors 1`] = `
 
 exports[`Storyshots Components/Banner On Click 1`] = `
 <div
-  data-css-1bbe0j3=""
+  className="psds-banner psds-banner--color-blue"
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     Banner text
   </p>
   <button
-    data-css-w2n93m=""
+    className="psds-banner__dismiss"
     onClick={[Function]}
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="close icon"
@@ -229,11 +393,10 @@ exports[`Storyshots Components/Banner On Click 1`] = `
 
 exports[`Storyshots Components/Banner On Click Long Text 1`] = `
 <div
-  data-css-1bbe0j3=""
+  className="psds-banner psds-banner--color-blue"
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     this is the long text. this is the long text. this is the long text. this
   is the long text. this is the long text. this is the long text. this is
@@ -241,11 +404,11 @@ exports[`Storyshots Components/Banner On Click Long Text 1`] = `
   long text. this is the long text. this is the long text.{' '} 
   </p>
   <button
-    data-css-w2n93m=""
+    className="psds-banner__dismiss"
     onClick={[Function]}
   >
     <div
-      data-css-7dab2f=""
+      className="psds-icon psds-icon--size-medium"
     >
       <svg
         aria-label="close icon"
@@ -261,23 +424,9 @@ exports[`Storyshots Components/Banner On Click Long Text 1`] = `
 </div>
 `;
 
-exports[`Storyshots Components/Banner Style Class Name 1`] = `
-<div
-  className="someClass"
-  data-css-1bbe0j3=""
->
-  <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
-  >
-    Banner text
-  </p>
-</div>
-`;
-
 exports[`Storyshots Components/Banner Style Prop 1`] = `
 <div
-  data-css-1bbe0j3=""
+  className="psds-banner psds-banner--color-blue"
   style={
     Object {
       "outline": "3px solid red",
@@ -285,8 +434,7 @@ exports[`Storyshots Components/Banner Style Prop 1`] = `
   }
 >
   <p
-    data-css-17nixd9=""
-    data-css-sdl038=""
+    className="psds-text__p psds-text__p--size-medium psds-text__p--color-primary psds-theme--dark psds-banner__text"
   >
     Banner text
   </p>

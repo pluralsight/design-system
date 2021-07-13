@@ -28,6 +28,16 @@ describe('CircularProgress', () => {
     expect(ref.current).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(
+      <CircularProgress className="compose-classname" aria-label="someLabel" />
+    )
+
+    expect(container.firstChild).toHaveClass(
+      'psds-circularprogress--size-medium compose-classname'
+    )
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

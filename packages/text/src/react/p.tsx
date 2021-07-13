@@ -1,12 +1,9 @@
 import { useTheme, names } from '@pluralsight/ps-design-system-theme'
-import { ValueOf } from '@pluralsight/ps-design-system-util'
-import glamorDefault, * as glamorExports from 'glamor'
+import { ValueOf, classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import * as vars from '../vars/index'
-
-const glamor = glamorDefault || glamorExports
 
 const style = ({
   themeName,
@@ -16,14 +13,15 @@ const style = ({
   themeName: ValueOf<typeof names>
   size: ValueOf<typeof vars.pSizes>
   color: ValueOf<typeof vars.textColors>
-}) =>
-  glamor.compose(
-    glamor.css(stylesheet[`.psds-text__p`]),
-    glamor.css(stylesheet[`.psds-text__p--size-${size}`]),
-    glamor.css(
-      stylesheet[`.psds-text__p--color-${color}.psds-theme--${themeName}`]
-    )
+}) => {
+  const label = 'psds-text__p'
+  return classNames(
+    label,
+    `${label}--size-${size}`,
+    `${label}--color-${color}`,
+    `psds-theme--${themeName}`
   )
+}
 
 interface PStatics {
   sizes: typeof vars.pSizes
@@ -38,13 +36,17 @@ interface PProps extends React.HTMLAttributes<HTMLParagraphElement> {
 const P: React.FC<PProps> & PStatics = ({
   size = vars.pSizes.medium,
   color = vars.textColors.primary,
-  ...props
+  className,
+  ...rest
 }) => {
   const themeName = useTheme()
 
   return (
-    <p {...props} {...style({ themeName, size, color })}>
-      {props.children}
+    <p
+      {...rest}
+      className={classNames(style({ themeName, size, color }), className)}
+    >
+      {rest.children}
     </p>
   )
 }

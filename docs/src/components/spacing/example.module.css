@@ -1,11 +1,11 @@
 .parent {
   display: flex;
   flex-wrap: wrap;
-  margin: calc(var(--psLayoutSpacingLarge) / -2);
+  margin: calc(var(--ps-layout-spacing-large) / -2);
 }
 
 .example {
-  margin: calc(var(--psLayoutSpacingLarge) / 2);
+  margin: calc(var(--ps-layout-spacing-large) / 2);
 }
 .box {
   position: relative;
@@ -24,15 +24,15 @@
   border-width: 0;
 }
 .label {
-  margin-top: var(--psLayoutSpacingXSmall);
-  font-size: var(--psTypeFontSizeXSmall);
-  font-weight: var(--psTypeFontWeightBook);
-  line-height: var(--psTypeLineHeightTight);
+  margin-top: var(--ps-layout-spacing-xsmall);
+  font-size: var(--ps-type-font-size-xsmall);
+  font-weight: var(--ps-type-font-weight-book);
+  line-height: var(--ps-type-line-height-tight);
 }
 .varName {
-  margin-top: var(--psLayoutSpacingSmall);
-  font-size: var(--psTypeFontSizeXSmall);
-  color: var(--psColorsPink6);
+  margin-top: var(--ps-layout-spacing-small);
+  font-size: var(--ps-type-font-size-xsmall);
+  color: var(--ps-colors-pink-6);
 }
 .line {
   position: absolute;

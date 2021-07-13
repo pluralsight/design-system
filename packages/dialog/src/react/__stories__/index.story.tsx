@@ -207,22 +207,6 @@ export const ModalOverflowYWithTail: Story = () => (
   </ModalStory>
 )
 
-export const ModalStylesFor: Story = () => (
-  <ModalStory>
-    {props => (
-      <MockDialog
-        {...props}
-        UNSAFE_stylesFor={{
-          dialog__content: {
-            padding: '128px',
-            background: 'red'
-          }
-        }}
-      />
-    )}
-  </ModalStory>
-)
-
 const StoryGrid: React.FC<{ cols?: number }> = props => {
   const { cols = 2, ...rest } = props
 

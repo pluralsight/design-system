@@ -1,17 +1,18 @@
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  divider: () => glamor.css(stylesheet['.psds-actionmenu__divider'])
+export const Divider: React.FC<React.HTMLAttributes<HTMLDivElement>> = ({
+  className,
+  ...rest
+}) => {
+  return (
+    <div
+      {...rest}
+      className={classNames('psds-actionmenu__divider', className)}
+    />
+  )
 }
-
-export const Divider: React.FC<React.HTMLAttributes<HTMLDivElement>> =
-  props => {
-    return <div {...styles.divider()} {...props} />
-  }
 
 Divider.displayName = 'ActionMenu.Divider'
