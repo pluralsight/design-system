@@ -80,7 +80,13 @@ export interface TextAreaStatics {
 }
 
 export interface TextAreaProps
-  extends Omit<React.HTMLAttributes<HTMLTextAreaElement>, 'rows'> {
+  extends Omit<
+    React.DetailedHTMLProps<
+      React.TextareaHTMLAttributes<HTMLTextAreaElement>,
+      HTMLTextAreaElement
+    >,
+    'rows'
+  > {
   appearance?: ValueOf<typeof vars.appearances>
   disabled?: boolean
   error?: boolean

@@ -19,6 +19,7 @@ Array [
         <textarea
           data-css-1paz7u7=""
           disabled={false}
+          maxLength={23}
           placeholder="Some placeholder"
           style={
             Object {

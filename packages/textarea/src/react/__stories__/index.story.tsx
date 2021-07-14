@@ -37,6 +37,7 @@ export const AllLabels: Story = () => (
       label="Some label"
       placeholder="Some placeholder"
       subLabel="Some sub label"
+      maxLength={23}
     />
 
     <TextArea
