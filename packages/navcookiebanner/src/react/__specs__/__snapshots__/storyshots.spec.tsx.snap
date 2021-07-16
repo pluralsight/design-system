@@ -2,10 +2,10 @@
 
 exports[`Storyshots Components/NavCookieBanner Basic 1`] = `
 <div
-  data-css-17e1gtc=""
+  className="psds-navcookiebanner"
 >
   <p
-    data-css-fg8csb=""
+    className="psds-navcookiebanner__message"
   >
     <label>
       Pluralsight uses cookies.
@@ -19,7 +19,7 @@ exports[`Storyshots Components/NavCookieBanner Basic 1`] = `
   </p>
   <button
     aria-label="close"
-    data-css-1et1j4i=""
+    className="psds-navcookiebanner__dismiss"
     onClick={[Function]}
   >
     <div
@@ -41,10 +41,10 @@ exports[`Storyshots Components/NavCookieBanner Basic 1`] = `
 
 exports[`Storyshots Components/NavCookieBanner Custom Message 1`] = `
 <div
-  data-css-17e1gtc=""
+  className="psds-navcookiebanner"
 >
   <p
-    data-css-fg8csb=""
+    className="psds-navcookiebanner__message"
   >
     <label>
       This is here to annoy you.
@@ -52,7 +52,7 @@ exports[`Storyshots Components/NavCookieBanner Custom Message 1`] = `
   </p>
   <button
     aria-label="close"
-    data-css-1et1j4i=""
+    className="psds-navcookiebanner__dismiss"
     onClick={[Function]}
   >
     <div

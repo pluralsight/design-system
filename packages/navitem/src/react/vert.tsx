@@ -1,29 +1,24 @@
 import { CaretDownIcon } from '@pluralsight/ps-design-system-icon'
+import { classNames } from '@pluralsight/ps-design-system-util'
 
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import Context from './context'
 import { Bar, Button } from './common'
-import stylesheet from '../css/index'
+import '../css/index.css'
 
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  container: () => glamor.css(stylesheet['.psds-navitem__vert-container']),
-  caret: () => glamor.css(stylesheet['.psds-navitem__vert-caret']),
-  icon: () => glamor.css(stylesheet['.psds-navitem__vert-icon']),
-  label: () => glamor.css(stylesheet['.psds-navitem__vert-label']),
-  layout: () => glamor.css(stylesheet['.psds-navitem__vert-layout'])
-}
-
-export const VertLayout: React.FC = props => {
+export const VertLayout: React.FC<
+  React.DetailedHTMLProps<
+    React.HTMLAttributes<HTMLSpanElement>,
+    HTMLSpanElement
+  >
+> = props => {
   const { icon, menu } = React.useContext(Context)
 
   return (
     <VertContainer>
-      <Button>
-        <span {...styles.layout()}>
+      <Button className={props.className}>
+        <span className={'psds-navitem__vert-layout'}>
           {icon && <VertIcon>{icon}</VertIcon>}
           {props.children && <VertLabel>{props.children}</VertLabel>}
           {menu && <VertCaret />}
@@ -38,13 +33,13 @@ VertLayout.displayName = 'NavItem.VertLayout'
 
 const VertContainer: React.FC<React.HTMLAttributes<HTMLSpanElement>> =
   props => {
-    return <span {...styles.container()} {...props} />
+    return <span className={'psds-navitem__vert-container'} {...props} />
   }
 VertContainer.displayName = 'NavItem.VertContainer'
 
 const VertCaret: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => {
   return (
-    <span {...styles.caret()} {...props}>
+    <span className={'psds-navitem__vert-caret'} {...props}>
       <CaretDownIcon size={CaretDownIcon.sizes.small} />
     </span>
   )
@@ -52,11 +47,11 @@ const VertCaret: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => {
 VertCaret.displayName = 'NavItem.VertCaret'
 
 const VertIcon: React.FC = props => {
-  return <span {...styles.icon()} {...props} />
+  return <span className={'psds-navitem__vert-icon'} {...props} />
 }
 VertIcon.displayName = 'NavItem.VertIcon'
 
 const VertLabel: React.FC<React.HTMLAttributes<HTMLSpanElement>> = props => {
-  return <span {...styles.label()} {...props} />
+  return <span className={'psds-navitem__vert-label'} {...props} />
 }
 VertLabel.displayName = 'NavItem.VertLabel'

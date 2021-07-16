@@ -2,21 +2,21 @@
 
 exports[`Storyshots Components/NavItem As Link 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
-      data-css-167upi1=""
+      className="psds-navitem__button"
       href="https://duckduckgo.com"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -24,27 +24,27 @@ exports[`Storyshots Components/NavItem As Link 1`] = `
     </a>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Basic 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -52,27 +52,27 @@ exports[`Storyshots Components/NavItem Basic 1`] = `
     </button>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Horizontal 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -80,28 +80,28 @@ exports[`Storyshots Components/NavItem Horizontal 1`] = `
     </button>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Horizontal As Link 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
-      data-css-167upi1=""
+      className="psds-navitem__button"
       href="https://duckduckgo.com"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -109,28 +109,28 @@ exports[`Storyshots Components/NavItem Horizontal As Link 1`] = `
     </a>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Horizontal As Link With Icon 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
-      data-css-167upi1=""
+      className="psds-navitem__button"
       href="https://duckduckgo.com"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1o9ctb7=""
+          className="psds-navitem__horz-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -147,7 +147,7 @@ exports[`Storyshots Components/NavItem Horizontal As Link With Icon 1`] = `
           </div>
         </span>
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -155,27 +155,27 @@ exports[`Storyshots Components/NavItem Horizontal As Link With Icon 1`] = `
     </a>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Horizontal Selected 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-8y1zv3=""
+      className="psds-navitem__button psds-navitem__button--selected"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1o9ctb7=""
+          className="psds-navitem__horz-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -192,7 +192,7 @@ exports[`Storyshots Components/NavItem Horizontal Selected 1`] = `
           </div>
         </span>
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -200,27 +200,27 @@ exports[`Storyshots Components/NavItem Horizontal Selected 1`] = `
     </button>
   </div>
   <div
-    data-css-1qafynz=""
+    className="psds-navitem__bar psds-navitem__horz-bar psds-navitem__bar--selected"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Horizontal With Icon 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1o9ctb7=""
+          className="psds-navitem__horz-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -237,7 +237,7 @@ exports[`Storyshots Components/NavItem Horizontal With Icon 1`] = `
           </div>
         </span>
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -245,27 +245,27 @@ exports[`Storyshots Components/NavItem Horizontal With Icon 1`] = `
     </button>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Horizontal With Menu 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-5vea0s=""
+        className="psds-navitem__horz-layout psds-navitem__horz-layout--menu"
       >
         <span
-          data-css-1o9ctb7=""
+          className="psds-navitem__horz-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -282,12 +282,12 @@ exports[`Storyshots Components/NavItem Horizontal With Menu 1`] = `
           </div>
         </span>
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
         <span
-          data-css-1cbyl54=""
+          className="psds-navitem__horz-caret"
         >
           <div
             className="psds-icon psds-icon--size-small"
@@ -307,27 +307,34 @@ exports[`Storyshots Components/NavItem Horizontal With Menu 1`] = `
     </button>
   </div>
   <div
-    data-css-1pig4yn=""
+    className="psds-navitem__bar psds-navitem__horz-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Selected Flow Item 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-8y1zv3=""
+      UNSAFE_stylesFor={
+        Object {
+          "navitem__bar--selected": Object {
+            "background": "linear-gradient(90deg, #2968B2 0%, #27AAE1 100%)",
+          },
+        }
+      }
+      className="psds-navitem__button psds-navitem__button--selected"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1o9ctb7=""
+          className="psds-navitem__horz-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -344,7 +351,7 @@ exports[`Storyshots Components/NavItem Selected Flow Item 1`] = `
           </div>
         </span>
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -352,27 +359,34 @@ exports[`Storyshots Components/NavItem Selected Flow Item 1`] = `
     </button>
   </div>
   <div
-    data-css-vihy3f=""
+    className="psds-navitem__bar psds-navitem__horz-bar psds-navitem__bar--selected"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Selected Skills Item 1`] = `
 <span
-  data-css-ruxays=""
+  className="psds-navitem__horz-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-8y1zv3=""
+      UNSAFE_stylesFor={
+        Object {
+          "navitem__bar--selected": Object {
+            "background": "linear-gradient(90deg, #E80A89 0%, #F15B2A 100%)",
+          },
+        }
+      }
+      className="psds-navitem__button psds-navitem__button--selected"
       onClick={[Function]}
     >
       <span
-        data-css-50rv4t=""
+        className="psds-navitem__horz-layout"
       >
         <span
-          data-css-1o9ctb7=""
+          className="psds-navitem__horz-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -389,7 +403,7 @@ exports[`Storyshots Components/NavItem Selected Skills Item 1`] = `
           </div>
         </span>
         <span
-          data-css-1c3u483=""
+          className="psds-navitem__horz-label"
         >
           Item Text
         </span>
@@ -397,27 +411,27 @@ exports[`Storyshots Components/NavItem Selected Skills Item 1`] = `
     </button>
   </div>
   <div
-    data-css-1qzypeb=""
+    className="psds-navitem__bar psds-navitem__horz-bar psds-navitem__bar--selected"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Vertical 1`] = `
 <span
-  data-css-1ccmf7q=""
+  className="psds-navitem__vert-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-ie8n0y=""
+        className="psds-navitem__vert-layout"
       >
         <span
-          data-css-1442w2z=""
+          className="psds-navitem__vert-label"
         >
           Item Text
         </span>
@@ -425,28 +439,28 @@ exports[`Storyshots Components/NavItem Vertical 1`] = `
     </button>
   </div>
   <div
-    data-css-14bdu2c=""
+    className="psds-navitem__bar psds-navitem__vert-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Vertical As Link 1`] = `
 <span
-  data-css-1ccmf7q=""
+  className="psds-navitem__vert-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
-      data-css-167upi1=""
+      className="psds-navitem__button"
       href="https://duckduckgo.com"
       onClick={[Function]}
     >
       <span
-        data-css-ie8n0y=""
+        className="psds-navitem__vert-layout"
       >
         <span
-          data-css-1442w2z=""
+          className="psds-navitem__vert-label"
         >
           Item Text
         </span>
@@ -454,28 +468,28 @@ exports[`Storyshots Components/NavItem Vertical As Link 1`] = `
     </a>
   </div>
   <div
-    data-css-14bdu2c=""
+    className="psds-navitem__bar psds-navitem__vert-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Vertical As Link With Icon 1`] = `
 <span
-  data-css-1ccmf7q=""
+  className="psds-navitem__vert-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <a
-      data-css-167upi1=""
+      className="psds-navitem__button"
       href="https://duckduckgo.com"
       onClick={[Function]}
     >
       <span
-        data-css-ie8n0y=""
+        className="psds-navitem__vert-layout"
       >
         <span
-          data-css-1nd5vjz=""
+          className="psds-navitem__vert-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -492,7 +506,7 @@ exports[`Storyshots Components/NavItem Vertical As Link With Icon 1`] = `
           </div>
         </span>
         <span
-          data-css-1442w2z=""
+          className="psds-navitem__vert-label"
         >
           Item Text
         </span>
@@ -500,27 +514,27 @@ exports[`Storyshots Components/NavItem Vertical As Link With Icon 1`] = `
     </a>
   </div>
   <div
-    data-css-14bdu2c=""
+    className="psds-navitem__bar psds-navitem__vert-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Vertical Selected 1`] = `
 <span
-  data-css-1ccmf7q=""
+  className="psds-navitem__vert-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-8y1zv3=""
+      className="psds-navitem__button psds-navitem__button--selected"
       onClick={[Function]}
     >
       <span
-        data-css-ie8n0y=""
+        className="psds-navitem__vert-layout"
       >
         <span
-          data-css-1nd5vjz=""
+          className="psds-navitem__vert-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -537,7 +551,7 @@ exports[`Storyshots Components/NavItem Vertical Selected 1`] = `
           </div>
         </span>
         <span
-          data-css-1442w2z=""
+          className="psds-navitem__vert-label"
         >
           Item Text
         </span>
@@ -545,27 +559,27 @@ exports[`Storyshots Components/NavItem Vertical Selected 1`] = `
     </button>
   </div>
   <div
-    data-css-pdnvm8=""
+    className="psds-navitem__bar psds-navitem__vert-bar psds-navitem__bar--selected"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Vertical With Icon 1`] = `
 <span
-  data-css-1ccmf7q=""
+  className="psds-navitem__vert-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-ie8n0y=""
+        className="psds-navitem__vert-layout"
       >
         <span
-          data-css-1nd5vjz=""
+          className="psds-navitem__vert-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -582,7 +596,7 @@ exports[`Storyshots Components/NavItem Vertical With Icon 1`] = `
           </div>
         </span>
         <span
-          data-css-1442w2z=""
+          className="psds-navitem__vert-label"
         >
           Item Text
         </span>
@@ -590,27 +604,27 @@ exports[`Storyshots Components/NavItem Vertical With Icon 1`] = `
     </button>
   </div>
   <div
-    data-css-14bdu2c=""
+    className="psds-navitem__bar psds-navitem__vert-bar"
   />
 </span>
 `;
 
 exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
 <span
-  data-css-1ccmf7q=""
+  className="psds-navitem__vert-container"
 >
   <div
     className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
   >
     <button
-      data-css-167upi1=""
+      className="psds-navitem__button"
       onClick={[Function]}
     >
       <span
-        data-css-ie8n0y=""
+        className="psds-navitem__vert-layout"
       >
         <span
-          data-css-1nd5vjz=""
+          className="psds-navitem__vert-icon"
         >
           <div
             className="psds-icon psds-icon--size-medium"
@@ -627,12 +641,12 @@ exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
           </div>
         </span>
         <span
-          data-css-1442w2z=""
+          className="psds-navitem__vert-label"
         >
           Item Text
         </span>
         <span
-          data-css-mz08e=""
+          className="psds-navitem__vert-caret"
         >
           <div
             className="psds-icon psds-icon--size-small"
@@ -652,7 +666,7 @@ exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
     </button>
   </div>
   <div
-    data-css-14bdu2c=""
+    className="psds-navitem__bar psds-navitem__vert-bar"
   />
 </span>
 `;
@@ -660,20 +674,20 @@ exports[`Storyshots Components/NavItem Vertical With Menu 1`] = `
 exports[`Storyshots Components/NavItem With Action Menu 1`] = `
 <div>
   <span
-    data-css-ruxays=""
+    className="psds-navitem__horz-container"
   >
     <div
       className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
     >
       <button
-        data-css-167upi1=""
+        className="psds-navitem__button"
         onClick={[Function]}
       >
         <span
-          data-css-5vea0s=""
+          className="psds-navitem__horz-layout psds-navitem__horz-layout--menu"
         >
           <span
-            data-css-1o9ctb7=""
+            className="psds-navitem__horz-icon"
           >
             <div
               className="psds-icon psds-icon--size-medium"
@@ -692,13 +706,13 @@ exports[`Storyshots Components/NavItem With Action Menu 1`] = `
             </div>
           </span>
           <span
-            data-css-1c3u483=""
+            className="psds-navitem__horz-label"
           >
             menu open 
             false
           </span>
           <span
-            data-css-1cbyl54=""
+            className="psds-navitem__horz-caret"
           >
             <div
               className="psds-icon psds-icon--size-small"
@@ -718,7 +732,7 @@ exports[`Storyshots Components/NavItem With Action Menu 1`] = `
       </button>
     </div>
     <div
-      data-css-1pig4yn=""
+      className="psds-navitem__bar psds-navitem__horz-bar"
     />
   </span>
   <div

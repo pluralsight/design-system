@@ -1,38 +1,8 @@
 import Halo from '@pluralsight/ps-design-system-halo'
-
-import glamorDefault, * as glamorExports from 'glamor'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  logo: (children: boolean) =>
-    glamor.css(
-      stylesheet['.psds-navbrand__logo'],
-      children &&
-        glamor.media(
-          '(min-width: 1200px)',
-          stylesheet['@media (min-width: 1200px)'][
-            '.psds-navbrand__logo--wordmark'
-          ]
-        )
-    ),
-  navBrand: (clickable: boolean) =>
-    glamor.css(
-      stylesheet['.psds-navbrand'],
-      clickable && stylesheet['.psds-navbrand--clickable']
-    ),
-  wordmark: () =>
-    glamor.css(
-      stylesheet['.psds-navbrand__wordmark'],
-      glamor.media(
-        '(min-width: 1200px)',
-        stylesheet['@media (min-width: 1200px)']['.psds-navbrand__wordmark']
-      )
-    )
-}
+import '../css/index.css'
 
 interface NavBrandProps
   extends React.HTMLAttributes<
@@ -52,7 +22,7 @@ type NavBrandElement = HTMLAnchorElement | HTMLButtonElement | HTMLDivElement
 
 const NavBrand = React.forwardRef<NavBrandElement, NavBrandProps>(
   (props, forwardedRef) => {
-    const { logo, wordmark, ...rest } = props
+    const { className, logo, wordmark, ...rest } = props
 
     const ref = React.useRef<NavBrandElement>(null)
     React.useImperativeHandle(
@@ -67,7 +37,11 @@ const NavBrand = React.forwardRef<NavBrandElement, NavBrandProps>(
     return (
       <Halo inline gapSize={Halo.gapSizes.small}>
         <Wrapper
-          {...styles.navBrand(Boolean(props.href || props.onClick))}
+          className={classNames(
+            className,
+            'psds-navbrand',
+            Boolean(props.href || props.onClick) && 'psds-navbrand--clickable'
+          )}
           ref={ref as any}
           {...rest}
         >
@@ -82,9 +56,18 @@ const NavBrand = React.forwardRef<NavBrandElement, NavBrandProps>(
 export default NavBrand
 
 const Logo: React.FC = props => (
-  <div {...styles.logo(Boolean(props.children))} {...props} />
+  <div
+    className={classNames(
+      'psds-navbrand__logo',
+      React.Children.count(props.children) > 0 &&
+        'psds-navbrand__logo--wordmark'
+    )}
+    {...props}
+  />
 )
 Logo.displayName = 'NavBrand.Logo'
 
-const Wordmark: React.FC = props => <div {...styles.wordmark()} {...props} />
+const Wordmark: React.FC = props => (
+  <div className={'psds-navbrand__wordmark'} {...props} />
+)
 Wordmark.displayName = 'NavBrand.Wordmark'

@@ -1,0 +1,28 @@
+.psds-navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 56px;
+  padding: var(--ps-layout-spacing-xsmall);
+  background: var(--ps-colors-background-dark-2);
+  border-bottom: 1px solid var(--ps-colors-background-dark-3);
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 8px 0;
+}
+
+.psds-navbar__brand {
+  margin-right: var(--ps-layout-spacing-medium);
+}
+
+.psds-navbar__items {
+  flex: 1;
+  margin-right: var(--ps-layout-spacing-large);
+}
+
+.psds-navbar__mobile-menu {
+  margin-right: var(--ps-layout-spacing-xxsmall);
+}
+
+.psds-navbar__utility {
+  margin-left: auto;
+  margin-right: var(--ps-layout-spacing-xxsmall);
+}

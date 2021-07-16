@@ -1,0 +1,57 @@
+.psds-navbrand {
+  display: flex;
+  align-items: center;
+  padding: var(--ps-layout-spacing-xsmall);
+  border-radius: 2px;
+  height: 40px;
+}
+
+.psds-navbrand--clickable {
+  cursor: pointer;
+  background: 0 0;
+  border: none;
+  text-decoration: none;
+}
+
+.psds-navbrand--clickable:focus,
+.psds-navbrand--clickable:hover {
+  background: rgba(138, 153, 168, 0.15);
+}
+
+.psds-navbrand--clickable:focus {
+  outline: 0;
+}
+
+.psds-navbrand--clickable:active {
+  background: rgba(138, 153, 168, 0.25);
+}
+
+.psds-navbrand__logo {
+  height: 24px;
+  width: 24px;
+}
+
+.psds-navbrand__logo svg {
+  height: 100%;
+  width: 100%;
+}
+
+.psds-navbrand__wordmark {
+  display: none;
+  line-height: 0;
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+}
+
+@media (min-width: 1200px) {
+  .psds-navbrand__logo--wordmark {
+    margin-right: var(--ps-layout-spacing-xsmall);
+  }
+
+  .psds-navbrand__wordmark {
+    display: block;
+  }
+}

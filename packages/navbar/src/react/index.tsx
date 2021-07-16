@@ -1,21 +1,9 @@
 import { MenuIcon } from '@pluralsight/ps-design-system-icon'
+import { classNames } from '@pluralsight/ps-design-system-util'
 import NavItem from '@pluralsight/ps-design-system-navitem'
-
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
-
-const glamor = glamorDefault || glamorExports
-
-const styles = {
-  brand: () => glamor.css(stylesheet['.psds-navbar__brand']),
-  mobileMenu: () => glamor.css(stylesheet['.psds-navbar__mobile-menu']),
-  navbar: () => glamor.css(stylesheet['.psds-navbar']),
-  items: () => glamor.css(stylesheet['.psds-navbar__items']),
-  user: () => glamor.css(stylesheet['.psds-navbar__user']),
-  utility: () => glamor.css(stylesheet['.psds-navbar__utility'])
-}
+import '../css/index.css'
 
 interface NavBarProps extends React.HTMLAttributes<HTMLDivElement> {
   brand?: React.ReactNode
@@ -27,7 +15,15 @@ interface NavBarProps extends React.HTMLAttributes<HTMLDivElement> {
 
 const NavBar = React.forwardRef<HTMLDivElement, NavBarProps>(
   (props, forwardedRef) => {
-    const { brand, items, onMobileMenuClick, utility, user, ...rest } = props
+    const {
+      brand,
+      className,
+      items,
+      onMobileMenuClick,
+      utility,
+      user,
+      ...rest
+    } = props
 
     const ref = React.useRef<HTMLDivElement>(null)
     React.useImperativeHandle(
@@ -36,16 +32,16 @@ const NavBar = React.forwardRef<HTMLDivElement, NavBarProps>(
     )
 
     return (
-      <div ref={ref} {...styles.navbar()} {...rest}>
+      <div ref={ref} className={classNames(className, 'psds-navbar')} {...rest}>
         {onMobileMenuClick && (
-          <div {...styles.mobileMenu()}>
+          <div className={'psds-navbar__mobile-menu'}>
             <NavItem icon={<MenuIcon />} onClick={onMobileMenuClick} />
           </div>
         )}
-        <div {...styles.brand()}>{brand}</div>
-        <div {...styles.items()}>{items}</div>
-        <div {...styles.utility()}>{utility}</div>
-        <div {...styles.user()}>{user}</div>
+        <div className={'psds-navbar__brand'}>{brand}</div>
+        <div className={'psds-navbar__items'}>{items}</div>
+        <div className={'psds-navbar__utility'}>{utility}</div>
+        <div className={'psds-navbar__user'}>{user}</div>
       </div>
     )
   }

@@ -22,6 +22,28 @@ describe('NavItem', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className for horizontal layout', () => {
+    render(
+      <NavItem
+        className="compose-classname"
+        alignment={NavItem.alignments.horizontal}
+      />
+    )
+    const el = document.querySelector('.psds-navitem__button')
+    expect(el).toHaveClass('compose-classname')
+  })
+
+  it('composes className for vertical layout', () => {
+    render(
+      <NavItem
+        className="compose-classname"
+        alignment={NavItem.alignments.horizontal}
+      />
+    )
+    const el = document.querySelector('.psds-navitem__button')
+    expect(el).toHaveClass('compose-classname')
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)
@@ -40,15 +62,6 @@ describe('NavItem', () => {
 
       expect(el).toBeInTheDocument()
       expect(el.tagName.toLowerCase()).toEqual('button')
-    })
-
-    it('forwards className', () => {
-      render(
-        <Basic data-testid="undertest" className="testclass" {...Basic.args} />
-      )
-
-      const el = screen.getByTestId('undertest')
-      expect(el).toHaveClass('testclass')
     })
   })
 

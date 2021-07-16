@@ -1,33 +1,13 @@
 import { CloseIcon } from '@pluralsight/ps-design-system-icon'
+import { classNames } from '@pluralsight/ps-design-system-util'
 
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 import { useCookies } from 'react-cookie'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 
-const glamor = glamorDefault || glamorExports
 const DISMISS_COOKIE_NAME = 'prism-cookienotify'
 const DEFAULT_PRIVACY_UPDATED_DATE = new Date('2018-05-24T00:00:00')
-
-const styles = {
-  banner: () =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-navcookiebanner']),
-      glamor.media(
-        '(min-width: 769px)',
-        glamor.css(
-          stylesheet['@media (min-width: 769px)']['.psds-navcookiebanner']
-        )
-      ),
-      glamor.media(
-        'print',
-        glamor.css(stylesheet['@media print']['.psds-navcookiebanner'])
-      )
-    ),
-  message: () => glamor.css(stylesheet['.psds-navcookiebanner__message']),
-  dismiss: () => glamor.css(stylesheet['.psds-navcookiebanner__dismiss'])
-}
 
 interface NavCookieBannerProps extends React.HTMLAttributes<HTMLDivElement> {
   cookieOptions?: CookieSetOptions
@@ -48,6 +28,7 @@ interface CookieSetOptions {
 const NavCookieBanner = React.forwardRef<HTMLDivElement, NavCookieBannerProps>(
   (props, forwardedRef) => {
     const {
+      className,
       cookieOptions,
       message,
       privacyUpdatedDate = DEFAULT_PRIVACY_UPDATED_DATE,
@@ -81,8 +62,12 @@ const NavCookieBanner = React.forwardRef<HTMLDivElement, NavCookieBannerProps>(
     }
 
     return (
-      <div ref={ref} {...styles.banner()} {...rest}>
-        <p {...styles.message()}>
+      <div
+        ref={ref}
+        className={classNames(className, 'psds-navcookiebanner')}
+        {...rest}
+      >
+        <p className={'psds-navcookiebanner__message'}>
           {message || (
             <>
               <label>Pluralsight uses cookies.</label>
@@ -94,7 +79,11 @@ const NavCookieBanner = React.forwardRef<HTMLDivElement, NavCookieBannerProps>(
           )}
         </p>
 
-        <button {...styles.dismiss()} aria-label="close" onClick={dismiss}>
+        <button
+          className={'psds-navcookiebanner__dismiss'}
+          aria-label="close"
+          onClick={dismiss}
+        >
           <CloseIcon />
         </button>
       </div>

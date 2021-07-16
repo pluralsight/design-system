@@ -36,6 +36,7 @@ const Template: Story<React.ComponentProps<typeof MultiSelect>> = args => {
       }}
       options={options}
       value={value}
+      aria-label="storybook story"
     />
   )
 }

@@ -12,7 +12,9 @@ import { VertLayout } from './vert'
 
 interface NavItemProps
   extends PropsWithStylesFor<AllowedSelectors>,
-    Partial<ContextValue> {}
+    Partial<ContextValue> {
+  className?: string
+}
 
 interface NavItemStatics {
   alignments: typeof alignments
@@ -28,8 +30,7 @@ const NavItem = React.forwardRef<HTMLButtonElement, NavItemProps>(
       menu = initialValue.menu,
       renderContainer = initialValue.renderContainer,
       selected = initialValue.selected,
-      // eslint-disable-next-line camelcase
-      UNSAFE_stylesFor,
+      className,
       ...rest
     } = props
 
@@ -42,13 +43,12 @@ const NavItem = React.forwardRef<HTMLButtonElement, NavItemProps>(
       ref: forwardedRef,
       selected,
       renderContainer,
-      UNSAFE_stylesFor,
       rest
     }
 
     return (
       <Context.Provider value={ctx}>
-        <Layout>{children}</Layout>
+        <Layout className={className}>{children}</Layout>
       </Context.Provider>
     )
   }

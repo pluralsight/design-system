@@ -4,6 +4,7 @@ import userEvent from '@testing-library/user-event'
 import { render } from '@testing-library/react'
 import { axe } from 'jest-axe'
 import React from 'react'
+import MultiSelect from '../index'
 
 import * as stories from '../__stories__/index.story'
 
@@ -46,6 +47,23 @@ describe('MultiSelectField', () => {
     })
   })
 
+  describe('MultiSelectField', () => {
+    it('composes className', () => {
+      render(
+        <MultiSelect
+          className="compose-classname"
+          onChange={(_, nextValue) => {}}
+          options={[]}
+          value={[{ value: '', label: '' }]}
+        />
+      )
+
+      const el = document.querySelector('.psds-multi-select')
+
+      expect(el).toHaveClass('compose-classname')
+    })
+  })
+
   describe('Basic story', () => {
     const { Basic } = stories
 
@@ -83,7 +101,7 @@ describe('MultiSelectField', () => {
       userEvent.tab()
 
       expect(input).not.toHaveFocus()
-      expect(menu).not.toBeVisible()
+      expect(menu).not.toHaveClass('psds-multi-select__menu--open')
     })
 
     it('closes the menu when esc pressed', async () => {
@@ -99,7 +117,7 @@ describe('MultiSelectField', () => {
       userEvent.type(input, '{esc}')
 
       expect(input).toHaveFocus()
-      expect(menu).not.toBeVisible()
+      expect(menu).not.toHaveClass('psds-multi-select__menu--open')
     })
 
     it('opens the menu when alt+down pressed', async () => {

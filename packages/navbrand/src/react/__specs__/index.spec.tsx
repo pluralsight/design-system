@@ -16,6 +16,12 @@ describe('NavBrand', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    render(<NavBrand className="compose-classname" />)
+    const el = document.querySelector('.psds-navbrand')
+    expect(el).toHaveClass('compose-classname')
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)

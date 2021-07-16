@@ -6,11 +6,11 @@ exports[`Storyshots Components/NavBrand As Button 1`] = `
 >
   <button
     aria-label="Placeholder Brand Text"
-    data-css-1aegfr2=""
+    className="psds-navbrand psds-navbrand--clickable"
     onClick={[Function]}
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         fill="none"
@@ -45,7 +45,7 @@ exports[`Storyshots Components/NavBrand As Button 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       TITLE
     </div>
@@ -59,11 +59,11 @@ exports[`Storyshots Components/NavBrand As Link 1`] = `
 >
   <a
     aria-label="Placeholder Brand Text"
-    data-css-1aegfr2=""
+    className="psds-navbrand psds-navbrand--clickable"
     href="https://duckduckgo.com"
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         fill="none"
@@ -98,7 +98,7 @@ exports[`Storyshots Components/NavBrand As Link 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       TITLE
     </div>
@@ -111,10 +111,10 @@ exports[`Storyshots Components/NavBrand Basic 1`] = `
   className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
-    data-css-1yi1k4r=""
+    className="psds-navbrand"
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         fill="none"
@@ -149,7 +149,7 @@ exports[`Storyshots Components/NavBrand Basic 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       TITLE
     </div>
@@ -162,10 +162,10 @@ exports[`Storyshots Components/NavBrand Flow 1`] = `
   className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
-    data-css-1yi1k4r=""
+    className="psds-navbrand"
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         aria-hidden={true}
@@ -212,7 +212,7 @@ exports[`Storyshots Components/NavBrand Flow 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       <svg
         fill="none"
@@ -239,11 +239,11 @@ exports[`Storyshots Components/NavBrand Flow As Button 1`] = `
 >
   <button
     aria-label="Pluralsight Flow"
-    data-css-1aegfr2=""
+    className="psds-navbrand psds-navbrand--clickable"
     onClick={[Function]}
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         aria-hidden={true}
@@ -290,7 +290,7 @@ exports[`Storyshots Components/NavBrand Flow As Button 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       <svg
         fill="none"
@@ -317,11 +317,11 @@ exports[`Storyshots Components/NavBrand Flow As Link 1`] = `
 >
   <a
     aria-label="Pluralsight Flow"
-    data-css-1aegfr2=""
+    className="psds-navbrand psds-navbrand--clickable"
     href="https://duckduckgo.com"
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         aria-hidden={true}
@@ -368,7 +368,7 @@ exports[`Storyshots Components/NavBrand Flow As Link 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       <svg
         fill="none"
@@ -394,10 +394,10 @@ exports[`Storyshots Components/NavBrand Skills 1`] = `
   className="psds-halo psds-theme--dark psds-halo--shape-default psds-halo--gap-size-small psds-halo--inline psds-halo--visible-on-focus"
 >
   <div
-    data-css-1yi1k4r=""
+    className="psds-navbrand"
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         aria-hidden={true}
@@ -429,7 +429,7 @@ exports[`Storyshots Components/NavBrand Skills 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       SKILLS
     </div>
@@ -443,11 +443,11 @@ exports[`Storyshots Components/NavBrand Skills As Button 1`] = `
 >
   <button
     aria-label="Pluralsight Skills"
-    data-css-1aegfr2=""
+    className="psds-navbrand psds-navbrand--clickable"
     onClick={[Function]}
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         aria-hidden={true}
@@ -479,7 +479,7 @@ exports[`Storyshots Components/NavBrand Skills As Button 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       SKILLS
     </div>
@@ -493,11 +493,11 @@ exports[`Storyshots Components/NavBrand Skills As Link 1`] = `
 >
   <a
     aria-label="Pluralsight Skills"
-    data-css-1aegfr2=""
+    className="psds-navbrand psds-navbrand--clickable"
     href="https://duckduckgo.com"
   >
     <div
-      data-css-1yppk9l=""
+      className="psds-navbrand__logo psds-navbrand__logo--wordmark"
     >
       <svg
         aria-hidden={true}
@@ -529,7 +529,7 @@ exports[`Storyshots Components/NavBrand Skills As Link 1`] = `
       </svg>
     </div>
     <div
-      data-css-1b9xv68=""
+      className="psds-navbrand__wordmark"
     >
       SKILLS
     </div>

@@ -2,42 +2,18 @@ import { CaretDownIcon, CloseIcon } from '@pluralsight/ps-design-system-icon'
 import Field from '@pluralsight/ps-design-system-field'
 import { BelowLeft } from '@pluralsight/ps-design-system-position'
 import Tag from '@pluralsight/ps-design-system-tag'
-import { canUseDOM } from '@pluralsight/ps-design-system-util'
+import { canUseDOM, classNames } from '@pluralsight/ps-design-system-util'
 import { useCombobox, useMultipleSelection } from 'downshift'
-import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
-import stylesheet from '../css/index'
+import '../css/index.css'
 import { Menu } from './menu'
 import { FilterFn, OnStateChangeFn, Option, StateReducer } from './types'
 import { noop, simpleTextFilter, switchcase } from './utils'
 
 export { Option }
 
-const glamor = glamorDefault || glamorExports
 const { stateChangeTypes } = useCombobox
-
-const styles = {
-  multiSelect: (opts: { disabled?: boolean }) =>
-    glamor.compose(
-      glamor.css(stylesheet['.psds-multi-select']),
-      opts.disabled && glamor.css(stylesheet['.psds-multi-select--disabled'])
-    ),
-
-  prefix: () => glamor.css(stylesheet['.psds-multi-select__prefix']),
-  caret: () => glamor.css(stylesheet['.psds-multi-select__caret']),
-
-  menu: () => glamor.css(stylesheet['.psds-multi-select__menu']),
-
-  inputContainer: () =>
-    glamor.css(stylesheet['.psds-multi-select__input-container']),
-  input: () => glamor.css(stylesheet['.psds-multi-select__input']),
-
-  pillsContainer: () =>
-    glamor.css(stylesheet['.psds-multi-select__pills-container']),
-  pills: () => glamor.css(stylesheet['.psds-multi-select__pills']),
-  pill: () => glamor.css(stylesheet['.psds-multi-select__pill'])
-}
 
 interface MultiSelectFieldProps
   extends Omit<
@@ -64,6 +40,7 @@ type MultiSelectFieldComponent = React.FC<MultiSelectFieldProps> &
 
 const MultiSelect: MultiSelectFieldComponent = props => {
   const {
+    'aria-label': ariaLabel,
     disabled,
     filterFn = simpleTextFilter,
     label,
@@ -74,6 +51,7 @@ const MultiSelect: MultiSelectFieldComponent = props => {
     renderInputTag,
     subLabel,
     value = [],
+    className,
     ...rest
   } = props
 
@@ -181,11 +159,19 @@ const MultiSelect: MultiSelectFieldComponent = props => {
   )
 
   const Label = React.useMemo(() => {
+    const _ariaLabel = !label ? ariaLabel : undefined
     if (React.isValidElement(label)) {
-      return React.cloneElement<any>(label, { ...getLabelProps() })
+      return React.cloneElement<any>(label, {
+        ...getLabelProps(),
+        'aria-label': _ariaLabel
+      })
     }
 
-    return <Field.Label {...getLabelProps()}>{label}</Field.Label>
+    return (
+      <Field.Label {...getLabelProps()} aria-label={_ariaLabel}>
+        {label}
+      </Field.Label>
+    )
   }, [label, getLabelProps])
 
   const SubLabel = React.useMemo(() => {
@@ -231,72 +217,74 @@ const MultiSelect: MultiSelectFieldComponent = props => {
   )
 
   return (
-    <>
-      <Field
-        disabled={disabled}
-        label={Label}
-        subLabel={SubLabel}
-        renderTag={RenderTag}
-        size={Field.sizes.small}
-        prefix={prefix && <Prefix>{prefix}</Prefix>}
-        suffix={<CaretSuffix />}
-        {...styles.multiSelect({ disabled })}
-        {...rest}
-      >
-        <div {...styles.pillsContainer()}>
-          <Pills {...getComboboxProps()}>
-            {selectedItems.map((option, index) => (
-              <Pill
-                key={`selected-item-${index}`}
-                onRequestRemove={e => handleRemoveSelected(e, option)}
-                {...getSelectedItemProps({ selectedItem: option, index })}
-              >
-                {option.label}
-              </Pill>
-            ))}
+    <Field
+      disabled={disabled}
+      label={Label}
+      subLabel={SubLabel}
+      renderTag={RenderTag}
+      size={Field.sizes.small}
+      prefix={prefix && <Prefix>{prefix}</Prefix>}
+      suffix={<CaretSuffix />}
+      className={classNames(
+        className,
+        'psds-multi-select',
+        disabled && 'psds-multi-select--disabled'
+      )}
+      {...rest}
+    >
+      <div className={'psds-multi-select__pills-container'}>
+        <Pills {...getComboboxProps()}>
+          {selectedItems.map((option, index) => (
+            <Pill
+              key={`selected-item-${index}`}
+              onRequestRemove={e => handleRemoveSelected(e, option)}
+              {...getSelectedItemProps({ selectedItem: option, index })}
+            >
+              {option.label}
+            </Pill>
+          ))}
 
-            <PillAdjacentInput
-              {...inputProps}
-              disabled={disabled}
-              onChange={handleInputChange}
-              placeholder={placeholder}
-              renderTag={renderInputTag}
-              value={searchTerm}
-            />
-          </Pills>
+          <PillAdjacentInput
+            {...inputProps}
+            disabled={disabled}
+            onChange={handleInputChange}
+            placeholder={placeholder}
+            renderTag={renderInputTag}
+            value={searchTerm}
+          />
+        </Pills>
 
-          <BelowLeft
-            target={positionTarget}
-            show={
-              <div>
-                <Menu {...getMenuProps()} open={isOpen}>
-                  {filteredOptions.length < 1 && (
-                    <Menu.Item
-                      highlighted={false}
-                      key={`menu-option-empty-label`}
-                    >
-                      No results found
-                    </Menu.Item>
-                  )}
+        <BelowLeft
+          target={positionTarget}
+          show={
+            <div>
+              <Menu {...getMenuProps()} open={isOpen}>
+                {filteredOptions.length < 1 && (
+                  <Menu.Item
+                    highlighted={false}
+                    key={`menu-option-empty-label`}
+                  >
+                    No results found
+                  </Menu.Item>
+                )}
 
-                  {filteredOptions.map((option, index) => (
-                    <Menu.Item
-                      key={`menu-option-${index}`}
-                      highlighted={highlightedIndex === index}
-                      {...getItemProps({ item: option, index })}
-                    >
-                      {option?.label}
-                    </Menu.Item>
-                  ))}
-                </Menu>
-              </div>
-            }
-          >
-            <div />
-          </BelowLeft>
-        </div>
-      </Field>
-    </>
+                {filteredOptions.map((option, index) => (
+                  <Menu.Item
+                    key={`menu-option-${index}`}
+                    highlighted={highlightedIndex === index}
+                    {...getItemProps({ item: option, index })}
+                  >
+                    {option?.label}
+                  </Menu.Item>
+                ))}
+              </Menu>
+            </div>
+          }
+        >
+          <div />
+        </BelowLeft>
+      </div>
+    </Field>
   )
 }
 
@@ -305,14 +293,11 @@ MultiSelect.SubLabel = Field.SubLabel
 
 export default MultiSelect
 
-const Pills = React.forwardRef<
-  HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->((props, ref) => {
+const Pills = React.forwardRef<HTMLDivElement>((props, ref) => {
   const { children, ...rest } = props
 
   return (
-    <div ref={ref} {...rest} {...styles.pills()}>
+    <div ref={ref} {...rest} className={'psds-multi-select__pills'}>
       {children}
     </div>
   )
@@ -325,7 +310,7 @@ const Pill = React.forwardRef<HTMLDivElement, PillProps>((props, ref) => {
   const { children, onRequestRemove, ...rest } = props
 
   return (
-    <div ref={ref} {...rest} {...styles.pill()}>
+    <div ref={ref} {...rest} className={'psds-multi-select__pill'}>
       <Tag
         icon={<CloseIcon onClick={onRequestRemove} />}
         isPressed
@@ -339,29 +324,34 @@ const Pill = React.forwardRef<HTMLDivElement, PillProps>((props, ref) => {
 
 const PillAdjacentInputContainer = React.forwardRef<HTMLDivElement>(
   (props, ref) => {
-    return <div ref={ref} {...props} {...styles.inputContainer()} />
+    return (
+      <div
+        ref={ref}
+        {...props}
+        className={'psds-multi-select__input-container'}
+      />
+    )
   }
 )
 
-const PillAdjacentInput = React.forwardRef<
-  HTMLInputElement,
-  React.ComponentProps<typeof Field.Input>
->((props, ref) => {
+const PillAdjacentInput = React.forwardRef<HTMLInputElement>((props, ref) => {
   return (
     <Field.Input
       ref={ref}
       renderContainer={PillAdjacentInputContainer}
       type="text"
       {...props}
-      {...styles.input()}
+      className={'psds-multi-select__input'}
     />
   )
 })
 
-const Prefix: React.FC = props => <div {...props} {...styles.prefix()} />
+const Prefix: React.FC = props => (
+  <div {...props} className={'psds-multi-select__prefix'} />
+)
 
 const CaretSuffix: React.FC = props => (
-  <div {...props} {...styles.caret()}>
+  <div {...props} className={'psds-multi-select__caret'}>
     <CaretDownIcon />
   </div>
 )

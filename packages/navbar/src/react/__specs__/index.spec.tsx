@@ -15,6 +15,12 @@ describe('NavBar', () => {
     expect(ref).not.toBeNull()
   })
 
+  it('composes className', () => {
+    const { container } = render(<NavBar className="compose-classname" />)
+
+    expect(container.firstChild).toHaveClass('psds-navbar compose-classname')
+  })
+
   describe.each(cases)('%s story', (_name, Story) => {
     it('has no axe-core violations', async () => {
       const { container } = render(<Story {...Story.args} />)
