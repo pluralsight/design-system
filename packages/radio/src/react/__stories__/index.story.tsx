@@ -81,8 +81,36 @@ NoLabels.args = {
   subLabel: undefined
 }
 
-export const Disabled = Template.bind({})
-Disabled.args = { ...defaultArgs, disabled: true }
+export const Disabled: Story = () => {
+  const options = [
+    { label: 'Red', value: 'red' },
+    { label: 'Green', value: 'green', disabled: true },
+    { label: 'Blue', value: 'blue' }
+  ]
+  return (
+    <div>
+      <Radio.Group disabled name="someName" label="Group disabled">
+        {options.map(option => (
+          <Radio.Button
+            key={option.value}
+            label={option.label}
+            value={option.value}
+          />
+        ))}
+      </Radio.Group>
+      <Radio.Group name="anotherName" label="Individual button disabled">
+        {options.map(option => (
+          <Radio.Button
+            key={option.value}
+            label={option.label}
+            value={option.value}
+            disabled={option.disabled}
+          />
+        ))}
+      </Radio.Group>
+    </div>
+  )
+}
 
 export const Error = Template.bind({})
 Error.args = { ...defaultArgs, error: true }

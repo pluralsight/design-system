@@ -275,119 +275,222 @@ exports[`Storyshots Components/Radio Disabled 1`] = `
 <div
   data-css-424rvd=""
 >
-  <div
-    data-css-sz0dtt=""
-    onBlur={[Function]}
-    onFocus={[Function]}
-    placeholder="Some placeholder"
-    role="radiogroup"
-  >
+  <div>
     <div
-      data-css-dysqqm=""
+      data-css-sz0dtt=""
+      role="radiogroup"
     >
-      The label
+      <div
+        data-css-dysqqm=""
+      >
+        Group disabled
+      </div>
+      <div
+        data-css-xp79s5=""
+      >
+        <label
+          data-css-o2msqt=""
+        >
+          <div
+            data-css-1lxv0yd=""
+          >
+            <div
+              data-css-iwspcj=""
+              data-css-rbpa8o=""
+            >
+              <div
+                data-css-fdf00s=""
+              />
+            </div>
+          </div>
+          <input
+            checked={false}
+            data-css-6wu9td=""
+            name="someName"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            type="radio"
+            value="red"
+          />
+          <div
+            data-css-nrxvu5=""
+          >
+            Red
+          </div>
+        </label>
+        <label
+          data-css-o2msqt=""
+        >
+          <div
+            data-css-1lxv0yd=""
+          >
+            <div
+              data-css-iwspcj=""
+              data-css-rbpa8o=""
+            >
+              <div
+                data-css-fdf00s=""
+              />
+            </div>
+          </div>
+          <input
+            checked={false}
+            data-css-6wu9td=""
+            name="someName"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            type="radio"
+            value="green"
+          />
+          <div
+            data-css-nrxvu5=""
+          >
+            Green
+          </div>
+        </label>
+        <label
+          data-css-o2msqt=""
+        >
+          <div
+            data-css-1lxv0yd=""
+          >
+            <div
+              data-css-iwspcj=""
+              data-css-rbpa8o=""
+            >
+              <div
+                data-css-fdf00s=""
+              />
+            </div>
+          </div>
+          <input
+            checked={false}
+            data-css-6wu9td=""
+            name="someName"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            type="radio"
+            value="blue"
+          />
+          <div
+            data-css-nrxvu5=""
+          >
+            Blue
+          </div>
+        </label>
+      </div>
     </div>
     <div
-      data-css-xp79s5=""
+      data-css-1a26704=""
+      role="radiogroup"
     >
-      <label
-        data-css-1qmr5cg=""
+      <div
+        data-css-dysqqm=""
       >
-        <div
-          data-css-1lxv0yd=""
+        Individual button disabled
+      </div>
+      <div
+        data-css-xp79s5=""
+      >
+        <label
+          data-css-kn3wr0=""
         >
           <div
-            data-css-iwspcj=""
-            data-css-rbpa8o=""
+            data-css-1lxv0yd=""
           >
             <div
-              data-css-fdf00s=""
-            />
+              data-css-1lu7sfl=""
+              data-css-iwspcj=""
+            >
+              <div
+                data-css-fdf00s=""
+              />
+            </div>
           </div>
-        </div>
-        <input
-          checked={false}
-          data-css-6wu9td=""
-          name="radio-name"
-          onBlur={[Function]}
-          onFocus={[Function]}
-          readOnly={true}
-          type="radio"
-          value="red"
-        />
-        <div
-          data-css-nrxvu5=""
-        >
-          Red
-        </div>
-      </label>
-      <label
-        data-css-1qmr5cg=""
-      >
-        <div
-          data-css-1lxv0yd=""
+          <input
+            checked={false}
+            data-css-6wu9td=""
+            name="anotherName"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            type="radio"
+            value="red"
+          />
+          <div
+            data-css-nrxvu5=""
+          >
+            Red
+          </div>
+        </label>
+        <label
+          data-css-o2msqt=""
         >
           <div
-            data-css-iwspcj=""
-            data-css-rbpa8o=""
+            data-css-1lxv0yd=""
           >
             <div
-              data-css-fdf00s=""
-            />
+              data-css-iwspcj=""
+              data-css-rbpa8o=""
+            >
+              <div
+                data-css-fdf00s=""
+              />
+            </div>
           </div>
-        </div>
-        <input
-          checked={false}
-          data-css-6wu9td=""
-          name="radio-name"
-          onBlur={[Function]}
-          onFocus={[Function]}
-          readOnly={true}
-          type="radio"
-          value="green"
-        />
-        <div
-          data-css-nrxvu5=""
-        >
-          Green
-        </div>
-      </label>
-      <label
-        data-css-1qmr5cg=""
-      >
-        <div
-          data-css-1lxv0yd=""
+          <input
+            checked={false}
+            data-css-6wu9td=""
+            name="anotherName"
+            onBlur={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            type="radio"
+            value="green"
+          />
+          <div
+            data-css-nrxvu5=""
+          >
+            Green
+          </div>
+        </label>
+        <label
+          data-css-kn3wr0=""
         >
           <div
-            data-css-iwspcj=""
-            data-css-rbpa8o=""
+            data-css-1lxv0yd=""
           >
             <div
-              data-css-fdf00s=""
-            />
+              data-css-1lu7sfl=""
+              data-css-iwspcj=""
+            >
+              <div
+                data-css-fdf00s=""
+              />
+            </div>
           </div>
-        </div>
-        <input
-          checked={false}
-          data-css-6wu9td=""
-          name="radio-name"
-          onBlur={[Function]}
-          onFocus={[Function]}
-          readOnly={true}
-          type="radio"
-          value="blue"
-        />
-        <div
-          data-css-nrxvu5=""
-        >
-          Blue
-        </div>
-      </label>
-    </div>
-    <div
-      data-css-o89kbw=""
-    >
-      The sub label
+          <input
+            checked={false}
+            data-css-6wu9td=""
+            name="anotherName"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            readOnly={true}
+            type="radio"
+            value="blue"
+          />
+          <div
+            data-css-nrxvu5=""
+          >
+            Blue
+          </div>
+        </label>
+      </div>
     </div>
   </div>
 </div>
