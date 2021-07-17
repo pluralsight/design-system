@@ -1,9 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unnecessary-type-assertion */
 import { ValueOf } from '@pluralsight/ps-design-system-util'
-import differenceInCalendarMonths from 'date-fns/differenceInCalendarMonths'
-import format from 'date-fns/format'
-import parse from 'date-fns/parse'
-import isMatch from 'date-fns/isMatch'
+import { differenceInCalendarMonths, format, parse, isMatch } from 'date-fns'
 import type { DateObj } from 'dayzed'
 import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'

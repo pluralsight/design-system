@@ -3,6 +3,7 @@ import glamorDefault, * as glamorExports from 'glamor'
 import React from 'react'
 
 import { DateContext } from './context'
+
 import stylesheet from '../css/index'
 
 const glamor = glamorDefault || glamorExports
@@ -27,6 +28,12 @@ interface CalendarDatesProps
   extends React.HTMLAttributes<HTMLButtonElement>,
     Pick<RenderProps, 'getDateProps'> {
   children: (props: ChildrenRenderProps, dateObj: DateObj) => React.ReactNode
+  dayKeyHandlers?: (
+    date: Date,
+    dateObj: {
+      [x: string]: any
+    }
+  ) => React.KeyboardEventHandler<HTMLButtonElement>
 }
 
 export const CalendarDates: React.FC<CalendarDatesProps> = ({
@@ -44,13 +51,20 @@ export const CalendarDates: React.FC<CalendarDatesProps> = ({
             return <div key={key} {...styles.dateFiller()} />
           }
           const { date, selected, selectable, today } = dateObj
+          const dateProps = getDateProps({
+            dateObj
+          })
+          const handleKeyDown = calendar.dayKeyHandlers(date, dateObj)
           return children(
             {
               key,
+              'aria-labelledby': calendar['aria-labelledby'],
               children: date.getDate(),
               disabled: !selectable,
+              onKeyDown: handleKeyDown,
+              tabIndex: selected ? 0 : -1,
               ...styles.calendarDate(selected, today),
-              ...getDateProps({ dateObj }),
+              ...dateProps,
               ...rest
             },
             dateObj

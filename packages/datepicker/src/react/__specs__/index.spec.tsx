@@ -11,7 +11,8 @@ import {
   onRangeDateSelected,
   onMultiDateSelected,
   useDateSelectChange,
-  useRangeSelectChange
+  useRangeSelectChange,
+  DatePicker
 } from '..'
 import * as stories from '../__stories__/index.story'
 

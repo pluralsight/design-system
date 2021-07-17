@@ -4,7 +4,11 @@ import {
   CaretLeftIcon,
   CaretRightIcon
 } from '@pluralsight/ps-design-system-icon'
-import { RefFor, ValueOf } from '@pluralsight/ps-design-system-util'
+import {
+  RefFor,
+  ValueOf,
+  uniqueId as defaultUniqueId
+} from '@pluralsight/ps-design-system-util'
 import Theme from '@pluralsight/ps-design-system-theme'
 import type { RenderProps } from 'dayzed'
 import glamorDefault, * as glamorExports from 'glamor'
@@ -13,6 +17,7 @@ import React from 'react'
 import { DateContext } from './context'
 import stylesheet from '../css/index'
 import { slides } from '../vars/index'
+import { useKeyEvents } from './use-key-events'
 
 const glamor = glamorDefault || glamorExports
 
@@ -64,11 +69,22 @@ interface CalendarProps
   extends React.HTMLAttributes<HTMLDivElement>,
     Pick<RenderProps, 'calendars' | 'getBackProps' | 'getForwardProps'> {
   slide?: ValueOf<typeof slides>
+  uniqueId?: (prefix: string) => string
+  selected?: Date
 }
 
 export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
   (
-    { calendars, getBackProps, getForwardProps, children, slide, ...rest },
+    {
+      calendars,
+      getBackProps,
+      getForwardProps,
+      children,
+      slide,
+      uniqueId = defaultUniqueId,
+      selected = new Date(),
+      ...rest
+    },
     ref
   ) => {
     const [_slide, setSlide] = React.useState<ValueOf<typeof slides>>(slide)
@@ -103,6 +119,16 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
         return () => el.removeEventListener('animationend', updateOffset)
       }
     }, [])
+    const gridLabels = calendars.map((calendar, i) =>
+      uniqueId(`${calendar.month}_${calendar.year}`)
+    )
+    const months = calendars?.map(calendar => calendar.month)
+    const dayKeyHandlers = useKeyEvents({
+      selected,
+      months,
+      handleForwardClick,
+      handleBackClick
+    })
     if (calendars.length) {
       return (
         <div {...styles.calendar()} {...rest} ref={ref}>
@@ -125,12 +151,14 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
                     ) : (
                       <div {...styles.headerButton()} />
                     )}
-                    <div
+                    <h2
                       key={`${calendar.month}${calendar.year}`}
+                      aria-live="polite"
+                      id={gridLabels[i]}
                       {...styles.headerMonth()}
                     >
                       {monthNamesShort[calendar.month]} {calendar.year}
-                    </div>
+                    </h2>
                     {calendars.length - 1 === i ? (
                       <Button
                         {...forwardRest}
@@ -165,7 +193,13 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
                   {...styles.dateGrid()}
                   key={`${calendar.month}${calendar.year}`}
                 >
-                  <DateContext.Provider value={calendar}>
+                  <DateContext.Provider
+                    value={{
+                      ...calendar,
+                      'aria-labelledby': gridLabels[i],
+                      dayKeyHandlers
+                    }}
+                  >
                     {children}
                   </DateContext.Provider>
                 </div>

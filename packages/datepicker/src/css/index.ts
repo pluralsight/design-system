@@ -109,7 +109,10 @@ export default {
     backgroundColor: 'transparent',
     border: 'none',
     [`&:focus`]: {
-      outline: 'none'
+      borderRadius: '50%',
+      border: `2px solid ${colorsBlue[6]}`,
+      background: colorsBlue[2],
+      color: colorsTextIcon.highOnLight
     },
     [`&:hover`]: {
       borderRadius: '50%',

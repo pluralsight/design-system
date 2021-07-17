@@ -1,6 +1,6 @@
 import React from 'react'
 
-import useDebounceCallback from './use-debounce-callback'
+import { useDebounceCallback } from '@pluralsight/ps-design-system-util'
 
 export default function useOnWindowResize(handler: (evt: Event) => void) {
   const handleScroll = useDebounceCallback(handler, 10)

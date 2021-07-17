@@ -1,5 +1,10 @@
 import Field from '@pluralsight/ps-design-system-field'
-import { ValueOf, canUseDOM, RefFor } from '@pluralsight/ps-design-system-util'
+import {
+  ValueOf,
+  canUseDOM,
+  RefFor,
+  uniqueId as defaultUniqueId
+} from '@pluralsight/ps-design-system-util'
 import { useDayzed, DateObj } from 'dayzed'
 import React from 'react'
 
@@ -28,12 +33,13 @@ export const DatePicker: React.FC<DatePickerProps> = ({
   suffix,
   onSelect,
   value: valueFromProps,
-  _uniqueId,
+  _uniqueId: uniqueId = defaultUniqueId,
   ...props
 }) => {
   const [selected, setSelected] = React.useState<Date | undefined>(
     valueFromProps
   )
+
   React.useEffect(() => setSelected(valueFromProps), [valueFromProps])
   const [open, setOpen] = React.useState<boolean>(false)
   const onDateSelected = (dateObj: DateObj, evt: React.SyntheticEvent) => {
@@ -49,6 +55,17 @@ export const DatePicker: React.FC<DatePickerProps> = ({
   const handleIconClick: React.MouseEventHandler<HTMLDivElement> = evt => {
     setOpen(!open)
   }
+  const handleTextfieldKeyDown: React.KeyboardEventHandler<HTMLInputElement> =
+    evt => {
+      const key = evt.key.toLowerCase()
+      ;[' ', 'enter'].includes(key) && setOpen(true)
+    }
+
+  const handleEscapeKeyDown: React.KeyboardEventHandler<HTMLInputElement> =
+    evt => {
+      const key = evt.key.toLowerCase()
+      key === 'escape' && setOpen(false)
+    }
   const [slide, setSlide] = React.useState<ValueOf<typeof slides>>()
   const [value, onChange] = useDateSelectChange({
     selected,
@@ -74,6 +91,8 @@ export const DatePicker: React.FC<DatePickerProps> = ({
         capture: true
       })
   }, [setOpen])
+  const labelId = uniqueId('text-input__label-')
+  const inputId = uniqueId('text-input__input-')
   return (
     <div
       style={{ display: 'inline-block', position: 'relative' }}
@@ -86,6 +105,7 @@ export const DatePicker: React.FC<DatePickerProps> = ({
         label={label}
         onChange={onChange}
         onClick={handleIconClick}
+        onKeyDown={handleTextfieldKeyDown}
         placeholder="mm/dd/yyyy"
         prefix={prefix}
         renderContainer={renderContainer}
@@ -94,14 +114,21 @@ export const DatePicker: React.FC<DatePickerProps> = ({
         subLabel={subLabel}
         suffix={suffix}
         value={value}
-        _uniqueId={_uniqueId}
+        labelId={labelId}
+        inputId={inputId}
       />
       <br />
       {open && (
         <Calendar
           {...dayzedData}
+          aria-modal="true"
+          aria-labelledby={labelId}
+          aria-live="polite"
           style={{ position: 'absolute', zIndex: 1, marginTop: 4 }}
           slide={slide}
+          onKeyDown={handleEscapeKeyDown}
+          uniqueId={uniqueId}
+          selected={selected}
         >
           <CalendarDates getDateProps={getDateProps}>
             {renderProps => {
